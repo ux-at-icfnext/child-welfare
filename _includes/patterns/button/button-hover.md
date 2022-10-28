@@ -1,0 +1,1 @@
+<button class="hover__button">{{page.button}}</button>

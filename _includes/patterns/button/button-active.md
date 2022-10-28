@@ -1,0 +1,1 @@
+<button class="active__button">{{page.button}}</button>

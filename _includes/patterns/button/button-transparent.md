@@ -1,0 +1,1 @@
+<button class="transparent__button">{{page.button}}</button>
