@@ -4,6 +4,7 @@
             <td>Name</td>
             <td>Type</td>
             <td>Authored?</td>
+            <td>Required?</td>
             <td>Content</td>
             <td>Searchable?</td>
             <td>Source</td>
@@ -16,6 +17,7 @@
             <td>{{ spec.name }} </td>
             <td>{{ spec.type }}</td>
             <td>{{ spec.authored }}</td>
+            <td>{{ spec.required }}</td>
             <td>{{ spec.content }}</td>
             <td>{{ spec.searchable }}</td>
             <td>{{ spec.source }}</td>

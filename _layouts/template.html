@@ -1,7 +1,7 @@
 ---
 layout: left-rail
 ---
-<h3>Description</h3>
+<h2>Description</h2>
 <p>{{page.description}}</p>
 
 {% if page.design-file %}
@@ -19,10 +19,12 @@ layout: left-rail
 <p>Click to view designs</p>
 {% endif %}
 
-<h3>Details</h3>
-<p>{{page.details}}</p>
-{% if page.prototype-links  %}
-<h4>View Prototype</h4>
+{% if page.details  %}
+<p>{{ page.details | markdownify }}</p>
+{% endif %}
+
+{% if page.prototype  %}
+<h4>View Concepts</h4>
     {% for proto in page.prototype %}
         <p><a href="{{ proto.link }}">{{ proto.name }}</a></p>
     {% endfor %}
@@ -40,19 +42,12 @@ layout: left-rail
         <h3>Components used in this template</h3>
         {% assign sortedCards = page.components | sort: "title" %}
         {% for component in sortedCards %}
-        <div class="variations-wrapper">
-            <div class="variations-content">
-                <h4>{{ component.title }}</h4>
-                <p>{{ component.overview }}</p>
-                <p><a href="{{ component.link }}">View specification details</a></p>
-            </div>
-            <div class="variations-preview"> {% include {{ component.htmlpath }} %} </div>
-        </div>
+            <p><i class="fa-regular fa-hand-point-right"></i><a href="{{ component.link }}">{{ component.title }}</a></p>
         {% endfor %}
     {% endif %}
 {% endif %}
 
-{% if page.type contains "sub-nav-item" %}
+{% if page.type contains "variations" %}
 <h3>Template Variations</h3>
     <div class="card-container">
         {% if site.pages %} 
