@@ -1,0 +1,16 @@
+.event__card{
+    width: 300px;
+    background-color: white;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+.event__card span{
+    background-color: #005DAA;
+    color: white;
+    padding: 0 15px;
+    margin: 0;
+}
+.event__card h3, p, a{
+    padding-left: 10px;
+}
