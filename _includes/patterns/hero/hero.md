@@ -1,24 +1,26 @@
-
-<section class="usa-hero"{% if page.hero.image %} style="background-image: url({{ page.hero.image }})"{% endif %} aria-label="Introduction";>
+{% if hero %}
+<section class="usa-hero" aria-label="Introduction";>
   <div class="grid-container">
     <div class="usa-hero__callout">
-      {% if page.hero.callout %}
+      {% if hero.callout %}
       <h1 class="usa-hero__heading">
-        {% if page.hero.callout.alt %}
-        <span class="usa-hero__heading--alt">{{ page.hero.callout.alt }}</span>
+        {% if hero.callout.alt %}
+        <span class="usa-hero__heading--alt">{{ hero.callout.alt }}</span>
         {% endif %}
-        {{ page.hero.callout.text | default: page.hero.callout }}
+        {{ hero.callout.text | default: hero.callout }}
       </h1>
       {% endif %}
-
-      {{ page.hero.content | markdownify }}
-
-      {% if page.hero.button %}
+       {% if hero.image %} 
+    <div class="hero-image"><img src="{{ hero.image }}" /></div>
+  {% endif %}
+      {{ hero.content | markdownify }}
+      {% if hero.button %}
       <a class="usa-button"
-        href="{{ page.hero.button.href | relative_url }}">
-        {{ page.hero.button.text }}
+        href="{{ hero.button.href | relative_url }}">
+        {{ hero.button.text }}
       </a>
       {% endif %}
     </div>
   </div>
 </section>
+{% endif %}

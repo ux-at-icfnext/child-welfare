@@ -1,0 +1,34 @@
+.usa-hero {
+    .usa-hero__callout {
+    background-color: #002552;
+    }
+    background-image: none;
+    background-position: right 30px center;
+    background-size: 50%;
+    height: auto;
+    border: 2px solid;
+    background-repeat: no-repeat;
+    background-color: #002552;
+    width: 100%;
+    border: 5px solid #002552;
+    border-bottom: 5px solid #E50E63;
+    margin-bottom: 100px;
+
+    .hero-image img {
+
+        padding-bottom: 1rem;
+        @media only screen and (min-width: 880px) {
+        z-index: 2;
+        position: absolute;
+        top: 250px;
+        right: 5%;
+        width: 45%;
+        height: 35%;
+        object-fit: cover;
+        object-position: 0% 100%;
+        padding-bottom: 0;
+        box-shadow: 4px 4px 2px #dfe1e2;
+        }
+    }
+
+}
