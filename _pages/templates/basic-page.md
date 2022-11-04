@@ -2,8 +2,8 @@
 layout: template
 categories: [templates]
 type: [sub-nav-item]
-title: Basic page 
-permalink: /templates/basic-page/
+title: Basic 
+permalink: /templates/basic/
 overview: The basic page template is used for information or documentation. 
 
 description: |
