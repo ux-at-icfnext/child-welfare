@@ -21,17 +21,26 @@ details:
 #     overview: Hierarchical, vertical navigation to place at the side of a page.
 #     link: /patterns/side-navigation/
 #     htmlpath: patterns/side-navigation/side-navigation.md
-# specs:
-#    - name: Title
-#      type: h1
-#      authored: yes
-#      content: 80 characters max
-#      searchable: yes
+specs:
+  - name: Title
+    type: h1
+    authored: yes
+    content: 80 characters max
+    searchable: yes
+specs2:
+  - name: Card
+    type: usa-card
+    authored: yes
+    content: 80 characters max
+    searchable: yes
+    source: resource title
 
 # prototype:
 #   -name:
 #    link:
 ---
+
+{% include partials/content-specs.md content=page.specs2 %} 
 
 ### Guidance
 
