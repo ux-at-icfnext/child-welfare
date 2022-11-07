@@ -1,6 +1,6 @@
 
 <ol class="usa-process-list">
-  <li class="usa-process-list__item">
+  <li class="usa-process-list__item previous__step">
     <h4 class="usa-process-list__heading">Start a process</h4>
     <p class="margin-top-05">
       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo,
@@ -19,7 +19,7 @@
       <li>Aliquam erat volutpat. Sed quis velit.</li>
     </ul>
   </li>
-  <li class="usa-process-list__item">
+  <li class="usa-process-list__item current__step">
     <h4 class="usa-process-list__heading">Proceed to the second step</h4>
     <p>
       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo,
