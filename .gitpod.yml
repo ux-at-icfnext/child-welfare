@@ -5,18 +5,13 @@
 tasks:
   - name: All the things
     before: |
-      echo '' >> ~/.bashrc
-      echo '# Install Ruby Gems to /workspace/gems' >> ~/.bashrc
-      echo 'export GEM_HOME="/workspace/gems"' >> ~/.bashrc
-      echo 'export PATH="/workspace/gems/bin:$PATH"' >> ~/.bashrc
+      brew install rsync
+      bundle install
+      npm install
   - init: >
-      npm install && npx gulp copyAll && npx gulp compile &&
-      source ~/.bashrc &&
-      gem install bundler &&
-      bundle install 
+      npm run init
     command: >
-      source ~/.bashrc &&
-      bundle exec jekyll serve --livereload
+      npm run compile
 
 ports:
   - port: 4000
