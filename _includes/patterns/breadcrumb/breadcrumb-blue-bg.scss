@@ -1,0 +1,4 @@
+.usa-breadcrumb__list-item-blue:not(:last-child):after{
+    background-color: #005DAA;
+    -webkit-mask: url(/assets/icons/slash-cwig.svg) no-repeat center/contain;
+  }
