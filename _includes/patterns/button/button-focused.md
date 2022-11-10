@@ -1,0 +1,1 @@
+<button class="focused__button">{{page.button}}</button>

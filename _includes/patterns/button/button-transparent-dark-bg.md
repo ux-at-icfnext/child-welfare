@@ -1,0 +1,1 @@
+<button class="dark__transparent__button">{{page.button}}</button>

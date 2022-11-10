@@ -1,0 +1,22 @@
+.usa-process-list__item.previous__step::before{
+    border-color:#005DAA;
+    background-color:#005DAA;
+    color: white;
+}
+.previous__step h4{
+    color: #005DAA;
+}
+.current__step h4{
+    color: #005DAA;
+}
+.usa-process-list__item.current__step::before{
+    border-color:#005DAA;
+    color:#005DAA;
+}
+.usa-process-list__item::before{
+    color: #D1D3D4;
+    border-color: #D1D3D4;
+}
+.usa-process-list__heading{
+    color:#D1D3D4;
+}

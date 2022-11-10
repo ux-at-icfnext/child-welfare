@@ -34,10 +34,10 @@
         >9</a
       >
     </li>
-    <li class="usa-pagination__item usa-pagination__page-no">
+    <li class="usa-pagination__item usa-pagination__page-no current">
       <a
         href="javascript:void(0);"
-        class="usa-pagination__button usa-current"
+        class="usa-pagination__button"
         aria-label="Page 10"
         aria-current="page"
         >10</a
