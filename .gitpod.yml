@@ -4,14 +4,9 @@
 
 tasks:
   - name: All the things
-    before: |
+    init: |
       brew install rsync
-      bundle install
-      npm install
-  - init: >
-      npm run init
-    command: >
-      npm run compile
+
 
 ports:
   - port: 4000

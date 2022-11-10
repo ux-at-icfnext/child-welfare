@@ -40,7 +40,7 @@ specs:
 - name: Body
   type: rich text
   authored: yes
-  required: yes
+  required: yes (unless a list is used)
   notes: allows h2, h3, h4, bullets, links, icons
 - name: Help CTA
   type: multi-select
@@ -57,13 +57,13 @@ specs:
 - name: Template layout
   type: toggle
   authored: yes
-  required: "np"
+  required: "no"
   content: "tabs, accordion"
   notes: CMS only
 - name: List
   type: vertical tabs or accordion
   authored: yes
-  required: yes
+  required: "no"
   content: multi-valuded... see table below
   searchable: yes
   notes: CMS should use a list to create
@@ -89,16 +89,16 @@ specs2:
 components:
   - title: CTA Help Cards
     overview: Hierarchical, vertical navigation to place at the side of a page.
-    link: /patterns/side-navigation/
-    htmlpath: patterns/card/card.md
+    link: /patterns/find-help-cta/
+    htmlpath: patterns/cta/cta.md
   - title: Accordion
     overview: An accordion is a list of headers that hide or reveal additional content when selected. They are helpful for keeping pages clean and easy to navigate.
     link: /patterns/accordion
     htmlpath: patterns/accordion/accordion.md
   - title: Vertical tabs
     overview: They are helpful for keeping pages clean and easy to navigate.
-    link: /patterns/accordion
-    htmlpath: patterns/accordion/accordion.md
+    link: /patterns/vertical-tabs
+    htmlpath: patterns/accordion/vertical-tabs.md
 
 prototype:
   - name: Basic Page
@@ -110,6 +110,9 @@ prototype:
   - name: About
     link: https://www.sketch.com/s/dd2f2e71-977c-45b4-baf3-8bf823bfcd0d/a/JnV5z45
 ---
+
+*Note: author must have either a body or a list... they can have both.
+
 ### Each list item
 {% include partials/content-specs.md content=page.specs2 %} 
 
