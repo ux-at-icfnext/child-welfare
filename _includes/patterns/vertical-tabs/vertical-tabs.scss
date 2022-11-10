@@ -8,8 +8,9 @@
       padding-right: 2rem;
       border-bottom-color: transparent;
       &[aria-expanded="true"] {
-        background-color: #E50E63;
-        color: white;
+        background-color: lightgray;
+        color: #E50E63;
+        border-left: 4px solid #E50E63;
         background-image: none;
       }
       &[aria-expanded="false"] {
@@ -17,8 +18,7 @@
       }
     }
   }
-  .usa-accordion__content {
-    border-top: 4px solid #E50E63;
+  .usa-accordion__content-vertical {
     &[aria-hidden="false"] {
       background-color: #fff;
       margin-top: -2px;
@@ -27,21 +27,38 @@
 }
 @media screen and (min-width: 640px) {
   .usa-accordion.usa-tabs {
-    width: auto;
+    position: relative;   
+    min-height: 1200px; /* Not dynamic */
+    clear: both;
+    margin: 25px 0;
     h4 {
-      display: inline;
+      display: block;
       width: auto;
  
       .usa-accordion__button {
-        width: auto;
-        display: inline-block;
-        clear: both;
+        background: #eee;
+        padding: 10px;
+        margin-left: -1px;
+        font-size: 18px;
+        vertical-align: middle;
+        position: relative;
+        left: 1px;
+        width: 264px;
+        height: 68px;
+        display: table-cell;
+        font-weight: 300;
       }
     }
-    .usa-accordion__content {
-      float: left;
-      clear: both;
-      width: 100%;
+    .usa-accordion__content-vertical {
+      position: absolute;
+      top: 0;
+      left: 286px;
+      background: white;
+      right: 0;
+      bottom: 0;
+      padding: 20px;
+      line-height: 25px;
+      font-family: 'Lora';
     }
   }
 }
