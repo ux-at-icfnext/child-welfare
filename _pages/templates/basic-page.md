@@ -40,7 +40,7 @@ specs:
 - name: Body
   type: rich text
   authored: yes
-  required: yes
+  required: yes (unless a list is used)
   notes: allows h2, h3, h4, bullets, links, icons
 - name: Help CTA
   type: multi-select
@@ -57,13 +57,13 @@ specs:
 - name: Template layout
   type: toggle
   authored: yes
-  required: "np"
+  required: "no"
   content: "tabs, accordion"
   notes: CMS only
 - name: List
   type: vertical tabs or accordion
   authored: yes
-  required: yes
+  required: "no"
   content: multi-valuded... see table below
   searchable: yes
   notes: CMS should use a list to create
@@ -110,6 +110,9 @@ prototype:
   - name: About
     link: https://www.sketch.com/s/dd2f2e71-977c-45b4-baf3-8bf823bfcd0d/a/JnV5z45
 ---
+
+*Note: author must have either a body or a list... they can have both.
+
 ### Each list item
 {% include partials/content-specs.md content=page.specs2 %} 
 

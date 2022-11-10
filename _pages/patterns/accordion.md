@@ -32,20 +32,14 @@ spec:
       example: "First Amendment"
       notes:
     - name: body
-      type: plain text
+      type: rich text
       class: usa-accordion__content
       required: yes
-      content: 500 characters
+      content: allows h2, h3, h4, bullets, links, icons
       example: |
         "Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances."
       notes:
-    - name: button
-      type:  button
-      class: usa-accordion__button
-      required: yes
-      content: 20 characters
-      example: "Find out more"
-      notes:
+
 accordion:
   - title: Accordion item 1
     content: accordion item 1 content
