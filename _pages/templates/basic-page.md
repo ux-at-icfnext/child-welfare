@@ -55,7 +55,7 @@ specs:
   required: optional
   notes: allows author to choose blue baground for header area
 - name: Template layout
-  type: toggle
+  type: dropdown
   authored: yes
   required: "no"
   content: "tabs, accordion"
