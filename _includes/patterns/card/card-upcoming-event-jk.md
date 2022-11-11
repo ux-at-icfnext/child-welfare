@@ -11,7 +11,7 @@
                 </header>
                 <div class="event-card__body">
                     <p> {{ item.event-body | default:'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}}</p>
-                    <p style="font-weight: bold;">{{item.event-sponsor}}</p>
+                    <p class="sponsor" style="font-weight: bold;">{{item.event-sponsor}}</p>
                 </div>
             </div>
         </li>

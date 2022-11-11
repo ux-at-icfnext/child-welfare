@@ -5,6 +5,11 @@
     display: flex;
     flex-direction: column;
 }
+.event__card:hover{
+    background-color:#002552;
+    color: white;
+    cursor: pointer;
+}
 .event__card span{
     background-color: #005DAA;
     color: white;
@@ -13,4 +18,7 @@
 }
 .event__card h3, p, a{
     padding-left: 10px;
+}
+.sponsor{
+    font-weight: bold;
 }
