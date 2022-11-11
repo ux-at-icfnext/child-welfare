@@ -6,10 +6,7 @@
         <li class="usa-collection__item">
             <div class="usa-collection__body">
                 <span class="format">{{item.format}}</span>
-                                <ul class="usa-collection__meta" aria-label="More information">
-                    <li class="usa-collection__meta-item">
-                        {{item.details}}
-                    </li>
+                <ul class="usa-collection__meta" aria-label="More information" style="font-weight: bold;">
                     <li class="usa-collection__meta-item">
                         <time datetime="{{item.year}}-{{item-month}}-{{item.day}}T12:00:00+01:00">  
                         {% case item.month %}
@@ -42,7 +39,8 @@
                 </ul>
                 <h3 class="usa-collection__heading">
                     <a
-                    class="usa-link"
+                    class="usa-link event-title"
+                    style="color:#005DAA;"
                     href="{{item.link}}">
                         {{item.title}}
                     </a>
