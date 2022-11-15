@@ -1,10 +1,21 @@
 
-.usa-step-indicator__segment{
-    z-index: 0;
+.usa-step-indicator__header{
+    display: block;
 }
-.usa-step-indicator__segment--complete::after{
-    background-color: #7E9BD2;
-}
-.usa-step-indicator__segment--current::after{
-    background-color: #005DAA
+@media only screen and (min-width: 880px) {
+    .usa-step-indicator__segment{
+        z-index: 0;
+    }
+    .usa-step-indicator__segment--complete::after{
+        background-color: #7E9BD2;
+    }
+    .usa-step-indicator__segment--current::after{
+        background-color: #005DAA
+    }
+    .usa-step-indicator__segment--incomplete::after{
+        background-color: #A9AEB1;
+    }
+    .usa-step-indicator__header{
+        display: none;
+    }
 }
