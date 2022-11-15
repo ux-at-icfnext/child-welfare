@@ -28,16 +28,4 @@ usa-step-indicator--counters
     </li>
     {% endfor %}
   </ol>
-  <div class="usa-step-indicator__header">
-    <h4 class="usa-step-indicator__heading">
-      <span class="usa-step-indicator__heading-counter">
-        <span class="usa-sr-only">Step</span>
-        <span class="usa-step-indicator__current-step">{{page.stepIndicatorCurrentStep}}</span>
-        <span class="usa-step-indicator__total-steps">of {{page.stepIndicatorTotalSteps}}</span> 
-        </span>
-        <span class="usa-step-indicator__heading-text">
-          {{page.stepIndicatorTitle}}
-        </span>
-    </h4>
-  </div>
 </div>

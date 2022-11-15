@@ -32,18 +32,6 @@
       </span>
     </li>
   </ol>
-  <div class="usa-step-indicator__header">
-    <h4 class="usa-step-indicator__heading">
-      <span class="usa-step-indicator__heading-counter">
-        <span class="usa-sr-only">Step</span>
-        <span class="usa-step-indicator__current-step">3</span>
-        <span class="usa-step-indicator__total-steps">of 5</span> 
-        </span>
-        <span class="usa-step-indicator__heading-text">
-          Supporting documents
-        </span>
-    </h4>
-  </div>
 </div>
 
 <h3 class="site-preview-heading">Centered</h3>
@@ -79,16 +67,4 @@
       </span>
     </li>
   </ol>
-  <div class="usa-step-indicator__header">
-    <h4 class="usa-step-indicator__heading">
-      <span class="usa-step-indicator__heading-counter">
-        <span class="usa-sr-only">Step</span>
-        <span class="usa-step-indicator__current-step">3</span>
-        <span class="usa-step-indicator__total-steps">of 5</span> 
-      </span>
-      <span class="usa-step-indicator__heading-text">
-        Supporting documents
-      </span>
-    </h4>
-  </div>
 </div>
