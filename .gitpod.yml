@@ -6,6 +6,7 @@ tasks:
   - name: All the things
     init: |
       brew install rsync
+    command: bundle install && npm install && npm run init
 
 
 ports:
