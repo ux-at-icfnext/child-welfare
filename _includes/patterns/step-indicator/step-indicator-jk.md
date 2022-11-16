@@ -16,6 +16,8 @@ usa-step-indicator--counters
         usa-step-indicator__segment--complete
       {% elsif item.status == 'current'%}
         usa-step-indicator__segment--current
+      {%else%}
+        usa-step-indicator__segment--incomplete
       {% endif %}">
       <span class="usa-step-indicator__segment-label">
         {{item.label}}
@@ -28,16 +30,15 @@ usa-step-indicator--counters
     </li>
     {% endfor %}
   </ol>
-  <div class="usa-step-indicator__header">
+    <div class="usa-step-indicator__header">
     <h4 class="usa-step-indicator__heading">
-      <span class="usa-step-indicator__heading-counter">
-        <span class="usa-sr-only">Step</span>
-        <span class="usa-step-indicator__current-step">{{page.stepIndicatorCurrentStep}}</span>
-        <span class="usa-step-indicator__total-steps">of {{page.stepIndicatorTotalSteps}}</span> 
-        </span>
-        <span class="usa-step-indicator__heading-text">
-          {{page.stepIndicatorTitle}}
-        </span>
+      <span class="usa-step-indicator__heading-counter"
+        ><span class="usa-sr-only">Step</span>
+        <span class="usa-step-indicator__current-step">3</span>
+        <span class="usa-step-indicator__total-steps">of 5</span> </span
+      ><span class="usa-step-indicator__heading-text"
+        >Supporting documents</span
+      >
     </h4>
   </div>
 </div>
