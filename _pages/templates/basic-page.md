@@ -97,7 +97,7 @@ components:
     htmlpath: patterns/accordion/accordion.md
   - title: Vertical tabs
     overview: They are helpful for keeping pages clean and easy to navigate.
-    link: /patterns/vertical-tabs
+    link: /patterns/tabs/
     htmlpath: patterns/accordion/vertical-tabs.md
 
 prototype:
