@@ -110,3 +110,15 @@ prototype:
   - name: Topics
     link: https://www.sketch.com/s/dd2f2e71-977c-45b4-baf3-8bf823bfcd0d/a/3OLlxQw#Inspect
 ---
+
+### Each featured item 
+uses usa-card-wide
+{% include partials/content-specs.md content=page.specs2 %} 
+
+### Each subtopic item
+uses usa-card
+{% include partials/content-specs.md content=page.specs3 %} 
+
+### Each related item
+uses text-card
+{% include partials/content-specs.md content=page.specs2 %} 
