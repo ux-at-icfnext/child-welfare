@@ -10,9 +10,6 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis earum tenetur quo cupiditate, eaque qui officia recusandae.
         </p>
       </div>
-      <div class="usa-card__footer">
-        <button class="usa-button">Visit Florida Keys</button>
-      </div>
     </div>
   </li>
 </ul>

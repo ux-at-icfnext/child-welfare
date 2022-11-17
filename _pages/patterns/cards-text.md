@@ -3,7 +3,7 @@ layout: pattern
 categories: [patterns, card]
 title: Text Card
 type: [detail-page]
-permalink: /patterns/card/card-text/
+permalink: /patterns/card/cards-text/
 description: |
 overview:
 
