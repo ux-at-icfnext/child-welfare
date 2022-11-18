@@ -10,4 +10,16 @@
 //     color: green;
 //     font-family: $custom-font;
 //   }
+//custom starts here
+.content{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+.card-link a{
+    color: #005DAA;
+}
+.body h4{
+    margin-bottom: 5px;
+}
  
