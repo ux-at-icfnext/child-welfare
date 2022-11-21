@@ -59,11 +59,21 @@
 }
 
 //Callout Button Inverted
-
+.white-flag{
+    display: none;
+    height: 24px;
+    width: 24px;
+}
 .callout__container__inv:hover{
     background-color: #002552;
     color: white;
     cursor: pointer;
+}
+.callout__container__inv:hover .blue-flag{
+    display: none;
+}
+.callout__container__inv:hover .white-flag{
+    display:block;
 }
 .callout__container__inv{
     width: 400px;
