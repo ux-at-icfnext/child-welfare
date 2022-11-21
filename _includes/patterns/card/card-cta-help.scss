@@ -1,0 +1,78 @@
+.callout-box-container{
+    background-color: #EDEFF0;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.callout-box-container__blue{
+    background-color: #C7CFE9;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.callout-box-container__blue h2{
+    color: #002552;
+}
+.callout-box-container__blue a{
+    color:#005DAA;
+}
+.callout-box-container a{
+    color:#005DAA
+}
+
+//Secondary Callout Box
+
+.callout__container{
+    border: 1px solid #D1D3D4;
+    margin: 20px;
+    width: 700px;
+}
+.callout__header{
+    padding-left: 20px;
+}
+.callout__body{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.callout__body a{
+    display: block;
+    color: #005DAA;
+}
+
+.callout-box-container{
+    background-color: #EDEFF0;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.callout-box-container a{
+    color:#005DAA
+}
+
+//Callout Button Inverted
+
+.callout__container__inv:hover{
+    background-color: #002552;
+    color: white;
+    cursor: pointer;
+}
+.callout__container__inv{
+    width: 400px;
+    padding: 30px;
+}
+.callout__heading{
+    margin-left: 140px;
+    padding-bottom: 20px;
+}
+.callout__inc__body{
+    margin: auto;
+}
