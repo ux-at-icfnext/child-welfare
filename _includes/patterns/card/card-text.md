@@ -1,9 +1,9 @@
 
 <ul class="usa-card-group">
   <li class="usa-card tablet:grid-col-4">
-    <div class="usa-card__container">
+    <div class="usa-card-text__container">
       <div class="usa-card__header">
-        <h2 class="usa-card__heading">Card</h2>
+        <h4 class="usa-card-text__heading">Card Heading</h4>
       </div>
       <div class="usa-card__body">
         <p>
