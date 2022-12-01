@@ -89,7 +89,7 @@ specs2:
 components:
   - title: CTA Help Cards
     overview: Hierarchical, vertical navigation to place at the side of a page.
-    link: /patterns/report-cta/
+    link: /patterns/help-cta/
     htmlpath: patterns/cta/cta.md
   - title: Accordion
     overview: An accordion is a list of headers that hide or reveal additional content when selected. They are helpful for keeping pages clean and easy to navigate.
