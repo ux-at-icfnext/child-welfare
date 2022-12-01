@@ -92,7 +92,7 @@ specs3:
 components:
   - title: subscription flag card
     overview: Hierarchical, vertical navigation to place at the side of a page.
-    link: /patterns/side-navigation/
+    link: /patterns/card/card-flag-default/
     htmlpath: patterns/card/card.md
 ---
 

@@ -10,4 +10,26 @@
 //     color: green;
 //     font-family: $custom-font;
 //   }
+//custom starts here
+.usa-card-flag__container:hover{
+    cursor: pointer;
+}
+.content-card-flag{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+.card-flag-link a{
+    color: #005DAA;
+    padding-left: 0;
+    text-decoration: underline;
+}
+.body h4{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.body small{
+    color: #005DAA;
+    font-weight: bold;
+}
  
