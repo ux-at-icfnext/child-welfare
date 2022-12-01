@@ -3,7 +3,7 @@ layout: template
 categories: [templates, topics-page]
 type: [sub-nav-item]
 title: Basic with Callouts
-permalink: /templates/topics-page
+permalink: /templates/callouts-page
 overview: A basic type page that allows for feature callouts at the top
 
 description: |
@@ -70,3 +70,28 @@ specs2:
 
 
 ---
+
+## Each Callout
+uses card-alert
+{% include partials/content-specs.md content=page.specs2 %}
+
+
+## Functionality Specifications
+### Page Header
+- page title (h1)
+- page summary (class: usa-intro)
+
+### Call outs
+uses card-alert minimum 3
+- on smaller breakpoints the cards stack 
+- on larger breakpoints the cards spread 3 across
+- see table above for the content parts
+
+### Page body
+Max width is 80 ex
+Optional cta cards shown on bottom. If a single card it should be full width, 2 cards would be side by side on the larger breakpoints.
+
+
+### For the "How to Report Child Abuse" page 
+This page uses the [Quick Exit](/patterns/quick-exit) functionality. Read more on the [pattern specifications](/patterns/quick-exit) page.
+
