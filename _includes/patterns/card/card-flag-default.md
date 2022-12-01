@@ -1,20 +1,23 @@
- 
  <ul class="usa-card-group">
-  <li class="usa-card usa-card--flag">
-    <div class="usa-card-flag__container">
-      <div class="content-card-flag">
-        <div class="media">
-          <img 
-            src="https://via.placeholder.com/150"
+  <li class="usa-card usa-card--flag desktop:grid-col-6 usa-card--media-left">
+    <div class="usa-card__container">
+      <div class="usa-card__header">
+        <h2 class="usa-card__heading">Flag media right inset</h2>
+      </div>
+      <div class="usa-card__media usa-card__media--inset">
+        <div class="usa-card__img">
+          <img
+            src="https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg"
+            alt="A placeholder image"
           />
         </div>
-        <div class="body">
-          <h4>Card Title</h4>
-          <p><small>Card Subtitle</small></p>
-          <p>Body Copy - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <p class="card-flag-link"><a href="">Card Link</a></p>
-        </div>
+      </div>
+      <div class="usa-card__body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="usa-card__footer">
+        <button class="usa-button">Visit Florida Keys</button>
       </div>
     </div>
-    </li>
-  </ul>
+  </li>
+</ul>
