@@ -1,8 +1,8 @@
  <ul class="usa-card-group">
   <li class="usa-card usa-card--flag desktop:grid-col-6 usa-card--media-left">
-    <div class="usa-card__container">
+    <div class="usa-card__container__flag-default">
       <div class="usa-card__header">
-        <h2 class="usa-card__heading">Flag media right inset</h2>
+        <h2 class="usa-card__heading">National Adoption Month</h2>
       </div>
       <div class="usa-card__media usa-card__media--inset">
         <div class="usa-card__img">
@@ -13,10 +13,11 @@
         </div>
       </div>
       <div class="usa-card__body">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Here goes a short description of the urgent promotion, not to exceed 250 characters. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
       </div>
       <div class="usa-card__footer">
-        <button class="usa-button">Visit Florida Keys</button>
+        <button class="usa-button">Button</button>
       </div>
     </div>
   </li>
