@@ -1,10 +1,7 @@
 
 <ul class="usa-card-group">
   <li class="usa-card tablet:grid-col-4">
-    <div class="usa-card__container">
-      <div class="usa-card__header">
-        <h2 class="usa-card__heading">Card with Media</h2>
-      </div>
+    <div class="usa-card__container__media">
       <div class="usa-card__media">
         <div class="usa-card__img">
           <img
@@ -13,14 +10,17 @@
           />
         </div>
       </div>
+      <div class="usa-card__header">
+        <h2 class="usa-card__heading">Social Media: Tips for Youth in Foster Care</h2>
+      </div>
       <div class="usa-card__body">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis earum
+          Card body - Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis earum
           tenetur quo cupiditate, eaque qui officia recusandae.
         </p>
       </div>
       <div class="usa-card__footer">
-        <button class="usa-button">Visit Florida Keys</button>
+        <button class="usa-button">Button</button>
       </div>
     </div>
   </li>
