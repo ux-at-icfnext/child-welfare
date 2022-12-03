@@ -71,6 +71,11 @@ specs:
     authored: no
     content: multi-valued text-card
     notes: front-end only, no need to store the accordion in drupal (only the linked references)
+  - name: Filter Criteria
+    type: taxonomy terms
+    authored: yes
+    required: yes
+    notes: author must choose the taxonomy terms that are applied to this page.
 
 
 specs2:
