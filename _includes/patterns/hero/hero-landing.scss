@@ -1,0 +1,20 @@
+.hero-grid{
+    display: grid;
+    grid-template-columns: 1.3fr 2fr;
+    gap: 2rem;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.hero-grid h1{
+    font-size: 38px;
+    line-height: normal;
+}
+.hero-calout-text p{
+    top: 0;
+}
+.hero-img{
+    padding-top: 30px;
+    margin-bottom: -50px;
+    margin-left: 100px;
+}
