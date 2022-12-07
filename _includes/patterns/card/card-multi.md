@@ -15,7 +15,7 @@
                 </div>
                 <div class="usa-card__body">
                     <p>
-                        Learn more about working with families to enhance their capacity to care for and protect their children.
+                        Learn more about working with families to enhance their capacity to care for and protect their children. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
                     </p>
                 </div>
             </div>

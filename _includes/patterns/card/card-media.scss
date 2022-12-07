@@ -1,5 +1,8 @@
 .usa-card__container__media{
     background-color: white;
+    box-shadow: 1px 1px 1px 1px;
+}
+.usa-card__container__media:hover{
     cursor: pointer;
 }
 .usa-card__container__media button{
