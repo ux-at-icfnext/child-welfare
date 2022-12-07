@@ -1,7 +1,9 @@
 .usa-card__container__media{
     background-color: white;
+    box-shadow: 1px 1px 1px 1px;
+}
+.usa-card__container__media:hover{
     cursor: pointer;
-    box-shadow: 2px 2px 2px 2px;
 }
 .usa-card__container__media button{
     background-color: white;
