@@ -20,7 +20,7 @@
             aria-expanded="false"
             aria-controls="extended-nav-section-one"
           >
-            <span>&lt;Current section&gt;</span>
+            <span>Topics</span>
           </button>
           <ul id="extended-nav-section-one" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
@@ -43,7 +43,7 @@
             aria-expanded="false"
             aria-controls="extended-nav-section-two"
           >
-            <span>&lt;Section&gt;</span>
+            <span>Resources</span>
           </button>
           <ul id="extended-nav-section-two" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
@@ -58,7 +58,67 @@
           </ul>
         </li>
         <li class="usa-nav__primary-item">
-          <a href="" class="usa-nav-link"><span>&lt;Simple link&gt;</span></a>
+          <button
+            class="usa-accordion__button usa-nav__link"
+            aria-expanded="false"
+            aria-controls="extended-nav-section-three"
+          >
+            <span>Stay Connected</span>
+          </button>
+          <ul id="extended-nav-section-three" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+          </ul>
+        </li>
+        <li class="usa-nav__primary-item">
+          <button
+            class="usa-accordion__button usa-nav__link"
+            aria-expanded="false"
+            aria-controls="extended-nav-section-four"
+          >
+            <span>Directory</span>
+          </button>
+          <ul id="extended-nav-section-four" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+          </ul>
+        </li>
+        <li class="usa-nav__primary-item">
+          <button
+            class="usa-accordion__button usa-nav__link"
+            aria-expanded="false"
+            aria-controls="extended-nav-section-five"
+          >
+            <span>About</span>
+          </button>
+          <ul id="extended-nav-section-five" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href=""><span>&lt;Navigation link&gt;</span></a>
+            </li>
+          </ul>
+        </li>
+        <li class="usa-nav__primary-item">
+          <a href="" class="usa-nav-link"><span>Check Out</span></a>
         </li>
       </ul>
       <div class="usa-nav__secondary usa-header--extended">
