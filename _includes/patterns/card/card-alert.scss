@@ -1,0 +1,13 @@
+.usa-card__container__alert{
+    border-top: 3px solid #E50E63;
+    box-shadow: 2px 2px 2px 2px;
+}
+.usa-card__container__alert:hover{
+    cursor: pointer;
+}
+.usa-card__container__alert button{
+    background-color: white;
+    color: #005DAA;
+    border: 1px solid #005DAA;
+    margin-left: 25px;
+}
