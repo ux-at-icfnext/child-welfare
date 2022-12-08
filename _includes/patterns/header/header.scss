@@ -10,3 +10,10 @@
 .usa-nav__primary button[aria-expanded=false] span:after{
     background: url(/assets/icons/expand_more_white.svg) no-repeat center/contain;
 }
+.usa-logo a{
+    color: white;
+}
+.usa-header--extended .usa-logo{
+    font-size: 1.5rem;
+    max-width: 40%;
+}
