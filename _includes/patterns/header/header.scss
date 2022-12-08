@@ -17,3 +17,13 @@
     font-size: 1.5rem;
     max-width: 40%;
 }
+.usa-nav__secondary-links li{
+    display: inline-block;
+}
+.usa-nav__secondary-links a{
+    color: white;
+    text-decoration: underline;
+}
+.usa-nav__secondary-links span{
+    color: #E50E63;
+}
