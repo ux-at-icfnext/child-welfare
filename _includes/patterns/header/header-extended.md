@@ -118,7 +118,10 @@
           </ul>
         </li>
         <li class="usa-nav__primary-item">
-          <a href="" class="usa-nav-link"><span>Check Out</span></a>
+          <a href="" class="usa-nav-link">
+            <img src="/assets/icons/shopping_cart_white.svg" height="20px" width="auto"/>
+            <span class="check-out">Check Out</span>
+          </a>
         </li>
       </ul>
       <div class="usa-nav__secondary usa-header--extended">
