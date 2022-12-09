@@ -27,3 +27,7 @@
 .usa-nav__secondary-links span{
     color: #E50E63;
 }
+.usa-header--extended .usa-nav__primary-item>.usa-current:after, 
+.usa-header--extended .usa-nav__primary-item>.usa-nav__link:hover:after{
+    background-color: #E50E63;
+}
