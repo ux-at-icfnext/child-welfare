@@ -1,0 +1,33 @@
+.usa-header{
+    background-color: #002552;
+}
+.home{
+    color: white;
+}
+.usa-header span{
+    color: white;
+}
+.usa-nav__primary button[aria-expanded=false] span:after{
+    background: url(/assets/icons/expand_more_white.svg) no-repeat center/contain;
+}
+.usa-logo a{
+    color: white;
+}
+.usa-header--extended .usa-logo{
+    font-size: 1.5rem;
+    max-width: 40%;
+}
+.usa-nav__secondary-links li{
+    display: inline-block;
+}
+.usa-nav__secondary-links a{
+    color: white;
+    text-decoration: underline;
+}
+.usa-nav__secondary-links span{
+    color: #E50E63;
+}
+.usa-header--extended .usa-nav__primary-item>.usa-current:after, 
+.usa-header--extended .usa-nav__primary-item>.usa-nav__link:hover:after{
+    background-color: #E50E63;
+}
