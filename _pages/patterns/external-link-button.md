@@ -1,9 +1,9 @@
 ---
 layout: pattern
 categories: [patterns, button]
-title: Dropdown Button
+title: External Link Button
 type: [sub-nav-item]
-permalink: /patterns/dropdown-button/
+permalink: /patterns/external-link-button/
 overview: A button group collects similar or related actions.
 variations: true
 description: |
@@ -66,10 +66,10 @@ yml: |
 
 jekyll: |
 
-  "{% include patterns/button/button-dropdown-jk.md %}"
+  "{% include patterns/button/external-link-button-jk.md %}"
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
 # designimg: 
-htmlpath: patterns/button/button-dropdown.md
+htmlpath: patterns/button/external-link-button.md
 csspath: patterns/button/index.scss
 ---
