@@ -1,8 +1,6 @@
 <label class="usa-button dd">
-    <div class="download-icon">
-        <img src="/assets/icons/file_download_white.svg" height="25px" width="auto">
-    </div>
     <div class="dropdown-button">
+        <i class="fas fa-download"></i>
         download
     </div>
     <div class="dd-icon">
