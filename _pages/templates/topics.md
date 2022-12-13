@@ -68,7 +68,6 @@ specs:
     content: limit 9 - multi-valued, see below
   - name: Related
     type: usa-accordion
-    authored: no
     content: multi-valued text-card
     notes: front-end only, no need to store the accordion in drupal (only the linked references)
   - name: Filter Criteria

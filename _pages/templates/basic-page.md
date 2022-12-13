@@ -77,7 +77,6 @@ specs2:
   - name: Content title
     type: h2
     authored: yes
-    required: yes
     content: 80 characters max
   - name: Content 
     type: rich text
