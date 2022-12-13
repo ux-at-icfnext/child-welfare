@@ -2,6 +2,9 @@
     <div class="dropdown-button">
         Default
     </div>
+    <div class="dd-icon">
+        <img src="/assets/icons/expand_more_white.svg" height="32px" width="auto">
+    </div>
     <input type="checkbox" class="dropdown-input">
     <ul class="dropdown-menu">
         <li>Item One</li>
