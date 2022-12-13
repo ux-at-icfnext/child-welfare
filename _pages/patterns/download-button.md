@@ -1,7 +1,7 @@
 ---
 layout: pattern
 categories: [patterns, button]
-title: Dropdown Button
+title: Download Button
 type: [sub-nav-item]
 permalink: /patterns/download-button/
 overview: A button group collects similar or related actions.

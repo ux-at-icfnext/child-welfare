@@ -3,7 +3,7 @@
         <img src="/assets/icons/file_download_white.svg" height="25px" width="auto">
     </div>
     <div class="dropdown-button">
-        Download
+        download
     </div>
     <div class="dd-icon">
         <img src="/assets/icons/expand_more_white.svg" height="32px" width="auto">
