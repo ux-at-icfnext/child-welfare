@@ -10,12 +10,21 @@
     padding: 5px 40px 5px 20px;
     cursor: pointer;
 }
+.download-icon{
+    display: inline;
+    padding: 10px;
+}
+.download-icon img{
+    position: absolute;
+    top: 25%;
+    left: 15px;
+}
 .dropdown-input{
     display: none;
 }
 .dd-icon{
     display: inline;
-    border-left: 1px solid white;
+    border-left: 2px solid white;
     padding: 10px;
 }
 .dd-icon img{
