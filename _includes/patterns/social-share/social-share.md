@@ -1,10 +1,16 @@
 <div class="social-share">
     <div class="facebook">
-        <img src="/assets/icons/facebook.svg">
+        <a href="">
+            <img src="/assets/icons/facebook.svg">
+        </a>
     </div>
     <div class="instagram">
-        <img src="/assets/icons/instagram.svg">
+        <a href="">
+            <img src="/assets/icons/instagram.svg">
+        </a>
     </div>
     <div class="twitter">
-        <img src="/assets/icons/twitter.svg">
+        <a href="">
+            <img src="/assets/icons/twitter.svg">
+        </a>
     </div>
