@@ -139,10 +139,10 @@
           "
         >
           <div class="mobile-lg:grid-col-auto">
-            <img class="usa-footer__logo-img" src="/assets/img/logo-img.png" alt="" />
+            <img class="usa-footer__logo-img" src="/assets/icons/cwig-library.png" alt="" />
           </div>
           <div class="mobile-lg:grid-col-auto">
-            <p class="usa-footer__logo-heading">[Name of Agency]</p>
+            <p class="usa-footer__logo-heading">Child Welfare Information Gateway</p>
           </div>
         </div>
         <div class="usa-footer__contact-links mobile-lg:grid-col-6">
@@ -169,22 +169,6 @@
                   class="usa-social-link__icon"
                   src="/assets/img/usa-icons/youtube.svg"
                   alt="YouTube"
-              /></a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/instagram.svg"
-                  alt="Instagram"
-              /></a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/rss_feed.svg"
-                  alt="RSS"
               /></a>
             </div>
           </div>
