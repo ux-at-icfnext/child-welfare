@@ -1,0 +1,20 @@
+.usa-footer__primary-section{
+    background-color: #FBFCFD;
+}
+.usa-footer__secondary-section{
+    background-color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0;
+}
+img{
+    max-width: 100%;
+}
+.usa-footer__logo-heading{
+    color: #005DAA;
+}
+.footer-search-button{
+    background-color: #005DAA;
+}

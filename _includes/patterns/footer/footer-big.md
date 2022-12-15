@@ -16,22 +16,22 @@
                     usa-footer__primary-content--collapsible
                   "
                 >
-                  <h4 class="usa-footer__primary-link">[Topic]</h4>
+                  <h4 class="usa-footer__primary-link">Topic</h4>
                   <ul class="usa-list usa-list--unstyled">
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">[Secondary link]</a>
+                      <a href="javascript:void(0);">Secondary link</a>
                     </li>
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">[Secondary link]</a>
+                      <a href="javascript:void(0);">Secondary link</a>
                     </li>
                     <li class="usa-footer__secondary-link">
                       <a href="javascript:void(0);"
-                        >[Secondary link that's a bit longer than most of the
-                        others]</a
+                        >Secondary link that's a bit longer than most of the
+                        others</a
                       >
                     </li>
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">[Secondary link]</a>
+                      <a href="javascript:void(0);">Secondary link</a>
                     </li>
                   </ul>
                 </section>
@@ -43,45 +43,21 @@
                     usa-footer__primary-content--collapsible
                   "
                 >
-                  <h4 class="usa-footer__primary-link">[Topic]</h4>
+                  <h4 class="usa-footer__primary-link">Topic</h4>
                   <ul class="usa-list usa-list--unstyled">
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">[Secondary link]</a>
+                      <a href="javascript:void(0);">Secondary link</a>
                     </li>
                     <li class="usa-footer__secondary-link">
                       <a href="javascript:void(0);"
-                        >[Secondary link that's pretty long]</a
+                        >Secondary link that's pretty long</a
                       >
                     </li>
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">[Secondary link]</a>
+                      <a href="javascript:void(0);">Secondary link</a>
                     </li>
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">[Secondary link]</a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
-                <section
-                  class="
-                    usa-footer__primary-content
-                    usa-footer__primary-content--collapsible
-                  "
-                >
-                  <h4 class="usa-footer__primary-link">[Topic]</h4>
-                  <ul class="usa-list usa-list--unstyled">
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">[Secondary link]</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">[Secondary link]</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">[Secondary link]</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">[Secondary link]</a>
+                      <a href="javascript:void(0);">Secondary link</a>
                     </li>
                   </ul>
                 </section>
@@ -93,19 +69,43 @@
                     usa-footer__primary-content--collapsible
                   "
                 >
-                  <h4 class="usa-footer__primary-link">[Topic]</h4>
+                  <h4 class="usa-footer__primary-link">Topic</h4>
                   <ul class="usa-list usa-list--unstyled">
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">[Secondary link]</a>
+                      <a href="javascript:void(0);">Secondary link</a>
                     </li>
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">[Secondary link]</a>
+                      <a href="javascript:void(0);">Secondary link</a>
                     </li>
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">[Secondary link]</a>
+                      <a href="javascript:void(0);">Secondary link</a>
                     </li>
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">[Secondary link]</a>
+                      <a href="javascript:void(0);">Secondary link</a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
+                <section
+                  class="
+                    usa-footer__primary-content
+                    usa-footer__primary-content--collapsible
+                  "
+                >
+                  <h4 class="usa-footer__primary-link">Topic</h4>
+                  <ul class="usa-list usa-list--unstyled">
+                    <li class="usa-footer__secondary-link">
+                      <a href="javascript:void(0);">Secondary link</a>
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="javascript:void(0);">Secondary link</a>
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="javascript:void(0);">Secondary link</a>
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="javascript:void(0);">Secondary link</a>
                     </li>
                   </ul>
                 </section>
@@ -116,13 +116,21 @@
         <div class="tablet:grid-col-4">
           <div class="usa-sign-up">
             <h3 class="usa-sign-up__heading">Sign up</h3>
-            <form class="usa-form">
-              <label class="usa-label" for="email" id=""
-                >Your email address</label
-              >
-              <input class="usa-input" id="email" name="email" type="email" />
-              <button class="usa-button" type="submit">Sign up</button>
-            </form>
+            <section aria-label="Small search component">
+              <form class="usa-search usa-search--small" role="search">
+                <label class="usa-sr-only" for="search-field-en-small">Search</label>
+                <input
+                  class="usa-input"
+                  id="search-field-en-small"
+                  type="search"
+                  name="search"
+                  placeholder="Your email address"
+                />
+                <button class="usa-button footer-search-button" type="submit" style="background-color: #005DAA;">
+                  Sign up
+                </button>
+              </form>
+            </section>
           </div>
         </div>
       </div>
@@ -136,13 +144,14 @@
             usa-footer__logo
             grid-row
             mobile-lg:grid-col-6 mobile-lg:grid-gap-2
+            container
           "
         >
-          <div class="mobile-lg:grid-col-auto">
-            <img class="usa-footer__logo-img" src="/assets/img/logo-img.png" alt="" />
+          <div class="mobile-lg:grid-col-auto footer-logo">
+            <img class="usa-footer__logo-img" src="/assets/icons/cwig-library.png" alt="" />
           </div>
-          <div class="mobile-lg:grid-col-auto">
-            <p class="usa-footer__logo-heading">[Name of Agency]</p>
+          <div class="mobile-lg:grid-col-auto logo-title">
+            <span class="usa-footer__logo-heading">Child Welfare Information Gateway</span>
           </div>
         </div>
         <div class="usa-footer__contact-links mobile-lg:grid-col-6">
@@ -171,31 +180,15 @@
                   alt="YouTube"
               /></a>
             </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/instagram.svg"
-                  alt="Instagram"
-              /></a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/rss_feed.svg"
-                  alt="RSS"
-              /></a>
-            </div>
           </div>
-          <p class="usa-footer__contact-heading">[Agency Contact Center]</p>
+          <p class="usa-footer__contact-heading">Agency Contact Center</p>
           <address class="usa-footer__address">
             <div class="usa-footer__contact-info grid-row grid-gap">
               <div class="grid-col-auto">
-                <a href="tel:1-800-555-5555">[(800) 555-GOVT]</a>
+                <a href="tel:1-800-555-5555">(800) 555-GOVT</a>
               </div>
               <div class="grid-col-auto">
-                <a href="mailto:info@agency.gov">[info@agency.gov]</a>
+                <a href="mailto:info@agency.gov">info@agency.gov</a>
               </div>
             </div>
           </address>
