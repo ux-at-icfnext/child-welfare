@@ -1,3 +1,17 @@
+.usa-footer__primary-section{
+    background-color: #FBFCFD;
+}
+.usa-footer__secondary-section{
+    background-color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0;
+}
+img{
+    max-width: 100%;
+}
 .usa-footer__logo-heading{
-    display: inline;
+    color: #005DAA;
 }

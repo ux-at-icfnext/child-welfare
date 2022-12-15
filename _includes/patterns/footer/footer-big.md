@@ -136,13 +136,14 @@
             usa-footer__logo
             grid-row
             mobile-lg:grid-col-6 mobile-lg:grid-gap-2
+            container
           "
         >
-          <div class="mobile-lg:grid-col-auto">
+          <div class="mobile-lg:grid-col-auto footer-logo">
             <img class="usa-footer__logo-img" src="/assets/icons/cwig-library.png" alt="" />
-            <p class="usa-footer__logo-heading">Child Welfare Information Gateway</p>
           </div>
-          <div class="mobile-lg:grid-col-auto">
+          <div class="mobile-lg:grid-col-auto logo-title">
+            <span class="usa-footer__logo-heading">Child Welfare Information Gateway</span>
           </div>
         </div>
         <div class="usa-footer__contact-links mobile-lg:grid-col-6">
