@@ -115,7 +115,7 @@
         </div>
         <div class="tablet:grid-col-4">
           <div class="usa-sign-up">
-            <h3 class="usa-sign-up__heading">Sign up</h3>
+            <h3 class="usa-sign-up__heading" style="padding-bottom: 10px;">Sign up</h3>
             <section aria-label="Small search component">
               <form class="usa-search usa-search--small" role="search">
                 <label class="usa-sr-only" for="search-field-en-small">Search</label>
