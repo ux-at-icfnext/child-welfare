@@ -116,10 +116,21 @@
         <div class="tablet:grid-col-4">
           <div class="usa-sign-up">
             <h3 class="usa-sign-up__heading">Sign up</h3>
-            <form class="usa-form">
-              <input class="usa-input" id="email" name="email" type="email" />
-              <button class="usa-button" type="submit">Sign up</button>
-            </form>
+            <section aria-label="Small search component">
+              <form class="usa-search usa-search--small" role="search">
+                <label class="usa-sr-only" for="search-field-en-small">Search</label>
+                <input
+                  class="usa-input"
+                  id="search-field-en-small"
+                  type="search"
+                  name="search"
+                  placeholder="Your email address"
+                />
+                <button class="usa-button footer-search-button" type="submit" style="background-color: #005DAA;">
+                  Sign up
+                </button>
+              </form>
+            </section>
           </div>
         </div>
       </div>
