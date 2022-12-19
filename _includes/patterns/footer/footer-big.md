@@ -168,7 +168,7 @@
               <a class="usa-social-link" href="javascript:void(0);"
                 ><img
                   class="usa-social-link__icon"
-                  src="/assets/icons/twitter.svg"
+                  src="/assets/icons/twitter_footer.svg"
                   alt="Twitter"
               /></a>
             </div>
@@ -176,7 +176,7 @@
               <a class="usa-social-link" href="javascript:void(0);"
                 ><img
                   class="usa-social-link__icon"
-                  src="/assets/icons/youtube.svg"
+                  src="/assets/icons/youtube_footer.svg"
                   alt="YouTube"
               /></a>
             </div>
