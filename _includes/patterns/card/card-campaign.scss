@@ -9,7 +9,6 @@
 }
 .usa-card__container__campaign:hover{
     box-shadow: inset 0 0 0 2000px rgba(158, 180, 241, 0.7);
-    cursor: pointer;
     color: black;
 }
 .usa-card__container__campaign h2{
@@ -26,6 +25,11 @@
     background-color: transparent;
     color:#002552;
     border: 1px solid #002552;
+}
+.usa-card__container__campaign button:hover{
+    background-color: #002552;
+    color: white;
+    cursor: pointer;
 }
 
 //title
