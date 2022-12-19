@@ -1,4 +1,3 @@
-
 <footer class="usa-footer">
   <div class="grid-container usa-footer__return-to-top">
     <a href="#">Return to top</a>
@@ -76,7 +75,7 @@
               <a class="usa-social-link" href="javascript:void(0);"
                 ><img
                   class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/facebook.svg"
+                  src="/assets/icons/facebook.svg"
                   alt="Facebook"
               /></a>
             </div>

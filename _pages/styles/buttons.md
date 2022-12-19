@@ -18,26 +18,14 @@ A button draws attention to important actions with a large selectable surface.
 <button type="" class="usa-button">Default</button>
 <button type="" class="usa-button usa-button--hover">Hover</button>
 <button type="" class="usa-button usa-button--active">Active</button>
-<button type="" class="usa-button usa-focus">Focus</button>
+<button type="" class="usa-button focused__button">Focus</button>
 <button type="" class="usa-button" disabled="disabled">Disabled</button>
 <button type="" class="usa-button usa-button--unstyled">Unstyled button</button>
 
 <h4 class="site-preview-heading">Secondary color</h4>
-<button type="" class="usa-button usa-button--secondary">Default</button>
-<button type="" class="usa-button usa-button--secondary usa-button--hover">
+<button type="" class="usa-button secondary__button">Default</button>
+<button type="" class="usa-button secondary__button usa-button--hover">
   Hover
-</button>
-<button type="" class="usa-button usa-button--secondary usa-button--active">
-  Active
-</button>
-<button type="" class="usa-button usa-button--secondary usa-focus">
-  Focus
-</button>
-<button type="" class="usa-button usa-button--secondary" disabled="disabled">
-  Disabled
-</button>
-<button type="" class="usa-button usa-button--secondary usa-button--unstyled">
-  Unstyled button
 </button>
 
 

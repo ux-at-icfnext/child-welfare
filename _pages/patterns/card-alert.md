@@ -1,6 +1,6 @@
 ---
 layout: pattern
-categories: [patterns]
+categories: [patterns, card]
 title: Alert Card
 type: [detail-page]
 permalink: /patterns/card/card-alert/
