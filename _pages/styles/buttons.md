@@ -27,18 +27,6 @@ A button draws attention to important actions with a large selectable surface.
 <button type="" class="usa-button secondary__button usa-button--hover">
   Hover
 </button>
-<button type="" class="usa-button secondary__button usa-button--active">
-  Active
-</button>
-<button type="" class="usa-button secondary__button usa-focus">
-  Focus
-</button>
-<button type="" class="usa-button secondary__button" disabled="disabled">
-  Disabled
-</button>
-<button type="" class="usa-button secondary__button usa-button--unstyled">
-  Unstyled button
-</button>
 
 
 ## Specification
