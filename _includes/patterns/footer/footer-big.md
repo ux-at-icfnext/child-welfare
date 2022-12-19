@@ -160,7 +160,7 @@
               <a class="usa-social-link" href="javascript:void(0);"
                 ><img
                   class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/facebook.svg"
+                  src="/assets/icons/facebook_footer.svg"
                   alt="Facebook"
               /></a>
             </div>
@@ -168,7 +168,7 @@
               <a class="usa-social-link" href="javascript:void(0);"
                 ><img
                   class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/twitter.svg"
+                  src="/assets/icons/twitter.svg"
                   alt="Twitter"
               /></a>
             </div>
@@ -176,7 +176,7 @@
               <a class="usa-social-link" href="javascript:void(0);"
                 ><img
                   class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/youtube.svg"
+                  src="/assets/icons/youtube.svg"
                   alt="YouTube"
               /></a>
             </div>

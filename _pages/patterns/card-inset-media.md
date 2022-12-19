@@ -1,6 +1,6 @@
 ---
 layout: pattern
-categories: [patterns, card]
+categories: [patterns]
 title: Card inset media
 type: [detail-page]
 permalink: /patterns/card/card-inset-media/

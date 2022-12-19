@@ -11,7 +11,12 @@
 //     font-family: $custom-font;
 //   }
 //custom starts here
-.usa-card-flag__container:hover{
+.sub-card__subtitle{
+    margin-bottom: 15px;
+    color: #005DAA;
+    font-weight: bold;
+}
+.usa-card__container__flag-subscribe:hover{
     cursor: pointer;
 }
 .content-card-flag{

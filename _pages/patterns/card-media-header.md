@@ -1,6 +1,6 @@
 ---
 layout: pattern
-categories: [patterns, card]
+categories: [patterns]
 title: Card media with header
 type: [detail-page]
 permalink: /patterns/card/card-media-with-header

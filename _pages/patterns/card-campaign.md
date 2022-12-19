@@ -1,6 +1,6 @@
 ---
 layout: pattern
-categories: [patterns]
+categories: [patterns, card]
 title: Campaign
 type: [detail-page]
 permalink: /patterns/card/card-campaign/
