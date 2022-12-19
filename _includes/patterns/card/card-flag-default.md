@@ -1,5 +1,5 @@
  <ul class="usa-card-group">
-  <li class="usa-card usa-card--flag desktop:grid-col-6 usa-card--media-left">
+  <li class="usa-card usa-card--flag desktop:grid-col-8 usa-card--media-left">
     <div class="usa-card__container__flag-default">
       <div class="usa-card__header">
         <h2 class="usa-card__heading">National Adoption Month</h2>
