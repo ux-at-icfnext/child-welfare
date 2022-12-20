@@ -33,7 +33,6 @@ spec:
     class: usa-card__img
   - name: link
     type: button
-    required: true
     content: URL destination
   - name: layout
     type: select list
