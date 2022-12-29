@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{% include partials/lib/breadcrumbs.html %}
+<div class="content-flex">
+  {% include partials/left-nav.html %}
+  <div class="text">
+    {% if page.header %}
+    <div class="page-header header-full">
+    {% else %}
+    <div class="page-header">
+    {% endif %}
+      <h1>{{page.title}}</h1>
+      <p class="usa-intro">
+        {{ page.summary }}
+        {% if page.find-help-cta or page.personal-help-cta %}
+          <div class="help-cards">
+            {% if page.find-help-cta %}
+              find help card here
+            {% endif %}
+            {% if page.find-help-cta %}
+              personal situation card here
+            {% endif %}
+          </div>
+        {% endif %}
+      </p>
+    </div>
+      {{ content }}
+  </div>
+</div>
