@@ -16,7 +16,7 @@ components:
   - title: Text Cards
     link: /patterns/card/cards-text/
   - title: Search
-    link: /templates/search
+    link: /templates/searchresults
 
 
 specs:
