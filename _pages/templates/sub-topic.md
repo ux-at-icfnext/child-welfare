@@ -106,4 +106,4 @@ The features uses the [text card](/patterns/card/cards-text/) pattern. The cards
 ### Search
 The rest of the page is a canned search result where the returns are constrained to the filter criteria field. 
 
-Please seach[Search](/templates/search) for more information on how Search works.
+Please seach[Search](/templates/searchresults) for more information on how Search works.
