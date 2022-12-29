@@ -3,7 +3,7 @@ layout: template
 categories: [templates, searchresults]
 type: [sub-nav-item, variations]
 title: Search
-permalink: /templates/search
+permalink: /templates/searchresults
 overview: Search pages are mostly dynamic.
 description: Search pages are mostly dynamic, there are several search pages through out the site. These include, the Global Search, All Resources, Event Search, Directory, and Subtopics. They all share the same basic functionality.
 
@@ -53,7 +53,15 @@ spec2:
     authored: dynamic
     source: resouce detail-url
 
-
+components:
+  - title: Collection pattern
+    link: /patterns/collection/
+  - title: Accordion
+    link: /patterns/accordion
+  - title: Pagination
+    link: /patterns/pagination
+  - title: Search widget
+    link: /patterns/search/
       
 ---
 
@@ -156,6 +164,7 @@ uses [pagination pattern](/patterns/pagination/)
 ## Result item
 _See variations for other layout options_
 ### Default layout
+uses the [Collections pattern](/patterns/collection/)
 {% include partials/content-specs.md content=page.spec2 %}
 
 ![example](/assets/icons/spec-images/result-example.png)
