@@ -1,8 +1,10 @@
 ---
 layout: left-rail
 ---
+{% if page.description  %}
 <h2>Description</h2>
 <p>{{page.description}}</p>
+{% endif %}
 
 {% if page.design-file %}
 <div class="design-files">
