@@ -80,7 +80,7 @@ Any search using the search module, results are constrained to keyword matches.
 Authors should be able to create links in the site to a prefiltered search result. For this functionality to work, search terms and filters need to be added to the url.
 
 ## Page Header
-_note_ [Subtopics Pages](templates/subtopic-page) has it's own page header. Please see the specifications for how that page functions.
+_note_ [Subtopics Pages](/templates/subtopic-page) has it's own page header. Please see the specifications for how that page functions.
 
 {% include partials/content-specs.md content=page.spec %}
 
