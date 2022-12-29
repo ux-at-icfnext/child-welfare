@@ -101,6 +101,10 @@ SM & MD Breakpoints:
 LG+ Breakpoints:
 - OnLoad the filter module is displayed
 
+|![Search Controls on small screens](/assets/icons/spec-images/search-controls-mobile.png)|
+|:--:|
+| <b>small screen filters with view controls</b>|
+
 ### Filter types
 1) Date Range Filter
 On Default,
