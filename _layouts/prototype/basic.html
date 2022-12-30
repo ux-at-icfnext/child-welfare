@@ -3,7 +3,6 @@ layout: default
 ---
 {% include partials/lib/breadcrumbs.html %}
 <div class="content-flex">
-  {% include partials/left-nav.html %}
   <div class="text">
     {% if page.header %}
     <div class="page-header header-full">
@@ -13,12 +12,12 @@ layout: default
       <h1>{{page.title}}</h1>
       <p class="usa-intro">
         {{ page.summary }}
-        {% if page.find-help-cta or page.personal-help-cta %}
+        {% if page.find-help-cta or page.child-abuse-cta %}
           <div class="help-cards">
             {% if page.find-help-cta %}
               find help card here
             {% endif %}
-            {% if page.find-help-cta %}
+            {% if page.child-abuse-cta %}
               personal situation card here
             {% endif %}
           </div>
@@ -26,5 +25,11 @@ layout: default
       </p>
     </div>
       {{ content }}
+      {% if page.template == "accordion" %}
+      {% include patterns/accordion/accordion-jk-push.md content=page.lists%}
+      {% endif %}
+      {% if page.template == "tabs" %}
+      {% include patterns/tabs/tabs-jk.md content=page.lists%}
+      {% endif %}
   </div>
 </div>

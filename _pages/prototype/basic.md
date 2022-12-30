@@ -8,14 +8,13 @@ overview: This is example of a basic page.
 summary: |
   This is example of a basic page. It's good for content post that don't have a need for a lot of functionality. There are options to show the page header with a blue background to give more of a landing page look and/or to display the CTA Cards.
 find-help-cta: no
-personal-help-cta: no
+child-abuse-cta: no
 header: no
-template-layout: default # tabs or accordion
+template: default # tabs or accordion
 
 ### tabs and accordions use list
 # lists:
-#   - label: Example Label - 80 characters max
-#     title: Example title - uses an h2 - 80 characters
+#   - title: Example title - uses an h2 - 80 characters
 #     content: Rich text allows for h2, h3, h4, bullets, links, icons
 ---
 
