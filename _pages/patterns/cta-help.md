@@ -1,9 +1,9 @@
 ---
 layout: pattern
-categories: [patterns, cta-card]
+categories: [patterns, card]
 title: Find Help CTA
 type: [sub-nav-item]
-permalink: /patterns/cta-help/
+permalink: /patterns/card/cta-help/
 variations: true
 description: |
    This layout allows for an image with padding. For this layout use the  ```usa-card__media--inset```  on the media class. The example in the html below shows how to apply. _see more details on functionality on the [default card](/patterns/card) page_

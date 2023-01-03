@@ -1,85 +1,39 @@
-.callout-box-container{
-    background-color: #EDEFF0;
-    width: 100%;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.blue-icon{
+    height: 20px;
+    width: auto;
 }
-.callout-box-container__blue{
-    background-color: #C7CFE9;
-    width: 100%;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.callout-box-container__blue h2{
-    color: #002552;
-}
-.callout-box-container__blue a{
-    color:#005DAA;
-}
-.callout-box-container a{
-    color:#005DAA
-}
-
-//Secondary Callout Box
-
-.callout__container{
-    border: 1px solid #D1D3D4;
-    margin: 20px;
-    width: 700px;
-}
-.callout__header{
-    padding-left: 20px;
-}
-.callout__body{
-    padding-left: 20px;
-    padding-bottom: 15px;
-}
-.callout__body a{
-    display: block;
-    color: #005DAA;
-}
-
-.callout-box-container{
-    background-color: #EDEFF0;
-    width: 100%;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.callout-box-container a{
-    color:#005DAA
-}
-
-//Callout Button Inverted
-.white-flag{
+.white-icon{
     display: none;
-    height: 24px;
-    width: 24px;
+    height: 40px;
+    width: auto;
 }
 .callout__container__inv:hover{
     background-color: #002552;
     color: white;
     cursor: pointer;
 }
-.callout__container__inv:hover .blue-flag{
+.callout__container__inv:hover a{
+    color: white;
+}
+.callout__container__inv:hover .blue-icon{
     display: none;
 }
-.callout__container__inv:hover .white-flag{
+.callout__container__inv:hover .white-icon{
     display:block;
 }
 .callout__container__inv{
-    width: 400px;
-    padding: 30px;
+    padding: 2%;
     box-shadow: 2px 2px 2px 2px;
-    margin: 15px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0;
+    border: 0;
+    font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 1.06rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 .callout__heading{
     margin-left: 140px;
@@ -87,4 +41,10 @@
 }
 .callout__inc__body{
     margin: auto;
+}
+.callout__container__inv h4{
+    padding-left: 20px;
+}
+.callout__container__inv p{
+    padding-left: 20px;
 }

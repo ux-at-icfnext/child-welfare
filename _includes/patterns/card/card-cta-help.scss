@@ -1,11 +1,11 @@
 .blue-icon{
-    height: 24px;
-    width: 24px;
+    height: 40px;
+    width: auto;
 }
 .white-icon{
     display: none;
-    height: 24px;
-    width: 24px;
+    height: 40px;
+    width: auto;
 }
 .callout__container__inv:hover{
     background-color: #002552;
@@ -22,10 +22,18 @@
     display:block;
 }
 .callout__container__inv{
-    width: 400px;
-    padding: 30px;
+    padding: 2%;
     box-shadow: 2px 2px 2px 2px;
-    margin: 15px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0;
+    border: 0;
+    font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 1.06rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 .callout__heading{
     margin-left: 140px;
