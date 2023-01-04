@@ -1,11 +1,15 @@
 .blue-icon{
-    height: 20px;
+    height: 1rem;
     width: auto;
+    position: relative;
+    right: 4.375rem;
 }
 .white-icon{
     display: none;
-    height: 40px;
+    height: 1rem;
     width: auto;
+    position: relative;
+    right: 4.375rem;
 }
 .callout__container__inv:hover{
     background-color: #002552;
@@ -20,6 +24,10 @@
 }
 .callout__container__inv:hover .white-icon{
     display:block;
+}
+.callout__container__inv:hover h4{
+    color: white;
+    font-weight: bold;
 }
 .callout__container__inv{
     padding: 2%;
@@ -36,14 +44,17 @@
     position: relative;
 }
 .callout__heading{
-    margin-left: 140px;
-    padding-bottom: 20px;
+    margin-left: 8.75rem;
+    padding-bottom: 1.25rem;
 }
 .callout__inc__body{
-    margin: auto;
+    text-align: center;
 }
 .callout__container__inv h4{
     padding-left: 20px;
+    text-align: center;
+    color: #002552;
+    font-weight: bold;
 }
 .callout__container__inv p{
     padding-left: 20px;
