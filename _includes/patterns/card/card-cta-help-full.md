@@ -7,7 +7,7 @@
             </div>
             <div class="callout__inv__body">
                 <h4>Find Help With a Personal Situation</h4>
-                <p>Child Welfare Information Gateway does not have the authority to intervene in personal matters. Please see our resources on<a href="">finding help with a personal situation.</a>
+                <p>Child Welfare Information Gateway does not have the authority to intervene in personal matters. Please see our resources on<a href=""> finding help with a personal situation.</a>
             </div>
         </div>
     </li>
