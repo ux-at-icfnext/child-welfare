@@ -15,9 +15,9 @@
         /></a>
       </div>
       <div class="usa-identifier__identity" aria-label="Agency description">
-        <p class="usa-identifier__identity-domain">domain.gov</p>
+        <p class="usa-identifier__identity-domain">childwelfare.gov</p>
         <p class="usa-identifier__identity-disclaimer">
-          An official website of the <a href="">&lt;Parent agency&gt;</a>
+          An official website of the <a href="">Administration for Children and Families</a> and the <a href="">Children's Bureau</a>
         </p>
       </div>
     </div>
@@ -32,7 +32,7 @@
           <a
             href="javascript:void(0)"
             class="usa-identifier__required-link usa-link"
-            >About &lt;Parent shortname&gt;</a
+            >About Children's Bureau</a
           >
         </li>
         <li class="usa-identifier__required-links-item">

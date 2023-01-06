@@ -4,6 +4,7 @@
 .usa-summary-box{
     background-color: #C7CFE9;
     border: none;
+    width: 50%;
 }
 a{
     color: #005DAA;
@@ -11,4 +12,10 @@ a{
 .usa-summary-box--gray{
     background-color: #EDEFF0;
     border: none;
+}
+.usa-summary-box__link:visited{
+    color: #005DAA;
+}
+.usa-summary-box a{
+    padding-left: 0%;
 }

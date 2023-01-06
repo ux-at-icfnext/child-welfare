@@ -1,4 +1,3 @@
-
 <div
   class="usa-summary-box"
   role="region"
