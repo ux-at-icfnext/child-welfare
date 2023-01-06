@@ -32,7 +32,7 @@
           <a
             href="javascript:void(0)"
             class="usa-identifier__required-link usa-link"
-            >About &lt;Parent shortname&gt;</a
+            >About Children's Bureau</a
           >
         </li>
         <li class="usa-identifier__required-links-item">
