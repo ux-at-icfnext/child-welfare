@@ -16,7 +16,7 @@
       >
     </li>
     <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
-      <span>Women-owned small business federal contracting program</span>
+      <span class="current_page">Women-owned small business federal contracting program</span>
     </li>
   </ol>
 </nav>
