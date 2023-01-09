@@ -119,7 +119,7 @@
         </li>
         <li class="usa-nav__primary-item">
           <a href="" class="usa-nav-link">
-            <img src="/assets/icons/shopping_cart_white.svg" height="20px" width="auto"/>
+            <img src="/assets/icons/shopping_cart_white.svg" class="check-out-icon"/>
             <span class="check-out">Check Out</span>
           </a>
         </li>
