@@ -4,89 +4,63 @@
     <ul class="usa-collection">
         <li class="usa-collection__item">
             <div class="usa-collection__body">
-                <h3 class="usa-collection__heading">
+                <div class="format">
+                    <img class="format-icon" src="/assets/icons/videocam_white.svg"/>
+                    <span>Format Type</span>
+                </div>
+                <h3 class="usa-collection__heading collection-heading">
                     <a
                     class="usa-link"
                     href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/">
-                        Gears of Government President’s Award winners
+                        List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel aseesrb
                     </a>
                 </h3>
-                <p class="usa-collection__description">
-                    Today, the Administration announces the winners of the Gears of
-                    Government President’s Award. This program recognizes the contributions
-                    of individuals and teams across the federal workforce who make a
-                    profound difference in the lives of the American people.
+                <p class="source">
+                    Source, Publication date
                 </p>
-                <ul class="usa-collection__meta" aria-label="More information">
-                    <li class="usa-collection__meta-item">
-                        By Sondra Ainsworth and Constance Lu
-                    </li>
-                    <li class="usa-collection__meta-item">
-                        <time datetime="2020-09-30T12:00:00+01:00">September 30, 2020</time>
-                    </li>
-                </ul>
-                <ul class="usa-collection__meta" aria-label="Topics">
-                    <li class="usa-collection__meta-item usa-tag usa-tag--new">New</li>
-                    <li class="usa-collection__meta-item usa-tag">PMA</li>
-                    <li class="usa-collection__meta-item usa-tag">OMB</li>
-                </ul>
+                <p class="usa-collection__description">
+                    Short description - suggested 250 characters max - Omne animal simul atque insitam in gravissimo bello animadversionis metu. Certe, inquam, pertinax non existimant oportere exquisitis rationibus confirmare simul atque rationibus confirmare insitam.
+                </p>
             </div>
         </li>
         <li class="usa-collection__item">
             <div class="usa-collection__body">
-                <h3 class="usa-collection__heading">
+                <div class="format">
+                    <span>Format Type</span>
+                </div>
+                <h3 class="usa-collection__heading collection-heading">
                     <a
                     class="usa-link"
-                    href="https://trumpadministration.archives.performance.gov/sba-wosb-dashboard/">
-                        Women-owned small business dashboard
+                    href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/">
+                        List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel aseesrb
                     </a>
                 </h3>
-                <p class="usa-collection__description">
-                    In honor of National Women’s Small Business Month, we’ve partnered with
-                    SBA’s Office of Government Contracting and Business Development and
-                    Office of Program Performance, Analysis, and Evaluation to highlight the
-                    Women-Owned Small Businesses (WOSBs) data dashboard!
+                <p class="source">
+                    Source, Publication date
                 </p>
-                <ul class="usa-collection__meta" aria-label="More information">
-                    <li class="usa-collection__meta-item">By Constance Lu</li>
-                    <li class="usa-collection__meta-item">
-                        <time datetime="2020-09-30T12:00:00+01:00">September 30, 2020</time>
-                    </li>
-                </ul>
-                <ul class="usa-collection__meta" aria-label="Topics">
-                    <li class="usa-collection__meta-item usa-tag">SBA</li>
-                </ul>
+                <p class="usa-collection__description">
+                    Short description - suggested 250 characters max - Omne animal simul atque insitam in gravissimo bello animadversionis metu. Certe, inquam, pertinax non existimant oportere exquisitis rationibus confirmare simul atque rationibus confirmare insitam.
+                </p>
             </div>
         </li>
         <li class="usa-collection__item">
             <div class="usa-collection__body">
-                <h3 class="usa-collection__heading">
+                <div class="format">
+                    <span>Format Type</span>
+                </div>
+                <h3 class="usa-collection__heading collection-heading">
                     <a
                     class="usa-link"
-                    href="https://trumpadministration.archives.performance.gov/September-2020-Updates-Show-Progress/">
-                        September 2020 updates show progress on cross-agency and agency priority goals
+                    href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/">
+                        List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel aseesrb
                     </a>
                 </h3>
-                <p class="usa-collection__description">
-                    Today, we published progress updates for both Cross-Agency Priority
-                    (CAP) Goals and Agency Priority Goals (APGs) for the third quarter of
-                    FY2020. These updates highlight recent milestones and accomplishments as
-                    well as related initiatives that support progress towards a more modern
-                    and effective government.
+                <p class="source">
+                    Source, Publication date
                 </p>
-                <ul class="usa-collection__meta" aria-label="More information">
-                    <li class="usa-collection__meta-item">By Eric L. Miller</li>
-                    <li class="usa-collection__meta-item">
-                        <time datetime="2020-09-17T12:00:00+01:00">September 17, 2020</time>
-                    </li>
-                </ul>
-                <ul class="usa-collection__meta" aria-label="Topics">
-                    <li class="usa-collection__meta-item usa-tag">Quarterly update</li>
-                    <li class="usa-collection__meta-item usa-tag">CAP goal</li>
-                    <li class="usa-collection__meta-item usa-tag">APG</li>
-                    <li class="usa-collection__meta-item usa-tag">PMA</li>
-                    <li class="usa-collection__meta-item usa-tag">Success story</li>
-                </ul>
+                <p class="usa-collection__description">
+                    Short description - suggested 250 characters max - Omne animal simul atque insitam in gravissimo bello animadversionis metu. Certe, inquam, pertinax non existimant oportere exquisitis rationibus confirmare simul atque rationibus confirmare insitam.
+                </p>
             </div>
         </li>
     </ul>
