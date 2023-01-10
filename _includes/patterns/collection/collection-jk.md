@@ -2,64 +2,69 @@
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col-6">
     <ul class="usa-collection">
-        {% for item in page.collection %}
         <li class="usa-collection__item">
             <div class="usa-collection__body">
-                <h3 class="usa-collection__heading">
+                <div class="format">
+                    <img class="format-icon" src="{{page.collection-icon}}"/>
+                    <span>{{page.collection-format}}</span>
+                </div>
+                <h3 class="usa-collection__heading collection-heading">
                     <a
                     class="usa-link"
-                    href="{{item.link}}">
-                        {{item.title}}
+                    href="{{page.collection-image}}">
+                        {{page.collection-heading}}
                     </a>
                 </h3>
-                <p class="usa-collection__description">
-                    {{item.description}}
+                <p class="source">
+                   {{page.collection-source}}
                 </p>
-                <ul class="usa-collection__meta" aria-label="More information">
-                    <li class="usa-collection__meta-item">
-                        {{item.details}}
-                    </li>
-                    <li class="usa-collection__meta-item">
-                        <time datetime="{{item.year}}-{{item-month}}-{{item.day}}T12:00:00+01:00">  
-                        {% case item.month %}
-                        {% when 1 %}
-                            January
-                        {% when 2 %}
-                            February
-                        {% when 3 %}
-                            March
-                        {% when 4 %}
-                            April
-                        {% when 5 %}
-                            May
-                        {% when 6 %}
-                            June
-                        {% when 7 %}
-                            July
-                        {% when 8 %}
-                            August
-                        {% when 9 %}
-                            September
-                        {% when 10 %}
-                            October
-                        {% when 11 %}
-                            November
-                        {% when 12 %}
-                            December
-                        {% endcase %} {{item.day}}, {{item.year}}</time>
-                    </li>
-                </ul>
-                <ul class="usa-collection__meta" aria-label="Topics">
-                {% if item.new-tag %}
-                    <li class="usa-collection__meta-item usa-tag usa-tag--new">New</li>
-                {% endif %}
-                {% for tag in item.tags %}
-                    <li class="usa-collection__meta-item usa-tag">{{tag}}</li>
-                {% endfor %}
-                </ul>
+                <p class="usa-collection__description">
+                    {{page.collection-body}}
+                </p>
             </div>
         </li>
-        {% endfor %}
+        <li class="usa-collection__item">
+            <div class="usa-collection__body">
+                <div class="format">
+                    <img class="format-icon" src="{{page.collection2-icon}}"/>
+                    <span>{{page.collection2-format}}</span>
+                </div>
+                <h3 class="usa-collection__heading collection-heading">
+                    <a
+                    class="usa-link"
+                    href="{{page.collection-image}}">
+                        {{page.collection2-heading}}
+                    </a>
+                </h3>
+                <p class="source">
+                   {{page.collection2-source}}
+                </p>
+                <p class="usa-collection__description">
+                    {{page.collection2-body}}
+                </p>
+            </div>
+        </li>
+        <li class="usa-collection__item">
+            <div class="usa-collection__body">
+                <div class="format">
+                    <img class="format-icon" src="{{page.collection-icon}}"/>
+                    <span>{{page.collection3-format}}</span>
+                </div>
+                <h3 class="usa-collection__heading collection-heading">
+                    <a
+                    class="usa-link"
+                    href="{{page.collection-image}}">
+                        {{page.collection3-heading}}
+                    </a>
+                </h3>
+                <p class="source">
+                   {{page.collection3-source}}
+                </p>
+                <p class="usa-collection__description">
+                    {{page.collection3-body}}
+                </p>
+            </div>
+        </li>
     </ul>
   </div>
 </div>
