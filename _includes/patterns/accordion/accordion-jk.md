@@ -1,4 +1,3 @@
-
 <div class="usa-accordion">
     {% for item in page.accordion %}
         <h4 class="usa-accordion__heading">

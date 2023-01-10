@@ -33,6 +33,8 @@
             <a href="{{button.url}}"><button type="button" class="usa-button usa-button--outline">{{button.text}}</button></a>
         {% elsif button.style == "secondary" %}
             <a href="{{button.url}}"><button type="button" class="usa-button usa-button--secondary">{{button.text}}</button></a>
+        {%ekseif button.style == "unstyled" %}
+            <a href="{{button.url}}"><button type="button" class="usa-button usa-button--unstyled">{{button.text}}</button></a>
         {% endif %}
         </li>
     {% endfor %}
