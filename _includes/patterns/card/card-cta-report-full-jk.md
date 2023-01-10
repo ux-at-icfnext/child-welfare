@@ -8,6 +8,7 @@
                 </div>
                 <div class="callout__inv__body">
                     <h4>{{item.heading}}</h4>
+                    <p>{{item.body}}</p>
                 </div>
             </div>
         </li>
