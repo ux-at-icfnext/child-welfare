@@ -15,10 +15,6 @@
     url: "/guidance/"
     categories: "guidance"
   -
-    title: "Prototype"
-    url: "/prototype/"
-    categories: "prototype"
-  -
     title: "About"
     url: "/about/"
     categories: "about"
