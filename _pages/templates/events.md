@@ -13,7 +13,7 @@ content-model:
     required: yes
   - name: Event Type
     type: select list
-    content: Virtual | In-person | Hybrid | Calls for Papers
+    content: Virtual - In-person - Hybrid - Calls for Papers
     required: yes
   - name: Sponsor
     type: text
@@ -22,6 +22,9 @@ content-model:
     type: url
     content: must pass url validation creteria
     required: yes
+  - name: Event Photo
+    type: file upload
+    content: acceptable formats jpg, png, gif. acceptable size, no more than 300 by 200 pixels
   - name: Street address
     type: text
     required: yes
@@ -53,7 +56,53 @@ content-model:
   - name: Time Zone
     type: select
     content: US time zones
+    required: yes
+  - name: Tags
+    type: multi-select list
+    content: Inclusive Child Welfare Practice - Permanency - Foster Care - Adoption - Child Abuse & Neglect - Preventing Abuse & Neglect - Casework Practice - Connecting Families with Services - Agency Leadership
+    required: yes
+  - name: Continuing Education Credits
+    type: select
+    content: Yes - No
+    required: yes
+  - name: Audience
+    type: text
+    required: yes
+  - name: Summary
+    type: text
+    content: 250 words
+    required: yes
+  - name: First Name
+    type: text
+    required: yes
+  - name: Last Name
+    type: text
+    required: yes
+  - name: Phone number
+    type: number
+    content: limit 10 characters
+    required: yes
+  - name: Contact Street address
+    type: text
+    required: yes
+  - name: Contact Street address line 2
+    type: text
+  - name: Contact City
+    type: text
+    required: yes
+  - name: Contact States & Territories
+    type: select list
+    content: The 50 states + Territories list
+    required: yes
+  - name: Contact ZIP code
+    type: text
+    content: limit 10 characters
+    required: yes
+  
+
     
+
+
 
 
 
