@@ -2,7 +2,7 @@
 layout: pattern
 categories: [patterns, card]
 title: Report CTA
-type: [sub-nav-item]
+type: [detail-page]
 permalink: /patterns/card/cta-report-full/
 variations: true
 description: |
