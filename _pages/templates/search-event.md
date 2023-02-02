@@ -8,34 +8,34 @@ overview: Details about the return item for event searches
 
 
 spec2:
-  - name: Format Type
+  - name: Event Type
     authored: dynamic
     required: if not available, format type does not display on the item
     type: text + icon
-    source: event detail-format
+    source: event detail- event type
   - name: Date
     type: text
     authored: dynamic
     content: Displays as "EEE, MON DD, YYYY | HH:MM XM TZD"
-    source: event detail-date
+    source: event detail- start date & start time & timezone
   - name: Title
     type: h3
     authored: dynamic
-    source: event detail-title
-  - name: Source
+    source: event detail- title
+  - name: Sponsor
     type: text
     authored: dynamic
     required: if not available, format type does not display on the item
-    source: event detail-source
-  - name: Source
+    source: event detail- sponsor
+  - name: Summary
     type: text
     authored: dynamic
-    content: 250 characters max
-    source: event detail-summary
+    content: 250 characters max ~ Note, this cuts the content from the over all summary field
+    source: event detail- summary
   - name: link
     type: href
     authored: dynamic
-    source: event detail-url
+    source: event detail- url
 
 prototype:
   - name: Event Search
