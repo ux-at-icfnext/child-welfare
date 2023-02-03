@@ -1,7 +1,7 @@
 ---
 layout: pattern
 categories: [patterns, hero]
-title: Landing Page Hero
+title: Landing Page Hero (Heading Only)
 type: [detail-page]
 permalink: /patterns/hero-heading-only/
 variations: true

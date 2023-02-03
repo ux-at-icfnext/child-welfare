@@ -1,7 +1,7 @@
 ---
 layout: pattern
 categories: [patterns, hero]
-title: Landing Page Hero
+title: Campaign Page Hero
 type: [detail-page]
 permalink: /patterns/hero-campaign-blue/
 variations: true
