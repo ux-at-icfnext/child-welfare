@@ -82,7 +82,7 @@ uses card-alert
 - page summary (class: usa-intro)
 
 ### Call outs
-uses card-alert minimum 3
+uses card-alert 3 cards (min/max)
 - on smaller breakpoints the cards stack 
 - on larger breakpoints the cards spread 3 across
 - see table above for the content parts

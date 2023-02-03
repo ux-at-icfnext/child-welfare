@@ -68,6 +68,9 @@ content-model:
   - name: Audience
     type: text
     required: yes
+  - name: Eligibility 
+    type: text
+    required: yes
   - name: Summary
     type: text
     content: 250 words
@@ -100,12 +103,38 @@ content-model:
     required: yes
   
 
-    
-
-
-
-
-
 
 
 ---
+Events and Call for Papers allow Organization to add their activities to the Childwelfare site. There are font-end facing forms which allow these organizations to add. There will need to be an internal author review before content is published to the site. Additionally, internal authors will need to be able to create CWIG sponsored activites. 
+
+These experiences all use the Event content type:
+- [Event Landing](/templates/events/landing)
+- [Event Search](/templates/search-event)
+- [Event Detail](/templates/events/detail)
+- [Add Event Form](/templates/events/form)
+- [Add Call for Papers Form](/templates/events/papers)
+
+## Event Content Model
+<table class="usa-table">
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>Type</td>
+            <td>Required?</td>
+            <td>Content Specifications</td>
+            <td>Error</td>
+        </tr>
+    </thead>
+    {% for spec in page.content-model %}
+    <tbody>
+        <tr>
+            <td>{{ spec.name }} </td>
+            <td>{{ spec.type }}</td>
+            <td>{{ spec.required }}</td>
+            <td>{{ spec.content }}</td>
+            <td>{{ spec.error }}</td>
+        </tr>
+    </tbody>
+    {% endfor %}
+</table>
