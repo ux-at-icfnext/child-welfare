@@ -1,0 +1,22 @@
+.campaign-hero{
+    .usa-hero__callout{
+        max-width: 100%;
+        margin-left: 60%;
+    }
+    .hero-image img {
+
+        padding-bottom: 1rem;
+        @media only screen and (min-width: 880px) {
+        z-index: 2;
+        position: absolute;
+        top: 70px;
+        left: 5%;
+        width: 55%;
+        height: 90%;
+        object-fit: cover;
+        object-position: 0% 100%;
+        padding-bottom: 0;
+        box-shadow: 4px 4px 2px #dfe1e2;
+        }
+    }
+}
