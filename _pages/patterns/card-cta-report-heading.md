@@ -2,7 +2,7 @@
 layout: pattern
 categories: [patterns, card]
 title: Report CTA (Heading-Only)
-type: [sub-nav-item]
+type: [detail-page]
 permalink: /patterns/card/cta-report-heading/
 variations: 
 description: |

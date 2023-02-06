@@ -2,7 +2,7 @@
 layout: pattern
 categories: [patterns, card]
 title: Find Help CTA
-type: [sub-nav-item]
+type: [detail-page]
 permalink: /patterns/card/cta-help-full/
 variations: true
 description: |

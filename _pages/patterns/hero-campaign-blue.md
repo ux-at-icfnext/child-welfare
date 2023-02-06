@@ -1,9 +1,9 @@
 ---
 layout: pattern
 categories: [patterns, hero]
-title: Landing Page Hero
-type: [sub-nav-item]
-permalink: /patterns/hero/
+title: Campaign Page Hero
+type: [detail-page]
+permalink: /patterns/hero-campaign-blue/
 variations: true
 description: |
 overview: This layout allows for an image with padding.
@@ -42,10 +42,10 @@ yml: |
 
 jekyll: |
 
-  "{% include patterns/hero/hero-landing.md %}"
+  "{% include patterns/hero/hero-campaign-blue.md %}"
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
 # designimg: 
-htmlpath: patterns/hero/hero-landing.md
+htmlpath: patterns/hero/hero-campaign-blue.md
 csspath: patterns/hero/index.scss
 ---
