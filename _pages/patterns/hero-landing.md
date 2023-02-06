@@ -1,7 +1,7 @@
 ---
 layout: pattern
 categories: [patterns, hero]
-title: Landing Page Hero
+title: Hero
 type: [sub-nav-item]
 permalink: /patterns/hero/
 variations: true
