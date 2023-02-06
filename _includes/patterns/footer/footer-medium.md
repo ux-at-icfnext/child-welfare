@@ -63,10 +63,7 @@
           "
         >
           <div class="mobile-lg:grid-col-auto">
-            <img class="usa-footer__logo-img" src="/assets/icons/cwig-library.png" alt="" />
-          </div>
-          <div class="mobile-lg:grid-col-auto">
-            <p class="usa-footer__logo-heading">Child Welfare Information Gateway</p>
+            <img class="usa-footer__logo-img" src="/assets/icons/cwig-logo-full-color.svg" alt="" />
           </div>
         </div>
         <div class="usa-footer__contact-links mobile-lg:grid-col-6">
