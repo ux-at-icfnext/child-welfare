@@ -1,5 +1,5 @@
 
-<footer class="usa-footer usa-footer--big">
+<footer class="usa-footer usa-footer--big cwig-footer">
   <div class="grid-container usa-footer__return-to-top">
     <a href="#">Return to top</a>
   </div>
@@ -148,10 +148,7 @@
           "
         >
           <div class="mobile-lg:grid-col-auto footer-logo">
-            <img class="usa-footer__logo-img" src="/assets/icons/cwig-library.png" alt="" />
-          </div>
-          <div class="mobile-lg:grid-col-auto logo-title">
-            <span class="usa-footer__logo-heading">Child Welfare Information Gateway</span>
+            <img class="usa-footer__logo-img" src="/assets/icons/cwig-logo-full-color.svg" style="max-width: 100%;" width="auto" height="82" alt="" />
           </div>
         </div>
         <div class="usa-footer__contact-links mobile-lg:grid-col-6">
