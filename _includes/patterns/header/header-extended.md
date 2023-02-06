@@ -3,8 +3,7 @@
 <header class="usa-header usa-header--extended">
   <div class="usa-navbar">
     <div class="usa-logo content-flex" id="-logo">
-     <img src="/assets/icons/cwig-library.png" width="auto" height="32">
-      <em class="usa-logo__text"><a href="/" class="home" title="Home">Child Welfare Information Gateway</a></em>
+     <img src="/assets/icons/cwig-logo-inverse.svg" width="auto" height="52">
     </div>
     <button class="usa-menu-btn">Menu</button>
   </div>
