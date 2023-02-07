@@ -1,6 +1,6 @@
 ---
 layout: template
-categories: [templates, searchresults]
+categories: [templates, events]
 type: [detail-page]
 title: Events Landing
 permalink: /templates/events/landing
@@ -37,6 +37,10 @@ cards:
   - name: Sponsor
     type: body
     source: "Event: Sponsor"
+
+prototype:
+  - name: Event Landing
+    link: https://www.sketch.com/s/dd2f2e71-977c-45b4-baf3-8bf823bfcd0d/p/D13A8BBF-E627-4C8C-83BF-688D149496F5/canvas
 ---
 
 ## Functionality Specifications
@@ -87,11 +91,14 @@ For the Featured group. Authors are able to choose which items they want to disp
 Pulls in the Upcoming Events
 Canned Link: "See All Upcoming Events" links to the Event Search page... with items sorted by upcoming.
 
-**Upcoming**
+**Information Gateway Events**
 Pulls in the Upcoming Events that on are sponsored by Information Gateway
 Canned Link: "See All Information Gateway Events" links to the Event Search page... with items sorted by upcoming and filtered to Information Gateway.
 
-
+**Come See Me At**
+Pulls in the Upcoming Events in-person events and conferences by Information Gateway
+Canned Link: "See more" links to the Event Search page... with items sorted by upcoming and filtered to Information Gateway.
+_note: if there are no events this section is not displayed_
 
 
 
