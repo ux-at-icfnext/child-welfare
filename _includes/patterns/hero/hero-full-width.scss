@@ -1,10 +1,8 @@
-.full-image{
-    width: 100%;
-}
-.hero-full-width{
+.hero-image{
+    height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
     background-image: url("https://via.placeholder.com/150");
-    .usa-hero__callout{
-        max-width: 100%;
-        background: none;
-    }
+    border: none;
 }
