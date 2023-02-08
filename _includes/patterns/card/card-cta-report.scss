@@ -1,65 +1,46 @@
-.blue-icon{
-    height: 1rem;
-    width: auto;
-    position: relative;
-    right: 4.375rem;
+.cta-help-container{
+    text-align: center;
+    .usa-card__img{
+        background-color: white;
+        padding-top: 5%;
+    }
+    .white-icon{
+        display: none;
+    }
+    .usa-card__img img{
+        height: 40px;
+        width: auto;
+    }
+    .blue-icon{
+        margin: auto;
+    }
+    a{
+        padding-left: 0;
+    }
+    h4{
+        color: #002552;
+        font-weight: bold;
+    }
 }
-.white-icon{
-    display: none;
-    height: 1rem;
-    width: auto;
-    position: relative;
-    right: 4.375rem;
-}
-.callout__container__inv:hover{
+.cta-help-container:hover{
     background-color: #002552;
     color: white;
     cursor: pointer;
-}
-.callout__container__inv:hover a{
+    .usa-card__img{
+        background-color: #002552;
+    }
+    .blue-icon{
+        display: none;
+    }
+    .white-icon{
+        display: block;
+        margin: auto;
+    }
+    a{
     color: white;
     padding-left: 0%;
-}
-.callout__container__inv:hover .blue-icon{
-    display: none;
-}
-.callout__container__inv:hover .white-icon{
-    display:block;
-}
-.callout__container__inv:hover h4{
-    color: white;
-    font-weight: bold;
-}
-.callout__container__inv{
-    padding: 4%;
-    box-shadow: 2px 2px 2px 2px;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    border-radius: 0;
-    border: 0;
-    font-family: Source Sans Pro Web,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
-    font-size: 1.06rem;
-    line-height: 1.5;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-.callout__container__inv a{
-    padding-left: 0%;
-}
-.callout__heading{
-    margin-left: 8.75rem;
-    padding-bottom: 1.25rem;
-}
-.callout__inc__body{
-    text-align: center;
-}
-.callout__container__inv h4{
-    padding-left: 20px;
-    text-align: center;
-    color: #002552;
-    font-weight: bold;
-}
-.callout__container__inv p{
-    padding-left: 20px;
+    }
+    h4{
+        color: white;
+    }
 }
