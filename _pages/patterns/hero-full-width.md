@@ -2,7 +2,7 @@
 layout: pattern
 categories: [patterns, hero]
 title: Full Width Hero
-type: [sub-nav-item]
+type: [detail-page]
 permalink: /patterns/hero-full-width/
 variations: true
 description: |
