@@ -47,7 +47,7 @@ prototype:
 This section show the details on how to build the page based on the author selections.
 
 ### Page Header
-The page header includes the page title (h1), opening summary, and submission form promo.
+The page header includes the page title (h1), opening summary, and [submission promo](/patterns/summary-box/submissions).
 note: _The body has a max-width of 80ex_
 
 **Column Grid large+ screens**
@@ -84,18 +84,22 @@ Uses the [card-event-submission](/patterns/card/card-event-submission).
 {% endfor %}
 </table>
 
-**Featured**
+__Featured__
+
 For the Featured group. Authors are able to choose which items they want to display. So these items should be available through the Event Landing page "Featured" list.
 
-**Upcoming**
+__Upcoming__
+
 Pulls in the Upcoming Events
 Canned Link: "See All Upcoming Events" links to the Event Search page... with items sorted by upcoming.
 
-**Information Gateway Events**
+__Information Gateway Events__
+
 Pulls in the Upcoming Events that on are sponsored by Information Gateway
 Canned Link: "See All Information Gateway Events" links to the Event Search page... with items sorted by upcoming and filtered to Information Gateway.
 
-**Come See Me At**
+__Come See Me At__
+
 Pulls in the Upcoming Events in-person events and conferences by Information Gateway
 Canned Link: "See more" links to the Event Search page... with items sorted by upcoming and filtered to Information Gateway.
 _note: if there are no events this section is not displayed_

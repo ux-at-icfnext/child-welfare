@@ -68,9 +68,7 @@ content-model:
   - name: Audience
     type: text
     required: yes
-  - name: Eligibility 
-    type: text
-    required: yes
+    content: this is used for both Eligibility and Who should attend
   - name: Summary
     type: rich text
     content: 250 words - allows bullets, heading levels h3 through h6, links

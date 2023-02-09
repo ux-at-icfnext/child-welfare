@@ -4,8 +4,8 @@ categories: [templates, events]
 type: [detail-page]
 title: Events Detail
 permalink: /templates/events/detail
-overview: The Event Detai page is the destination in the events browsing journey. 
-description: The Event Detai page is the destination in the events browsing journey. Please see the [Events](/templates/events) page for information about the Event content type.
+overview: The Event Detail page is the destination in the events browsing journey. 
+description: The Event Detail page is the destination in the events browsing journey. Please see the [Events](/templates/events) page for information about the Event content type.
 
 prototype:
   - name: Event Detail
@@ -48,4 +48,4 @@ More from sponsor -- if there are no other events by the sponsor, this section d
   - OnClick/OnTap of link, systems displays event search page filtered by sponsor
 - uses event-card to display up to 2 events by the same sponsor
 
-Submission form promo - full width to rail
+[Submission form promo](/patterns/summary-box/submissions) - full width to rail
