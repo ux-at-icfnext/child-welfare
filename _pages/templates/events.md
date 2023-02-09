@@ -1,6 +1,6 @@
 ---
 layout: left-rail
-categories: [templates]
+categories: [templates, events]
 type: [sub-nav-item]
 title: Events 
 permalink: /templates/events/
@@ -22,7 +22,7 @@ content-model:
     type: url
     content: must pass url validation creteria
     required: yes
-  - name: Event Photo
+  - name: Logo
     type: file upload
     content: acceptable formats jpg, png, gif. acceptable size, no more than 300 by 200 pixels
   - name: Street address
@@ -68,12 +68,10 @@ content-model:
   - name: Audience
     type: text
     required: yes
-  - name: Eligibility 
-    type: text
-    required: yes
+    content: this is used for both Eligibility and Who should attend
   - name: Summary
-    type: text
-    content: 250 words
+    type: rich text
+    content: 250 words - allows bullets, heading levels h3 through h6, links
     required: yes
   - name: First Name
     type: text
@@ -84,23 +82,11 @@ content-model:
   - name: Phone number
     type: number
     content: limit 10 characters
+  - name: Email
+    type: email
+    content: must pass email format validation
     required: yes
-  - name: Contact Street address
-    type: text
-    required: yes
-  - name: Contact Street address line 2
-    type: text
-  - name: Contact City
-    type: text
-    required: yes
-  - name: Contact States & Territories
-    type: select list
-    content: The 50 states + Territories list
-    required: yes
-  - name: Contact ZIP code
-    type: text
-    content: limit 10 characters
-    required: yes
+ 
   
 
 
@@ -112,8 +98,9 @@ These experiences all use the Event content type:
 - [Event Landing](/templates/events/landing)
 - [Event Search](/templates/search-event)
 - [Event Detail](/templates/events/detail)
+- [Call for Papers Detail](/templates/events/papers)
 - [Add Event Form](/templates/events/form)
-- [Add Call for Papers Form](/templates/events/papers)
+- [Add Call for Papers Form](/templates/events/papers-form)
 
 ## Event Content Model
 <table class="usa-table">

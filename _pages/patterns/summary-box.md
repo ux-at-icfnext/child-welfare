@@ -4,6 +4,7 @@ categories: [patterns, summary-box]
 title: Summary box
 type: [sub-nav-item]
 permalink: /patterns/summary-box/
+variations: true
 overview: A summary box highlights key information from a longer page or displays next steps. 
 description: The following component is based on the from the USWDS. The information below shows how the component was customized to match our site brand. Please review the USWDS for more information on how to use this component.
     
