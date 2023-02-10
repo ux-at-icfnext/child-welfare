@@ -8,10 +8,10 @@
         </div>
       </div>
       <div class="usa-card__header">
-        <h4 class="usa-card__heading">Find Help with a Personal Situation</h4>
+        <h4 class="usa-card__heading">How to Report Child Abuse or Neglect</h4>
       </div>
       <div class="usa-card__body">
-        <p>Child Welfare Information Gateway does not have the authority to intervene in personal matters. Please see our resources on<a href=""> finding help with a personal situation.</a>
+        <p>To report child abuse or neglect, please contact Child Help USA at 1.800.4 A Child (<em>1.800.422.4453</em>) or see our <a href="">list of State child abuse and neglect reporting numbers</a>.</p>
       </div>
     </div>
   </li>
