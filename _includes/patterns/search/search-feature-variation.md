@@ -1,5 +1,5 @@
 <div class="search-feature">
-    <h4>Find your Next Event</h4>
+    <h4>Find your next event</h4>
     <section aria-label="Search component">
     <form class="usa-search" role="search">
         <label class="usa-sr-only" for="search-field">Find your Next Event</label>
