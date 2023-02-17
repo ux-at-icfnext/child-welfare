@@ -2,6 +2,27 @@
     background-color: #002552;
     padding: 15px;
     color: white;
+
+    h4{
+        margin: 0;
+    }
+}
+.search-feature-variation{
+    background-image: url("/assets/icons/images/search-image.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:300px;
+    position: relative;
+
+    .vertical-align{
+        position: absolute;
+        top: 30%;
+        right: 50%;
+    }
+
+    .usa-input{
+        width: 350px;
+    }
 }
 .search-feature span{
     color: #E50E63;
