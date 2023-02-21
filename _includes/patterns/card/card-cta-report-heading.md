@@ -8,7 +8,7 @@
         </div>
       </div>
       <div class="usa-card__header">
-        <h4 class="usa-card__heading">Find Help with a Personal Situation</h4>
+        <h4 class="usa-card__heading">How to Report Child Abuse or Neglect</h4>
       </div>
     </div>
   </li>
