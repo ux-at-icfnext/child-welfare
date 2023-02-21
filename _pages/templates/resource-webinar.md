@@ -15,9 +15,9 @@ The biggest thing to note is that the webinar page changes, it has a pre-event s
 - Before the event... length field is used for time example "Time: 4-5 ET"
 - Once the event has occured and the video is available... the length field shows the video length
 
-## Webniar Resource Before the event
+## Webinar Resource Before the event
 - Optional Image
-- Webinar information: Sponsor, Presenter, Presentor Organization (if available), Webinar Date, and Time
+- Webinar information: Sponsor, Presenter, Presenter Organization (if available), Webinar Date, and Time
 - Optional registration button which links to presenter website. (note, if the link is external to the the site use the external link button)
 
 ## Webinar Resource right after the event

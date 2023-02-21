@@ -18,6 +18,6 @@ Uses YouTube embedded player.
 Transcript Link: Shows Episode name, and PDF size
 - onclick of link, PDF opens/or downloads according to browser preferences
 
-Audio Decription: Show Espisode name, "audio description"
+Audio Description: Show Espisode name, "audio description"
 - onclick of link, PDF opens/or downloads according to browser preferences
 
