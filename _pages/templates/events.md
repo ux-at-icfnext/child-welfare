@@ -99,8 +99,7 @@ These experiences all use the Event content type:
 - [Event Search](/templates/search-event)
 - [Event Detail](/templates/events/detail)
 - [Call for Papers Detail](/templates/events/papers)
-- [Add Event Form](/templates/events/form)
-- [Add Call for Papers Form](/templates/events/papers-form)
+- [Add Event / Call for Papers Form](/templates/events/form)
 
 ## Event Content Model
 <table class="usa-table">

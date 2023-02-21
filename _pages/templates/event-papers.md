@@ -2,8 +2,8 @@
 layout: template
 categories: [templates, events]
 type: [detail-page]
-title: Call For Papers Detial
-permalink: /templates/events/papers-details
+title: Call For Papers Detail
+permalink: /templates/events/papers
 overview: The Call for Papers Detail page is the destination in the events browsing journey. 
 description: The Call for Papers Detail page is the destination in the events browsing journey. Please see the [Events](/templates/events) page for information about the Event content type.
 
