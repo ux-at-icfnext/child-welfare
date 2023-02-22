@@ -1,6 +1,6 @@
 <section class="usa-hero" aria-label="Introduction";>
   <div class="grid-container">
-    <div class="usa-hero__callout">
+    <div class="usa-hero__callout basic-page-header">
       <h1 class="usa-hero__heading">
         <span class="usa-hero__heading--alt">Basic Page</span>
       </h1> 
@@ -8,10 +8,14 @@
     </div>
     <div class="help-cards">
         {% if page.find-help-cta %}
-            {%include patterns/card/card-cta-help-full.md%}
+            <div class="cta">
+                {%include patterns/card/card-cta-help-heading.md%}
+            </div>
         {% endif %}
         {% if page.child-abuse-cta %}
-            personal situation card here
+            <div class="cta">
+                {%include patterns/card/card-cta-report-heading.md%}
+            </div>
         {% endif %}
     </div>
   </div>
