@@ -1,5 +1,3 @@
-
-<h3 class="site-preview-heading">Default breadcrumb</h3>
 <nav class="usa-breadcrumb" aria-label="Breadcrumbs,,">
   <ol class="usa-breadcrumb__list">
     <li class="usa-breadcrumb__list-item">

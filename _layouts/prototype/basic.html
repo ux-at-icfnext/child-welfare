@@ -1,11 +1,15 @@
 ---
 layout: default
 ---
+<link href="/assets/css/proto/basic.scss" rel="stylesheet">
+
 {% include partials/lib/breadcrumbs.html %}
-<div class="content-flex">
+<div class="">
   <div class="text">
     {% if page.header %}
     <div class="page-header header-full">
+      {%include patterns/header/basic-page-header.md%}
+    </div>
     {% else %}
     <div class="page-header">
     {% endif %}
