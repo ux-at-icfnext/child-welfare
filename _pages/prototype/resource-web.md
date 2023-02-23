@@ -2,7 +2,7 @@
 layout: prototype/resource
 title: Hi! I'm a Resource Webinar Page
 categories: [prototype]
-type: [prototype]
+type: [sub-nav-item, prototype]
 permalink: /prototype/resource/webinar
 overview: This is example of a resource page.
 summary: |
@@ -17,20 +17,20 @@ openingBody: |
 resourceType: webinar
 
 ### for api -- pull in the fields under the resource reference
-webinarTitle: "A Lovely Webinar"
-endDate: 2/10/2023 4:30 PM ET
-sponsor: Sesame Street
-presenter: Dr. Valentine Ruster
-org: International SHE Foundation
-webinarUrl: https://www.sesamestreet.org/
-
-### for api -- pull in the fields under the webinar resource in the resource reference
-episodeName: "The Place Holder"
-description: "A lovely placeholder video to show how a video resource would be used."
-transcript: "This would be a PDF attachment"
-audioDescription: "This would be a Audio Attachement"
-episodeLink: https://www.youtube.com/watch?v=u31qwQUeGuM
-length: 00:14
+resource:
+  webinarTitle: "A Lovely Webinar"
+  endDate: 2/10/2023 4:30 PM ET
+  sponsor: Sesame Street
+  presenter: Dr. Valentine Ruster
+  org: International SHE Foundation
+  webinarUrl: https://www.sesamestreet.org/
+  video: ### for api -- pull in the fields under the webinar video in the resource reference
+    episodeName: "The Place Holder"
+    description: "A lovely placeholder video to show how a video resource would be used."
+    transcript: "This would be a PDF attachment"
+    audioDescription: "This would be a Audio Attachement"
+    episodeLink: https://www.youtube.com/watch?v=u31qwQUeGuM
+    length: 00:14
 
 ---
 Body copy to describe vide resource.
