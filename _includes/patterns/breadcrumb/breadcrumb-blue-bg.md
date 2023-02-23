@@ -1,22 +1,20 @@
-
-<h3 class="site-preview-heading">Default breadcrumb</h3>
-<nav class="usa-breadcrumb" aria-label="Breadcrumbs,,">
+<nav class="usa-breadcrumb blue_bg" aria-label="Breadcrumbs,,">
   <ol class="usa-breadcrumb__list">
-    <li class="usa-breadcrumb__list-item-blue">
+    <li class="usa-breadcrumb__list-item">
       <a href="" class="usa-breadcrumb__link"><span>Home</span></a>
     </li>
-    <li class="usa-breadcrumb__list-item-blue">
+    <li class="usa-breadcrumb__list-item">
       <a href="" class="usa-breadcrumb__link"
         ><span>Federal Contracting</span></a
       >
     </li>
-    <li class="usa-breadcrumb__list-item-blue">
+    <li class="usa-breadcrumb__list-item">
       <a href="" class="usa-breadcrumb__link"
         ><span>Contracting assistance programs</span></a
       >
     </li>
-    <li class="usa-breadcrumb__list-item-blue usa-current" aria-current="page">
-      <span>Women-owned small business federal contracting program</span>
+    <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+      <span class="current_page">Women-owned small business federal contracting program</span>
     </li>
   </ol>
 </nav>

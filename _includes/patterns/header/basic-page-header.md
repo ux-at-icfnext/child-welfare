@@ -1,5 +1,6 @@
 <section class="usa-hero" aria-label="Introduction";>
   <div class="grid-container">
+    {%include patterns/breadcrumb/breadcrumb-blue-bg.md%}
     <div class="usa-hero__callout basic-page-header">
       <h1 class="usa-hero__heading">
         <span class="usa-hero__heading--alt">Basic Page</span>
