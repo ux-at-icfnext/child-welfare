@@ -3,9 +3,13 @@
     {%include patterns/breadcrumb/breadcrumb-blue-bg.md%}
     <div class="usa-hero__callout basic-page-header">
       <h1 class="usa-hero__heading">
-        <span class="usa-hero__heading--alt">Basic Page</span>
+        <span class="usa-hero__heading--alt">{{page.title}}</span>
       </h1> 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      {%if page.title == "About"%}
+        A service of the Children's Bureau, Administration for Children and Families,
+        U.S. Department of Health and Human Services, we provide print and electronic
+        publications, websites, databases, and online learning tools for improving child
+        welfare.
     </div>
     <div class="help-cards">
         {% if page.find-help-cta %}
@@ -18,6 +22,7 @@
                 {%include patterns/card/card-cta-report-heading.md%}
             </div>
         {% endif %}
+      {%endif%}
     </div>
   </div>
 </section>

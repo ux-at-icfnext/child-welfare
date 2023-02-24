@@ -5,10 +5,13 @@ layout: default
 
 <div class="">
   <div class="text">
-    {% if page.header %}
-    <div class="page-header header-full">
-      {%include patterns/header/basic-page-header.md%}
-    </div>
+    {% if page.title == "About" %}
+      <div class="page-header header-full">
+        {%include patterns/header/basic-page-header.md%}
+      </div>
+      <div class="tabs-section">
+        {%include patterns/tabs/tabs.md%}
+      </div>
     {% else %}
     <div class="page-header">
     {% endif %}
