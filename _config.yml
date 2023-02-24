@@ -36,3 +36,10 @@ sass:
 # Optional. The default date format, used if none is specified in the tag.
 last-modified-at:
     date-format: '%b-%d-%y'
+
+contentful:
+  spaces:
+    - example:                              # Jekyll _data folder identifier - Required
+        space: tues7aklmpmt                 # Required
+        access_token: Rpl9hymeqNkSmq7kkVWlMEXMsIxfRsX6I3cGkH78Dm8          # Required
+        environment: master                 # Optional
