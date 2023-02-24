@@ -16,6 +16,14 @@ layout: default
       <p class="usa-intro">
         {{ page.summary }}
       </p>
+      <ul>
+        {%for item in site.data.contentful.spaces.basic-page.basic%}
+          <li>
+            <p>{{item.title}}</p>
+            <p>{{item.summary}}</p>
+          </li>
+        {%endfor%}
+      </ul>
     </div>
       {{ content }}
       {% if page.template == "accordion" %}

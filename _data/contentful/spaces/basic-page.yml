@@ -1,0 +1,508 @@
+---
+basic:
+- sys:
+    id: 1ANAXHab8T2mifRsNy2RJD
+    created_at: !ruby/object:DateTime 2023-02-23 19:24:19.488000000 Z
+    updated_at: !ruby/object:DateTime 2023-02-24 15:47:21.784000000 Z
+    content_type_id: basic
+    revision: 2
+  title: About
+  summary: A service of the Children's Bureau, Administration for Children and Families,
+    U.S. Department of Health and Human Services, we provide print and electronic
+    publications, websites, databases, and online learning tools for improving child
+    welfare.
+  header: true
+  find_help_cta: true
+  child_abuse_cta: true
+  cta_bottom: false
+  template:
+  - tabs
+  list:
+  - sys:
+      id: 12DNXm6CcsC6vvBWePviUp
+      created_at: !ruby/object:DateTime 2023-02-23 19:24:19.533000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 19:24:19.533000000 Z
+      content_type_id: basicPageListItems
+      revision: 1
+    label: Overview
+    content_title: Overview
+    content: |-
+      ### What Is Child Welfare Information Gateway?
+      Child Welfare Information Gateway promotes the safety, permanency, and well-being of children and families by connecting child welfare professionals, including those working in adoption and other related fields, to essential information and resources to help them address the needs of children and families in their communities.
+
+      Child Welfare Information Gateway provides access to print and electronic publications, websites, and online databases covering a wide range of topics from prevention to permanency, including child welfare, child abuse and neglect, adoption, search and reunion, and much more.
+
+      A national service of the Children's Bureau, Administration for Children and Families, U.S. Department of Health and Human Services, Child Welfare Information Gateway consolidates and expands upon the services formerly provided by the National Adoption Information Clearinghouse (NAIC) and the National Clearinghouse on Child Abuse and Neglect Information (NCCANI).
+
+      We are the conduit through which information flows and knowledge is shared. We are not a provider of child welfare services. Instead, we provide child welfare and other related professionals with the connection to the best information and resources to help them protect children and strengthen families.
+      ### Why was Child Welfare Information Gateway developed?
+
+      Child Welfare Information Gateway was developed to achieve the Children's Bureau's vision of a single informational resource for the field covering its entire topical scope. Information Gateway aligns our services and products to better reflect our values and be more responsive to the needs and priorities of Federal, State, and local child welfare agencies. For child welfare and many other related professionals, Information Gateway is the one stop for a full continuum of timely resources, including essential information on programs, research, laws and policies, training approaches, and statistics.
+      ### Whom does Child Welfare Information Gateway serve?
+      We serve child welfare professionals, including those who work in adoption and other related fields. Our primary target audience includes:
+      - Administrators and policymakers
+      - Supervisors/direct service workers
+      - Related professionals, including counselors, teachers, attorneys, law enforcement officials, and others
+
+      The general public will continue to have access to information and resources, including our factsheets for families and adoption and foster care information.
+  - sys:
+      id: 1yfbmyrNbnYMXvPavIrm73
+      created_at: !ruby/object:DateTime 2023-02-23 19:24:19.556000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 19:24:19.556000000 Z
+      content_type_id: basicPageListItems
+      revision: 1
+    label: Time Line
+    content: a time line would be shown here
+  - sys:
+      id: 6qCadz0NVsN4tm1l96lgOu
+      created_at: !ruby/object:DateTime 2023-02-23 19:24:19.578000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 19:24:19.578000000 Z
+      content_type_id: basicPageListItems
+      revision: 1
+    label: Our Services
+    content: Services would be shared
+  subscription_banner: false
+  subscriptions_banner_bottom: false
+  slug: about
+- sys:
+    id: 7BJ3tIuL3ySsAzK8iOv0od
+    created_at: !ruby/object:DateTime 2023-02-23 21:09:18.295000000 Z
+    updated_at: !ruby/object:DateTime 2023-02-23 23:49:55.040000000 Z
+    content_type_id: basic
+    revision: 2
+  title: Subscriptions
+  summary: 'Overview of the subscriptions- At magnum periculum adiit in quo voluptas
+    in animis nostris inesse notionem, ut ita ruant itaque aiunt hanc quasi naturalem
+    atque insitam '
+  body: "## Learn more about our offerings…"
+  header: false
+  find_help_cta: false
+  child_abuse_cta: false
+  cta_bottom: false
+  template:
+  - cards
+  list_groups:
+  - sys:
+      id: 4lFFrzlbKNYZcoiZptY9JS
+      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.377000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.377000000 Z
+      content_type_id: basicListGroups
+      revision: 1
+    section_heading: News Digests
+    section_intro: At magnum periculum adiit in quo voluptas in animis nostris inesse
+      notionem, ut ita ruant itaque aiunt hanc quasi naturalem atque insitam in liberos
+      atque admonitionem altera prompta et aut ad id totum.
+    list:
+    - sys:
+        id: 2WRR2XqoEvQQFbIuDJkt1F
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.405000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.405000000 Z
+        content_type_id: basicCards
+        revision: 1
+      title: Children's Bureau Express
+      tag: 10/year
+      body: Provides up-to-date news and research in brief, targeted articles to professionals
+        concerned with all aspects of child welfare.
+      link_text: view current issue
+      thumbnail:
+        sys:
+          id: 1WmmDxodAIKXZCLm6mkO74
+          created_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
+        title: thumb1.png
+        description: 
+        url: "//images.ctfassets.net/tues7aklmpmt/1WmmDxodAIKXZCLm6mkO74/90af5dae4c0c1be79be671b0570fc597/thumb1.png"
+    - sys:
+        id: 5BlMLhI5Q77nO9okcFEPyQ
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.431000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.431000000 Z
+        content_type_id: basicCards
+        revision: 1
+      title: News From CB
+      body: Short description - ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam re aperiam, eaque.
+      thumbnail:
+        sys:
+          id: 1YUKtM0TuPgy6IwA32JaCs
+          created_at: !ruby/object:DateTime 2023-02-23 21:09:18.211000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.211000000 Z
+        title: thumb2.png
+        description: 
+        url: "//images.ctfassets.net/tues7aklmpmt/1YUKtM0TuPgy6IwA32JaCs/08dbf44d60f9b17505c00c24fff855a1/thumb2.png"
+    - sys:
+        id: 2o3IwpINAVQEcaoScSz6qt
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.454000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.454000000 Z
+        content_type_id: basicCards
+        revision: 1
+      title: E-lert
+      tag: Monthly
+      body: Short description - ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam re aperiam, eaque.
+      thumbnail:
+        sys:
+          id: 3ukIE991rh1ez3slk1bC8x
+          created_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
+        title: thumb3.png
+        description: 
+        url: "//images.ctfassets.net/tues7aklmpmt/3ukIE991rh1ez3slk1bC8x/250ccb5f3b2038461f5d431c915788e9/thumb3.png"
+    - sys:
+        id: 3YhvJ3B31Qv7TLXBJrghpZ
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.481000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.481000000 Z
+        content_type_id: basicCards
+        revision: 1
+      title: Adoption Triad
+      tag: Monthly
+      body: Provides practical information, tools, and strategies to help agencies
+        build their capacity to identify, recruit, and support families.
+      link_text: view current issue
+      thumbnail:
+        sys:
+          id: 1mxyYYg2Y5TVSUteERBaaM
+          created_at: !ruby/object:DateTime 2023-02-23 21:09:18.223000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.223000000 Z
+        title: thumb4.png
+        description: 
+        url: "//images.ctfassets.net/tues7aklmpmt/1mxyYYg2Y5TVSUteERBaaM/f83ce3c196e096f83ba2cf18291c758a/thumb4.png"
+    - sys:
+        id: 1uMaNhE9YyJMzMtCi9YMGQ
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.505000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.505000000 Z
+        content_type_id: basicCards
+        revision: 1
+      title: The Grantee Connection
+      tag: Quarterly
+      body: Offers new and noteworthy products, information, and lessons learned from
+        select Children's Bureau discretionary grants.
+      link_text: view current issue
+      thumbnail:
+        sys:
+          id: 1ZhxxiTZieeGbLWyBQIsmH
+          created_at: !ruby/object:DateTime 2023-02-23 21:09:18.229000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.229000000 Z
+        title: thumb5.png
+        description: 
+        url: "//images.ctfassets.net/tues7aklmpmt/1ZhxxiTZieeGbLWyBQIsmH/18118dc0db51cac52eec5abc152cb004/thumb5.png"
+    - sys:
+        id: bRe0ia8bIO1QocevOeHpU
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.526000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.526000000 Z
+        content_type_id: basicCards
+        revision: 1
+      title: Child Welfare in the News
+      tag: Weekdays
+      body: Short description - ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam re aperiam, eaque.
+      thumbnail:
+        sys:
+          id: 7qm1zUCyI6JA790o7xIfuS
+          created_at: !ruby/object:DateTime 2023-02-23 21:09:18.234000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.234000000 Z
+        title: thumb6.png
+        description: 
+        url: "//images.ctfassets.net/tues7aklmpmt/7qm1zUCyI6JA790o7xIfuS/6fcbd38cec2a84397ec36f9cfd798968/thumb6.png"
+  - sys:
+      id: 3wN4UdroMOtQpYVDDqwkRf
+      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.550000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.550000000 Z
+      content_type_id: basicListGroups
+      revision: 1
+    section_heading: Library Services
+    section_intro: At magnum periculum adiit in quo voluptas in animis nostris inesse
+      notionem, ut ita ruant itaque aiunt hanc quasi naturalem atque insitam in liberos
+      atque admonitionem altera prompta et aut ad id totum.
+    list:
+    - sys:
+        id: 4RiobpcEpPDSTbmLP12zaf
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.579000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.579000000 Z
+        content_type_id: basicCards
+        revision: 1
+      title: My Child Welfare Librarian
+      tag: Weekly
+      body: Short description - ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam re aperiam, eaque.
+      thumbnail:
+        sys:
+          id: 5wvxHr8hU9B5Gq55jx8M6k
+          created_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
+        title: thumb7.png
+        description: 
+        url: "//images.ctfassets.net/tues7aklmpmt/5wvxHr8hU9B5Gq55jx8M6k/23bbdbee2652f0a40ce293cf4485c2ea/thumb7.png"
+    - sys:
+        id: 2BAspgDSWNKzkxMCgLPekd
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.668000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.668000000 Z
+        content_type_id: basicCards
+        revision: 1
+      title: Information Gateway Quick Links
+      tag: Weekly
+      body: Short description - ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam re aperiam, eaque.
+      thumbnail:
+        sys:
+          id: 61gus43oawdxAS9EjqlJdZ
+          created_at: !ruby/object:DateTime 2023-02-23 21:09:18.245000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.245000000 Z
+        title: subscriptions.png
+        description: 
+        url: "//images.ctfassets.net/tues7aklmpmt/61gus43oawdxAS9EjqlJdZ/46600bb9dad00c378fbe10ba7ceb2265/subscriptions.png"
+  - sys:
+      id: 6VIKqox7lfLxXMBbiWWTn7
+      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.690000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.690000000 Z
+      content_type_id: basicListGroups
+      revision: 1
+    section_heading: National Initiatives
+    section_intro: 'At magnum periculum adiit in quo voluptas in animis nostris inesse
+      notionem, ut ita ruant itaque aiunt hanc quasi naturalem atque insitam in liberos
+      atque admonitionem. '
+    list:
+    - sys:
+        id: 6PXzCYZHcTg22kMUkEwyct
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.713000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.713000000 Z
+        content_type_id: basicCards
+        revision: 1
+      title: National Adoption Month
+      body: Short description - ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam re aperiam, eaque.
+      link_text: View the National Adoption Month website
+      thumbnail:
+        sys:
+          id: 5sDlJf4KHtrJebXR6b2XT3
+          created_at: !ruby/object:DateTime 2023-02-23 21:09:18.251000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.251000000 Z
+        title: thumb9.png
+        description: 
+        url: "//images.ctfassets.net/tues7aklmpmt/5sDlJf4KHtrJebXR6b2XT3/7e839f58fca9426ecf54a40899440b3d/thumb9.png"
+    - sys:
+        id: 4nn4qnYUlVv8BQJ69ueaD8
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.736000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.736000000 Z
+        content_type_id: basicCards
+        revision: 1
+      title: National Child Abuse Prevention Month
+      body: Short description - ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam re aperiam, eaque.
+      link_text: View the National Child Abuse Prevention Month website
+      thumbnail:
+        sys:
+          id: 1h34RjAPcV0QWk8bp4jvqj
+          created_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
+        title: thumb10.png
+        description: 
+        url: "//images.ctfassets.net/tues7aklmpmt/1h34RjAPcV0QWk8bp4jvqj/cf2a16544c4304bfbbfa5f393f53b295/thumb10.png"
+    - sys:
+        id: 5ArxhdwUYvjiUy9zcdlth5
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.980000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.980000000 Z
+        content_type_id: basicCards
+        revision: 1
+      title: National Foster Care Month
+      body: Short description - ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam re aperiam, eaque.
+      link_text: View the National Foster Care Month website
+      thumbnail:
+        sys:
+          id: 1gfY9AaLQ2P2lsbfgY3mB6
+          created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
+        title: thumb11.png
+        description: 
+        url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
+  subscription_banner: true
+  subscriptions_banner_bottom: true
+  slug: subscriptions
+- sys:
+    id: 5j5B1p2xHJkH0SpwBkBdbJ
+    created_at: !ruby/object:DateTime 2023-02-23 19:40:23.753000000 Z
+    updated_at: !ruby/object:DateTime 2023-02-23 21:43:28.473000000 Z
+    content_type_id: basic
+    revision: 2
+  title: Find Help with a Personal Situation
+  summary: Families face difficult challenges and may need specific resources, information,
+    or assistance to deal with problematic personal situations. The following questions
+    address common child welfare issues that families face.
+  body: "Inclusion on this list is for information purposes and does not constitute
+    an endorsement by Child Welfare Information Gateway or the Children's Bureau.
+    Child Welfare Information Gateway is not equipped to offer crisis counseling or
+    intervene in and/or advise in personal situations.  \nYou may find answers to
+    frequently asked questions about child welfare issues in the Children’s Bureau’s
+    Questions and Answers Support Page. Information on available benefits may be accessed
+    on the Benefits.gov website.  "
+  header: true
+  find_help_cta: false
+  child_abuse_cta: true
+  cta_bottom: false
+  template:
+  - accordion
+  list:
+  - sys:
+      id: 4YA34JfblK2I60wOEaQnVq
+      created_at: !ruby/object:DateTime 2023-02-23 19:40:23.855000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 19:40:23.855000000 Z
+      content_type_id: basicPageListItems
+      revision: 1
+    label: How do I report child pornography and online child exploitation?
+    content: |-
+      To report child pornography and online child exploitation, contact:
+
+      [National Center for Missing and Exploited Children’s CyberTipline](/)<i class="fa-regular fa-arrow-up-right-from-square"></i>
+      [1.800.THE.LOST](/) (1.800.843.5678)
+
+      CyberTipline is the nation’s centralized reporting system to report suspected online enticement of children for sexual acts, extrafamilial child sexual molestation, child pornography, child sex trafficking, and more.
+  - sys:
+      id: 1KNcVz60iywobqzu9Kk9Mv
+      created_at: !ruby/object:DateTime 2023-02-23 19:40:23.883000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 19:40:23.883000000 Z
+      content_type_id: basicPageListItems
+      revision: 1
+    label: I was in foster care, am I eligible for financial aid or grants for assistance
+      for college/vocational training?
+    content: Contact your [State Independent Living and Education Training Voucher
+      Coordinators](/) for State specific information.
+  - sys:
+      id: 5ZHBUvvqki4NdIMYmqqpHJ
+      created_at: !ruby/object:DateTime 2023-02-23 19:40:23.904000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 19:40:23.904000000 Z
+      content_type_id: basicPageListItems
+      revision: 1
+    label: Where can I find resources on housing services or/and rental assistance
+      for families with children?
+    content: Use the Housing and Urban Development [Resource Locator](/) to quickly
+      connect with key contacts in your State/area and/or find a HUD-participating
+      agency by calling [1-800-569-4287](/) or connecting with HUD [online](/).
+  - sys:
+      id: VyhvLsCuOjLpPujEUBzLF
+      created_at: !ruby/object:DateTime 2023-02-23 19:40:23.926000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 19:40:23.926000000 Z
+      content_type_id: basicPageListItems
+      revision: 1
+    label: I am looking for support services and information for survivors of sexual
+      abuse, where can I find help?
+    content: Call the Rape, Abuse & Incest National Network (RAINN) Sexual Assault
+      Hotline [(800.656.HOPE)](/) or [chat online](/)<i class="fa-regular fa-arrow-up-right-from-square"></i>
+      for confidential crisis support.
+  - sys:
+      id: 3X0jYDIwVNkL7IKzFpeAj1
+      created_at: !ruby/object:DateTime 2023-02-23 19:40:23.944000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 19:40:23.944000000 Z
+      content_type_id: basicPageListItems
+      revision: 1
+    label: I am pregnant/a new mother in need of some emotional support. How do I
+      get some assistance?
+    content: Call or text the [National Maternal Health Hotline](/) [1-833-9-HELP4MOMS](/)
+      (1-833-943-5746), a free, confidential, 24/7 service to connect with professional
+      counselors (in English and Spanish) before, during, and after pregnancy.
+  subscription_banner: false
+  subscriptions_banner_bottom: false
+  concluding_body: concluding body -- quis auctor elit sed vulputate mi sit amet mauris
+    commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper
+    malesuada proin libero nunc consequat interdum varius sit amet mattis vulputate
+    enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut consequat
+    semper viverra nam libero justo laoreet sit amet cursus sit amet dictum sit amet
+    justo donec enim diam vulputate ut pharetra sit amet aliquam id diam maecenas
+    ultricies mi eget mauris pharetra et ultrices neque ornare aenean euismod elementum
+    nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus
+    urna neque viverra justo nec ultrices dui sapien eget mi proin sed libero enim
+    sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas
+  slug: find-help-with-a-personal-situation
+- sys:
+    id: 1CUrCtvQSj7ro2kssS90qo
+    created_at: !ruby/object:DateTime 2023-02-23 19:54:27.901000000 Z
+    updated_at: !ruby/object:DateTime 2023-02-23 19:54:27.901000000 Z
+    content_type_id: basic
+    revision: 1
+  title: How to Report Child Abuse and Neglect
+  summary: Child Welfare Information Gateway is not a hotline for reporting suspected
+    child abuse or neglect, and it is not equipped to accept reports or intervene
+    in personal situations of this nature. If you or someone is in danger, you should
+    call [911](/).
+  body: "## Who can report child abuse or neglect? \nAnyone can report suspected child
+    abuse or neglect. Reporting abuse or neglect can protect a child and get help
+    for a family.\n\n[Mandatory Reporters of Child Abuse and Neglect](/)\nAll U.S.
+    States and territories have laws identifying persons who are required to report
+    suspected child abuse or neglect. Mandatory reporters may include social workers,
+    teachers and other school personnel, child care providers, physicians and other
+    health-care workers, mental health professionals, and law enforcement officers.
+    Some States require any person who suspects child abuse or neglect to report."
+  header: false
+  find_help_cta: true
+  child_abuse_cta: false
+  cta_bottom: true
+  template:
+  - body
+  features:
+  - sys:
+      id: 2fvmegN4v5MIq2IHIYD1r
+      created_at: !ruby/object:DateTime 2023-02-23 19:54:28.006000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 19:54:28.006000000 Z
+      content_type_id: basicFeatures
+      revision: 1
+    title: Childhelp National Child Abuse Hotline
+    body: 'Call or text 24/7, in over 170 languages, to report child abuse   or neglect.  '
+    button_text: 1.800.4.A.CHILD (1.800.422.4453)
+    link: https://childhelphotline.org/
+  - sys:
+      id: 5pCbIP1PGCIJbG3SvwCczs
+      created_at: !ruby/object:DateTime 2023-02-23 19:54:28.063000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 19:54:28.063000000 Z
+      content_type_id: basicFeatures
+      revision: 1
+    title: State Child Abuse and Neglect Reporting Numbers
+    body: 'State toll-free numbers and websites for reporting child abuse and neglect. '
+    button_text: 'Find your State''s reporting information '
+    link: https://www.childwelfare.gov/organizations/?CWIGFunctionsaction=rols:main.dspList&rolType=custom&rs_id=5
+  - sys:
+      id: 3AZZnoJGE1Z70wUq8eStuU
+      created_at: !ruby/object:DateTime 2023-02-23 19:54:28.148000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 19:54:28.148000000 Z
+      content_type_id: basicFeatures
+      revision: 1
+    title: National Center for Missing and Exploited Children’s Cyber Tipline
+    body: 'National centralized system for reporting online exploitation of children. '
+    button_text: 'Make a report '
+    link: https://www.missingkids.org/gethelpnow/cybertipline
+  subscription_banner: false
+  subscriptions_banner_bottom: false
+  slug: how-to-report-child-abuse-and-neglect
+- sys:
+    id: 3Pil4zk6yM1EBgQSQp37NB
+    created_at: !ruby/object:DateTime 2023-02-23 19:18:44.685000000 Z
+    updated_at: !ruby/object:DateTime 2023-02-23 19:19:09.493000000 Z
+    content_type_id: basic
+    revision: 2
+  title: Contact
+  summary: Short Description- Hanc ego cum memoriter, tum etiam ac ratione voluptatem
+    accusantium dolor multavit si sine causa, nollem me tamen laudandis maioribus
+    meis corrupisti nec me tamen, inquit, modo.Hanc ego cum memoriter, tum etiam ac
+    ratione voluptate
+  body: "## Live Chat/Live Online Support\nUse [Live Chat](/), an instant messaging
+    service, to contact an information support specialist between 10 a.m. and 5 p.m.
+    (ET). We recommend turning off your pop-up blocker to maximize this service.\n\n##
+    Email\nOur information support specialists or librarian will review your question
+    and provide a response via email within 2 business days.\n- For questions regarding
+    our services, website, or website  content, contact [info@childwelfare.gov](/).\n-
+    For help with our library or journal articles, contact [library@childwelfare.gov](/).\n\n##
+    Call\nTo speak to an information support specialist, please contact us at [1.800.394.3366](/)
+    between 9:30 a.m. and 5:30 p.m. (ET).\n\n## Subscriptions\nStay abreast of current
+    news, research, and resources in the child welfare field by subscribing to one
+    or all of our [free subscriptions](/). \n\n## Mail\nChild Welfare Information
+    Gateway\nChildren's Bureau/ACYF\n330 C Street S.W.\nWashington, DC 20201\n\n##
+    Social Media\n<i class=\"fa-brands fa-facebook-f\"></i> <i class=\"fa-brands fa-twitter\"></i>
+    <i class=\"fa-brands fa-youtube\"></i>\n"
+  header: true
+  find_help_cta: true
+  child_abuse_cta: true
+  cta_bottom: false
+  template:
+  - body
+  subscription_banner: false
+  subscriptions_banner_bottom: false
+  slug: contact
+---
