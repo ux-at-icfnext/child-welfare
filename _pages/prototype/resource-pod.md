@@ -2,7 +2,7 @@
 layout: prototype/resource
 title: Hi! I'm a Resource Podcast Page
 categories: [prototype]
-type: [prototype]
+type: [sub-nav-item, prototype]
 permalink: /prototype/resource/podcast
 overview: This is example of a resource page.
 summary: |
