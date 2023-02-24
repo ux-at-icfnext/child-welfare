@@ -12,28 +12,7 @@ layout: default
       <div class="tabs-section">
         {%include patterns/tabs/tabs-basic.md%}
       </div>
-    {% else %}
-    <div class="page-header">
     {% endif %}
-      <h1>{{page.title}}</h1>
-      <p class="usa-intro">
-        {{ page.summary }}
-      </p>
-      <ul>
-        {%for item in site.data.contentful.spaces.basic-page.basic%}
-          <li>
-            <p>{{item.title}}</p>
-            <p>{{item.summary}}</p>
-          </li>
-        {%endfor%}
-      </ul>
     </div>
-      {{ content }}
-      {% if page.template == "accordion" %}
-      {% include patterns/accordion/accordion-jk-push.md content=page.lists%}
-      {% endif %}
-      {% if page.template == "tabs" %}
-      {% include patterns/tabs/tabs-jk.md content=page.lists%}
-      {% endif %}
   </div>
 </div>
