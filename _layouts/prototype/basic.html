@@ -19,9 +19,16 @@ layout: default
         </p>
       </div>
     {%endif%}
+    <div>
+      {{content}}
+    </div>
     {%if page.template == "tabs"%}
       <div>
         {%include patterns/tabs/tabs-basic.md%}
+      </div>
+    {%else if page.template == "accordion" %}
+      <div>
+        {%include patterns/accordion/accordion-basic.md%}
       </div>
     {%endif%}
   </div>
