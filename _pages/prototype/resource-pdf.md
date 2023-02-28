@@ -22,8 +22,10 @@ resource:
   description: "A lovely placeholder podcast to show how a podcast resource would be used."
   file: "/assets/icons/prototype/a-pdf-placeholder.pdf"
   seriesTitle: "On the Topic of Lorem"
+  author: "Child Welfare Information Gateway"
   yearPublished: 2023
   currentThrough: 12/31/2023
+  thumbnail: "https://placekitten.com/200/287"
 ---
 Body copy to describe video resource.
 

@@ -22,7 +22,8 @@ description: "A lovely placeholder video to show how a video resource would be u
 transcript: "This would be a PDF attachment"
 audioDescription: "This would be a Audio Attachement"
 episodeLink: https://www.youtube.com/watch?v=u31qwQUeGuM
-length: 00:14
+adaEpisodeLink: https://www.youtube.com/watch?v=u31qwQUeGuM
+length: "00:14"
 
 ---
 Body copy to describe vide resource.
