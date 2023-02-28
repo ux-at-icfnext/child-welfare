@@ -5,7 +5,7 @@
       <h1 class="usa-hero__heading">
         <span class="usa-hero__heading--alt">{{page.title}}</span>
       </h1> 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      {{page.summary}}
     </div>
     <div class="help-cards">
         {% if page.find-help-cta %}
