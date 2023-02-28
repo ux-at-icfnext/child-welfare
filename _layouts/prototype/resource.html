@@ -1,5 +1,74 @@
 ---
 layout: default
 ---
+<div class="resource-page-header">
+  <h1>{{ page.title}} </h1>
+  <div class="social-bar">
+    place holder for social bar - twitter, facebook, email, print
+  </div>
+  <div class="meta-data">
+    Date: {{ page.date }} 
+    {% if page.resourceType == "video" or page.resourceType == "podcast" %}
+    | Length: {{ page.length }}
+    {% endif %}
+  </div>
+  {% if page.openingBody %}
+  <div>
+    {{ page.openingBody }}
+  </div>
+  {% endif %}
+</div>
+
+{% if page.resourceType == "video"  %}
+<div class="video-resources">
+  <iframe src="{{ page.episodeLink }}" frameborder="0" allowfullscreen></iframe>
+  <iframe src="{{ page.adaEpisodeLink }}" frameborder="0" allowfullscreen></iframe>
+  <div class="transcript-link">
+    <p><a href="">{{ page.transcript }}</a> [PDF, 4kb]</p>
+    <p><a href="">{{ page.audioDescription }}</a> [PDF, 4kb]</p>
+  </div>
+</div>
+{% endif %}
+
+{% if page.resourceType == "podcast"  %}
+<div class="podcast-resources">
+  <iframe  src="{{ page.episodeLink }}" frameborder="0"></iframe>
+  <div class="transcript-link">
+    <p><a href="">{{ page.transcript }}</a> [PDF, 4kb]</p>
+  </div>
+</div>
+{% endif %}
+
+{% if page.resourceType == "publication"  %}
+<div class="publication-resources">
+   <img src="{{ page.resource.thumbnail }}" alt="A placeholder image" />
+    <div class="resources-body">
+        <p><em>Series Title:</em> {{ page.resource.seriesTitle }}</p>
+        <p><em>Author(s):</em> {{ page.resource.author }}</p>
+        <p><em>Year Published</em> {{ page.resource.yearPublished }}</p>
+    </div>
+    <div class="resources-footer">
+        NEED MULTI DOWNLOAD BUTTON HERE -- WITH IF/THEN statements on options
+    </div>
+</div>
+{% endif %}
 
 {{ content }}
+
+
+<div class="series-list">
+  <h2>Also in this series</h2>
+  <ul>
+    <li><a href="">example series</a></li>
+    <li><a href="">example series</a></li>
+    <li><a href="">example series</a></li>
+  </ul>
+</div>
+<div class="resource-list">
+  <h2>We also recommend the following Information Gateway Resources</h2>
+  <ul>
+    <li><a href="">example resource</a></li>
+    <li><a href="">example resource</a></li>
+    <li><a href="">example resource</a></li>
+  </ul>
+</div>
