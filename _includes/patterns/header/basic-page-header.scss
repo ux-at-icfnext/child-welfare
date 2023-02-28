@@ -3,8 +3,7 @@
 }
 .help-cards{
     color: black;
-    display: grid;
-    grid-template-columns: auto max-content;
+    display: flex;
+    justify-content: flex-start;
     padding-left: 2rem;
-
 }
