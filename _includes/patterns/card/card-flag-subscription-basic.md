@@ -1,5 +1,5 @@
 <ul class="usa-card-group">
-    {% for item in site.data.contentful.spaces.example.basic[1].list_groups[0].list %}
+{% for item in site.data.contentful.spaces.example.basic[1].list_groups[0].list %}
   <li class="usa-card usa-card--flag desktop:grid-col-8 usa-card--media-left">
     <div class="usa-card__container__flag-subscribe">
       <div class="usa-card__header">

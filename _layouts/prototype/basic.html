@@ -19,6 +19,11 @@ layout: default
         </p>
       </div>
     {%endif%}
+    {%if page.features %}
+      <div class="features">
+        {% include patterns/card/card-alert-basic.md %}
+      </div>
+    {% endif %}
     <div>
       {{content}}
     </div>
@@ -76,6 +81,11 @@ layout: default
         <h3>{{site.data.contentful.spaces.example.basic[1].list_groups[0].section_heading}}</h3>
         <p>{{site.data.contentful.spaces.example.basic[1].list_groups[0].section_intro}}</p>
         {%include patterns/card/card-flag-subscription-basic.md%}
+      </div>
+    {%endif%}
+    {% if page.ctaBottom %}
+      <div>
+        {% include patterns/card/card-cta-help-heading.md %}
       </div>
     {%endif%}
   </div>

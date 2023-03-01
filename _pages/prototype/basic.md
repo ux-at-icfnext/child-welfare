@@ -9,8 +9,9 @@ summary: |
   This is example of a basic page. It's good for content post that don't have a need for a lot of functionality. There are options to show the page header with a blue background to give more of a landing page look and/or to display the CTA Cards.
 find-help-cta: yes
 child-abuse-cta: yes
-ctaBottom: no
+ctaBottom: yes
 header: no
+features: yes
 template: card # tabs or accordion or card
 
 ### card groups
