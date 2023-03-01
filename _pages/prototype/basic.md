@@ -11,7 +11,7 @@ find-help-cta: yes
 child-abuse-cta: yes
 ctaBottom: no
 header: no
-template: body # tabs or accordion or card
+template: card # tabs or accordion or card
 
 ### card groups
 # cardListGroups

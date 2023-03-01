@@ -71,7 +71,12 @@ layout: default
       </div>
     {%endif%}
     {%if page.template == "card"%}
-      <div></div>
+      <div>
+        <h2>Learn more about our offerings...</h2>
+        <h3>{{site.data.contentful.spaces.example.basic[1].list_groups[0].section_heading}}</h3>
+        <p>{{site.data.contentful.spaces.example.basic[1].list_groups[0].section_intro}}</p>
+        {%include patterns/card/card-flag-subscription-basic.md%}
+      </div>
     {%endif%}
   </div>
 </div>
