@@ -11,7 +11,7 @@
         </h4>
         <div id="a{{forloop.index}}" class="usa-accordion__content usa-prose">
             <p>
-                {{ item.content }}
+                {{ item.content | markdownify }}
             </p>
         </div>
     {% endfor %}
