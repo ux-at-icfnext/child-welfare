@@ -6,6 +6,43 @@ title: Publication Resources
 permalink: /templates/resource/pub
 overview: Details about the publication resource type
 description: Details about the publication resource type
+
+specs:
+  - name: File
+    type: file upload
+    authored: yes
+    required: yes
+    content: Limit 1
+  - name: File size
+    type: number  
+    notes: file size should be from the PDF
+  - name: Additional files
+    type: file upload
+    authored: yes
+  - name: Series Title
+    type: text
+    authored: yes
+  - name: Author
+    type: text
+    authored: yes
+    required: yes
+  - name: Year Published
+    type: text
+    authored: yes
+    required: yes
+  - name: Current through
+    type: date
+  - name: Order online
+    type: toggle
+    content: default to false
+  - name: Download by Language
+    type: multi-select
+    content: "Options: English, Spanish"
+  - name: Download Image sizes
+    type: array
+    notes: author can add the image size variations -- for example 250x300, 500x600
+  
+
 ---
 
 ## Page Header
