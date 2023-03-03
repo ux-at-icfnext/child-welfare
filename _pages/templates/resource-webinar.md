@@ -1,7 +1,7 @@
 ---
 layout: template
 categories: [templates, resource-detail]
-type: [detail-page]
+# type: [detail-page]
 title: Webinar Resources
 permalink: /templates/resource/webinar
 overview: Details about the webinar resource type

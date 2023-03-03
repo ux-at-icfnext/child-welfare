@@ -27,9 +27,6 @@ specs:
     authored: yes
     required: yes
     content: shows date format "Month DD, YYYY"
-  - name: Length
-    type: time
-    content: lenth of video or podcast format "hh:mm:ss"
   - name: Opening Body
     type: rich text
     authored: yes
@@ -37,45 +34,47 @@ specs:
     searchable: yes
     notes: allows h2, h3, h4, bullets, links, icons
   - name: resource item
-    content: types - podcast, video, publication, webinar
+    content: types - podcast, video, publication
     notes: read sub pages for each specification for each type
   - name: Body
     type: rich text
     authored: yes
     searchable: yes
     notes: allows h2, h3, h4, bullets, links, icons, quotes
-  - name: Series
-    type: list
-    content: multivalued - see table below
-  - name: Related
-    type: list
-    content: multivalued - see table below
   - name: Filter Criteria
     type: taxonomy terms
     authored: yes
     required: yes
     notes: author must choose the taxonomy terms that are applied to this page.
-
-specs2: 
+  - name: Series
+    subhead: yes
+    type: list
+    required: yes
+    authored: yes
+    notes: author picks the destination page - limit 6
   - name: List text
     type: text
-    authored: yes
-    required: yes
-    source: distation page title
+    content: "destination page: Title"
   - name: List link
-    type: href
-    authored: yes
+    type: url
+    content: "destination page: Link"
+  - name: Related
+    subhead: yes
     required: yes
-    source: distation page url
+    type: list
+    content: multivalued - see table below
+    notes: related items selected dynamically through the taxonomy. Limit 3
+  - name: List text
+    type: text
+    content: "destination page: Title"
+  - name: List link
+    type: url
+    content: "destination page: Link"
+  
+
 ---
 
-### Series list item
-{% include partials/content-specs.md content=page.specs2 %} 
-
-### Related list item
-{% include partials/content-specs.md content=page.specs2 %} 
-
-## Functionality Specifications
+## Functionality Specifications (NEEDS UPDATING!!!)
 This section show the details on how to build the page based on the author selections.
 
 ### Page Header
