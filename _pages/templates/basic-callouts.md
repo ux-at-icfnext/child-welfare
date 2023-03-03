@@ -1,7 +1,7 @@
 ---
 layout: template
 categories: [templates, topics-page]
-type: [sub-nav-item]
+# type: [sub-nav-item]
 title: Basic with Callouts
 permalink: /templates/callouts-page
 overview: A basic type page that allows for feature callouts at the top

@@ -29,60 +29,131 @@ specs:
   required: yes
   content: 80 characters max
   searchable: yes
-  source:
-  notes: 
 - name: Summary
   type: text (usa-intro)
   authored: yes
   required: yes
   content: 250 characters max
   searchable: yes
+- name: Searchable
+  type: toggle
+  notes: Should this page be in Search?
 - name: Body
   type: rich text
   authored: yes
   required: yes (unless a list is used)
+  notes: allows h2, h3, h4, bullets, links, icons, images, YouTube & Podcast embed
+- name: Concluding Body
+  type: rich text
+  authored: yes
+  required: yes (unless a list is used)
   notes: allows h2, h3, h4, bullets, links, icons
-- name: Help CTA
-  type: multi-select
-  content: uses help cards cta
-  authored: "no"
-  required: optional
-  searchable: "no"
-  notes: use a toggle in authoring experience to allow authors to choose
+- name: Find Help CTA
+  type: toggle
+  content: uses find help card cta
+- name: Child Abuse CTA
+  type: toggle
+  content: uses child abuse card cta
+- name: CTA bottom
+  type: toggle
+  notes: Show CTA cards at page bottom
 - name: Header background
   type: toggle
-  authored: "no"
-  required: optional
   notes: allows author to choose blue baground for header area
+- name: Subscription Banner Top
+  type: toggle
+  notes: shows the subscription banner at the top of the page
+- name: Subscription Banner bottom
+  type: toggle
+  notes: shows the subscription banner at the bottom of the page
 - name: Template layout
   type: dropdown
   authored: yes
   required: "no"
   content: "tabs, accordion"
   notes: CMS only
+- name: Features
+  subhead: yes
+  type: card
+  content: multi-valuded
+  notes: uses list to create
+- name: Title
+  type: h3
+  authored: yes
+  required: yes
+  content: 80 characters max
+- name: Body
+  type: text
+  required: yes
+  authored: yes
+- name: link
+  type: url
+  required: yes
+  authored: yes
+- name: link text
+  type: text
+  required: yes
+  authored: yes
 - name: List
+  subhead: yes
   type: vertical tabs or accordion
   authored: yes
-  required: "no"
-  content: multi-valuded... see table below
+  content: multi-valuded
   searchable: yes
   notes: CMS should use a list to create
+- name: List label
+  type: text
+  authored: yes
+  required: yes
+  content: 80 characters max
+- name: Content title
+  type: h2
+  authored: yes
+  content: 80 characters max
+- name: Content 
+  type: rich text
+  authored: yes
+  required: yes
+  content:  allows h2, h3, h4, bullets, links, icons, images, YouTube & Podcast embed
+- name: List Groups
+  subhead: yes
+  content: multi-valued
+  type: accordion or cards
+  notes: Each group has a title and introduction
+- name: Section Title
+  type: h2
+  authored: yes
+  required: yes
+- name: Section Intro
+  type: usa-intro
+  authored: yes
+- name: List
+  subsubhead: yes
+  type: card or accordion
+  authored: yes
+  content: multi-valuded
+  searchable: yes
+  notes: CMS should use a list to create
+- name: Content title
+  type: h2
+  authored: yes
+  required: yes
+  content: 80 characters max
+- name: Content 
+  type: rich text
+  authored: yes
+  required: yes
+  content:  allows h2, h3, h4, bullets, links, icons, images, YouTube & Podcast embed
+- name: Tag
+  type: text
+  authored: yes
+- name: Link
+  type: url
+  authored: yes
+- name: Link Text
+  type: text
+  authored: yes
 
-specs2:
-  - name: List label
-    type: text
-    authored: yes
-    required: yes
-    content: 80 characters max
-  - name: Content title
-    type: h2
-    authored: yes
-    content: 80 characters max
-  - name: Content 
-    type: rich text
-    authored: yes
-    required: yes
-    content:  allows h2, h3, h4, bullets, links, icons
 
 
 components:
@@ -110,12 +181,7 @@ prototype:
     link: https://www.sketch.com/s/dd2f2e71-977c-45b4-baf3-8bf823bfcd0d/a/JnV5z45
 ---
 
-*Note: author must have either a body or a list... they can have both.
-
-### Each list item
-{% include partials/content-specs.md content=page.specs2 %} 
-
-## Functionality Specifications
+## Functionality Specifications (STILL NEEDS UPDATING)
 This section show the details on how to build the page based on the author selections.
 
 ### Page Header
