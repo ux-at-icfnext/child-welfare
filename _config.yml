@@ -43,3 +43,12 @@ contentful:
         space: tues7aklmpmt                 # Required
         access_token: Rpl9hymeqNkSmq7kkVWlMEXMsIxfRsX6I3cGkH78Dm8          # Required
         environment: master                 # Optional
+
+# Generate blog pages
+page_gen-dirs: false
+
+page_gen:
+- data: 'site.data.contentful.spaces.example'
+  template: 'blog'
+  dir: "blog"
+  name: 'title'
