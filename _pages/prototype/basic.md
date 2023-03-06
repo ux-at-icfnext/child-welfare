@@ -7,15 +7,44 @@ permalink: /prototype/basic/
 overview: This is example of a basic page.
 summary: |
   This is example of a basic page. It's good for content post that don't have a need for a lot of functionality. There are options to show the page header with a blue background to give more of a landing page look and/or to display the CTA Cards.
-find-help-cta: yes
-child-abuse-cta: yes
-header: yes
-template: default # tabs or accordion
+find-help-cta: no
+child-abuse-cta: no
+ctaBottom: yes
+header: no
+features: yes
+template: card # tabs or accordion or card
 
-### tabs and accordions use list
+### card groups
+# cardListGroups
+#   - sectionHeading:
+#     sectionIntro:
+#     list: # can contain accordions or cards
+
+### tabs and accordions use list -- accordions can also be nested in card groups
 # lists:
-#   - title: Example title - uses an h2 - 80 characters
+#   - label: used as the tab or accordion label
+#     contentTitle: Example title - uses an h2 
 #     content: Rich text allows for h2, h3, h4, bullets, links, icons
+
+### cards
+# lists:
+#   - title:
+#     tag:
+#     body:
+#     link:
+#     linkText:
+#     tumbnail
+
+### features - limit 3
+# features:
+#   - title:
+#     body:
+#     buttonText:
+#     link:
+subscriptionBanner: no
+subscriptionsBannerBottom: no
+concludingBody: " " # content falls below accordions allows rich text (markdownify)
+
 ---
 
 Body copy is optional when using tabs or accordions.

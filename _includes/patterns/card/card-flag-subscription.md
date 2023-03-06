@@ -2,7 +2,7 @@
   <li class="usa-card usa-card--flag desktop:grid-col-8 usa-card--media-left">
     <div class="usa-card__container__flag-subscribe">
       <div class="usa-card__header">
-        <h2 class="usa-card__heading">Subscrition Flag Card Header</h2>
+        <h2 class="usa-card__heading">Subscription Flag Card Header</h2>
       </div>
       <div class="usa-card__media usa-card__media--inset">
         <div class="usa-card__img">
