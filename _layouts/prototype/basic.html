@@ -43,9 +43,9 @@ type: [sub-nav-item, prototype]
         {{site.data.contentful.spaces.example.basic[4].body | markdownify}}
       </div>
     {%endif%}
-    {%if page.template == "card"%}
+    {%if page.template contains "cards"%}
       <div>
-        <h2>Learn more about our offerings...</h2>
+        {{site.data.contentful.spaces.example.basic[1].body | markdownify }}
         <h3>{{site.data.contentful.spaces.example.basic[1].list_groups[0].section_heading}}</h3>
         <p>{{site.data.contentful.spaces.example.basic[1].list_groups[0].section_intro}}</p>
         {%include patterns/card/card-flag-subscription-basic.md%}
