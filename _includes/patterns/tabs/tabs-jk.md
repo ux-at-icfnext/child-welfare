@@ -11,6 +11,9 @@
             </button>
         </h4>
         <div id="a{{forloop.index}}" class="usa-accordion__content usa-prose">
+            {% if item.contentTitle %}
+            <h3>{ item.contentTitle}</h3>
+            {% endif %}
             <p>
                 {{ item.content | markdownify }}
             </p>
