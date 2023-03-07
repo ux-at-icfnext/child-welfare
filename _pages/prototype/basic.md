@@ -1,6 +1,6 @@
 ---
 layout: prototype/basic
-title: Hi! I'm a Basic Page
+title: Basic Page
 categories: [prototype]
 type: [sub-nav-item, prototype]
 permalink: /prototype/basic/
