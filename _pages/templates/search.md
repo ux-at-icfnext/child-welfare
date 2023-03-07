@@ -26,7 +26,7 @@ spec:
   - name: Quicklinks
     type: href
     content: link url, link text
-    note: module is optional
+    note: module is optional -- limit 5 links
     
 spec2:
   - name: Format Type
