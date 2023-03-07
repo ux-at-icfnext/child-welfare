@@ -1,9 +1,9 @@
 ---
 layout: template
-categories: [templates, topics-page]
+categories: [templates, overview-page]
 type: [sub-nav-item]
-title: Topics
-permalink: /templates/topics-page
+title: Overview Landing
+permalink: /templates/overview-page
 overview: Groups subtopic/resources pages together according to topic
 
 description: |
@@ -45,39 +45,66 @@ specs:
     required: yes
     content: 1400x400 pixels
     authored: yes
-  - name: Featured Label
-    type: h2
-    authored: yes
-    content: 80 characters max
-    notes: default text "Featured"
-  - name: Featured List
-    type: usa-card
-    authored: yes
-    required: yes
-    content: limit 3
-    notes: each list item - title, text, link
-  - name: Topics label
-    type: h2
-    authored: yes
-    content: 80 characters max
-    notes: default text "Subtopics" or "Series" on series pages
-  - name: List
-    type: usa-card
-    authored: yes
-    required: yes
-    content: limit 9 - multi-valued, see below
-  - name: Related
-    type: usa-accordion
-    content: multi-valued text-card
-    notes: front-end only, no need to store the accordion in drupal (only the linked references)
   - name: Filter Criteria
     type: taxonomy terms
     authored: yes
     required: yes
     notes: author must choose the taxonomy terms that are applied to this page.
-
-
-specs2:
+  - name: Featured List
+    subhead: yes
+    type: usa-card
+    authored: yes
+    required: yes
+    content: limit 3
+    notes: each list item - title, text, link
+  - name: Featured Label
+    type: h2
+    authored: yes
+    content: 80 characters max
+    notes: default text "Featured"
+  - name: Title
+    type: h3
+    authored: dynamic
+    source: destination page -  title
+  - name: image
+    type: image
+    authored: dynamic
+    source: destination page - hero image
+    notes: 
+  - name: body
+    type: text
+    authored: dynamic
+    source: destination page - summary
+  - name: link
+    type: href
+    authored: dynamic
+    source: destination page - url
+  - name: List
+    subhead: yes
+    type: usa-card
+    authored: yes
+    required: yes
+    content: limit 9 - multi-valued, see below
+  - name: Topics label
+    type: h2
+    content: "Subtopics"
+  - name: Title
+    type: h3
+    authored: dynamic
+    source: destination page -  title
+  - name: body
+    type: text
+    authored: dynamic
+    source: destination page - summary
+  - name: link
+    type: href
+    authored: dynamic
+    source: destination page - url
+  - name: Related
+    subhead: yes
+    type: usa-accordion
+    content: multi-valued text-card
+    notes: front-end only, no need to store the accordion in drupal (only the linked references)
   - name: Title
     type: h3
     authored: dynamic
@@ -96,36 +123,11 @@ specs2:
     authored: dynamic
     source: destination page - url
 
-specs3:
-  - name: Title
-    type: h3
-    authored: dynamic
-    source: destination page -  title
-  - name: body
-    type: text
-    authored: dynamic
-    source: destination page - summary
-  - name: link
-    type: href
-    authored: dynamic
-    source: destination page - url
 
 prototype:
-  - name: Topics
+  - name: Overview
     link: https://www.sketch.com/s/dd2f2e71-977c-45b4-baf3-8bf823bfcd0d/a/3OLlxQw#Inspect
 ---
-
-### Each featured item 
-uses usa-card-wide
-{% include partials/content-specs.md content=page.specs2 %} 
-
-### Each subtopic item
-uses usa-card
-{% include partials/content-specs.md content=page.specs3 %} 
-
-### Each related item
-uses text-card
-{% include partials/content-specs.md content=page.specs2 %} 
 
 ## Functionality Specifications
 ### Page Header
