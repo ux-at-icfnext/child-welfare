@@ -1,7 +1,7 @@
 ---
 layout: template
 categories: [templates]
-type: [sub-nav-item]
+# type: [sub-nav-item]
 title: Subscriptions 
 permalink: /templates/subscriptions/
 overview: The special page is used for showing available subscriptions.
