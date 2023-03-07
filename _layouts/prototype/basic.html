@@ -1,5 +1,7 @@
 ---
 layout: default
+categories: [prototype]
+type: [sub-nav-item, prototype]
 ---
 <link href="/assets/css/proto/basic.scss" rel="stylesheet">
 
@@ -26,17 +28,17 @@ layout: default
     {% endif %}
     <div>
     </div>
-    {%if page.template == "tabs"%}
+    {%if page.template contains "tabs"%}
       <div>
         {%include patterns/tabs/tabs-basic.md%}
       </div>
     {%endif%}
-    {%if page.template == "accordion" %}
+    {%if page.template contains "accordion" %}
       <div>
         {%include patterns/accordion/accordion-basic.md%}
       </div>
     {%endif%}
-    {%if page.template == "body" %}
+    {%if page.template contains "body" %}
       <div>
         {{site.data.contentful.spaces.example.basic[4].body | markdownify}}
       </div>

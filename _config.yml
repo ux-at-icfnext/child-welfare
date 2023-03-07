@@ -38,6 +38,6 @@ contentful:
 page_gen-dirs: false
 page_gen:
 - data: 'site.data.contentful.spaces.example.basic'
-  template: 'prototype/basic-temp'
+  template: 'prototype/basic'
   dir: "prototype"
   name: 'title'
