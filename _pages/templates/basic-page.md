@@ -72,6 +72,11 @@ specs:
   required: "no"
   content: "tabs, accordion"
   notes: CMS only
+- name: Filter Criteria
+  type: taxonomy terms
+  authored: yes
+  required: yes
+  notes: author must choose the taxonomy terms that are applied to this page.
 - name: Features
   subhead: yes
   type: card
