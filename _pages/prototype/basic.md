@@ -1,14 +1,14 @@
 ---
 layout: prototype/basic
-title: Hi! I'm a Basic Page
+title: Basic Page
 categories: [prototype]
 type: [sub-nav-item, prototype]
 permalink: /prototype/basic/
 overview: This is example of a basic page.
 summary: |
   This is example of a basic page. It's good for content post that don't have a need for a lot of functionality. There are options to show the page header with a blue background to give more of a landing page look and/or to display the CTA Cards.
-find-help-cta: yes
-child-abuse-cta: yes
+findHelpCta: yes
+childAbuseCta: yes
 ctaBottom: yes
 header: yes
 features: yes

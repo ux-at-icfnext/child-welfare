@@ -1,5 +1,7 @@
 ---
 layout: default
+categories: [prototype]
+type: [sub-nav-item, prototype]
 ---
 <link href="/assets/css/proto/basic.scss" rel="stylesheet">
 
@@ -25,59 +27,30 @@ layout: default
       </div>
     {% endif %}
     <div>
-      {{content}}
     </div>
-    {%if page.template == "tabs"%}
+    {%if page.template contains "tabs"%}
       <div>
         {%include patterns/tabs/tabs-basic.md%}
       </div>
     {%endif%}
-    {%if page.template == "accordion" %}
+    {%if page.template contains "accordion" %}
       <div>
         {%include patterns/accordion/accordion-basic.md%}
       </div>
     {%endif%}
-    {%if page.template == "body" %}
+    {%if page.template contains "body" and page.title == "Contact" %}
       <div>
-        <h2>Live Chat/Live Online Support</h2>
-        <p>Use <a href="">Live Chat</a>, an instant messaging
-          service, to contact an information support specialist between 10 a.m. and 5 p.m.
-          (ET). We recommend turning off your pop-up blocker to maximize this service.</p>
-        <h2>Email</h2>
-        <p>Our information support specialists or librarian will review your question
-          and provide a response via email within 2 business days.
-        </p>
-        <ul>
-          <li>For questions regarding our services, website, or website  content, contact 
-            <a href="">info@childwelfare.gov.</a>
-          </li>
-          <li>For help with our library or journal articles, contact <a href="">library@childwelfare.gov</a>.</li>
-        </ul>
-        <h2>Call</h2>
-        <p>
-          To speak to an information support specialist, please contact us at <a href="">1.800.394.3366</a>
-          between 9:30 a.m. and 5:30 p.m. (ET).
-        </p>
-        <h2>Subscriptions</h2>
-        <p>Stay abreast of currentnews, research, and resources in the child welfare field by subscribing to one
-          or all of our <a href="">free subscriptions</a>.
-        </p>
-        <h2>Mail</h2>
-        <p>Child Welfare Information Gateway</p>
-        <p>Children's Bureau/ACYF</p>
-        <p>330 C Street S.W.</p>
-        <p>Washington, DC 20201</p>
-        <h2>Social Media</h2>
-        <div>
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-youtube"></i>
-        </div>
+        {{site.data.contentful.spaces.example.basic[4].body | markdownify}}
       </div>
     {%endif%}
-    {%if page.template == "card"%}
+    {%if page.template contains "body" and page.title == "How to Report Child Abuse and Neglect" %}
+    <div>
+      {{site.data.contentful.spaces.example.basic[3].body | markdownify}}
+    </div>
+  {%endif%}
+    {%if page.template contains "cards"%}
       <div>
-        <h2>Learn more about our offerings...</h2>
+        {{site.data.contentful.spaces.example.basic[1].body | markdownify }}
         <h3>{{site.data.contentful.spaces.example.basic[1].list_groups[0].section_heading}}</h3>
         <p>{{site.data.contentful.spaces.example.basic[1].list_groups[0].section_intro}}</p>
         {%include patterns/card/card-flag-subscription-basic.md%}

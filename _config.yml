@@ -1,5 +1,4 @@
 permalink: pretty
-
 defaults:
   - scope:
       path: "assets/img/icons"
@@ -10,45 +9,35 @@ defaults:
       type: "pages"
     values:
       layout: default
-
 plugins:
   - jekyll-last-modified-at
   - jekyll-postcss
   - jekyll-autoprefixer
-
+  - jekyll-datapage-generator
 # Enable safe mode
 safe: safe
-
 whitelist:
   - jekyll-last-modified-at
   - liquify_filter.rb
-
 include:
 - _pages
-
 # Access snippet of a post's content 
-excerpt_separator: <!--more-->
-
-sass:
+excerpt_separator: 
+<!--more-->sass:
   style: compressed
   autoprefixer:
-
 # Optional. The default date format, used if none is specified in the tag.
 last-modified-at:
     date-format: '%b-%d-%y'
-
 contentful:
   spaces:
     - example:                              # Jekyll _data folder identifier - Required
         space: tues7aklmpmt                 # Required
         access_token: Rpl9hymeqNkSmq7kkVWlMEXMsIxfRsX6I3cGkH78Dm8          # Required
         environment: master                 # Optional
-
-# Generate blog pages
 page_gen-dirs: false
-
 page_gen:
-- data: 'site.data.contentful.spaces.example'
-  template: 'blog'
-  dir: "blog"
+- data: 'site.data.contentful.spaces.example.basic'
+  template: 'prototype/basic'
+  dir: "prototype"
   name: 'title'

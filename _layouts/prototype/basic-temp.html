@@ -1,28 +1,32 @@
 ---
 layout: default
+categories: [prototype]
+type: [sub-nav-item, prototype]
 ---
-<link href="/assets/css/proto/basic.scss" rel="stylesheet">
-
-<div class="">
-  <div class="text">
+<link href="/assets/css/proto/basic.scss" rel="stylesheet"><div class="">  
+  <div class="text">    
     {% if page.header %}
-    <div class="page-header header-full">
+    <div class="page-header header-full">      
       {%include patterns/header/basic-page-header.md%}
-    </div>
+    </div>    
     {% else %}
-    <div class="page-header">
-    {% endif %}
-      <h1>{{page.title}}</h1>
-      <p class="usa-intro">
+    <div class="page-header grid-container">    
+      {% endif %}
+      <h1>{{page.title}}</h1>      
+      <p class="usa-intro">        
         {{ page.summary }}
-      </p>
-    </div>
-      {{ content }}
-      {% if page.template == "accordion" %}
-      {% include patterns/accordion/accordion-jk-push.md content=page.lists%}
+      </p>    
+    </div>    
+    <div class="grid-container">      
+      {% if page.body %}  
+        {{page.body}} 
       {% endif %}
-      {% if page.template == "tabs" %}
-      {% include patterns/tabs/tabs-jk.md content=page.lists%}
+      {% if page.template contains "accordion" %}
+      {% include patterns/accordion/accordion-jk-push.md content=page.list%}
       {% endif %}
+      {% if page.template contains "tabs" %}
+      {% include patterns/tabs/tabs-jk.md content=page.list%}
+      {% endif %}
+    </div>  
   </div>
 </div>

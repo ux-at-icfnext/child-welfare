@@ -8,12 +8,12 @@
       {{page.summary}}
     </div>
     <div class="help-cards">
-        {% if page.find-help-cta %}
+        {% if page.find_help_cta %}
             <div class="cta help-cta">
                 {%include patterns/card/card-cta-help-heading.md%}
             </div>
         {% endif %}
-        {% if page.child-abuse-cta %}
+        {% if page.child_abuse_cta %}
             <div class="cta report-cta">
                 {%include patterns/card/card-cta-report-heading.md%}
             </div>
