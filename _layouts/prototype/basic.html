@@ -26,8 +26,11 @@ type: [sub-nav-item, prototype]
         {% include patterns/card/card-alert-basic.md %}
       </div>
     {% endif %}
+    {% if page.subscription_banner %}
     <div>
+      {% include patterns/subscribe/subscription-banner.md %}
     </div>
+  {% endif %}
     {%if page.template contains "tabs"%}
       <div>
         {%include patterns/tabs/tabs-basic.md%}
@@ -71,5 +74,10 @@ type: [sub-nav-item, prototype]
         {% include patterns/card/card-cta-help-full.md %}
       </div>
     {%endif%}
+    {% if page.subscriptions_banner_bottom %}
+    <div>
+      {% include patterns/subscribe/subscription-banner-bottom.md %}
+    </div>
+  {% endif %}
   </div>
 </div>
