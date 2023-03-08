@@ -1,0 +1,56 @@
+.subscription-banner{
+    height: 50vh;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("/assets/icons/images/subscription-banner.png");
+    background-repeat: none;
+    border: none;
+    color: white;
+
+    h3{
+        font-weight: bold;
+        margin: 0;
+    }
+    .secondary__button{
+        color: #002552;
+    }
+    .secondary__button:hover{
+        color: white;
+    }
+    .vertical-align{
+        position: absolute;
+        top: 30%;
+        right: 50%;
+    }
+}
+.sub_link{
+    display: block;
+    margin-top: 1rem;
+    color: white;
+    font-weight: light;
+}
+.subscription-banner-bottom{
+    background-color: #EEF1F9;
+    position: relative;
+    height: 30vh;
+    width: 100%;
+    .banner-content{
+        position: absolute;
+        top: 15%;
+        left: 35%;
+        text-align: center;
+
+        a{
+            background-color: transparent;
+            color: #002552;
+            padding-left: 1rem;
+        }
+        h3{
+            margin: 0;
+        }
+        .sub-link{
+            color: #005DAA;
+        }
+    }
+}
