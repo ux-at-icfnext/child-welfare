@@ -1,9 +1,9 @@
 ---
 layout: pattern
-categories: [patterns, subscription-banner]
-title: Subscription Banner
+categories: [patterns, feature]
+title: Feature Section
 type: [sub-nav-item]
-permalink: /patterns/subscription-banner/
+permalink: /patterns/feature
 variations: true
 overview:  
 description: 
@@ -41,11 +41,11 @@ yml: |
 
 jekyll: |
 
-  "{% include patterns/subscription/subscription-banner-jk.md %}"
+  "{% include patterns/feature/feature-jk.md %}"
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
 # designimg: 
 
-htmlpath: patterns/subscription/subscription-banner.md
-csspath: patterns/subscription/index.scss
+htmlpath: patterns/feature/feature.md
+csspath: patterns/feature/index.scss
 ---
