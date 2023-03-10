@@ -1,6 +1,6 @@
 <ul class="usa-card-group">
-{%for item in site.data.contentful.spaces.example.basic[3].features %}
-  <li class="usa-card tablet:grid-col-4" style="padding: 1rem;">
+{%for item in page.features %}
+  <li class="usa-card tablet:grid-col-4">
     <div class="usa-card__container__alert">
       <div class="usa-card__header">
         <h2 class="usa-card__heading"><a href="">{{item.title}}</a></h2>

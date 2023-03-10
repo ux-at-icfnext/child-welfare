@@ -46,11 +46,20 @@
             color: #002552;
             padding-left: 1rem;
         }
+        .sub_button:hover{
+            background-color: #002552;
+            color: white;
+        }
         h3{
             margin: 0;
+            color: #002552;
+            font-weight: 700;
         }
         .sub-link{
             color: #005DAA;
         }
     }
+}
+.bottom-banner-heading{
+    font-weight:700;
 }
