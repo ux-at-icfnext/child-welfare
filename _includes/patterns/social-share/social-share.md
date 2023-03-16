@@ -14,3 +14,4 @@
             <img src="/assets/icons/twitter.svg">
         </a>
     </div>
+</div>

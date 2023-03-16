@@ -4,29 +4,81 @@ categories: [prototype]
 type: [sub-nav-item, prototype]
 ---
 <div class="resource-page-header">
-    <h1>{{ page.title}} </h1>
-    <div class="social-bar">
-      place holder for social bar - twitter, facebook, email, print
-    </div>
-    <div class="meta-data">
-      Date: {{ page.date }} 
-      {% if page.resource_type == "video" or page.resource_type == "podcast" %}
-      | Length: {{ page.length }}
-      {% endif %}
-    </div>
-    {% if page.opening_body %}
-        <div>
-            {{page.opening_body}}
-        </div>
-    {%endif%}
+  <h1>{{ page.title}} </h1>
+  <div class="social-bar">
+    {% include patterns/social-share/social-bar.md %}
   </div>
-    {% if page.title contains "Video"  %}
-        <div class="video-resources">
-            <iframe src="{{ site.data.contentful.spaces.example.resource[2].resource.episode_link }}" frameborder="0" allowfullscreen></iframe>
-            <iframe src="{{ page.ada_episode_link }}" frameborder="0" allowfullscreen></iframe>
-            <div class="transcript-link">
-                <p><a href="">{{ page.transcript }}</a> [PDF, 4kb]</p>
-                <p><a href="">{{ page.audio_description }}</a> [PDF, 4kb]</p>
-            </div>
-        </div>
+  <div class="meta-data">
+    Date: {{ page.date }} 
+    {% if page.title contains "Video" or page.title contains "Podcast" %}
+    | Length: {{ page.length }}
     {% endif %}
+  </div>
+  {% if page.opening_body %}
+      <div>
+          {{page.opening_body}}
+      </div>
+  {%endif%}
+</div>
+{% if page.title contains "Video"  %}
+    <div class="video-resources">
+        <iframe src="{{ site.data.contentful.spaces.example.resource[2].resource.episode_link }}" frameborder="0" allowfullscreen></iframe>
+        <iframe src="{{ page.ada_episode_link }}" frameborder="0" allowfullscreen></iframe>
+        <div class="transcript-link">
+            <p><a href="">{{ page.transcript }}</a> [PDF, 4kb]</p>
+            <p><a href="">{{ page.audio_description }}</a> [PDF, 4kb]</p>
+        </div>
+        <div class="body-content">
+          {{page.body}}
+        </div>
+    </div>
+{% endif %}
+{% if page.title contains "Podcast" %}
+  <div class="podcast-resources">
+    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="{{site.data.contentful.spaces.example.podcastResource[0].episode_link}}">
+    </iframe>
+    <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+      <a href="https://soundcloud.com/thisispvris" title="PVRIS" target="_blank" style="color: #cccccc; text-decoration: none;">PVRIS</a>
+        · 
+      <a href="https://soundcloud.com/thisispvris/white-noise" title="White Noise" target="_blank" style="color: #cccccc; text-decoration: none;">White Noise</a>
+    </div>
+    <div class="transcript-link">
+      <p><a href="">{{ site.data.contentful.spaces.example.podcastResource[0].transcript.description }}</a> [PDF, 4kb]</p>
+    </div>
+    <div class="body-content">
+      {{page.body}}
+    </div>
+  </div>
+{% endif %}
+{% if page.title contains "Publication" or page.title contains "PDF" %}
+  <div class="publication-resources">
+    <img src="{{ page.resource.thumbnail }}" alt="A placeholder image" />
+      <div class="resources-body">
+          <p><em>Series Title:</em> {{ page.resource.series_title }}</p>
+          <p><em>Author(s):</em> {{ page.resource.author }}</p>
+          <p><em>Year Published</em> {{ page.resource.year_published }}</p>
+      </div>
+      <div class="body-content">
+        {{page.body}}
+      </div>
+      <div class="resources-footer">
+          NEED MULTI DOWNLOAD BUTTON HERE -- WITH IF/THEN statements on options
+      </div>
+  </div>
+{% endif %}
+<div class="series-list">
+  <h2>Also in this series</h2>
+  <ul>
+    <li><a href="">example series</a></li>
+    <li><a href="">example series</a></li>
+    <li><a href="">example series</a></li>
+  </ul>
+</div>
+<div class="resource-list">
+  <h2>We also recommend the following Information Gateway Resources</h2>
+  <ul>
+    <li><a href="">example resource</a></li>
+    <li><a href="">example resource</a></li>
+    <li><a href="">example resource</a></li>
+  </ul>
+</div>
