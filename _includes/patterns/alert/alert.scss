@@ -1,0 +1,24 @@
+.usa-alert{
+    p{
+        padding-left: 0;
+    }
+    a{
+        padding-left: 0;
+    }
+}
+.usa-alert--info{
+    background-color: rgba(238,241,249, 1);
+    border-left-color: #005DAA;
+}
+.usa-alert--warning{
+    background-color: rgba(255,244,83, 0.10);
+    border-left-color: #FFF453;
+}
+.usa-alert--error{
+    background-color: rgba(226,30,30, 0.10);
+    border-left-color: #E21E1E;
+}
+.usa-alert--success{
+    background-color: rgba(64,182,111, .10);
+    border-left-color: #40B66F;
+}

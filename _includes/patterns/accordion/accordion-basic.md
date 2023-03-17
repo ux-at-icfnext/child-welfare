@@ -6,7 +6,7 @@
             aria-expanded="false"
             aria-controls="a{{forloop.index}}"
             >
-                {{ item.label }}
+                {{ item.title }}
             </button>
         </h4>
         <div id="a{{forloop.index}}" class="usa-accordion__content usa-prose">
