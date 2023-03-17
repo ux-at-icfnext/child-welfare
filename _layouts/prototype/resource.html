@@ -25,8 +25,8 @@ type: [sub-nav-item, prototype]
 </div>
 {% if page.title contains "Video"  %}
     <div class="video-resources">
-        <iframe src="{{ site.data.contentful.spaces.example.resource[2].resource.episode_link }}" frameborder="0" allowfullscreen></iframe>
-        <iframe src="{{ page.ada_episode_link }}" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="{{ site.data.contentful.spaces.example.resource[2].resource.episode_link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
         <div class="transcript-link">
             <p><a href="">{{ page.transcript }}</a> [PDF, 4kb]</p>
             <p><a href="">{{ page.audio_description }}</a> [PDF, 4kb]</p>

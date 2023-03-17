@@ -242,7 +242,7 @@ resource:
       title: a-pdf-placeholder.pdf
       description: 
       url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-    episode_link: https://www.youtube.com/embed/ScMzIvxBSi4&t
+    episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
     ada_episode_link: https://www.youtube.com/watch?v=ScMzIvxBSi4&t=4s
     length: '01:34'
   thumbnail:
@@ -338,7 +338,7 @@ videoResource:
     title: a-pdf-placeholder.pdf
     description: 
     url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-  episode_link: https://www.youtube.com/watch?v=ScMzIvxBSi4&t=4s
+  episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
   ada_episode_link: https://www.youtube.com/watch?v=ScMzIvxBSi4&t=4s
   length: '01:34'
 podcastResource:
