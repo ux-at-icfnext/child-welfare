@@ -19,7 +19,7 @@ type: [sub-nav-item, prototype]
   </div>
   {% if page.opening_body %}
       <div>
-          <p>{{page.opening_body}}</p>
+          <p>{{page.opening_body | markdownify}}</p>
       </div>
   {%endif%}
 </div>
@@ -32,7 +32,7 @@ type: [sub-nav-item, prototype]
             <p><a href="">{{ page.audio_description }}</a> [PDF, 4kb]</p>
         </div>
         <div class="body-content">
-          <p>{{page.body}}</p>
+          <p>{{page.body | markdownify}}</p>
         </div>
     </div>
 {% endif %}
@@ -49,7 +49,7 @@ type: [sub-nav-item, prototype]
       <p><a href="">{{ site.data.contentful.spaces.example.podcastResource[0].transcript.description }}</a> [PDF, 4kb]</p>
     </div>
     <div class="body-content">
-      <p>{{page.body}}</p>
+      <p>{{page.body | markdownify}}</p>
     </div>
   </div>
 {% endif %}
@@ -72,7 +72,7 @@ type: [sub-nav-item, prototype]
       </div>
     </div>
     <div class="body-content">
-      <p>{{page.body}}</p>
+      <p>{{page.body | markdownify}}</p>
     </div>
   </div>
 {% endif %}

@@ -28,14 +28,19 @@
 img{
     height: 100%;
 }
+.body-content{
+    padding-left: 10px;
+}
 .series-list{
     border: 1px solid lightgray;
     padding-left: 1rem;
     padding-top: 0;
     margin-bottom: 1rem;
+    margin-left: 10px;
 }
 .resource-list{
     border: 1px solid lightgray;
     padding-left: 1rem;
     padding-top: 0;
+    margin-left: 10px;
 }

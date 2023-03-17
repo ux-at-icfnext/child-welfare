@@ -11,12 +11,12 @@
     </div>
         <div class="instagram">
         <a href="">
-            <img src="/assets/icons/mail.svg">
+            <img src="/assets/icons/mail_blue.svg">
         </a>
     </div>
         <div class="instagram">
         <a href="">
-            <img src="/assets/icons/print.svg">
+            <img src="/assets/icons/print_blue.svg">
         </a>
     </div>
 </div>
