@@ -37,7 +37,7 @@ contentful:
         environment: master                 # Optional
 page_gen-dirs: false
 page_gen:
-- data: 'site.data.contentful.spaces.example.basic'
-  template: 'prototype/basic'
+- data: 'site.data.contentful.spaces.example.resource'
+  template: 'prototype/resource'
   dir: "prototype"
   name: 'title'

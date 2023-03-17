@@ -1,0 +1,25 @@
+.event-card{
+    position: relative;
+    .event_format{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #005DAA;
+        color: white;
+        padding: 5px;
+        padding-left: 10px;
+        width: fit-content;
+    }
+    .usa-card__header{
+        margin-top: 1rem;
+    }
+    .usa-card__body{
+        padding-left: 1.5rem;
+    }
+    p{
+        padding-left: 0;
+    }
+    .sponsor{
+        font-weight: bold;
+    }
+}

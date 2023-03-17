@@ -1,4 +1,3 @@
-
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col-6">
     <ul class="usa-collection">
@@ -8,6 +7,7 @@
                     <img class="format-icon" src="/assets/icons/videocam_white.svg"/>
                     <span>Format Type</span>
                 </div>
+                <p class="date_time"> Wed, Dec 8, 2021 | 8 AM EST   </p>
                 <h3 class="usa-collection__heading collection-heading">
                     <a
                     class="usa-link"
@@ -16,7 +16,7 @@
                     </a>
                 </h3>
                 <p class="source">
-                    Source, Publication date
+                    Sponsor
                 </p>
                 <p class="usa-collection__description">
                     Short description - suggested 250 characters max - Omne animal simul atque insitam in gravissimo bello animadversionis metu. Certe, inquam, pertinax non existimant oportere exquisitis rationibus confirmare simul atque rationibus confirmare insitam.
@@ -28,6 +28,7 @@
                 <div class="format">
                     <span>Format Type</span>
                 </div>
+                <p class="date_time"> Wed, Dec 8, 2021 | 8 AM EST   </p>
                 <h3 class="usa-collection__heading collection-heading">
                     <a
                     class="usa-link"
@@ -36,7 +37,7 @@
                     </a>
                 </h3>
                 <p class="source">
-                    Source, Publication date
+                    Sponsor
                 </p>
                 <p class="usa-collection__description">
                     Short description - suggested 250 characters max - Omne animal simul atque insitam in gravissimo bello animadversionis metu. Certe, inquam, pertinax non existimant oportere exquisitis rationibus confirmare simul atque rationibus confirmare insitam.
@@ -48,6 +49,7 @@
                 <div class="format">
                     <span>Format Type</span>
                 </div>
+                <p class="date_time"> Wed, Dec 8, 2021 | 8 AM EST   </p>
                 <h3 class="usa-collection__heading collection-heading">
                     <a
                     class="usa-link"
@@ -56,7 +58,7 @@
                     </a>
                 </h3>
                 <p class="source">
-                    Source, Publication date
+                    Sponsor
                 </p>
                 <p class="usa-collection__description">
                     Short description - suggested 250 characters max - Omne animal simul atque insitam in gravissimo bello animadversionis metu. Certe, inquam, pertinax non existimant oportere exquisitis rationibus confirmare simul atque rationibus confirmare insitam.

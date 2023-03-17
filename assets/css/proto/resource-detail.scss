@@ -1,0 +1,46 @@
+.social-bar{
+    display: grid;
+    grid-template-columns: 0.5fr 12fr;
+    gap: 0;
+    padding-left: 10px;
+}
+.meta-data{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+}
+.video-resources{
+    padding-left: 10px;
+}
+.publication-info{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap:1rem;
+    padding-left: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.pub-details{
+    font-weight: bold;
+}
+.download{
+    padding-left: 10px;
+}
+img{
+    height: 100%;
+}
+.body-content{
+    padding-left: 10px;
+}
+.series-list{
+    border: 1px solid lightgray;
+    padding-left: 1rem;
+    padding-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 10px;
+}
+.resource-list{
+    border: 1px solid lightgray;
+    padding-left: 1rem;
+    padding-top: 0;
+    margin-left: 10px;
+}
