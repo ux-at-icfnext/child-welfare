@@ -8,7 +8,7 @@
     </div>
     <input type="checkbox" class="dropdown-input">
     <ul class="dropdown-menu">
-    {% for item in site.data.contentful.spaces.example.publicationResource[0].download_language %}
+    {% for item in site.data.contentful.spaces.example.publicationResource[0].download_file_size %}
         <li>{{item}}</li>
     {% endfor %}
     </ul>
