@@ -7,30 +7,51 @@
     }
 }
 
-
+.usa-card__heading{
+    font-family: Montserrat;
+}
+.usa-card__body{
+    font-family: Lora, serif;
+}
 .usa-card__container  {
-    background-color: #002552;
-    color: #fff;
+    background-color: #fff;
+    color: #002552;
     border-radius: 0;
+    box-shadow: 1px 1px 1px 1px gray;
     border: 0;
     padding: 2%;
     .usa-card__body {
         padding: 2%;
     }
+    .usa-button{
+        border-radius: 3px;
+        border: 1px solid rgba(0,37,82, 1);
+        background-color: transparent;
+        color:#002552;
+
+    }
 
     a{
-        color: #fff;
+        color: #002552;
         text-decoration: none;
         &:hover {
-            color: #002552;
+            color: #fff;
         }
     }
      
     &:hover {
-        background-color: #fff;
-        color: #002552;
+        background-color: #002552;
+        color: white;
         cursor: pointer;
         box-shadow: 1px 1px 1px 1px;
+    }
+}
+
+.usa-card__container:hover{
+    .usa-button{
+        background-color: #002552;
+        color: white;
+        border: 1px solid white;
     }
 }
 
