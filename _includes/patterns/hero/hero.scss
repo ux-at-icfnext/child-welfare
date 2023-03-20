@@ -13,6 +13,7 @@
     border: 5px solid #002552;
     border-bottom: 5px solid #E50E63;
     margin-bottom: 100px;
+    font-family: Lora, serif;
 
     .hero-image img {
 
@@ -27,8 +28,14 @@
         object-fit: cover;
         object-position: 0% 100%;
         padding-bottom: 0;
-        box-shadow: 4px 4px 2px #dfe1e2;
         }
     }
-
+    .usa-hero__heading{
+        font-family: Montserrat;
+        font-weight: bold;
+    }
+    .usa-button{
+        background-color: white;
+        color:#002552;
+    }
 }

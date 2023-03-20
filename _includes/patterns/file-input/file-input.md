@@ -1,5 +1,5 @@
 
-<div class="usa-form-group">
+<div class="usa-form-group file-input">
   <label class="usa-label" for="file-input-single"
     >Input accepts a single file</label
   >
@@ -13,7 +13,7 @@
 
 <br/>
 
-<div class="usa-form-group">
+<div class="usa-form-group file-input">
   <label class="usa-label" for="file-input-specific"
     >Input accepts only specific file types</label
   >
@@ -33,7 +33,7 @@
 
 <br/>
 
-<div class="usa-form-group">
+<div class="usa-form-group file-input">
   <label class="usa-label" for="file-input-multiple"
     >Input accepts multiple files</label
   >
@@ -52,7 +52,7 @@
 
 <br/>
 
-<div class="usa-form-group">
+<div class="usa-form-group file-input">
   <label class="usa-label" for="file-input-wildcard"
     >Input accepts any kind of image</label
   >
@@ -72,7 +72,7 @@
 
 </br>
 
-<div class="usa-form-group usa-form-group--error">
+<div class="usa-form-group usa-form-group--error file-input">
   <label class="usa-label usa-label--error" for="file-input-error"
     >Input has an error</label
   >
@@ -90,7 +90,7 @@
 
 <br/>
 
-<div class="usa-form-group">
+<div class="usa-form-group file-input">
   <label class="usa-label" for="file-input-disabled"
     >Input in a disabled state</label
   >

@@ -1,6 +1,10 @@
 .usa-file-input__box{
     z-index: -1;
+    color: #F7F9FA;
 }
-.usa-file-input__instructions{
-    z-index: 0;
+.usa-file-input .usa-file-input__input[type]{
+    background-color: #F7F9FA;
+}
+.file-input{
+    font-family: Montserrat;
 }

@@ -20,7 +20,6 @@
         object-fit: cover;
         object-position: 0% 100%;
         padding-bottom: 0;
-        box-shadow: 4px 4px 2px #dfe1e2;
         }
     }
     .usa-hero__callout{
@@ -28,5 +27,8 @@
     }
     .usa-hero__heading--alt{
         color: black;
+    }
+    .hero-landing-button{
+        margin-top: 1rem;
     }
 }

@@ -1,0 +1,13 @@
+.usa-list{
+    ul{
+        list-style-type: none;
+    }
+    li::before{
+        content: "\25A0";
+        color: #002552;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em
+    }
+
+}
