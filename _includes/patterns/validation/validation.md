@@ -1,5 +1,5 @@
 
-<form class="usa-form">
+<form class="usa-form validation">
   <fieldset class="usa-fieldset">
     <legend class="usa-legend usa-legend--large">Enter a code</legend>
     <div class="usa-alert usa-alert--info usa-alert--validation">

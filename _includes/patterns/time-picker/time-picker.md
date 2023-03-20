@@ -1,5 +1,5 @@
 
-<div class="usa-form-group">
+<div class="usa-form-group time-picker">
   <label class="usa-label" id="appointment-time-label" for="appointment-time"
     >Appointment time</label
   >
