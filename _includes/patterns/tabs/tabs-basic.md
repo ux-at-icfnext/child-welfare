@@ -4,14 +4,14 @@
             <button
             class="usa-accordion__button"
             aria-expanded="false"
-            aria-controls="a{{forloop.index}}"
+            aria-controls="t{{forloop.index}}"
             >
-                {{ item.label }}
+                {{ item.title }}
             </button>
         </h4>
-        <div id="a{{forloop.index}}" class="usa-accordion__content usa-prose">
+        <div id="t{{forloop.index}}" class="usa-accordion__content usa-prose">
             <p>
-                {{ item.content | markdownify }}
+                {{item.content}}
             </p>
         </div>
     {% endfor %}
