@@ -4,9 +4,9 @@
     <section aria-label="Search component">
     <form class="usa-search" role="search">
         <label class="usa-sr-only" for="search-field">Search</label>
-        <input class="usa-input" id="search-field" type="search" name="search" />
+        <input class="usa-input" id="search-field" type="search" name="search" placeholder="Search by keyword" />
         <button class="usa-button" type="submit">
-        <span class="usa-search__submit-text">Search </span
+        <span class="usa-search__submit-text"></span
         ><img
             src="/assets/img/usa-icons-bg/search--white.svg"
             class="usa-search__submit-icon"
@@ -15,5 +15,4 @@
         </button>
     </form>
     </section>
-    <a href="">Search Tips</a><span> |</span><a href="">Advanced Search</a>
 </div>
