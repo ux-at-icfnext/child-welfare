@@ -1,6 +1,6 @@
 ---
 layout: pattern
-categories: [patterns]
+categories: [patterns, search-feature]
 title: Search Feature
 type: [sub-nav-item]
 permalink: /patterns/search-feature/

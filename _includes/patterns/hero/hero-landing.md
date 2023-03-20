@@ -1,4 +1,4 @@
-<section class="usa-hero" aria-label="Introduction";>
+<section class="usa-hero hero-landing" aria-label="Introduction";>
   <div class="grid-container">
     <div class="usa-hero__callout">
       <h1 class="usa-hero__heading">
@@ -6,13 +6,15 @@
       </h1> 
       <div class="hero-image"><img src="/assets/icons/images/main-hero.jpg" /></div>
       A quick statement capturing the essence of Child Welfare Information Gateway goes here. This can be two to three lines in length. The button will link to the About Us page.
-      <a class="usa-button hero-landing-button"
-        href="{{ hero.button.href | relative_url }}">
-        More about us
-      </a>
-      <p class="share-page">
-        <a href="" class="hero-share-link">Share this page</a>
-      </p>
+      <div class="hero-btns">
+        <a class="usa-button hero-landing-button"
+          href="{{ hero.button.href | relative_url }}">
+          More about us
+        </a>
+        <a class="usa-button second-button" href="">
+          All Resources
+        </a>
+      </div>
     </div>
   </div>
 </section>

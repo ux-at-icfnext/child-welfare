@@ -1,9 +1,9 @@
 ---
 layout: pattern
 categories: [patterns, card]
-title: Card
-type: [sub-nav-item]
-permalink: /patterns/card/
+title: Card with Tag
+type: [detail-page]
+permalink: /patterns/card/card-with-tag
 variations: true
 overview: A card is often a subset or summary of a larger idea. It acts as an entry point to more detailed information. 
 description: |
@@ -57,10 +57,10 @@ yml: |
 
 jekyll: |
 
-  "{% include patterns/card/card-default-jk.md %}"
+  "{% include patterns/card/card-with-tag-jk.md %}"
 ### Paths to view design and code... 
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
 # designimg: 
-htmlpath: patterns/card/card-default.md
+htmlpath: patterns/card/card-with-tag.md
 csspath: patterns/card/index.scss
 ---

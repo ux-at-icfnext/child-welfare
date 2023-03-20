@@ -1,9 +1,9 @@
 ---
 layout: pattern
-categories: [patterns]
-title: Search Feature
-type: [sub-nav-item]
-permalink: /patterns/search-feature-variation/
+categories: [patterns, search-feature]
+title: Search Feature Variation
+type: [detail-page]
+permalink: /patterns/search-feature/search-feature-variation
 variations: true
 overview: Search allows users to search for specific content if they know what search terms to use or can’t find desired content in the main navigation 
 description: Search allows users to search for specific content if they know what search terms to use or can’t find desired content in the main navigation

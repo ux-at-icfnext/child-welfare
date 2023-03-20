@@ -11,7 +11,7 @@
                 </p>
             </div>
             <div class="usa-card__footer">
-                <a href="{{item.link}}" class="usa-button">Card Button}</a>
+                <a href="{{item.link}}" class="usa-button">Card Button</a>
             </div>
             </div>
         </li>
@@ -26,7 +26,7 @@
                 </p>
             </div>
             <div class="usa-card__footer">
-                <a href="{{item.link}}" class="usa-button">Card Button}</a>
+                <a href="{{item.link}}" class="usa-button">Card Button</a>
             </div>
             </div>
         </li>

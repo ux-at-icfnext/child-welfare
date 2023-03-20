@@ -5,8 +5,8 @@
 .usa-card__container__media:hover{
     cursor: pointer;
 }
-.usa-card__container__media button{
-    background-color: white;
-    color: #005DAA;
-    border: 1px solid #005DAA;
+.usa-card__container__media{
+    .usa-card__body p{
+        padding-left: 0;
+    }
 }

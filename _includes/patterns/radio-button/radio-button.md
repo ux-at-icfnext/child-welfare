@@ -1,5 +1,5 @@
 
-<form class="usa-form">
+<form class="usa-form radio-buttons">
 <fieldset class="usa-fieldset">
   <legend class="usa-legend usa-legend">Select one historical figure</legend>
   <div class="usa-radio">

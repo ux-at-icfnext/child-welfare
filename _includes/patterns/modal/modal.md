@@ -18,7 +18,7 @@
         <h2 class="usa-modal__heading" id="modal-1-heading">
           Are you sure you want to continue?
         </h2>
-        <div class="usa-prose">
+        <div class="usa-prose modal-prose">
           <p id="modal-1-description">
             You have unsaved changes that will be lost.
           </p>
@@ -33,7 +33,7 @@
             <li class="usa-button-group__item">
               <button
                 type="button"
-                class="usa-button usa-button--unstyled padding-105 text-center"
+                class="usa-button usa-button--unstyled padding-105 text-center back-button"
                 data-close-modal
               >
                 Go back

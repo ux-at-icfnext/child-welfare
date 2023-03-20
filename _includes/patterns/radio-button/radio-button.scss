@@ -1,0 +1,23 @@
+.usa-radio__label{
+    font-family: Montserrat;
+    font-weight: 200;
+}
+.usa-radio__input:checked+[class*=__label]:before{
+    background-color: #002552;
+    box-shadow: #002552;
+}
+.usa-radio__label:before{
+    background-color: #71767A;
+}
+.usa-radio__label:before{
+    background-color: transparent;
+}
+.usa-radio__input:disabled+[class*=__label]:before, .usa-radio__input[aria-disabled=true]+[class*=__label]:before{
+    background-color: rgba(27,27,27,.3);
+}
+.usa-checkbox__label-description{
+    font-family: Lora, serif;
+}
+.usa-radio__input--tile:checked+[class*=__label]{
+    background-color: #C7CFE9;
+}
