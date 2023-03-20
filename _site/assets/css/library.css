@@ -209,6 +209,8 @@ i { display: inline; padding-right: 5px; }
 
 .body small { color: #005DAA; font-weight: bold; }
 
+.usa-card__container__flag-subscribe .usa-card__body p { padding-left: 0; }
+
 .event__card { width: 300px; background-color: white; border: 1px solid; display: flex; flex-direction: column; }
 
 .event__card:hover { background-color: #002552; color: white; cursor: pointer; }
@@ -417,9 +419,11 @@ img { max-width: 100%; }
 
 .check-out { position: absolute; right: 33%; bottom: 40%; }
 
-.basic-page-header { max-width: 40rem; }
+.basic-page-header { max-width: fit-content; }
 
-.help-cards { color: black; display: flex; justify-content: flex-start; padding-left: 2rem; }
+.help-cards { color: black; padding-left: 2rem; display: grid; grid-template-columns: auto auto; }
+
+@media (min-width: 64em) { .desktop\:grid-col-6 { display: inline-block; width: fit-content; } }
 
 .usa-hero { background-image: none; background-position: right 30px center; background-size: 50%; height: auto; border: 2px solid; background-repeat: no-repeat; background-color: #002552; width: 100%; border: 5px solid #002552; border-bottom: 5px solid #E50E63; margin-bottom: 100px; font-family: Lora, serif; }
 
@@ -487,9 +491,9 @@ img { max-width: 100%; }
 
 .usa-color-text-visited { color: #002552; }
 
-.usa-list ul { list-style-type: none; }
+.list-pattern ul { list-style-type: none; }
 
-.usa-list li::before { content: "\25A0"; color: #002552; display: inline-block; width: 1em; margin-left: -1em; }
+.list-pattern li::before { content: "\25A0"; color: #002552; display: inline-block; width: 1em; margin-left: -1em; }
 
 .usa-modal__heading { font-family: Montserrat; }
 

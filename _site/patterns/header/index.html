@@ -4559,13 +4559,19 @@
     <span class="nl">bottom</span><span class="p">:</span> <span class="m">40%</span><span class="p">;</span>
 <span class="p">}</span>
 <span class="nc">.basic-page-header</span><span class="p">{</span>
-    <span class="nl">max-width</span><span class="p">:</span> <span class="m">40rem</span><span class="p">;</span>
+    <span class="nl">max-width</span><span class="p">:</span> <span class="n">fit-content</span><span class="p">;</span>
 <span class="p">}</span>
 <span class="nc">.help-cards</span><span class="p">{</span>
     <span class="nl">color</span><span class="p">:</span> <span class="no">black</span><span class="p">;</span>
-    <span class="nl">display</span><span class="p">:</span> <span class="n">flex</span><span class="p">;</span>
-    <span class="nl">justify-content</span><span class="p">:</span> <span class="n">flex-start</span><span class="p">;</span>
     <span class="nl">padding-left</span><span class="p">:</span> <span class="m">2rem</span><span class="p">;</span>
+    <span class="nl">display</span><span class="p">:</span> <span class="n">grid</span><span class="p">;</span>
+    <span class="py">grid-template-columns</span><span class="p">:</span> <span class="nb">auto</span> <span class="nb">auto</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="k">@media</span> <span class="p">(</span><span class="n">min-width</span><span class="p">:</span> <span class="m">64em</span><span class="p">){</span>
+    <span class="nc">.desktop</span><span class="err">\</span><span class="nd">:grid-col-6</span><span class="p">{</span>
+        <span class="nl">display</span><span class="p">:</span> <span class="n">inline-block</span><span class="p">;</span>
+        <span class="nl">width</span><span class="p">:</span> <span class="n">fit-content</span><span class="p">;</span>
+    <span class="p">}</span>
 <span class="p">}</span>
             </code></pre></figure>
 
