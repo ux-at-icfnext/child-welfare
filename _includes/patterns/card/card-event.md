@@ -1,6 +1,6 @@
 <ul class="usa-card-group">
   <li class="usa-card tablet:grid-col-4">
-    <div class="usa-card__container event-card">
+    <div class="usa-card__container event-card card-default">
     <span class="event_format">Event Format</span>
       <div class="usa-card__header">
         <h2 class="usa-card__heading">Event Title-20 characters -Quae fuerit causa hoc tenebo moxib.

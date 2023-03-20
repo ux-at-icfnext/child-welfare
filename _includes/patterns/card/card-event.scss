@@ -16,10 +16,12 @@
     .usa-card__body{
         padding-left: 1.5rem;
     }
-    p{
-        padding-left: 0;
-    }
     .sponsor{
         font-weight: bold;
+    }
+}
+.usa-card__body{
+    p{
+        padding-left: 1rem;
     }
 }
