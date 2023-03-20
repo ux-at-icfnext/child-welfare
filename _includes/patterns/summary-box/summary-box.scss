@@ -1,10 +1,18 @@
 .usa-summary-box__heading{
     color: #002552;
+    font-family: Montserrat;
+    font-weight: bold;
 }
 .usa-summary-box{
     background-color: #C7CFE9;
     border: none;
     width: 50%;
+}
+.usa-summary-box__text{
+    font-family: Lora, serif;
+    .usa-list{
+        padding-left: 0;
+    }
 }
 a{
     color: #005DAA;

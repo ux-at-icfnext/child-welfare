@@ -1,4 +1,7 @@
-
+.usa-step-indicator__segments{
+    font-family: Montserrat;
+    font-weight: light;
+}
 .usa-step-indicator__header{
     display: block;
 }
@@ -7,13 +10,13 @@
         z-index: 0;
     }
     .usa-step-indicator__segment--complete::after{
-        background-color: #7E9BD2;
+        background-color: #849ACE;
     }
     .usa-step-indicator__segment--current::after{
         background-color: #005DAA
     }
     .usa-step-indicator__segment--incomplete::after{
-        background-color: #A9AEB1;
+        background-color: #919191;
     }
     .usa-step-indicator__header{
         display: none;
