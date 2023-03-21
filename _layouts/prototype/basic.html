@@ -34,12 +34,10 @@ type: [sub-nav-item, prototype]
     {{page.body | markdownify}}
   </div>
   {%if page.template contains "tabs"%}
-    <div>
-      {%include prototype/basic-tabs.md%}
-    </div>
+  {%include prototype/basic-tabs.md%}
   {%endif%}
   {%if page.template contains "accordion" %}
-    <div>
+    <div class="grid-container">
       {%include patterns/accordion/accordion-basic.md%}
     </div>
   {%endif%}
