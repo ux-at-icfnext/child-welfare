@@ -8,7 +8,7 @@ permalink: /prototype/
 <div class="grid-container" markdown="1">
 ## Basic Pages
 {% for basic in site.data.contentful.spaces.example.basic %}
-  <a href="/prototype/{{base.slug}}">{{basic.title}}</a>
+  <a href="/prototype/{{basic.slug}}">{{basic.title}}</a>
 {%endfor%}
 
 ## Resource Details
