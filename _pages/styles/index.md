@@ -1,5 +1,5 @@
 ---
-layout: left-rail
+layout: landing
 categories: [styles]
 title: Styles 
 permalink: /styles/
