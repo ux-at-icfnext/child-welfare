@@ -5,7 +5,8 @@
       <h1 class="usa-hero__heading">
         <span class="usa-hero__heading--alt">{{page.title}}</span>
       </h1> 
-      {{page.summary}}
+      <div>{% include patterns/social-share/social-share.md %}</div>
+      <div class="usa-intro"> {{page.summary}}</div>
     </div>
     <div class="help-cards">
         {% if page.find_help_cta %}
