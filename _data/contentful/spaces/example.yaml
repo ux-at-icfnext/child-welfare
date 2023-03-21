@@ -1,365 +1,107 @@
 ---
-videoResource:
-- sys:
-    id: 1pqKscUETyrisG2TrnlTg2
-    created_at: !ruby/object:DateTime 2023-02-28 21:40:56.727000000 Z
-    updated_at: !ruby/object:DateTime 2023-03-17 15:05:11.999000000 Z
-    content_type_id: videoResource
-    revision: 3
-  episode_name: White Noise
-  description: Sounds for helping children to sleep
-  transcript:
-    sys:
-      id: 2oRKyd27cdKum1UqKD7WWO
-      created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-    title: a-pdf-placeholder.pdf
-    description: 
-    url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-  audio_description:
-    sys:
-      id: 2oRKyd27cdKum1UqKD7WWO
-      created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-    title: a-pdf-placeholder.pdf
-    description: 
-    url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-  episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
-  ada_episode_link: https://www.youtube.com/watch?v=ScMzIvxBSi4&t=4s
-  length: '01:34'
-podcastResource:
-- sys:
-    id: 6g5yYVX8naoXcToMeMZGwI
-    created_at: !ruby/object:DateTime 2023-02-28 21:36:54.377000000 Z
-    updated_at: !ruby/object:DateTime 2023-03-17 14:42:14.141000000 Z
-    content_type_id: podcastResource
-    revision: 2
-  episode_name: White Noise
-  description: Sounds for helping children to sleep
-  transcript:
-    sys:
-      id: 2oRKyd27cdKum1UqKD7WWO
-      created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-    title: a-pdf-placeholder.pdf
-    description: 
-    url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-  episode_link: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172595677&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-  length: '04:22'
-publicationResource:
-- sys:
-    id: 5phNaetayZ6HGFFQle2rbk
-    created_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
-    updated_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
-    content_type_id: publicationResource
-    revision: 1
-  file_name: infographic for sleep
-  description: infographic for sleep
-  file:
-    sys:
-      id: 1gfY9AaLQ2P2lsbfgY3mB6
-      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
-    title: thumb11.png
-    description: 
-    url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
-  series_title: On helping children sleep
-  author: The Center for Better sleep
-  year_published: '2023'
-  current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
-  order_online: false
-  download_language:
-  - English
-  download_file_size:
-  - 200X200 pixels
-  - 300x250 pixels
-  - 600x400 pixels
-- sys:
-    id: 2jGeVHjaDvcbxyhhwsv6bq
-    created_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
-    updated_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
-    content_type_id: publicationResource
-    revision: 1
-  file_name: a pdf file
-  description: a pdf file
-  file:
-    sys:
-      id: 2oRKyd27cdKum1UqKD7WWO
-      created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-    title: a-pdf-placeholder.pdf
-    description: 
-    url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-  series_title: On helping children sleep
-  author: The Center for Better sleep
-  year_published: '2022'
-  current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
-  order_online: true
-  download_language:
-  - English
-  - Spanish
-resource:
-- sys:
-    id: 1loIs3pHYaT5UNJKsr94U8
-    created_at: !ruby/object:DateTime 2023-02-28 21:48:46.853000000 Z
-    updated_at: !ruby/object:DateTime 2023-02-28 21:48:46.853000000 Z
-    content_type_id: resource
-    revision: 1
-  title: HI! I'm a Resource Image Page
-  summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
-    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
-    turpis cursus '
-  date: !ruby/object:DateTime 2023-01-12 00:00:00.000000000 -08:00
-  opening_body: "Optional opening body ... shows before the resource. Allows rich
-    text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
-    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
-    turpis cursus "
-  body: "Body content shows after resource. Allows rich text\n\n## section header\n###
-    section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-    integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
-    - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus \n\n-
-    in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit amet volutpat\n\nconsequat
-    mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim
-    ut sem viverra [aliquet eget sit](https://linktonowhere.com) *amet tellus* cras
-    adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum
-    lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus
-    sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis
-    aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl\n"
-  resource_type:
-  - publication
-  resource:
-    sys:
-      id: 5phNaetayZ6HGFFQle2rbk
-      created_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
-      content_type_id: publicationResource
-      revision: 1
-    file_name: infographic for sleep
-    description: infographic for sleep
-    file:
-      sys:
-        id: 1gfY9AaLQ2P2lsbfgY3mB6
-        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
-      title: thumb11.png
-      description: 
-      url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
-    series_title: On helping children sleep
-    author: The Center for Better sleep
-    year_published: '2023'
-    current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
-    order_online: false
-    download_language:
-    - English
-    download_file_size:
-    - 200X200 pixels
-    - 300x250 pixels
-    - 600x400 pixels
-  thumbnail:
-    sys:
-      id: 5wvxHr8hU9B5Gq55jx8M6k
-      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
-    title: thumb7.png
-    description: 
-    url: "//images.ctfassets.net/tues7aklmpmt/5wvxHr8hU9B5Gq55jx8M6k/23bbdbee2652f0a40ce293cf4485c2ea/thumb7.png"
-  slug: hi-im-a-resource-image-page
-- sys:
-    id: 76eiT5WdqqACACNCS5Pr0C
-    created_at: !ruby/object:DateTime 2023-02-28 21:45:25.372000000 Z
-    updated_at: !ruby/object:DateTime 2023-02-28 21:45:25.372000000 Z
-    content_type_id: resource
-    revision: 1
-  title: HI! I'm a Resource PDF Page
-  summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
-    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
-    turpis cursus '
-  date: !ruby/object:DateTime 2022-11-09 00:00:00.000000000 -08:00
-  opening_body: "Optional opening body ... shows before the resource. Allows rich
-    text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
-    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
-    turpis cursus "
-  body: "Body content shows after resource. Allows rich text\n\n## section header\n###
-    section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-    integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
-    - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus \n\n-
-    in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit amet volutpat\n\nconsequat
-    mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim
-    ut sem viverra [aliquet eget sit](https://linktonowhere.com) *amet tellus* cras
-    adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum
-    lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus
-    sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis
-    aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl\n"
-  resource_type:
-  - publication
-  resource:
-    sys:
-      id: 2jGeVHjaDvcbxyhhwsv6bq
-      created_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
-      content_type_id: publicationResource
-      revision: 1
-    file_name: a pdf file
-    description: a pdf file
-    file:
-      sys:
-        id: 2oRKyd27cdKum1UqKD7WWO
-        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-      title: a-pdf-placeholder.pdf
-      description: 
-      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-    series_title: On helping children sleep
-    author: The Center for Better sleep
-    year_published: '2022'
-    current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
-    order_online: true
-    download_language:
-    - English
-    - Spanish
-  thumbnail:
-    sys:
-      id: 1WmmDxodAIKXZCLm6mkO74
-      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
-    title: thumb1.png
-    description: 
-    url: "//images.ctfassets.net/tues7aklmpmt/1WmmDxodAIKXZCLm6mkO74/90af5dae4c0c1be79be671b0570fc597/thumb1.png"
-  slug: hi-im-a-resource-pdf-page
-- sys:
-    id: wlo7mBiVqQPT8olE0tNcf
-    created_at: !ruby/object:DateTime 2023-02-28 21:40:56.520000000 Z
-    updated_at: !ruby/object:DateTime 2023-02-28 21:40:56.520000000 Z
-    content_type_id: resource
-    revision: 1
-  title: HI! I'm a Resource Video Page
-  summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
-    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
-    turpis cursus '
-  date: !ruby/object:DateTime 2023-01-07 00:00:00.000000000 -08:00
-  opening_body: "Optional opening body ... shows before the resource. Allows rich
-    text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
-    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
-    turpis cursus "
-  body: "Body content shows after resource. Allows rich text\n\n## section header\n###
-    section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-    integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
-    - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus \n\n-
-    in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit amet volutpat\n\nconsequat
-    mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim
-    ut sem viverra [aliquet eget sit](https://linktonowhere.com) *amet tellus* cras
-    adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum
-    lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus
-    sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis
-    aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl\n"
-  resource_type:
-  - video
-  resource:
-    sys:
-      id: 1pqKscUETyrisG2TrnlTg2
-      created_at: !ruby/object:DateTime 2023-02-28 21:40:56.727000000 Z
-      updated_at: !ruby/object:DateTime 2023-03-17 15:05:11.999000000 Z
-      content_type_id: videoResource
-      revision: 3
-    episode_name: White Noise
-    description: Sounds for helping children to sleep
-    transcript:
-      sys:
-        id: 2oRKyd27cdKum1UqKD7WWO
-        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-      title: a-pdf-placeholder.pdf
-      description: 
-      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-    audio_description:
-      sys:
-        id: 2oRKyd27cdKum1UqKD7WWO
-        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-      title: a-pdf-placeholder.pdf
-      description: 
-      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-    episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
-    ada_episode_link: https://www.youtube.com/watch?v=ScMzIvxBSi4&t=4s
-    length: '01:34'
-  thumbnail:
-    sys:
-      id: 3ukIE991rh1ez3slk1bC8x
-      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
-    title: thumb3.png
-    description: 
-    url: "//images.ctfassets.net/tues7aklmpmt/3ukIE991rh1ez3slk1bC8x/250ccb5f3b2038461f5d431c915788e9/thumb3.png"
-  slug: hi-im-a-resource-video-page
-- sys:
-    id: 6UF4IkeGq9D8e5YhjQSLFl
-    created_at: !ruby/object:DateTime 2023-02-28 21:36:54.251000000 Z
-    updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.251000000 Z
-    content_type_id: resource
-    revision: 1
-  title: HI! I'm a Resource Podcast Page
-  summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
-    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
-    turpis cursus '
-  date: !ruby/object:DateTime 2022-10-01 00:00:00.000000000 -08:00
-  opening_body: "Optional opening body ... shows before the resource. Allows rich
-    text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
-    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
-    turpis cursus "
-  body: "Body content shows after resource. Allows rich text\n\n## section header\n###
-    section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-    integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
-    - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus \n\n-
-    in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit amet volutpat\n\nconsequat
-    mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim
-    ut sem viverra [aliquet eget sit](https://linktonowhere.com) *amet tellus* cras
-    adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum
-    lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus
-    sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis
-    aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl\n"
-  resource_type:
-  - podcast
-  resource:
-    sys:
-      id: 6g5yYVX8naoXcToMeMZGwI
-      created_at: !ruby/object:DateTime 2023-02-28 21:36:54.377000000 Z
-      updated_at: !ruby/object:DateTime 2023-03-17 14:42:14.141000000 Z
-      content_type_id: podcastResource
-      revision: 2
-    episode_name: White Noise
-    description: Sounds for helping children to sleep
-    transcript:
-      sys:
-        id: 2oRKyd27cdKum1UqKD7WWO
-        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-      title: a-pdf-placeholder.pdf
-      description: 
-      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-    episode_link: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172595677&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-    length: '04:22'
-  thumbnail:
-    sys:
-      id: 1h34RjAPcV0QWk8bp4jvqj
-      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
-    title: thumb10.png
-    description: 
-    url: "//images.ctfassets.net/tues7aklmpmt/1h34RjAPcV0QWk8bp4jvqj/cf2a16544c4304bfbbfa5f393f53b295/thumb10.png"
-  slug: hi-im-a-resource-podcast-page
 basic:
+- sys:
+    id: 1CUrCtvQSj7ro2kssS90qo
+    created_at: !ruby/object:DateTime 2023-02-23 19:54:27.901000000 Z
+    updated_at: !ruby/object:DateTime 2023-03-21 17:25:01.282000000 Z
+    content_type_id: basic
+    revision: 2
+  title: How to Report Child Abuse and Neglect
+  summary: Child Welfare Information Gateway is not a hotline for reporting suspected
+    child abuse or neglect, and it is not equipped to accept reports or intervene
+    in personal situations of this nature. If you or someone is in danger, you should
+    call [911](/).
+  body: "## Who can report child abuse or neglect? \nAnyone can report suspected child
+    abuse or neglect. Reporting abuse or neglect can protect a child and get help
+    for a family.\n\n[Mandatory Reporters of Child Abuse and Neglect](/)\nAll U.S.
+    States and territories have laws identifying persons who are required to report
+    suspected child abuse or neglect. Mandatory reporters may include social workers,
+    teachers and other school personnel, child care providers, physicians and other
+    health-care workers, mental health professionals, and law enforcement officers.
+    Some States require any person who suspects child abuse or neglect to report.\n\n##
+    What do I report when I suspect child abuse or neglect? \nProvide a complete,
+    honest account of what you observed that led you to suspect the occurrence of
+    child abuse or neglect. Any reasonable suspicion is sufficient.\n\n[What Is Child
+    Abuse and Neglect? Recognizing the Signs and Symptoms](/) \L\nLearn how to identify
+    and report child abuse or neglect and refer children who may have been maltreated.
+    This factsheet provides information on the legal definitions, different types,
+    and signs and symptoms of abuse and neglect.\n\n## What will happen after I make
+    a report of child abuse or neglect?\nAfter you make a report, it will be sent
+    to child protective services (CPS). When CPS receives a report, the CPS worker
+    reviews the information and determines if an investigation is needed. The CPS
+    worker may talk with the family, the child, or others to help determine what is
+    making the child unsafe. The CPS worker can help parents or other caregivers get
+    services, education, or other assistance.\n\n## How You Can Help Someone Who Is
+    Being Abused or Neglected.\nProvide children and youth with informatio about what
+    child abuse and neglect is and what to do if they are concerned about the safety
+    and well-being of another child. See more resources on this topic."
+  header: false
+  find_help_cta: true
+  child_abuse_cta: false
+  cta_bottom: true
+  template:
+  - body
+  features:
+  - sys:
+      id: 2fvmegN4v5MIq2IHIYD1r
+      created_at: !ruby/object:DateTime 2023-02-23 19:54:28.006000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 19:54:28.006000000 Z
+      content_type_id: basicFeatures
+      revision: 1
+    title: Childhelp National Child Abuse Hotline
+    body: 'Call or text 24/7, in over 170 languages, to report child abuse   or neglect.  '
+    button_text: 1.800.4.A.CHILD (1.800.422.4453)
+    link: https://childhelphotline.org/
+  - sys:
+      id: 5pCbIP1PGCIJbG3SvwCczs
+      created_at: !ruby/object:DateTime 2023-02-23 19:54:28.063000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 19:54:28.063000000 Z
+      content_type_id: basicFeatures
+      revision: 1
+    title: State Child Abuse and Neglect Reporting Numbers
+    body: 'State toll-free numbers and websites for reporting child abuse and neglect. '
+    button_text: 'Find your State''s reporting information '
+    link: https://www.childwelfare.gov/organizations/?CWIGFunctionsaction=rols:main.dspList&rolType=custom&rs_id=5
+  - sys:
+      id: 3AZZnoJGE1Z70wUq8eStuU
+      created_at: !ruby/object:DateTime 2023-02-23 19:54:28.148000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 19:54:28.148000000 Z
+      content_type_id: basicFeatures
+      revision: 1
+    title: National Center for Missing and Exploited Children’s Cyber Tipline
+    body: 'National centralized system for reporting online exploitation of children. '
+    button_text: 'Make a report '
+    link: https://www.missingkids.org/gethelpnow/cybertipline
+  subscription_banner: false
+  subscriptions_banner_bottom: false
+  slug: how-to-report-child-abuse-and-neglect
+- sys:
+    id: 4PDyg9PtGPeP3Ws4FeZbV
+    created_at: !ruby/object:DateTime 2023-03-21 16:11:03.278000000 Z
+    updated_at: !ruby/object:DateTime 2023-03-21 16:11:03.278000000 Z
+    content_type_id: basic
+    revision: 1
+  title: HI! I'm a Basic Page
+  summary: This is example of a basic page. It's good for content post that don't
+    have a need for a lot of functionality. There are options to show the page header
+    with a blue background to give more of a landing page look and/or to display the
+    CTA Cards.
+  searchable: false
+  body: |-
+    Body copy is optional when using tabs or accordions.
+
+    morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean et tortor at risus viverra adipiscing at in tellus integer feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit amet porttitor eget dolor morbi non arcu risus quis varius quam quisque id diam vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum
+
+    morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean et tortor at risus viverra adipiscing at in tellus integer feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit amet porttitor eget dolor morbi non arcu risus quis varius quam quisque id diam vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum
+  header: false
+  find_help_cta: false
+  child_abuse_cta: false
+  cta_bottom: false
+  template:
+  - body
+  subscription_banner: false
+  subscriptions_banner_bottom: false
+  slug: hi-im-a-basic-page
 - sys:
     id: 1ANAXHab8T2mifRsNy2RJD
     created_at: !ruby/object:DateTime 2023-02-23 19:24:19.488000000 Z
@@ -773,65 +515,6 @@ basic:
     sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas
   slug: find-help-with-a-personal-situation
 - sys:
-    id: 1CUrCtvQSj7ro2kssS90qo
-    created_at: !ruby/object:DateTime 2023-02-23 19:54:27.901000000 Z
-    updated_at: !ruby/object:DateTime 2023-02-23 19:54:27.901000000 Z
-    content_type_id: basic
-    revision: 1
-  title: How to Report Child Abuse and Neglect
-  summary: Child Welfare Information Gateway is not a hotline for reporting suspected
-    child abuse or neglect, and it is not equipped to accept reports or intervene
-    in personal situations of this nature. If you or someone is in danger, you should
-    call [911](/).
-  body: "## Who can report child abuse or neglect? \nAnyone can report suspected child
-    abuse or neglect. Reporting abuse or neglect can protect a child and get help
-    for a family.\n\n[Mandatory Reporters of Child Abuse and Neglect](/)\nAll U.S.
-    States and territories have laws identifying persons who are required to report
-    suspected child abuse or neglect. Mandatory reporters may include social workers,
-    teachers and other school personnel, child care providers, physicians and other
-    health-care workers, mental health professionals, and law enforcement officers.
-    Some States require any person who suspects child abuse or neglect to report."
-  header: false
-  find_help_cta: true
-  child_abuse_cta: false
-  cta_bottom: true
-  template:
-  - body
-  features:
-  - sys:
-      id: 2fvmegN4v5MIq2IHIYD1r
-      created_at: !ruby/object:DateTime 2023-02-23 19:54:28.006000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-23 19:54:28.006000000 Z
-      content_type_id: basicFeatures
-      revision: 1
-    title: Childhelp National Child Abuse Hotline
-    body: 'Call or text 24/7, in over 170 languages, to report child abuse   or neglect.  '
-    button_text: 1.800.4.A.CHILD (1.800.422.4453)
-    link: https://childhelphotline.org/
-  - sys:
-      id: 5pCbIP1PGCIJbG3SvwCczs
-      created_at: !ruby/object:DateTime 2023-02-23 19:54:28.063000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-23 19:54:28.063000000 Z
-      content_type_id: basicFeatures
-      revision: 1
-    title: State Child Abuse and Neglect Reporting Numbers
-    body: 'State toll-free numbers and websites for reporting child abuse and neglect. '
-    button_text: 'Find your State''s reporting information '
-    link: https://www.childwelfare.gov/organizations/?CWIGFunctionsaction=rols:main.dspList&rolType=custom&rs_id=5
-  - sys:
-      id: 3AZZnoJGE1Z70wUq8eStuU
-      created_at: !ruby/object:DateTime 2023-02-23 19:54:28.148000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-23 19:54:28.148000000 Z
-      content_type_id: basicFeatures
-      revision: 1
-    title: National Center for Missing and Exploited Children’s Cyber Tipline
-    body: 'National centralized system for reporting online exploitation of children. '
-    button_text: 'Make a report '
-    link: https://www.missingkids.org/gethelpnow/cybertipline
-  subscription_banner: false
-  subscriptions_banner_bottom: false
-  slug: how-to-report-child-abuse-and-neglect
-- sys:
     id: 3Pil4zk6yM1EBgQSQp37NB
     created_at: !ruby/object:DateTime 2023-02-23 19:18:44.685000000 Z
     updated_at: !ruby/object:DateTime 2023-02-23 19:19:09.493000000 Z
@@ -865,6 +548,366 @@ basic:
   subscription_banner: false
   subscriptions_banner_bottom: false
   slug: contact
+videoResource:
+- sys:
+    id: 1pqKscUETyrisG2TrnlTg2
+    created_at: !ruby/object:DateTime 2023-02-28 21:40:56.727000000 Z
+    updated_at: !ruby/object:DateTime 2023-03-20 15:35:10.183000000 Z
+    content_type_id: videoResource
+    revision: 4
+  episode_name: White Noise
+  description: Sounds for helping children to sleep
+  transcript:
+    sys:
+      id: 2oRKyd27cdKum1UqKD7WWO
+      created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+    title: a-pdf-placeholder.pdf
+    description: 
+    url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+  audio_description:
+    sys:
+      id: 2oRKyd27cdKum1UqKD7WWO
+      created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+    title: a-pdf-placeholder.pdf
+    description: 
+    url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+  episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
+  ada_episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
+  length: '01:34'
+podcastResource:
+- sys:
+    id: 6g5yYVX8naoXcToMeMZGwI
+    created_at: !ruby/object:DateTime 2023-02-28 21:36:54.377000000 Z
+    updated_at: !ruby/object:DateTime 2023-03-17 14:42:14.141000000 Z
+    content_type_id: podcastResource
+    revision: 2
+  episode_name: White Noise
+  description: Sounds for helping children to sleep
+  transcript:
+    sys:
+      id: 2oRKyd27cdKum1UqKD7WWO
+      created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+    title: a-pdf-placeholder.pdf
+    description: 
+    url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+  episode_link: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172595677&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+  length: '04:22'
+publicationResource:
+- sys:
+    id: 5phNaetayZ6HGFFQle2rbk
+    created_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
+    updated_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
+    content_type_id: publicationResource
+    revision: 1
+  file_name: infographic for sleep
+  description: infographic for sleep
+  file:
+    sys:
+      id: 1gfY9AaLQ2P2lsbfgY3mB6
+      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
+    title: thumb11.png
+    description: 
+    url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
+  series_title: On helping children sleep
+  author: The Center for Better sleep
+  year_published: '2023'
+  current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
+  order_online: false
+  download_language:
+  - English
+  download_file_size:
+  - 200X200 pixels
+  - 300x250 pixels
+  - 600x400 pixels
+- sys:
+    id: 2jGeVHjaDvcbxyhhwsv6bq
+    created_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
+    updated_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
+    content_type_id: publicationResource
+    revision: 1
+  file_name: a pdf file
+  description: a pdf file
+  file:
+    sys:
+      id: 2oRKyd27cdKum1UqKD7WWO
+      created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+    title: a-pdf-placeholder.pdf
+    description: 
+    url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+  series_title: On helping children sleep
+  author: The Center for Better sleep
+  year_published: '2022'
+  current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
+  order_online: true
+  download_language:
+  - English
+  - Spanish
+resource:
+- sys:
+    id: 1loIs3pHYaT5UNJKsr94U8
+    created_at: !ruby/object:DateTime 2023-02-28 21:48:46.853000000 Z
+    updated_at: !ruby/object:DateTime 2023-02-28 21:48:46.853000000 Z
+    content_type_id: resource
+    revision: 1
+  title: HI! I'm a Resource Image Page
+  summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
+    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
+    turpis cursus '
+  date: !ruby/object:DateTime 2023-01-12 00:00:00.000000000 -08:00
+  opening_body: "Optional opening body ... shows before the resource. Allows rich
+    text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
+    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
+    turpis cursus "
+  body: "Body content shows after resource. Allows rich text\n\n## section header\n###
+    section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+    integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
+    - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus \n\n-
+    in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit amet volutpat\n\nconsequat
+    mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim
+    ut sem viverra [aliquet eget sit](https://linktonowhere.com) *amet tellus* cras
+    adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum
+    lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus
+    sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis
+    aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl\n"
+  resource_type:
+  - publication
+  resource:
+    sys:
+      id: 5phNaetayZ6HGFFQle2rbk
+      created_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
+      content_type_id: publicationResource
+      revision: 1
+    file_name: infographic for sleep
+    description: infographic for sleep
+    file:
+      sys:
+        id: 1gfY9AaLQ2P2lsbfgY3mB6
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
+      title: thumb11.png
+      description: 
+      url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
+    series_title: On helping children sleep
+    author: The Center for Better sleep
+    year_published: '2023'
+    current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
+    order_online: false
+    download_language:
+    - English
+    download_file_size:
+    - 200X200 pixels
+    - 300x250 pixels
+    - 600x400 pixels
+  thumbnail:
+    sys:
+      id: 5wvxHr8hU9B5Gq55jx8M6k
+      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
+    title: thumb7.png
+    description: 
+    url: "//images.ctfassets.net/tues7aklmpmt/5wvxHr8hU9B5Gq55jx8M6k/23bbdbee2652f0a40ce293cf4485c2ea/thumb7.png"
+  slug: hi-im-a-resource-image-page
+- sys:
+    id: 76eiT5WdqqACACNCS5Pr0C
+    created_at: !ruby/object:DateTime 2023-02-28 21:45:25.372000000 Z
+    updated_at: !ruby/object:DateTime 2023-02-28 21:45:25.372000000 Z
+    content_type_id: resource
+    revision: 1
+  title: HI! I'm a Resource PDF Page
+  summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
+    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
+    turpis cursus '
+  date: !ruby/object:DateTime 2022-11-09 00:00:00.000000000 -08:00
+  opening_body: "Optional opening body ... shows before the resource. Allows rich
+    text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
+    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
+    turpis cursus "
+  body: "Body content shows after resource. Allows rich text\n\n## section header\n###
+    section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+    integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
+    - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus \n\n-
+    in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit amet volutpat\n\nconsequat
+    mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim
+    ut sem viverra [aliquet eget sit](https://linktonowhere.com) *amet tellus* cras
+    adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum
+    lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus
+    sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis
+    aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl\n"
+  resource_type:
+  - publication
+  resource:
+    sys:
+      id: 2jGeVHjaDvcbxyhhwsv6bq
+      created_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
+      content_type_id: publicationResource
+      revision: 1
+    file_name: a pdf file
+    description: a pdf file
+    file:
+      sys:
+        id: 2oRKyd27cdKum1UqKD7WWO
+        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+      title: a-pdf-placeholder.pdf
+      description: 
+      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+    series_title: On helping children sleep
+    author: The Center for Better sleep
+    year_published: '2022'
+    current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
+    order_online: true
+    download_language:
+    - English
+    - Spanish
+  thumbnail:
+    sys:
+      id: 1WmmDxodAIKXZCLm6mkO74
+      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
+    title: thumb1.png
+    description: 
+    url: "//images.ctfassets.net/tues7aklmpmt/1WmmDxodAIKXZCLm6mkO74/90af5dae4c0c1be79be671b0570fc597/thumb1.png"
+  slug: hi-im-a-resource-pdf-page
+- sys:
+    id: wlo7mBiVqQPT8olE0tNcf
+    created_at: !ruby/object:DateTime 2023-02-28 21:40:56.520000000 Z
+    updated_at: !ruby/object:DateTime 2023-02-28 21:40:56.520000000 Z
+    content_type_id: resource
+    revision: 1
+  title: HI! I'm a Resource Video Page
+  summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
+    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
+    turpis cursus '
+  date: !ruby/object:DateTime 2023-01-07 00:00:00.000000000 -08:00
+  opening_body: "Optional opening body ... shows before the resource. Allows rich
+    text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
+    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
+    turpis cursus "
+  body: "Body content shows after resource. Allows rich text\n\n## section header\n###
+    section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+    integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
+    - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus \n\n-
+    in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit amet volutpat\n\nconsequat
+    mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim
+    ut sem viverra [aliquet eget sit](https://linktonowhere.com) *amet tellus* cras
+    adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum
+    lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus
+    sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis
+    aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl\n"
+  resource_type:
+  - video
+  resource:
+    sys:
+      id: 1pqKscUETyrisG2TrnlTg2
+      created_at: !ruby/object:DateTime 2023-02-28 21:40:56.727000000 Z
+      updated_at: !ruby/object:DateTime 2023-03-20 15:35:10.183000000 Z
+      content_type_id: videoResource
+      revision: 4
+    episode_name: White Noise
+    description: Sounds for helping children to sleep
+    transcript:
+      sys:
+        id: 2oRKyd27cdKum1UqKD7WWO
+        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+      title: a-pdf-placeholder.pdf
+      description: 
+      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+    audio_description:
+      sys:
+        id: 2oRKyd27cdKum1UqKD7WWO
+        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+      title: a-pdf-placeholder.pdf
+      description: 
+      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+    episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
+    ada_episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
+    length: '01:34'
+  thumbnail:
+    sys:
+      id: 3ukIE991rh1ez3slk1bC8x
+      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
+    title: thumb3.png
+    description: 
+    url: "//images.ctfassets.net/tues7aklmpmt/3ukIE991rh1ez3slk1bC8x/250ccb5f3b2038461f5d431c915788e9/thumb3.png"
+  slug: hi-im-a-resource-video-page
+- sys:
+    id: 6UF4IkeGq9D8e5YhjQSLFl
+    created_at: !ruby/object:DateTime 2023-02-28 21:36:54.251000000 Z
+    updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.251000000 Z
+    content_type_id: resource
+    revision: 1
+  title: HI! I'm a Resource Podcast Page
+  summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
+    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
+    turpis cursus '
+  date: !ruby/object:DateTime 2022-10-01 00:00:00.000000000 -08:00
+  opening_body: "Optional opening body ... shows before the resource. Allows rich
+    text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
+    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
+    turpis cursus "
+  body: "Body content shows after resource. Allows rich text\n\n## section header\n###
+    section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+    integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
+    - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus \n\n-
+    in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit amet volutpat\n\nconsequat
+    mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim
+    ut sem viverra [aliquet eget sit](https://linktonowhere.com) *amet tellus* cras
+    adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum
+    lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus
+    sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis
+    aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl\n"
+  resource_type:
+  - podcast
+  resource:
+    sys:
+      id: 6g5yYVX8naoXcToMeMZGwI
+      created_at: !ruby/object:DateTime 2023-02-28 21:36:54.377000000 Z
+      updated_at: !ruby/object:DateTime 2023-03-17 14:42:14.141000000 Z
+      content_type_id: podcastResource
+      revision: 2
+    episode_name: White Noise
+    description: Sounds for helping children to sleep
+    transcript:
+      sys:
+        id: 2oRKyd27cdKum1UqKD7WWO
+        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+      title: a-pdf-placeholder.pdf
+      description: 
+      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+    episode_link: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172595677&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+    length: '04:22'
+  thumbnail:
+    sys:
+      id: 1h34RjAPcV0QWk8bp4jvqj
+      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
+    title: thumb10.png
+    description: 
+    url: "//images.ctfassets.net/tues7aklmpmt/1h34RjAPcV0QWk8bp4jvqj/cf2a16544c4304bfbbfa5f393f53b295/thumb10.png"
+  slug: hi-im-a-resource-podcast-page
 basicListGroups:
 - sys:
     id: 1NLyIHDGHSPE6Culh1SOqx
