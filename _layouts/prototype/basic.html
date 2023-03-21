@@ -7,7 +7,7 @@ type: [sub-nav-item, prototype]
 
 <div>
   <div class="basic-header">
-    {%if page.header%}
+    {%if page.header %}
       <div>
         {%include patterns/header/basic-page-header.md%}
       </div>
@@ -15,6 +15,7 @@ type: [sub-nav-item, prototype]
       <div class="grid-container">
         <h1>
           {{page.title}}
+          {% include patterns/social-share/social-share.md %}
         </h1>
         <p class="usa-intro">
           {{page.summary}}
@@ -63,11 +64,11 @@ type: [sub-nav-item, prototype]
       </div>
     {%endif%}
     {% if page.ctaBottom %}
-      <div>
+      <div class="grid-container" style="padding-top: 2rem;">
         {% include patterns/card/card-cta-help-full.md %}
       </div>
     {%endif%}
-    {% if page.subscriptions_banner_bottom %}
+    {% if page.subscriptionsBannerBottom %}
     <div>
       {% include patterns/subscription/subscription-banner-bottom.md %}
     </div>
