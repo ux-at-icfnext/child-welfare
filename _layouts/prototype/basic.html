@@ -12,45 +12,38 @@ type: [sub-nav-item, prototype]
         {%include patterns/header/basic-page-header.md%}
       </div>
     {%else%}
-      <div>
+      <div class="grid-container">
         <h1>
           {{page.title}}
         </h1>
-        <p>
+        <p class="usa-intro">
           {{page.summary}}
         </p>
       </div>
     {%endif%}
     {%if page.features %}
-      <div class="features">
-        {% include patterns/card/card-alert-basic.md %}
-      </div>
+      {% include prototype/basic-features.md %}
     {% endif %}
     {% if page.subscription_banner %}
     <div>
       {% include patterns/subscription/subscription-banner.md %}
     </div>
   {% endif %}
-    {%if page.template contains "tabs"%}
-      <div>
-        {%include patterns/tabs/tabs-basic.md%}
-      </div>
-    {%endif%}
-    {%if page.template contains "accordion" %}
-      <div>
-        {%include patterns/accordion/accordion-basic.md%}
-      </div>
-    {%endif%}
-    {%if page.template contains "body" and page.title == "Contact" %}
-      <div>
-        {{site.data.contentful.spaces.example.basic[4].body | markdownify}}
-      </div>
-    {%endif%}
-    {%if page.template contains "body" and page.title == "How to Report Child Abuse and Neglect" %}
+  <div class="grid-container">
+    {{page.body | markdownify}}
+  </div>
+  {%if page.template contains "tabs"%}
     <div>
-      {{site.data.contentful.spaces.example.basic[3].body | markdownify}}
+      {%include patterns/tabs/tabs-basic.md%}
     </div>
   {%endif%}
+  {%if page.template contains "accordion" %}
+    <div>
+      {%include patterns/accordion/accordion-basic.md%}
+    </div>
+  {%endif%}
+   
+
     {%if page.template contains "cards"%}
       <div>
         {{site.data.contentful.spaces.example.basic[1].body | markdownify }}
