@@ -1,6 +1,16 @@
+
 .usa-card__container__flag-default{
     background-color: white;
-    box-shadow: 1px 1px 1px 1px;
+    border: 0;
+    .usa-card__body p {
+        padding: 0;
+    }
+    .card-tag {
+        font-size: .75rem;
+        font-weight: 700;
+        color: #005DAA;
+        text-transform: uppercase;
+    }
 }
 .usa-card__container__flag-default:hover{
     cursor: pointer;

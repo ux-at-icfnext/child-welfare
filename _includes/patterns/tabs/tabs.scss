@@ -30,10 +30,10 @@
   }
   @media screen and (min-width: 640px) {
     .usa-accordion.usa-tabs {
-      position: relative;   
-      min-height: auto;
+      position: relative; 
       margin: 25px 0;
       width: auto;
+      height: 100%;
       h4 {
         display: block;
         width: auto;
