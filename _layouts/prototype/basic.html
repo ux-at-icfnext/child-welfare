@@ -2,6 +2,8 @@
 layout: default
 categories: [prototype]
 type: [sub-nav-item, prototype]
+cards:
+  class: desktop:grid-col-12
 ---
 <link href="/assets/css/proto/basic.scss" rel="stylesheet">
 
@@ -17,9 +19,8 @@ type: [sub-nav-item, prototype]
           {{page.title}}
           {% include patterns/social-share/social-share.md %}
         </h1>
-        <p class="usa-intro">
-          {{page.summary}}
-        </p>
+          <div class="usa-intro">{{page.summary | markdownify}}</div>
+          
       </div>
     {%endif%}
     {%if page.features %}
