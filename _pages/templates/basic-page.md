@@ -177,27 +177,21 @@ components:
 
 prototype:
   - name: Basic Page
-    link: https://www.sketch.com/s/dd2f2e71-977c-45b4-baf3-8bf823bfcd0d/a/zxDDJYe
+    link: /prototype/hi-im-a-basic-page
   - name: Contact 
-    link: https://www.sketch.com/s/dd2f2e71-977c-45b4-baf3-8bf823bfcd0d/a/ZOD2GMG
+    link: /prototype/contact
   - name: Find Help
-    link: https://www.sketch.com/s/dd2f2e71-977c-45b4-baf3-8bf823bfcd0d/a/ZOkkZqa
+    link: /prototype/find-help-with-a-personal-situation
   - name: About
-    link: https://www.sketch.com/s/dd2f2e71-977c-45b4-baf3-8bf823bfcd0d/a/JnV5z45
+    link: /prototype/about
+  - name: How to Report Child Abuse and Neglect
+    link: /prototype/how-to-report-child-abuse-and-neglect
+  - name: Subscriptions
+    link: /prototype/subscriptions
 ---
 
-## Functionality Specifications (STILL NEEDS UPDATING)
-This section show the details on how to build the page based on the author selections.
-
-### Page Header
-The page header includes the Title, Summary and the Help CTA cards. 
-- **The CTA Cards** are optional, the author my choose one or both. If they chose 1, the CTA shows to the right of the summary, with the summary taking 2/3s of the space. If they choose both, the summary text displays first (at no more than 80ex), with both CTAs beneath. Examples of this can be seen on the [Find Help](https://www.sketch.com/s/dd2f2e71-977c-45b4-baf3-8bf823bfcd0d/a/ZOkkZqa) and [Contact](https://www.sketch.com/s/dd2f2e71-977c-45b4-baf3-8bf823bfcd0d/a/ZOD2GMG) concepts.
-- **Header Background**: If the blueground option is turned on, the page header displays the background with the bottom border.
-
-### Page Body
-The page body contains the body, accordions and vertical tabs. All of these elements are optional, although the author can choose either the accordion or the vertical tabs, not both.
-- the body displays first with a max-width of 80ex.
-- the author can choose either the accordion or the vertical tabs, not both. The list content is used to fill the pattern using the label, title (h2), and content.
+## Functionality Specifications 
+These pages don't have extra functionality outside of basic html entities. Please see prototypes for layout guidance.
 
 
 

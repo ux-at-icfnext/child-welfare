@@ -16,5 +16,7 @@ permalink: /prototype/
   <a href="/prototype/{{resources.slug}}">{{resources.title}}</a>
 {%endfor%}
 
+## Glossary
+<a href="/prototype/glossary">Glossary</a>
 </div>
 
