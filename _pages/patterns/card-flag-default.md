@@ -19,8 +19,10 @@ yml: |
   
   cards:
   - title: Card 1
+    tag: card 1 tag
     content: card 1 content
-    button: Learn more about card 1
+    link_text: Learn more about card 1
+    link: "http://tosomewhere.com"
     img: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
     alt: placeholder image
 
@@ -31,5 +33,5 @@ jekyll: |
 ## designimg: can be used to show an image of the design until a coded version can be created. The htmlpath & csspath should be located in the pattens folder. Read more about creating coded components in /docs/creating-patterns 
 # designimg: 
 htmlpath: patterns/card/card-flag-default.md
-csspath: patterns/card/index.scss
+csspath: patterns/card/card-flag-default.scss
 ---

@@ -1,8 +1,10 @@
+
  <ul class="usa-card-group">
   <li class="usa-card usa-card--flag desktop:grid-col-8 usa-card--media-left">
     <div class="usa-card__container__flag-default">
       <div class="usa-card__header">
         <h2 class="usa-card__heading">National Adoption Month</h2>
+        <p class="card-tag">Optional Tag</p>
       </div>
       <div class="usa-card__media usa-card__media--inset">
         <div class="usa-card__img">
@@ -17,7 +19,7 @@
         </p>
       </div>
       <div class="usa-card__footer">
-        <button class="usa-button">Button</button>
+        <a>optional link text</a>
       </div>
     </div>
   </li>
