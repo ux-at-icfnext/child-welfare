@@ -26,3 +26,7 @@
   value: "#71767A"
 - name: gray-cool-80
   value: "#2D2E2F"
+- name: error
+  value: "#E21E1E"
+- name: success
+  value: "#40B66F"
