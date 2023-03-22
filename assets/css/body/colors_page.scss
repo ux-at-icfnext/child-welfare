@@ -1,14 +1,23 @@
-.colors{
+.colors,.cwig_colors{
     display: flex;
     flex-wrap: wrap;
 }
-.color{
+.color,.cwig_colors{
     margin: 10px;
     div{
         width: 150px;
         height: 150px;
         border: 1px solid $inkcolor;
     }
+}
+//CWIG Colors
+.navy{
+    background-color: #002552;
+    color: white;
+}
+.dark-gray{
+    background-color: #6D6E71;
+    color: white;
 }
 
 //classes that can be applied to modify the color of the button (editable by the user in the UI)

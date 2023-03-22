@@ -5,6 +5,17 @@ title: Colors
 type: [sub-nav-item]
 permalink: /styles/colors/
 ---
+<h3>CWIG Colors</h3>
+<div class="cwig_colors">
+    {% for color in site.data.cwig-colors %}
+        <div class="color">
+            <div class="{{color.name}}"></div>
+            <span>{{ color.name }}</span>
+            <span>{{ color.value }}</span>
+        </div>
+    {% endfor %}
+</div>
+<h3>Library Colors</h3>
 <div class="colors">
     {% for color in site.data.colors %}
         <div class="color">
