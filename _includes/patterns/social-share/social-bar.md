@@ -1,22 +1,13 @@
+
+<!--- For use in this library, usa-icons were added to a custom kit in font-awesome 
+and then are used as fonts... 
+svgs should be available in the uswds directory -->
 <div class="social-share">
-    <div class="facebook">
-        <a href="">
-            <img src="/assets/icons/facebook.svg">
-        </a>
-    </div>
-    <div class="twitter">
-        <a href="">
-            <img src="/assets/icons/twitter.svg">
-        </a>
-    </div>
-        <div class="instagram">
-        <a href="">
-            <img src="/assets/icons/mail_blue.svg">
-        </a>
-    </div>
-        <div class="instagram">
-        <a href="">
-            <img src="/assets/icons/print_blue.svg">
-        </a>
-    </div>
+    share:
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+    <a href="#"><i class="fa-kit fa-mail"></i></a>
+    <a href="#"><i class="fa-kit fa-print"></i></a>
 </div>
