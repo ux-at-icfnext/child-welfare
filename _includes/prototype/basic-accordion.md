@@ -1,6 +1,6 @@
 <div class="grid-container">
 
-test
+{%include patterns/accordion/accordion-basic.md%}
 
 </div>
 
