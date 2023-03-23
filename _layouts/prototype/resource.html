@@ -5,95 +5,56 @@ type: [sub-nav-item, prototype]
 ---
 <link href="/assets/css/proto/resource-detail.scss" rel="stylesheet">
 
-<div class="remove-later">*** Draft - Needs Styling</div>
-
-<div class="resource-page-header">
-  <h1>{{ page.title}} </h1>
-  <div class="social-bar">
-    <span class="share">Share: </span><span class="bar">{% include patterns/social-share/social-bar.md %}</span>
-  </div>
-  <div class="meta-data">
-    <p><span>Date: {{ page.date }}
-    {% if page.title contains "Video" or page.title contains "Podcast" %}
-    | Length: {{ page.length }}
-    {% endif %}
-    </span></p>
-  </div>
-  {% if page.opening_body %}
+<div class="grid-container">
+  <div class="resource-page-header">
+    <h1>{{ page.title}} </h1>
+    <div class="social-bar">
+      <span class="bar">{% include patterns/social-share/social-bar.md %}</span>
+    </div>
+    <div class="meta-data">
+      <p><span>Date: {{ page.date | date: "%B %-d, %Y" }}
+        {% if page.resource.length %}
+        | Length: {{page.resource.length}}
+        {% endif %}
+      </span></p>
+    </div>
+    {% if page.opening_body %}
       <div>
           <p>{{page.opening_body | markdownify}}</p>
       </div>
-  {%endif%}
-</div>
-{% if page.title contains "Video"  %}
-    <div class="video-resources">
-        <iframe width="560" height="315" src="{{ site.data.contentful.spaces.example.resource[2].resource.episode_link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-        </iframe>
-        <div class="transcript-link">
-            <p>Transcript: <a href="">{{ page.transcript }}</a> [PDF, 4kb]</p>
-            <p>Audio Description: <a href="">{{ page.audio_description }}</a> [PDF, 4kb]</p>
-        </div>
-        <div class="body-content">
-          <p>{{page.body | markdownify}}</p>
-          <p>{%include patterns/pullquote/pullquote.md%}</p>
-        </div>
-    </div>
-{% endif %}
-{% if page.title contains "Podcast" %}
-  <div class="podcast-resources">
-    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="{{site.data.contentful.spaces.example.podcastResource[0].episode_link}}">
-    </iframe>
-    <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-      <a href="https://soundcloud.com/thisispvris" title="PVRIS" target="_blank" style="color: #cccccc; text-decoration: none;">PVRIS</a>
-        · 
-      <a href="https://soundcloud.com/thisispvris/white-noise" title="White Noise" target="_blank" style="color: #cccccc; text-decoration: none;">White Noise</a>
-    </div>
-    <div class="transcript-link">
-      <p>Transcript: <a href="">{{ site.data.contentful.spaces.example.podcastResource[0].transcript.description }}</a> [PDF, 4kb]</p>
-    </div>
-    <div class="body-content">
-      <p>{{page.body | markdownify}}</p>
-      <p>{%include patterns/pullquote/pullquote.md%}</p>
-    </div>
+    {%endif%}
   </div>
-{% endif %}
-{% if page.title contains "Publication" or page.title contains "PDF" or page.title contains "Image" %}
-  <div class="publication-resources">
-    <div class="publication-info">
-      <img src="{{ site.data.contentful.spaces.example.publicationResource[0].file.url }}" alt="{{ site.data.contentful.spaces.example.publicationResource[0].file.description }}" />
-      <div class="resources-body">
-          <p><span class="pub-details">Series Title:</span> {{ page.resource.series_title }}</p>
-          <p><span class="pub-details">Author(s):</span> {{ page.resource.author }}</p>
-          <p><span class="pub-details">Year Published</span> {{ page.resource.year_published }}</p>
-          {% if page.title contains "Publication" or page.title contains "PDF" %}
-            <span class="download">{%include patterns/button/button-dropdown-resource.md%}</span>
-            <span class="download">{%include patterns/button/order-button.md%}</span>
-          {% endif %}
-          {% if page.title contains "Image" %}
-            <span class="download">{%include patterns/button/button-dropdown-image.md%}</span>
-            <span class="download">{%include patterns/button/order-button.md%}</span>
-          {% endif %}
-      </div>
-    </div>
-    <div class="body-content">
-      <p>{{page.body | markdownify}}</p>
-      <p>{%include patterns/pullquote/pullquote.md%}</p>
-    </div>
+
+  {% if page.resource_type contains "video" %}
+  {% include prototype/resource-video.md %}
+  {% endif %}
+
+  {% if page.resource_type contains "podcast" %}
+  {% include prototype/resource-podcast.md %}
+  {% endif %}
+
+
+
+  <div class="body-content">
+    <p>{{page.body | markdownify}}</p>
   </div>
-{% endif %}
-<div class="series-list">
-  <h2>Also in this series</h2>
-  <ul>
-    <li><a href="">example series</a></li>
-    <li><a href="">example series</a></li>
-    <li><a href="">example series</a></li>
-  </ul>
-</div>
-<div class="resource-list">
-  <h2>We also recommend the following Information Gateway Resources</h2>
-  <ul>
-    <li><a href="">example resource</a></li>
-    <li><a href="">example resource</a></li>
-    <li><a href="">example resource</a></li>
-  </ul>
+
+
+  <div class="series-list">
+    <h2>Also in this series</h2>
+    <ul>
+      <li><a href="">example series</a></li>
+      <li><a href="">example series</a></li>
+      <li><a href="">example series</a></li>
+    </ul>
+  </div>
+  <div class="resource-list">
+    <h2>We also recommend the following Information Gateway Resources</h2>
+    <ul>
+      <li><a href="">example resource</a></li>
+      <li><a href="">example resource</a></li>
+      <li><a href="">example resource</a></li>
+    </ul>
+  </div>
+
 </div>

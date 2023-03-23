@@ -51,3 +51,15 @@ img{
     padding-top: 0;
     margin-left: 10px;
 }
+
+.resource-media {
+    display: flex;
+    flex-direction: row;
+    iframe {
+        width: 100%;
+        height: auto;
+        scrolling: no;
+        frameborder: no; 
+        allow: autoplay;
+    }
+}
