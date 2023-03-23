@@ -113,26 +113,6 @@
             </div>
           </nav>
         </div>
-        <div class="tablet:grid-col-4">
-          <div class="usa-sign-up">
-            <h3 class="usa-sign-up__heading" style="padding-bottom: 10px;">Sign up</h3>
-            <section aria-label="Small search component">
-              <form class="usa-search usa-search--small" role="search">
-                <label class="usa-sr-only" for="search-field-en-small">Search</label>
-                <input
-                  class="usa-input"
-                  id="search-field-en-small"
-                  type="search"
-                  name="search"
-                  placeholder="Your email address"
-                />
-                <button class="usa-button footer-search-button" type="submit" style="background-color: #005DAA;">
-                  Sign up
-                </button>
-              </form>
-            </section>
-          </div>
-        </div>
       </div>
     </div>
   </div>

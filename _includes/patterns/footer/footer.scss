@@ -27,3 +27,47 @@ img{
 .usa-footer__logo-img{
     max-width: 100%;
 }
+.footer-medium{
+    .usa-footer__nav{
+        background-color: #EEF1F9;
+    }
+    ul, ol{
+        max-width: 80ex;
+    }
+}
+.usa-footer__primary-section{
+    .usa-list li::before {
+        content: "";
+        color: #002552;
+        display: none;
+    }
+}
+.usa-footer__primary-link{
+    font-family: Montserrat;
+    font-size: 1.06rem;
+}
+.usa-footer__secondary-section{
+    background-color: #FBFCFD;
+}
+.usa-footer__contact-links{
+    font-family: Montserrat;
+}
+.usa-footer__secondary-link{
+    list-style-type: none;
+    padding-left: 0;
+}
+.usa-footer--big{
+    .usa-footer__primary-section{
+        border-bottom: 1px solid #D1D3D4;
+    }
+    ul, ol{
+        margin-left: 0;
+    }
+    .usa-footer__primary-link{
+        font-family: Montserrat;
+    }
+    .usa-footer__secondary-link a{
+        font-family: Montserrat;
+        font-weight: 300;
+    }
+}
