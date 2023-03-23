@@ -1,0 +1,11 @@
+.usa-checkbox__input:checked+[class*=__label]:before{
+    background-color: #002552;
+    box-shadow: 0 0 0 2px #002552;
+}
+.usa-checkbox__label:before{
+    border-radius: 0;
+}
+.usa-checkbox__input--tile:checked+[class*=__label]{
+    border-color: #002552;
+    background-color: rgba(0,37,82,.1);
+}
