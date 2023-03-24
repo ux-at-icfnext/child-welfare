@@ -5,12 +5,13 @@
           <p><span class="pub-details">Series Title:</span> {{ page.resource.series_title }}</p>
           <p><span class="pub-details">Author(s):</span> {{ page.resource.author }}</p>
           <p><span class="pub-details">Year Published</span> {{ page.resource.year_published }}</p>
-          {% if page.title contains "Publication" or page.title contains "PDF" %}
+          {% if page.resource.download_language %}
             <span class="download">{%include patterns/button/button-dropdown-resource.md%}</span>
-            <span class="download">{%include patterns/button/order-button.md%}</span>
           {% endif %}
-          {% if page.title contains "Image" %}
+          {% if page.resource.download_file_size %}
             <span class="download">{%include patterns/button/button-dropdown-image.md%}</span>
+          {% endif %}
+          {% if page.resource.order_online %}
             <span class="download">{%include patterns/button/order-button.md%}</span>
           {% endif %}
       </div>
