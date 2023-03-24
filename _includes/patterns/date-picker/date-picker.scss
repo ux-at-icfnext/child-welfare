@@ -1,3 +1,12 @@
 .usa-date-picker__calendar{
     z-index: 1;
 }
+.usa-date-picker__calendar__table{
+    font-family: Montserrat;
+}
+.usa-date-picker__calendar__month-selection, .usa-date-picker__calendar__year-selection{
+    font-family: Montserrat;
+}
+.usa-date-picker__button{
+    margin-left: -50px;
+}

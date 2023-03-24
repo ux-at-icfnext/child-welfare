@@ -1,5 +1,5 @@
 
-<footer class="usa-footer usa-footer--slim">
+<footer class="usa-footer usa-footer--slim footer-small">
   <div class="grid-container usa-footer__return-to-top">
     <a href="#">Return to top</a>
   </div>

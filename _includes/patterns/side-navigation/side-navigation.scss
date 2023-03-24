@@ -7,3 +7,24 @@
 .usa-sidenav{
     font-family: Montserrat;
 }
+.usa-sidenav__sublist{
+    font-family: Montserrat;
+}
+.usa-current{
+    background-image: url(../img/usa-icons/remove.svg),linear-gradient(transparent,transparent);
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position: right 1.25rem center;
+}
+.parent-link{
+    background-image: url(../img/usa-icons/add.svg),linear-gradient(transparent,transparent);
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position: right 1.25rem center;
+}
+.parent-link:hover{
+    background-image: url(../img/usa-icons/add.svg),linear-gradient(transparent,transparent);
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position: right 1.25rem center;
+}

@@ -1,4 +1,4 @@
-<footer class="usa-footer">
+<footer class="usa-footer footer-medium">
   <div class="grid-container usa-footer__return-to-top">
     <a href="#">Return to top</a>
   </div>
@@ -80,7 +80,7 @@
               <a class="usa-social-link" href="javascript:void(0);"
                 ><img
                   class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/twitter.svg"
+                  src="/assets/icons/twitter.svg"
                   alt="Twitter"
               /></a>
             </div>
@@ -88,7 +88,7 @@
               <a class="usa-social-link" href="javascript:void(0);"
                 ><img
                   class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/youtube.svg"
+                  src="/assets/icons/youtube_footer.svg"
                   alt="YouTube"
               /></a>
             </div>

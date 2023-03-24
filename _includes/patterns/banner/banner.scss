@@ -4,3 +4,8 @@
 .usa-banner__button-text{
     font-family: Lora, serif;
 }
+.usa-banner{
+    .usa-accordion .usa-accordion__button[aria-expanded=false]{
+        background-image: none;
+    }
+}

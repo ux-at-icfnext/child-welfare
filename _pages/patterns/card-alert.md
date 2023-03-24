@@ -1,10 +1,10 @@
 ---
 #### This pattern in now archived
 layout: pattern
-#categories: [patterns, card]
+categories:
 title: Alert Card
-#type: [detail-page]
-permalink: /patterns/card/card-alert/
+type: [detail-page]
+permalink:
 description: |
   This layout allows for a full-width image at the top. For this layout use the ```.usa-card__media``` class. The example in the html below shows how to apply. _see more details on functionality on the [default card](/patterns/card) page_
 overview: This layout allows for a full-width image at the top. 
