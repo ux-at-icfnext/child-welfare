@@ -1,8 +1,8 @@
 ---
 layout: pattern
-categories: [patterns, footer]
+#categories: [patterns, footer]
 title: Small footer
-type: [detail-page]
+#type: [detail-page]
 permalink: /patterns/footer/small-footer/
 overview: Choose the small footer when there are only a few global links to house.
 description: |

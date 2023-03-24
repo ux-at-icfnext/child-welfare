@@ -1,8 +1,8 @@
 ---
 layout: pattern
-categories: [patterns, footer]
+# categories: [patterns, footer]
 title: Big footer
-type: [detail-page]
+# type: [detail-page]
 permalink: /patterns/footer/big-footer/
 overview: Choose the big footer for sites that need to have continued access to many global pages.
 description: |
