@@ -2,9 +2,9 @@
     background-color: #fff;
     color: #002552;
     border-radius: 0;
-    box-shadow: 1px 1px 1px 1px gray;
     border: 0;
     padding: 2%;
+    border: 1px solid #D1D3D4;
     .usa-card-group {
         max-width: 100%;
         padding: 0;
@@ -27,6 +27,7 @@
         border: 1px solid rgba(0,37,82, 1);
         background-color: transparent;
         color:#002552;
+        margin: auto;
 
     }
     a{
@@ -41,7 +42,6 @@
         background-color: #002552;
         color: white;
         cursor: pointer;
-        box-shadow: 1px 1px 1px 1px;
     }
 }
 
