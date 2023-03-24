@@ -5,7 +5,7 @@ type: [sub-nav-item, prototype]
 ---
 <link href="/assets/css/proto/resource-detail.scss" rel="stylesheet">
 
-<div class="grid-container">
+<div class="grid-container ">
   <div class="resource-page-header">
     <h1>{{ page.title}} </h1>
     <div class="social-bar">
@@ -32,6 +32,11 @@ type: [sub-nav-item, prototype]
   {% if page.resource_type contains "podcast" %}
   {% include prototype/resource-podcast.md %}
   {% endif %}
+
+  {% if page.resource_type contains "publication" %}
+  {% include prototype/resource-pdf.md %}
+  {% endif %}
+
 
 
 

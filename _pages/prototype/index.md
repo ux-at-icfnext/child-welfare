@@ -16,6 +16,11 @@ permalink: /prototype/
   <a href="/prototype/{{resources.slug}}">{{resources.title}}</a>
 {%endfor%}
 
+## Overview (*Draft*)
+{% for resources in site.data.contentful.spaces.example.topic %}
+  <a href="/prototype/{{resources.slug}}">{{resources.title}}</a>
+{%endfor%}
+
 ## Glossary
 <a href="/prototype/glossary">Glossary</a>
 </div>
