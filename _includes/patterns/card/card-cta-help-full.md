@@ -1,5 +1,5 @@
 <ul class="usa-card-group">
-  <li class="usa-card desktop:grid-col-6">
+  <li class="usa-card {{ page.cards.class | default: 'desktop:grid-col-6' }}">
     <div class="usa-card__container__media cta-help-container">
       <div class="usa-card__media cta-media">
         <div class="usa-card__img callout-icon">

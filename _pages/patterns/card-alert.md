@@ -1,4 +1,5 @@
 ---
+#### This pattern in now archived
 layout: pattern
 categories:
 title: Alert Card

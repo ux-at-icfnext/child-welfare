@@ -2,82 +2,63 @@
 layout: default
 categories: [prototype]
 type: [sub-nav-item, prototype]
+cards:
+  class: desktop:grid-col-12
 ---
 <link href="/assets/css/proto/basic.scss" rel="stylesheet">
 
 <div>
   <div class="basic-header">
-    {%if page.header%}
+    {%if page.header %}
       <div>
         {%include patterns/header/basic-page-header.md%}
       </div>
     {%else%}
-      <div>
+      <div class="grid-container">
         <h1>
           {{page.title}}
+          {% include patterns/social-share/social-share.md %}
         </h1>
-        <p>
-          {{page.summary}}
-        </p>
+          <div class="usa-intro">{{page.summary | markdownify}}</div>
+          
       </div>
     {%endif%}
     {%if page.features %}
-      <div class="features">
-        {% include patterns/card/card-alert-basic.md %}
-      </div>
+      {% include prototype/basic-features.md %}
     {% endif %}
+
     {% if page.subscription_banner %}
-    <div>
-      {% include patterns/subscription/subscription-banner.md %}
+    {% include patterns/subscription/subscription-banner.md %}
+    {% endif %}
+  </div>
+    <div class="grid-container">
+      {{page.body | markdownify}}
     </div>
-  {% endif %}
+
     {%if page.template contains "tabs"%}
-      <div>
-        {%include patterns/tabs/tabs-basic.md%}
-      </div>
+    {%include prototype/basic-tabs.md%}
     {%endif%}
+
     {%if page.template contains "accordion" %}
-      <div>
-        {%include patterns/accordion/accordion-basic.md%}
-      </div>
+    {%include prototype/basic-accordion.md%}
     {%endif%}
-    {%if page.template contains "body" and page.title == "Contact" %}
-      <div>
-        {{site.data.contentful.spaces.example.basic[4].body | markdownify}}
-      </div>
-    {%endif%}
-    {%if page.template contains "body" and page.title == "How to Report Child Abuse and Neglect" %}
-    <div>
-      {{site.data.contentful.spaces.example.basic[3].body | markdownify}}
-    </div>
-  {%endif%}
+    
+
     {%if page.template contains "cards"%}
-      <div>
-        {{site.data.contentful.spaces.example.basic[1].body | markdownify }}
-        <h3>{{site.data.contentful.spaces.example.basic[1].list_groups[0].section_heading}}</h3>
-        <p>{{site.data.contentful.spaces.example.basic[1].list_groups[0].section_intro}}</p>
-        {%include patterns/card/card-flag-subscription-basic.md%}
-      </div>
-      <div>
-        <h3>{{site.data.contentful.spaces.example.basic[1].list_groups[1].section_heading}}</h3>
-        <p>{{site.data.contentful.spaces.example.basic[1].list_groups[1].section_intro}}</p>
-        {%include patterns/card/card-flag-subscription-basic-2.md%}
-      </div>
-      <div>
-        <h3>{{site.data.contentful.spaces.example.basic[1].list_groups[2].section_heading}}</h3>
-        <p>{{site.data.contentful.spaces.example.basic[1].list_groups[2].section_intro}}</p>
-        {%include patterns/card/card-flag-subscription-basic-3.md%}
-      </div>
+    {% include prototype/basic-cards.md %}
     {%endif%}
-    {% if page.ctaBottom %}
-      <div>
+
+    {% if page.cta_bottom %}
+      <div class="grid-container" style="padding-top: 2rem;">
         {% include patterns/card/card-cta-help-full.md %}
       </div>
     {%endif%}
+
     {% if page.subscriptions_banner_bottom %}
     <div>
       {% include patterns/subscription/subscription-banner-bottom.md %}
     </div>
-  {% endif %}
+    {% endif %}
+
   </div>
 </div>

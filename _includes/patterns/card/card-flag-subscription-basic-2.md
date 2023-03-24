@@ -17,7 +17,7 @@
         <div class="sub-card__subtitle">
           <small>{{item.tag}}</small>
         </div>
-        <p>{{item.body}}</p>
+        <p>{{item.content}}</p>
       </div>
       <div class="usa-card__footer">
         <a href="">{{item.link_text}}</a>

@@ -41,3 +41,7 @@ page_gen:
   template: 'prototype/resource'
   dir: "prototype"
   name: 'title'
+- data: 'site.data.contentful.spaces.example.basic'
+  template: 'prototype/basic'
+  dir: "prototype"
+  name: 'title'

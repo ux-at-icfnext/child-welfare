@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="usa-card__body">
-        <p>{{item.body}}</p>
+        <p>{{item.content}}</p>
       </div>
       <div class="usa-card__footer">
         <a href="">{{item.link_text}}</a>

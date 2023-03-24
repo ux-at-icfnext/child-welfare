@@ -1,10 +1,14 @@
-<ul class="usa-card-group">
-  {% for card in page.cards %}
+<div class="grid-container">
+  {% for item in page.list_groups %}
+  <h2>{{ item.section_heading }}</h2>
+  <p>{{ item.section_intro }}</p>
+  <ul class="usa-card-group">
+  {% for card in item.list %}
   <li class="usa-card usa-card--flag desktop:grid-col-12 usa-card--media-left">
     <div class="usa-card__container__flag-default">
       <div class="usa-card__header">
         <h2 class="usa-card__heading">{{ card.title }}</h2>
-        {% if card.tag %}<p class="card-tag">{{card.tag}}</p>{%endif%}
+        <p class="card-tag">{{card.tag}}</p>
       </div>
       <div class="usa-card__media usa-card__media--inset">
         <div class="usa-card__img">
@@ -19,7 +23,7 @@
       </div>
       {% if card.link_text %}
       <div class="usa-card__footer">
-        <a href="{{card.link}}">{{card.link_text}}</a>
+        <a>{{card.link_text}}</a>
       </div>
       {%endif%}
     </div>
@@ -27,3 +31,5 @@
             
   {% endfor %}
   </ul>
+  {%endfor%}
+</div>

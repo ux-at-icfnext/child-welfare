@@ -11,6 +11,10 @@
     url: "/templates/"
     categories: "templates"
   -
+    title: "Prototype"
+    url: "/prototype/"
+    categories: "prototype"
+  -
     title: "Guidance"
     url: "/guidance/"
     categories: "guidance"
