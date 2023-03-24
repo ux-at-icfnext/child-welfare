@@ -4,6 +4,9 @@
     background-color:#005DAA;
     color: white;
 }
+.usa-process-list>.usa-process-list__item.previous__step{
+    border-left-color: #005DAA;
+}
 .previous__step h4{
     color: #005DAA;
 }
@@ -23,4 +26,7 @@
 .usa-process-list__heading{
     color:#D1D3D4;
     font-family: Montserrat;
+}
+.usa-process-list>li{
+    padding-bottom: 3.125rem;
 }
