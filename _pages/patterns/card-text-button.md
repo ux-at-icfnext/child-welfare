@@ -1,9 +1,9 @@
 ---
 layout: pattern
-categories: [patterns, card]
+categories:
 title: Card with Text and Button
 type: [detail-page]
-permalink: /patterns/card/card-text-button
+permalink:
 variations: true
 overview: A card is often a subset or summary of a larger idea. It acts as an entry point to more detailed information. 
 description: |
