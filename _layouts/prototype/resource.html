@@ -33,6 +33,11 @@ type: [sub-nav-item, prototype]
   {% include prototype/resource-podcast.md %}
   {% endif %}
 
+  {% if page.resource_type contains "publication" %}
+  {% include prototype/resource-pdf.md %}
+  {% endif %}
+
+
 
 
   <div class="body-content">
