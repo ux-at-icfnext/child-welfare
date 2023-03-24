@@ -1,0 +1,14 @@
+.usa-range:hover{
+    opacity: 1;
+}
+.usa-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background: #002552;
+    cursor: pointer;
+}
+  
+.usa-range::-moz-range-thumb{
+    background: #002552;
+    cursor: pointer;
+}
