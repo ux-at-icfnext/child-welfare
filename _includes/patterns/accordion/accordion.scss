@@ -7,9 +7,9 @@
     }
     .usa-accordion__button[aria-expanded="true"]{
         background-color: #C7CFE9;
-        background-image: url(../img/usa-icons/remove-bold.svg),linear-gradient(transparent,transparent)
+        background-image: url(../icons/remove-bold.svg),linear-gradient(transparent,transparent)
     }
     .usa-accordion__button[aria-expanded=false]{
-        background-image: url(../img/usa-icons/add-bold.svg),linear-gradient(transparent,transparent);
+        background-image: url(../icons/add-bold.svg),linear-gradient(transparent,transparent);
     }
 }
