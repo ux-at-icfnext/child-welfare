@@ -1,3 +1,12 @@
 .usa-icon-list{
     font-family: Lora, serif;
 }
+.usa-icon-list__content>ol, .usa-icon-list__content>p, .usa-icon-list__content>ul{
+    font-family: Lora, serif;
+}
+.usa-icon-list__title{
+    font-family: Lora, serif;
+}
+.usa-icon-list--size-lg .usa-icon-list__content .usa-icon-list__title{
+    font-family: Lora, serif;
+}
