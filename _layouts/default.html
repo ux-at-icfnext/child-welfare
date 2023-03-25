@@ -4,6 +4,7 @@
     {% include partials/head.html %}
     <body>
         {% if page.type contains "prototype" %}
+            {% include patterns/banner/banner.md %}
             {% include patterns/header/header-extended.md %}
         {% else %}
             <div class="header-container">

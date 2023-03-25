@@ -9,33 +9,28 @@ lorem:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin libero et scelerisque semper. Morbi erat orci.
 
 ---
-<link href="/assets/css/proto/topics.scss" rel="stylesheet">
-{% assign hero = page.hero_image %}
-{% include patterns/hero/hero-full-width-jk.md %}
+<link href="/assets/css/proto/subtopics.scss" rel="stylesheet">
+
+{% assign hero=page %}
+
+{% include prototype/hero-heading-only.md %}
 
 <div class="grid-container">{% include patterns/social-share/social-share.md %}</div>
+
 <div class="grid-container">
-  <h1>{{ page.title }}</h1>
   <div>
     {{ page.body | markdownify }}
   </div>
 </div>
-  {% if page.features %}
-  <div class="blue-wrapper">
-    <div class="grid-container">
-      <ul class="usa-card-group">
-        {% include prototype/cards-contentful.md content=page.features %}
-    </ul>
-    </div>
-  </div>
-  {% endif %}
 
-  {% assign topics = site.data.contentful.spaces.example.subTopics | where:'subtopic', false %}
+{% if page.subtopic == false %}
+{% assign topics = site.data.contentful.spaces.example.subTopics | where:'tag', page.tag %}
+{% assign subtopics = topics | where:'subtopic', true %}
 
 <div class="grid-container">
-  <h2>Topics</h2>
+  <h2>Subtopics</h2>
       <ul class="usa-card-group">
-      {% for card in topics  %}
+      {% for card in subtopics  %}
         <li class="tablet:grid-col-4 usa-card">
           <div class="usa-card__container card-default">
             <header class="usa-card__header">
@@ -48,11 +43,25 @@ lorem:
         </li>
       {%endfor%}
       {% for card in page.lorem %}
-      {% for i in (1..15) %}
+      {% for i in (1..5) %}
         {% include prototype/cards-contentful.md content=page.lorem %}
       {% endfor %}
       {% endfor %}
     </ul>
 </div> 
+{% endif %}
 
+{% if page.featured %}
+  <div class="blue-wrapper">
+    <div class="grid-container">
+      <h2>Featured:</h2>
+      <ul class="usa-card-group">
+        {% include patterns/card/card-text-jk.md content=page.featured %}
+    </ul>
+    </div>
+  </div>
+  {% endif %}
 
+  {% include prototype/search-results.md %}
+
+  {% include patterns/pagination/pagination.md %}

@@ -71,15 +71,18 @@ specs:
     type: url
     content: "destination page: Link"
   
-
+alert:
+  content: Before developing page layout, please be sure to read about our <a class="usa-link" href="/styles/grids/">Grid System</a>
+  type: warning
 ---
 
-## Functionality Specifications (NEEDS UPDATING!!!)
+## Functionality Specifications 
+{% include patterns/alert/alert-no-icon-jk.md %}
+
 This section show the details on how to build the page based on the author selections.
 
 ### Page Header
 The page header includes the page title (h1), date, and length and opening body.
-- The date label changes by type of resource... please see the resource pages for which date label. (Options include:"Date Published", "Current through Date", "Event Date")
 - The body has a max-width of 80ex
 
 ### Resource Item
@@ -96,7 +99,8 @@ Resources are linked dynamically by series. Displays up to 5 resources to featur
 - url - page link of related resource
 
 ## Related Resourcs
-Authors can choose up to 9 resources to features from this series.
+Authors can choose up to 3 resources to features from this series. Displays using the full-bleed `.gray-wrapper`
 - Module title - h2 - content: "Related Resources"
-- list - page title of related resource - link options to resource page
-- url - page link of related resource
+- card-event
+  - list - page title of related resource - link options to resource page
+  - url - page link of related resource
