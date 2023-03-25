@@ -1,0 +1,67 @@
+---
+layout: default
+categories: [prototype]
+type: [sub-nav-item, prototype]
+
+lorem:
+  - title: Topic Title
+    summary: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin libero et scelerisque semper. Morbi erat orci.
+
+---
+<link href="/assets/css/proto/subtopics.scss" rel="stylesheet">
+
+{% assign hero=page %}
+
+{% include prototype/hero-heading-only.md %}
+
+<div class="grid-container">{% include patterns/social-share/social-share.md %}</div>
+
+<div class="grid-container">
+  <div>
+    {{ page.body | markdownify }}
+  </div>
+</div>
+
+{% if page.subtopic == false %}
+{% assign topics = site.data.contentful.spaces.example.subTopics | where:'tag', page.tag %}
+{% assign subtopics = topics | where:'subtopic', true %}
+
+<div class="grid-container">
+  <h2>Subtopics</h2>
+      <ul class="usa-card-group">
+      {% for card in subtopics  %}
+        <li class="tablet:grid-col-4 usa-card">
+          <div class="usa-card__container card-default">
+            <header class="usa-card__header">
+              <h3 class="usa-card__heading">{{ card.title }}</h3>
+            </header>
+            <div class="usa-card__body">
+              <p>{{ card.summary | truncate: 140 }}</p>
+            </div>
+          </div>
+        </li>
+      {%endfor%}
+      {% for card in page.lorem %}
+      {% for i in (1..5) %}
+        {% include prototype/cards-contentful.md content=page.lorem %}
+      {% endfor %}
+      {% endfor %}
+    </ul>
+</div> 
+{% endif %}
+
+{% if page.featured %}
+  <div class="blue-wrapper">
+    <div class="grid-container">
+      <h2>Featured:</h2>
+      <ul class="usa-card-group">
+        {% include patterns/card/card-text-jk.md content=page.featured %}
+    </ul>
+    </div>
+  </div>
+  {% endif %}
+
+  {% include prototype/search-results.md %}
+
+  {% include patterns/pagination/pagination.md %}
