@@ -2,11 +2,20 @@
 layout: default
 categories: [prototype]
 type: [sub-nav-item, prototype]
+
+lorem:
+  - title: Topic Title
+    summary: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin libero et scelerisque semper. Morbi erat orci.
+
 ---
 <link href="/assets/css/proto/topics.scss" rel="stylesheet">
 
-<div class="hero-image">
-  <img src="{{ page.hero_image.url }}" />
+<div class="design-preview">
+  <section class="usa-hero full-hero-image" aria-label="Introduction" ;="">
+  <div class="grid-container">
+  </div>
+  </section>
 </div>
 
 <div class="grid-container">
@@ -19,27 +28,7 @@ type: [sub-nav-item, prototype]
   <div class="blue-wrapper">
     <div class="grid-container">
       <ul class="usa-card-group">
-      {% for card in page.features %}
-        <li class="tablet:grid-col-4 usa-card">
-          <div class="usa-card__container card-default">
-            <div class="usa-card__media">
-              <div class="usa-card__img">
-                <img
-                  src="{{ card.thumbnail.url }}"
-                  alt="{{ card.thumbnail.description }}"
-                />
-              </div>
-            <header class="usa-card__header">
-              <h3 class="usa-card__heading">{{ card.title}}</h3>
-            </header>
-            <div class="usa-card__body">
-              <p>{{ card.summary }}</p>
-            </div>
-            <footer>
-              <a href="{{card.link}}" class="usa-button secondary__button" alt="Read more about {{ card.title }}">Read more</a>
-            </footer>
-        </li>
-      {% endfor %}
+        {% include prototype/cards-contentful.md content=page.features %}
     </ul>
     </div>
   </div>
@@ -48,6 +37,14 @@ type: [sub-nav-item, prototype]
 
 
 <div class="grid-container">
-
+  <h2>Topics</h2>
+      <ul class="usa-card-group">
+      {% for card in page.lorem %}
+      {% for i in (1..20) %}
+        {% include prototype/cards-contentful.md content=page.lorem %}
+      {% endfor %}
+      {% endfor %}
+    </ul>
 </div> 
+
 
