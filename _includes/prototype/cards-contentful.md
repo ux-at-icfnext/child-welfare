@@ -18,7 +18,7 @@
     {% endif %}
     {% if card.summary %}
     <div class="usa-card__body">
-      <p>{{ card.summary }}</p>
+      <p>{{ card.summary | truncate: 140}}</p>
     </div>
     {% endif %}
     {% if card.link_text %}

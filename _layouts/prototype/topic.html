@@ -10,14 +10,10 @@ lorem:
 
 ---
 <link href="/assets/css/proto/topics.scss" rel="stylesheet">
+{% assign hero = page.hero_image %}
+{% include patterns/hero/hero-full-width-jk.md %}
 
-<div class="design-preview">
-  <section class="usa-hero full-hero-image" aria-label="Introduction" ;="">
-  <div class="grid-container">
-  </div>
-  </section>
-</div>
-
+<div class="grid-container">{% include patterns/social-share/social-share.md %}</div>
 <div class="grid-container">
   <h1>{{ page.title }}</h1>
   <div>
@@ -34,13 +30,25 @@ lorem:
   </div>
   {% endif %}
 
-
+  {% assign topics = site.data.contentful.spaces.example.subTopics | where:'subtopic', false %}
 
 <div class="grid-container">
   <h2>Topics</h2>
       <ul class="usa-card-group">
+      {% for card in topics  %}
+        <li class="tablet:grid-col-4 usa-card">
+          <div class="usa-card__container card-default">
+            <header class="usa-card__header">
+              <h3 class="usa-card__heading">{{ card.title }}</h3>
+            </header>
+            <div class="usa-card__body">
+              <p>{{ card.summary | truncate: 140 }}</p>
+            </div>
+          </div>
+        </li>
+      {%endfor%}
       {% for card in page.lorem %}
-      {% for i in (1..20) %}
+      {% for i in (1..15) %}
         {% include prototype/cards-contentful.md content=page.lorem %}
       {% endfor %}
       {% endfor %}
