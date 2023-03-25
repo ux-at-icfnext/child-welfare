@@ -160,21 +160,6 @@ specs:
   authored: yes
 
 
-
-components:
-  - title: CTA Help Cards
-    overview: Hierarchical, vertical navigation to place at the side of a page.
-    link: /patterns/cta-help/
-    htmlpath: patterns/cta/cta-help.md
-  - title: Accordion
-    overview: An accordion is a list of headers that hide or reveal additional content when selected. They are helpful for keeping pages clean and easy to navigate.
-    link: /patterns/accordion
-    htmlpath: patterns/accordion/accordion.md
-  - title: Vertical tabs
-    overview: They are helpful for keeping pages clean and easy to navigate.
-    link: /patterns/tabs/
-    htmlpath: patterns/accordion/vertical-tabs.md
-
 prototype:
   - name: Basic Page
     link: /prototype/hi-im-a-basic-page
@@ -188,10 +173,19 @@ prototype:
     link: /prototype/how-to-report-child-abuse-and-neglect
   - name: Subscriptions
     link: /prototype/subscriptions
+
+alert:
+  content: Before developing page layout, please be sure to read about our <a class="usa-link" href="/styles/grids/">Grid System</a>
+  type: warning
+  ### type options: warning, info, success, error
 ---
 
-## Functionality Specifications 
-These pages don't have extra functionality outside of basic html entities. Please see prototypes for layout guidance.
+## Functionality Specifications
+
+{% include patterns/alert/alert-no-icon-jk.md %}
+
+
+These pages don't have extra functionality outside of basic html/css entities. Please see prototypes for layout guidance.
 
 
 
