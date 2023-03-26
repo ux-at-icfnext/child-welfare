@@ -1,20 +1,23 @@
 ---
 layout: default
-title: Events Search
+title: Directory
 categories: [prototype]
 type: [sub-nav-item, prototype]
-permalink: /prototype/search/events
-overview: Event search results page
-summary: Event search results page
+permalink: /prototype/search/directory
+overview: Directory search results page
+summary: Directory search results page
 
 body: |
   Body copy- several sentences’ worth. Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut et via procedat oratio quaerimus igitur, inquit, modo dixi, constituto, ut earum motus et iusto odio.
 
-summary-title: Submit Events and Calls for Papers
-summary-class: submissions
+summary-title: Quick links
+summary-class: quick-links
 summary-list:
-  - item: Submit information on your events. We will then post your submission to this website.
-  - item: <a href="/">Fill in a submission form </a>
+  - item: <a href="/">How to become a foster parent</a>
+  - item: <a href="/">How to adopt </a>
+  - item: <a href="/">Contact information for local and county childwelfare agencies </a>
+  - item: <a href="/">Accredited/approved adoption services providers for intercountry adoption <i class="fa-kit fa-launch"></i> </a>
+  
 ---
 
 <div class="grid-container" markdown="1">
