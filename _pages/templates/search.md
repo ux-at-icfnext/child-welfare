@@ -148,9 +148,10 @@ OnTap/Onclick of "Clear Filters" all filters are removed and result set is restr
 
 2) Sort by:
 Options:
-- Latest Published (Default)
-- Survey Collection Date
-- On select of sort by, result set is reordered by chosen method.
+- Relevance (Default)
+- Latest Published 
+- A - Z
+On select of sort by, result set is reordered by chosen method.
 
 2) View
 View line shows the total number of results.
