@@ -13,4 +13,5 @@
       {% include prototype/search/search-return.md %}
     </div>
   </div>
+  {% include patterns/pagination/pagination.md %}
 </div>
