@@ -1,9 +1,13 @@
-<div class="resource-media-group">
-  <div class="resource-media">
-    <iframe src="{{ page.resource.episode_link }}" title="{{ page.resource.episode_name}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-    </iframe>
-    <iframe src="{{ page.resource.ada_episode_link }}" title="{{ page.resource.episode_name}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-    </iframe>
+<div class="resource-group">
+  <div class="resource-media grid-row grid-gap-lg">
+    <div class="desktop:grid-col-6">
+      <iframe width="100%" height="auto" src="{{ page.resource.episode_link }}" title="{{ page.resource.episode_name}}" frameborder="no" scrolling="no" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+      </iframe>
+    </div>
+    <div class="desktop:grid-col-6">
+      <iframe width="100%" height="auto" src="{{ page.resource.ada_episode_link }}" title="{{ page.resource.episode_name}}" frameborder="no" scrolling="no" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+      </iframe>
+    </div>
   </div>
   <div class="resource-info">
     Transcript: <a href="{{ page.resource.transcript.url }}">{{ page.resource.episode_name}}</a> [PDF, 4kb] | Audio Description:  <a href="{{page.resource.transcript.url}}">{{ page.resource.episode_name}}</a> [PDF, 5kb]

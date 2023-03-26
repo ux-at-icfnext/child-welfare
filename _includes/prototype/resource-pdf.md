@@ -1,7 +1,7 @@
-<div class="resource-attachment-group">
-    <div class="publication-info">
-      <img src="{{ page.thumbnail.url }}" alt="{{ page.thumbnail.description }}" />
-      <div class="resources-body">
+<div class="resource-group">
+    <div class="publication-info grid-row grid-gap-lg">
+      <div class="desktop:grid-col-4"> <img src="{{ page.thumbnail.url }}" alt="{{ page.thumbnail.description }}" /></div>
+      <div class="resources-body desktop:grid-col-8">
           <p><span class="pub-details">Series Title:</span> {{ page.resource.series_title }}</p>
           <p><span class="pub-details">Author(s):</span> {{ page.resource.author }}</p>
           <p><span class="pub-details">Year Published</span> {{ page.resource.year_published }}</p>
@@ -20,3 +20,4 @@
       <p>{{page.body | markdownify}}</p>
     </div>
   </div>
+</div>

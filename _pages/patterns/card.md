@@ -32,8 +32,11 @@ spec:
     type: image 
     class: usa-card__img
   - name: link
-    type: button
+    type: button or link
     content: URL destination
+  - name: link_text
+    type: text
+    content: button label
   - name: layout
     type: select list
     content: default | card with media | header first | inset media | flag left | flag right
