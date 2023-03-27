@@ -9,6 +9,8 @@ summary: Directory search results page
 
 body: |
   Body copy- several sentences’ worth. Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut et via procedat oratio quaerimus igitur, inquit, modo dixi, constituto, ut earum motus et iusto odio.
+  > If you would like to join the directory, update your listing, or if you have any question
+  > - <i class="fa-kit fa-mail"></i>[nfcadupdates@childwelfare.gov](#) <i class="fa-kit fa-phone"></i>[800.394.3366](#)
 
 summary-title: Quick links
 summary-class: quick-links
@@ -24,7 +26,7 @@ summary-list:
 # {{ page.title }}
 
 <div class="grid-row grid-gap-lg" markdown="1">
-  <div class="grid-col-6"> {{ page.body }} </div>
+  <div class="grid-col-6"> {{ page.body | markdownify }} </div>
   <div class="grid-col-6"> {% include patterns/summary-box/summary-box-jk.md %} </div>
 </div>
 </div>
