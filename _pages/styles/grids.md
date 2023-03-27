@@ -21,7 +21,7 @@ There are 3 global grid settings to be aware of:
 - __.usa-footer__ is used to controll the width of the footer. This is controlled through `$theme-footer-max-width`.
 - __.usa-identifier__ is used to controll the width of the identifier. This is controlled through `$theme-identifier-max-width`.
 
-For this design the banner, header, footer and identifier have all be set to widescreen (1400px). The grid container is left to the default desktop (1024px).
+For this design the banner, header, footer and identifier have all be set to widescreen (1400px). The grid container uses the desktop-large(1200px).
 
 ### Theme settings
 Please refer to the [Theme Settings](https://designsystem.digital.gov/documentation/settings) documentation for more information on how to work with the settings file.
@@ -41,7 +41,7 @@ To apply our grid customizations the settings file should contain:
                 'tablet': true,    // 640px
                 'tablet-lg': false,   // 880px
                 'desktop': true,    // 1024px
-                'desktop-lg': false,   // 1200px
+                'desktop-lg': true,   // 1200px
                 'widescreen': true,   // 1400px
         ),
 

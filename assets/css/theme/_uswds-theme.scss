@@ -13,6 +13,7 @@ in the form $setting: value,
     $theme-font-path: "../uswds/fonts",
     $theme-banner-max-width: "widescreen",
     $theme-header-max-width: "widescreen",
+    $theme-grid-container-max-width: "desktop-lg",
     $theme-footer-max-width: "widescreen",
     $theme-identifier-max-width: "widescreen",
     $theme-utility-breakpoints: (
@@ -23,7 +24,7 @@ in the form $setting: value,
                  'tablet': true,    // 640px
                  'tablet-lg': false,   // 880px
                  'desktop': true,    // 1024px
-                 'desktop-lg': false,   // 1200px
+                 'desktop-lg': true,   // 1200px
                  'widescreen': true,   // 1400px
          ),
 
