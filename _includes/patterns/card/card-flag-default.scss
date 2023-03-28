@@ -14,6 +14,7 @@
     img{
         height: 100%;
     }
+    border: 1px solid #D1D3D4;
 }
 .usa-card__container__flag-default:hover{
     cursor: pointer;
@@ -22,4 +23,10 @@
     background-color: white;
     color: #005DAA;
     border: 1px solid #005DAA;
+}
+.usa-card__container{
+    .usa-card__body{
+        font-family: Lora;
+    }
+    border: 1px solid #D1D3D4;
 }
