@@ -5,7 +5,15 @@
     color: black;
     padding-left: 2rem;
     display: grid;
+    gap: 1rem;
     grid-template-columns: auto auto;
+
+    .usa-intro{
+        color: white;
+    }
+    .hide{
+        display: none;
+    }
 }
 @media (min-width: 64em){
     .desktop\:grid-col-6{
