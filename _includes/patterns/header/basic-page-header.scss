@@ -1,3 +1,16 @@
+.basic-page-hero{
+    @media (max-width: 63em){
+        .help-cards{
+            display: block;
+        }
+        .cta{
+            width: fit-content;
+        }
+        .usa-intro{
+            width: fit-content;
+        }
+    }
+}
 .basic-page-header{
     max-width: fit-content;
     padding: 0.5rem 2rem;
@@ -21,5 +34,4 @@
         display: inline-block;
         width: fit-content;
     }
-
 }

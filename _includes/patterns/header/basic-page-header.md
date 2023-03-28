@@ -1,4 +1,4 @@
-<section class="usa-hero" aria-label="Introduction";>
+<section class="usa-hero basic-page-hero" aria-label="Introduction";>
   <div class="grid-container">
     {%include patterns/breadcrumb/breadcrumb-blue-bg.md%}
     <div class="usa-hero__callout basic-page-header">
