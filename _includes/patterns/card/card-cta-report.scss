@@ -21,11 +21,13 @@
         color: #002552;
         font-weight: bold;
     }
+    border: 1px solid #D1D3D4;
 }
 .cta-help-container:hover{
     background-color: #002552;
     color: white;
     cursor: pointer;
+    border: 1px solid white;
     .usa-card__img{
         background-color: #002552;
     }
