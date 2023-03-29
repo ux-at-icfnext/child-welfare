@@ -2,6 +2,9 @@
 <nav class="usa-breadcrumb 
 {% if page.breadcrumbWrapping == true %} 
   usa-breadcrumb--wrap 
+{% endif %}
+{% if page.header %}
+  blue_bg
 {% endif %}" 
 aria-label="Breadcrumbs,,">
   <ol class="usa-breadcrumb__list">
@@ -12,7 +15,7 @@ aria-label="Breadcrumbs,,">
     </li>
     {% for breadcrumb in breadcrumbs offset: 1  %}
       {% if forloop.last %}
-        <li class="usa-breadcrumb__list-item" aria-current="page">
+        <li class="usa-breadcrumb__list-item current_page" aria-current="page">
           <span>
             {{ breadcrumb | replace:'-',' ' | capitalize }}
           </span>
