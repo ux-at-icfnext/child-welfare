@@ -23,7 +23,7 @@
     {% if page.child_abuse_cta and page.find_help_cta == false %}
       <div class="help-cards">
         <div class="usa-intro"> {{page.summary}}</div>
-        <div class="cta report-cta">
+        <div class="cta report-cta solo-cta">
             {%include patterns/card/card-cta-report-heading.md%}
         </div>
       </div>

@@ -22,14 +22,18 @@
     color: black;
     padding-left: 2rem;
     display: grid;
-    gap: 1rem;
-    grid-template-columns: auto auto;
+    grid-template-columns: 2.1fr 3fr;
 
     .usa-intro{
         color: white;
     }
     .hide{
         display: none;
+    }
+}
+.solo-cta{
+    .usa-card-group{
+        margin-left: 3rem;
     }
 }
 @media (min-width: 64em){
