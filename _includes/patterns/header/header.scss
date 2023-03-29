@@ -1,5 +1,8 @@
 .usa-header{
     background-color: #002552;
+    ul, ol{
+        max-width: fit-content;
+    }
 }
 .home{
     color: white;
@@ -34,15 +37,15 @@
 .usa-header--extended .usa-nav__primary-item>.usa-nav__link:hover:after{
     background-color: #E50E63;
 }
-.check-out-icon{
-    height: 20px;
-    width: auto;
-    position: absolute;
-    right: 40%;
-    bottom: 40%;
+
+.usa-nav__primary>.usa-nav__primary-item>a{
+    padding: 0;
+    padding-top: 0.7rem;
 }
-.check-out{
+.check-out-icon{
+    margin-right: 5px;
+}
+.check-out-span{
     position: absolute;
-    right: 33%;
-    bottom: 40%;
+    top: 1rem;
 }

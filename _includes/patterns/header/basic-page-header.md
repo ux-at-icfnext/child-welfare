@@ -1,6 +1,6 @@
 <section class="usa-hero basic-page-hero" aria-label="Introduction";>
+  {%include patterns/breadcrumb/breadcrumb-basic.md%}
   <div class="grid-container">
-    {%include patterns/breadcrumb/breadcrumb-blue-bg.md%}
     <div class="usa-hero__callout basic-page-header">
       <h1 class="usa-hero__heading">
         <span class="usa-hero__heading--alt">{{page.title}}</span>
@@ -23,7 +23,7 @@
     {% if page.child_abuse_cta and page.find_help_cta == false %}
       <div class="help-cards">
         <div class="usa-intro"> {{page.summary}}</div>
-        <div class="cta report-cta">
+        <div class="cta report-cta solo-cta">
             {%include patterns/card/card-cta-report-heading.md%}
         </div>
       </div>

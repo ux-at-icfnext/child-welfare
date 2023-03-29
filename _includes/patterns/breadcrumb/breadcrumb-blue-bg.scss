@@ -4,4 +4,19 @@
     .usa-breadcrumb__link:visited{
         color: white;
     }
+    .usa-breadcrumb__link{
+        font-family: Montserrat;
+        font-weight: 200;
+    }
+    .current_page{
+        font-family: Montserrat;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .usa-breadcrumb__list-item:not(:last-child):after{
+        background-color: white;
+    }
   }
+.usa-breadcrumb{
+    margin-left: 3rem;
+}
