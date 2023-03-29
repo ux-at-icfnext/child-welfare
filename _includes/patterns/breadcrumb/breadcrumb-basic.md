@@ -5,7 +5,8 @@
 {% endif %}
 {% if page.header %}
   blue_bg
-{% endif %}" 
+{% endif %}
+usa-navbar" 
 aria-label="Breadcrumbs,,">
   <ol class="usa-breadcrumb__list">
     <li class="usa-breadcrumb__list-item"> 
