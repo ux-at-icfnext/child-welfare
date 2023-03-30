@@ -8,3 +8,20 @@
 .current_page{
   font-weight: bold;
 }
+
+@media (max-width: 64em){
+  .usa-breadcrumb__list-item:not(:first-child){
+    display: none;
+  }
+  .usa-breadcrumb__list-item:not(:last-child):after{
+    display: none;
+  }
+  .m-arrow::before{
+    content: "\2190";
+    color: #E50E63;
+  }
+  .white-arrow::before{
+    content: "\2190";
+    color: white;
+  }
+}
