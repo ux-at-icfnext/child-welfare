@@ -1,11 +1,12 @@
 {% assign breadcrumbs = page.url | split: '/' %}
-<nav class="usa-breadcrumb 
+<nav class="usa-breadcrumb usa-nav-container
 {% if page.breadcrumbWrapping == true %} 
   usa-breadcrumb--wrap 
 {% endif %}
 {% if page.header %}
   blue_bg
-{% endif %}" 
+{% endif %}
+" 
 aria-label="Breadcrumbs,,">
   <ol class="usa-breadcrumb__list">
     <li class="usa-breadcrumb__list-item"> 
