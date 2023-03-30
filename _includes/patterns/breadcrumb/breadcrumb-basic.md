@@ -9,7 +9,12 @@
 " 
 aria-label="Breadcrumbs,,">
   <ol class="usa-breadcrumb__list">
-    <li class="usa-breadcrumb__list-item"> 
+    <li class="usa-breadcrumb__list-item
+      {% if page.header %}
+        white-arrow
+      {%else%}
+        m-arrow
+      {%endif%}"> 
       <a href="/" class="usa-breadcrumb__link">
         <span>Home</span>
       </a>
