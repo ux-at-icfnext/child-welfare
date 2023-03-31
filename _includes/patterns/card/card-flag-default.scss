@@ -2,6 +2,7 @@
 .usa-card__container__flag-default{
     background-color: white;
     border: 0;
+    min-height: 200px;
     .usa-card__body p {
         padding: 0;
     }
@@ -14,7 +15,6 @@
     img{
         height: 100%;
     }
-    border: 1px solid #D1D3D4;
 }
 .usa-card__container__flag-default:hover{
     cursor: pointer;
