@@ -1,8 +1,8 @@
 ---
 layout: pattern
-categories: [patterns, card]
+categories:
 title: Subscription flag card
-type: [detail-page]
+type: 
 permalink: /patterns/card/card-flag-subscription/
 description: |
   This "flag" card has the image positioned on the left . The example in the html below shows how to apply. To see an example with the image with padding, see the [right flag](/patterns/card/card-flag-media-right-inset/). _see more details on functionality on the [default card](/patterns/card) page_
