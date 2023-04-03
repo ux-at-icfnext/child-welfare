@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Events Search
+title: Events Landing
 categories: [prototype]
 type: [sub-nav-item, prototype]
 permalink: /prototype/events/landing

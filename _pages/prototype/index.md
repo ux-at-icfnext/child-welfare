@@ -16,7 +16,7 @@ permalink: /prototype/
   <a href="/prototype/{{resources.slug}}">{{resources.title}}</a>
 {%endfor%}
 
-## Overview (*Draft*)
+## Overview
 {% for resources in site.data.contentful.spaces.example.topic %}
   <a href="/prototype/{{resources.slug}}">{{resources.title}}</a>
 {%endfor%}
@@ -27,10 +27,14 @@ permalink: /prototype/
 {%endfor%}
 
 ## Events (*Draft*)
-<a href="/prototype/events/landing}}">Events Landing</a>
+<a href="/prototype/events/landing">Events Landing</a>
 {% for resources in site.data.contentful.spaces.example.events %}
   <a href="/prototype/{{resources.slug}}">{{resources.title}}</a>
 {%endfor%}
+
+## State
+<p><a href="/prototype/states/landing">State Landing</a></p>
+<p><a href="/prototype/states/detail">State Detail</a></p>
 
 ## Glossary
 <a href="/prototype/glossary">Glossary</a>
