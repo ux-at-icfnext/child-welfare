@@ -53,3 +53,7 @@ page_gen:
   template: 'prototype/subtopic'
   dir: "prototype"
   name: 'title'
+- data: 'site.data.contentful.spaces.example.events'
+  template: 'prototype/events'
+  dir: "prototype"
+  name: 'title'

@@ -1,4 +1,48 @@
 ---
+events:
+- sys:
+    id: 2slbVvlqKnESCf3YUJ4S86
+    created_at: !ruby/object:DateTime 2023-03-31 16:21:43.327000000 Z
+    updated_at: !ruby/object:DateTime 2023-03-31 17:51:23.638000000 Z
+    content_type_id: events
+    revision: 3
+  title: HI! I am and example event
+  event_type: hybrid
+  sponsor: Sesame Place
+  website: http://acme.com
+  logo:
+    sys:
+      id: 1bKEkzHV9Z4h1oGlQLgLVj
+      created_at: !ruby/object:DateTime 2023-03-31 16:21:43.302000000 Z
+      updated_at: !ruby/object:DateTime 2023-03-31 16:21:43.302000000 Z
+    title: eventlogo.png
+    description: 
+    url: "//images.ctfassets.net/tues7aklmpmt/1bKEkzHV9Z4h1oGlQLgLVj/18d2589cac2c70ad40f669c305650892/eventlogo.png"
+  street_address: Big Birds Nest
+  street_address2: 123 Sesame Street
+  city: New York
+  state: NY
+  zip_code: '10001'
+  start_date: !ruby/object:DateTime 2023-05-05 14:00:00.000000000 -07:00
+  end_date: !ruby/object:DateTime 2023-05-05 17:00:00.000000000 -07:00
+  time_zone: eastern
+  cost: paid
+  tags: Adoption
+  continuing_education: false
+  audience: Attendee eligibility here- Laudem et argumentandum et dolore magnam aliquam
+    causam ista, quae. Quid ex eo ortum, tam egregios viros censes aut officiis debitis
+    aut voluptates omittantur maiorum voluptatum.
+  summary: |
+    Laudem et argumentandum et dolore magnam aliquam causam ista, quae. Quid ex eo ortum, tam egregios viros censes aut officiis debitis aut voluptates omittantur maiorum voluptatum. Laudem et argumentandum et dolore magnam aliquam causam ista, quae. Quid ex eo ortum, tam egregios viros censes aut officiis debitis aut voluptates omittantur maiorum voluptatum.
+
+    Laudem et argumentandum et dolore magnam aliquam causam ista, quae. Quid ex eo ortum, tam egregios viros censes aut officiis debitis aut voluptates omittantur maiorum voluptatum.Laudem et argumentandum et dolore magnam aliquam causam ista, quae. Quid ex eo ortum, tam egregios viros censes aut officiis debitis aut voluptates omittantur maiorum voluptatum.
+
+    Laudem et argumentandum et dolore magnam aliquam causam ista, quae. Quid ex eo ortum, tam egregios viros censes aut officiis debitis aut voluptates omittantur maiorum voluptatum.
+  first_name: Big
+  last_name: Bird
+  phone_number: 555-555-5555
+  email: bigbird@sesame.com
+  slug: hi-i-am-and-example-event
 subTopics:
 - sys:
     id: 71rOORDjiTN63aXJYEsQXN

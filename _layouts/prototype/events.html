@@ -1,0 +1,36 @@
+---
+layout: default
+categories: [prototype]
+type: [sub-nav-item, prototype]
+
+summary-title: Submit Events and Calls for Papers
+summary-class: submissions
+summary-list:
+  - item: Submit information on your events. We will then post your submission to this website.
+  - item: <a href="/">Fill in a submission form </a>
+
+cards:
+  - title: "Another Event"
+    meta: "Thu, Nov 18 2021 | 11 AM EST"
+    content: "Sesame Place"
+    type: virtual
+    icon: "fa-light fa-video"
+  - title: "Another Event"
+    meta: "Thu, Nov 18 2021 | 11 AM EST"
+    content: "Sesame Place"
+    type: virtual
+    icon: "fa-light fa-video"
+
+---
+
+<div class="grid-container">
+  <h1>
+    {{page.title}}
+    {% include patterns/social-share/social-share.md %}
+  </h1>
+  <div class=" grid-row">
+    <div class="grid-col-4"> {% include prototype/events/meta.md %}</div>
+    <div class="grid-col-8"> {% include prototype/events/info.md %} </div>
+  </div>
+</div>
+
