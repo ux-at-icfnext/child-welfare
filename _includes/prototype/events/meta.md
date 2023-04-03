@@ -24,7 +24,7 @@
       <i class="fa-light fa-video"></i> Virtual
   {% endif %}
   {% if page.event_type == "in-person" %}
-      <i class="fa-light fa-building"></i> In Person
+      <i class="fa-light fa-location-dot"></i> In Person
   {% endif %}
   {% if page.event_type == "calls for papers" %}
       <i class="fa-kit fa-campaign"></i> Calls for Papers

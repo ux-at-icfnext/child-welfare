@@ -3,9 +3,9 @@ events:
 - sys:
     id: 2slbVvlqKnESCf3YUJ4S86
     created_at: !ruby/object:DateTime 2023-03-31 16:21:43.327000000 Z
-    updated_at: !ruby/object:DateTime 2023-03-31 17:51:23.638000000 Z
+    updated_at: !ruby/object:DateTime 2023-03-31 17:52:35.097000000 Z
     content_type_id: events
-    revision: 3
+    revision: 4
   title: HI! I am and example event
   event_type: hybrid
   sponsor: Sesame Place
@@ -18,7 +18,7 @@ events:
     title: eventlogo.png
     description: 
     url: "//images.ctfassets.net/tues7aklmpmt/1bKEkzHV9Z4h1oGlQLgLVj/18d2589cac2c70ad40f669c305650892/eventlogo.png"
-  street_address: Big Birds Nest
+  street_address: Big Bird's Nest
   street_address2: 123 Sesame Street
   city: New York
   state: NY
