@@ -1,5 +1,4 @@
- 
-<section class="usa-hero" aria-label="Introduction";>
+ <section class="usa-hero hero-topics" aria-label="Introduction";>
   <div class="grid-container">
     <div class="usa-hero__callout">
       <h1 class="usa-hero__heading">
