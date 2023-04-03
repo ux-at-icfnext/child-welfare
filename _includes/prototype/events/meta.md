@@ -16,7 +16,23 @@
 
 <div class="event-address">
   <h2>Location</h2>
-  <div class="usa-tag">(icon) event type -- needs if/then</div> 
+  <div class="usa-tag">
+  {% if page.event_type == "hybrid" %}
+      <i class="fa-light fa-compass"></i> Hybrid
+  {% endif %}
+  {% if page.event_type == "virtual" %}
+      <i class="fa-light fa-video"></i> Virtual
+  {% endif %}
+  {% if page.event_type == "in-person" %}
+      <i class="fa-light fa-building"></i> In Person
+  {% endif %}
+  {% if page.event_type == "calls for papers" %}
+      <i class="fa-kit fa-campaign"></i> Calls for Papers
+  {% endif %}
+  
+  
+  
+  </div> 
   <p>{{ page.street_address }}</p>
   {% if street_address_2 %}
     <p>{{ page.street_address2 }}</p>
