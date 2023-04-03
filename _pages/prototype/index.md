@@ -27,6 +27,7 @@ permalink: /prototype/
 {%endfor%}
 
 ## Events (*Draft*)
+<a href="/prototype/events/landing}}">Events Landing</a>
 {% for resources in site.data.contentful.spaces.example.events %}
   <a href="/prototype/{{resources.slug}}">{{resources.title}}</a>
 {%endfor%}
