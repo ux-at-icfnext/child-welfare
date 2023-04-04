@@ -4,8 +4,12 @@
 <h3>Who Should Attend this Conference?</h3>
 {{ page.audience }}
 
+<div class="tag-group">
 <h3>Topic Tags</h3>
-<div class="usa-tag"> {{ page.tags }} </div>
+{% for tag in page.tags %}
+<div class="usa-tag"> {{ tag }} </div>
+{% endfor %}
+</div>
 <div class="events-related">
 <h2>More from this sponsor</h2>
 <div class="more-link"><a href="#">See all events from this sponsor</a><i class="fa-kit fa-navigate-next"></i></div>
