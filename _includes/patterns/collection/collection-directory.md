@@ -10,12 +10,25 @@
                         List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel aseesrb
                     </a>
                 </h3>
-                <div class="meta"></div>
+                <div class="meta">
+                    <p>Email</p>
+                    <p>Contact Form</p>
+                    <p>Address</p>
+                    <p>Phone</p>
+                    <p>Toll</p>
+                    <p>Fax</p>
+                </div>
                 <p class="desc">
-                    Source, Publication date
+                    Short description - suggested 250 characters max - sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <div class="functions"></div>
-                <div class="socials"></div>
+                <div class="functions">
+                    <p>Primary functions</p>
+                </div>
+                <div class="socials">
+                    <i class="fa-brands fa-facebook-f" style="background-color: #005DAA; color: white; padding: 0.5rem; margin-right: 0.5rem;"></i>
+                    <i class='fab fa-twitter' style="background-color: #005DAA; color: white; padding: 0.5rem; margin-right: 0.5rem;"></i>
+                    <i class="fa fa-youtube-play"style="background-color: #005DAA; color: white; padding: 0.5rem;"></i>
+                </div>
             </div>
         </li>
                 <li class="usa-collection__item">

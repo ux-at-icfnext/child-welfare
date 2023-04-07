@@ -32,3 +32,16 @@ a, p{
 p{
     font-family: Lora, serif;
 }
+//directory
+.meta{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    p{
+        font-size: 1rem;
+        color: #71767A;
+        margin-bottom: 0;
+    }
+}
+.desc{
+    margin-top: 1rem;
+}
