@@ -12,7 +12,7 @@
 }
 .format{
     background-color: #005DAA;
-    width: 27%;
+    width: fit-content;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
 }
@@ -31,4 +31,26 @@ a, p{
 }
 p{
     font-family: Lora, serif;
+}
+//directory
+.meta{
+    display: inline;
+    span{
+        padding-left: 10px;
+        font-size: 12px;
+        color: #71767A;
+        margin-bottom: 0;
+    }
+}
+.desc{
+    margin-top: 1rem;
+    font-size: 16px;
+}
+.functions{
+    p{
+        font-size: 16px;
+    }
+    span{
+        font-weight: bold;
+    }
 }
