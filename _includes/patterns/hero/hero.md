@@ -1,5 +1,5 @@
 {% if hero %}
-<section class="usa-hero" aria-label="Introduction";>
+<section class="usa-hero" aria-label="Introduction">
   <div class="grid-container">
     <div class="usa-hero__callout">
       {% if hero.callout %}

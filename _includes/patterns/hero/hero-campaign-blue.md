@@ -1,4 +1,4 @@
-<section class="usa-hero campaign-hero" aria-label="Introduction";>
+<section class="usa-hero campaign-hero" aria-label="Introduction">
   <div class="grid-container">
     <div class="usa-hero__callout campaign-callout">
       <h1 class="usa-hero__heading">
