@@ -5,17 +5,17 @@
             <div class="usa-collection__body">
                 <div class="format">
                     <img class="format-icon" src="/assets/icons/videocam_white.svg"/>
-                    <span>Format Type</span>
+                    <span>Video</span>
                 </div>
                 <h3 class="usa-collection__heading collection-heading">
                     <a
                     class="usa-link"
                     href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/">
-                        List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel aseesrb
+                        ACF-ACF-IM-18-01 (Inegrating Approaches That Prioritize and Enhance Father Engagement)
                     </a>
                 </h3>
-                <p class="source">
-                    Source, Publication date
+                <p class="sponsor">
+                    US Department of Health and Human Services, Administration on Children, Youth and Families (2018)
                 </p>
             </div>
         </li>
