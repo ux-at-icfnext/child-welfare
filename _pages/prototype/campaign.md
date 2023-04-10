@@ -32,6 +32,10 @@ cards:
       alt: placeholder image
       class: tablet:grid-col-4
 events:
+  headings:
+    title: Events
+    link: "#"
+    link_text: "See All Campaign Events"
   settings:
     group_class: "event-card card-default"
   lists:
