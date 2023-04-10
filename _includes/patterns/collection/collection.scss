@@ -34,14 +34,23 @@ p{
 }
 //directory
 .meta{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    p{
-        font-size: 1rem;
+    display: inline;
+    span{
+        padding-left: 10px;
+        font-size: 12px;
         color: #71767A;
         margin-bottom: 0;
     }
 }
 .desc{
     margin-top: 1rem;
+    font-size: 16px;
+}
+.functions{
+    p{
+        font-size: 16px;
+    }
+    span{
+        font-weight: bold;
+    }
 }
