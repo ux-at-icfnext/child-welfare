@@ -36,11 +36,12 @@ cards:
 ---
 
 <div class="grid-container" markdown="1">
-# {{ page.title }}
-
 <div class="grid-row grid-gap-lg" markdown="1">
-  <div class="grid-col-6"> {{ page.body }} </div>
-  <div class="grid-col-6"> {% include patterns/summary-box/summary-box-jk.md %} </div>
+  <div class="grid-col-6"> 
+    <h1>{{ page.title }}</h1>
+    {{ page.body }} 
+  </div>
+  <div class="grid-col-6" style="margin-top: 1rem;"> {% include patterns/summary-box/summary-box-jk.md %} </div>
 </div>
 </div>
 
