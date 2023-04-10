@@ -14,16 +14,56 @@ hero:
     alt: placeholder image
     media-class: usa-card__media--inset
 
-news:
+
+story:
   headings:
-    - title: News and Stories
-      link: "#"
-      link_text: "View all news and stories" 
+    title: News and Stories
+    link: "#"
+    link_text: "View all news and stories"
+  lists:
+    - title: "First Item Title Link"
+      content: "Learn more about working with families to enhance their capacity to care and protect their children."
+      media: https://placekitten.com/200/139
+    - title: Second Item Title Link
+      content: "Write short description of third item here. Two lines max."
+      media: https://placekitten.com/200/139
+    - title: Third Item Title Link
+      content: "Write short description of third item here. Two lines max."
+      media: https://placekitten.com/200/139
+    - title: Fourth Item Title Link
+      content: "Write short description of third item here. Two lines max."
+      media: https://placekitten.com/200/139
+      
+resource:
+  headings: 
+    title: Resources
+  settings:
+    group_class: "card-default"
+  lists: 
+    - title: Title One Goes Here
+      content: Ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+      media: https://placekitten.com/200/139
+    - title: Title Two Goes Here
+      content: Ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+      media: https://placekitten.com/200/139
+    - title: Title Three Goes Here
+      content: Ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+      media: https://placekitten.com/200/139
+
+
+
 ---
 {% include patterns/breadcrumb/breadcrumb-jk.md %}
 {% include patterns/hero/hero-full-width-jk.md content=page.hero %}
 
 {% include prototype/campaign/impact_pie.md %}
-{% include prototype/campaign/news_stories.md %}
+
+<section class="campaign-news">
+{% include patterns-jk/card-flag-group-jk.md headings=page.story.headings content=page.story.lists %}
+</section>
+
 {% include prototype/campaign/involved_vision.md %}
-{% include prototype/campaign/resources.md %}
+
+<section class="blue-wrapper campaign-resources">
+{% include patterns-jk/card-group-jk.md headings=page.resource.headings content=page.resource.lists settings=page.resource.settings %}
+</section>
