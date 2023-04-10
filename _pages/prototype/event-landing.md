@@ -45,7 +45,7 @@ cards:
 </div>
 </div>
 
-<div class="event-search-banner search-feature search-feature-variation">
+<div class="event-search-banner search-feature search-feature-variation" style="margin-top: 1rem;">
   <div class="grid-container">
     <h2>Find your next event</h2>
     {% include patterns/search/search-small.md%}
