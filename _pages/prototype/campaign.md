@@ -7,28 +7,61 @@ permalink: /prototype/campaign/1
 summary: This is example of a campaign page.
 
 cards:
-  - title: "Social Media: Tips for Youth in Foster Care"
-    content: | 
-      Card Body - ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae perspiciatis unde omnis iste natus  
-    link_text: More on social media tips
-    img: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
-    alt: placeholder image
-    class: tablet:grid-col-4
-  - title: "Prevention Resource Guide"
-    content: | 
-      Card Body - ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae perspiciatis unde omnis iste natus   
-    link_text: More on prevention
-    img: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
-    alt: placeholder image
-    class: tablet:grid-col-4
-  - title: "El cuidado por parientes y el sistema de bienestar de menores (Kinship Care and the Child Welfare System)"
-    content: | 
-      Card Body - ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium…  
-    link_text: More on El cuidado por parientes
-    img: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
-    alt: placeholder image
-    class: tablet:grid-col-4
+  settings:
+    group_class: "usa-card__media card-default"
+  lists:
+    - title: "Social Media: Tips for Youth in Foster Care"
+      content: | 
+        Card Body - ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae perspiciatis unde omnis iste natus  
+      link_text: More on social media tips
+      media: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
+      alt: placeholder image
+      class: tablet:grid-col-4
+    - title: "Prevention Resource Guide"
+      content: | 
+        Card Body - ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae perspiciatis unde omnis iste natus   
+      link_text: More on prevention
+      media: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
+      alt: placeholder image
+      class: tablet:grid-col-4
+    - title: "El cuidado por parientes y el sistema de bienestar de menores (Kinship Care and the Child Welfare System)"
+      content: | 
+        Card Body - ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium…  
+      link_text: More on El cuidado por parientes
+      media: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
+      alt: placeholder image
+      class: tablet:grid-col-4
+events:
+  settings:
+    group_class: "event-card card-default"
+  lists:
+    - title: "Living The Protective Factors"
+      tag: virtual
+      content: "Thu, Nov 18,2023 | 11am ET"
+      link_text: Be Strong Families
+    - title: "Recognizing and Responding to Family Stress"
+      tag: virtual
+      content: "Thu, Nov 18,2023 | 11am ET"
+      link_text: Be Strong Families
+    - title: "How We endUP: A Future Without Family Policing"
+      tag: call
+      content: "Thu, Nov 18,2023 | 11am ET"
+      link_text: The upEND Movement
+    - title: "Living The Protective Factors"
+      tag: New York, NY
+      content: "Thu, Nov 18,2023 | 11am ET"
+      link_text: Living The Protective Factors
+    - title: "Recognizing and Responding to Family Stress"
+      tag: hybrid
+      content: "Thu, Nov 18,2023 | 11am ET"
+      link_text: Living The Protective Factors
+    - title: "How We endUP: A Future Without Family Policing"
+      tag: virtual
+      content: "Thu, Nov 18,2023 | 11am ET"
+      link_text: The upEND Movement
+    
 
+      
 ---
 {%include patterns/breadcrumb/breadcrumb-basic.md%}
 
