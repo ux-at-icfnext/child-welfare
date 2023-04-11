@@ -11,8 +11,10 @@
 {% endfor %}
 </div>
 <div class="events-related">
-<h2>More from this sponsor</h2>
-<div class="more-link"><a href="#">See all events from this sponsor</a><i class="fa-kit fa-navigate-next"></i></div>
+  <div class="more-from-sponsor" style="display: grid; grid-template-columns: auto auto;">
+    <h2>More from this sponsor</h2>
+    <div class="more-link" style="margin-top: 1rem;"><a href="#">See all events from this sponsor</a><i class="fa-kit fa-navigate-next"></i></div>
+  </div>
 
 
 <ul class="usa-card-group">
