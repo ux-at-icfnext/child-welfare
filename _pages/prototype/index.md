@@ -6,6 +6,9 @@ type: [prototype]
 permalink: /prototype/
 ---
 <div class="grid-container" markdown="1">
+## Home Page (*Draft*)
+<a href="/prototype/home">Home</a>
+
 ## Basic Pages
 {% for basic in site.data.contentful.spaces.example.basic %}
   <a href="/prototype/{{basic.slug}}">{{basic.title}}</a>
