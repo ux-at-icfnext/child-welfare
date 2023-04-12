@@ -8,10 +8,12 @@ lorem:
     summary: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin libero et scelerisque semper. Morbi erat orci.
 
+hero:
+  - media: /assets/icons/images/full-image-hero.jpg
 ---
 <link href="/assets/css/proto/topics.scss" rel="stylesheet">
-{% assign hero = page.hero_image %}
-{% include patterns/hero/hero-full-width-jk.md %}
+{% include patterns/breadcrumb/breadcrumb-jk.md %}
+{% include patterns/hero/hero-full-width-jk.md content=page.hero %}
 
 <div class="grid-container">{% include patterns/social-share/social-share.md %}</div>
 <div class="grid-container">
