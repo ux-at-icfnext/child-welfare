@@ -4,32 +4,27 @@
         <li class="usa-collection__item">
             <div class="usa-collection__body">
                 <div class="format">
-                    <i class="fa-solid fa-compass"></i>
-                    <span>Hybrid Event</span>
+                    <img class="format-icon" src="/assets/icons/videocam_white.svg"/>
+                    <span>Video</span>
                 </div>
-                <p class="date_time"> Fri, Dec 24, 2021 | 11 AM PST   </p>
                 <h3 class="usa-collection__heading collection-heading">
                     <a
                     class="usa-link"
                     href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/">
-                        List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel aseesrb
+                        ACF-ACF-IM-18-01 (Inegrating Approaches That Prioritize and Enhance Father Engagement)
                     </a>
                 </h3>
                 <p class="sponsor">
-                    Sponsor
-                </p>
-                <p class="usa-collection__description event-desc">
-                    Short description - suggested 250 characters max - Omne animal simul atque insitam in gravissimo bello animadversionis metu. Certe, inquam, pertinax non existimant oportere exquisitis rationibus confirmare simul atque rationibus confirmare insitam.
+                    US Department of Health and Human Services, Administration on Children, Youth and Families (2018)
                 </p>
             </div>
         </li>
                 <li class="usa-collection__item">
             <div class="usa-collection__body">
                 <div class="format">
-                    <i class="fa-solid fa-compass"></i>
-                    <span>Hybrid Event</span>
+                    <img class="format-icon" src="/assets/icons/videocam_white.svg"/>
+                    <span>Format Type</span>
                 </div>
-                <p class="date_time"> Fri, Dec 24, 2021 | 11 AM PST   </p>
                 <h3 class="usa-collection__heading collection-heading">
                     <a
                     class="usa-link"
@@ -37,21 +32,17 @@
                         List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel aseesrb
                     </a>
                 </h3>
-                <p class="sponsor">
-                    Sponsor
-                </p>
-                <p class="usa-collection__description event-desc">
-                    Short description - suggested 250 characters max - Omne animal simul atque insitam in gravissimo bello animadversionis metu. Certe, inquam, pertinax non existimant oportere exquisitis rationibus confirmare simul atque rationibus confirmare insitam.
+                <p class="source">
+                    Source, Publication date
                 </p>
             </div>
         </li>
                 <li class="usa-collection__item">
             <div class="usa-collection__body">
                 <div class="format">
-                    <i class="fa-solid fa-compass"></i>
-                    <span>Hybrid Event</span>
+                    <img class="format-icon" src="/assets/icons/videocam_white.svg"/>
+                    <span>Format Type</span>
                 </div>
-                <p class="date_time"> Fri, Dec 24, 2021 | 11 AM PST   </p>
                 <h3 class="usa-collection__heading collection-heading">
                     <a
                     class="usa-link"
@@ -59,11 +50,8 @@
                         List item title - suggested 150 characters max - aspernari ut alterum esse albam, dulce mel aseesrb
                     </a>
                 </h3>
-                <p class="sponsor">
-                    Sponsor
-                </p>
-                <p class="usa-collection__description event-desc">
-                    Short description - suggested 250 characters max - Omne animal simul atque insitam in gravissimo bello animadversionis metu. Certe, inquam, pertinax non existimant oportere exquisitis rationibus confirmare simul atque rationibus confirmare insitam.
+                <p class="source">
+                    Source, Publication date
                 </p>
             </div>
         </li>

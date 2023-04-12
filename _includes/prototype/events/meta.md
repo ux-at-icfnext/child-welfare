@@ -1,6 +1,14 @@
+<style>
+  h2{
+    line-height: 3rem;
+  }
+  .usa-tag{
+    width: fit-content;
+  }
+</style>
 <div class="event-sponsor-logo">
   <div><img src="{{ page.logo.url }}" alt="sponsor logo"></div>
-  <div><a href="#" class="usa-button secondary__button">Visit {{ page.sponsor }} Website</a></div>
+  <div><a href="#" class="usa-button secondary__button" style="width: 100%;">Visit {{ page.sponsor }} Website</a></div>
 </div>
 
 <div class="event-sponsor">
