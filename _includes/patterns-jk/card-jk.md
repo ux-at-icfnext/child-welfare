@@ -13,7 +13,7 @@
 <ul class="usa-card-group"> 
   {% for card in items %}
     <li class="usa-card {{ grid | default:'tablet:grid-col-4'}}">
-      <div class="usa-card__container {{ class }}">
+      <div class="{{ class | default: usa-card__container }}">
         {% if card.tag %}
         {% include patterns-jk/tag-conditions.md %}
         {% endif %}

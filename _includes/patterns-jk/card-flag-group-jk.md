@@ -12,8 +12,8 @@
   <!-- show the first item as a flag over the other 3 -->
     <ul class="usa-card-group"> 
       {% for card in items limit: 1 %}
-        <li class="usa-card tablet:grid-col-12">
-          <div class="usa-card__container card-default usa-card--flag ">
+        <li class="usa-card usa-card--flag tablet:grid-col-12">
+          <div class="usa-card__container__flag-default">
             {% if card.tag %}
             {% include patterns-jk/tag-conditions.md %}
             {% endif %}
