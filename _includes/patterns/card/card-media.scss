@@ -1,11 +1,16 @@
 .usa-card__container__media{
     background-color: white;
+    margin: 1%;
 }
 .usa-card__container__media:hover{
     cursor: pointer;
+    background-color: #002552;
 }
 .usa-card__container__media{
     .usa-card__body p{
         padding-left: 0;
+    }
+    .usa-card__heading{
+        font-family: 'Montserrat';
     }
 }
