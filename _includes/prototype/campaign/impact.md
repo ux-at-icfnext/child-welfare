@@ -9,7 +9,11 @@
         margin-top: 4rem;
         border-bottom: 1px solid #6D6E71;
         padding-bottom: 1rem;">
-        <div class="impact-number grid-col">122,000</div>
+        <div class="impact-number grid-col" style="
+          font-size: 4rem;
+          color: #002552;">
+          122,000
+        </div>
         <div class="grid-col">Children adopted nationwide since 2019</div>
       </div>
       <div class="grid-row" style="
