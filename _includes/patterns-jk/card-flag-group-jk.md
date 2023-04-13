@@ -4,10 +4,12 @@
 
 
 <div class="grid-container">
+<div class="card-group__header" style="display: grid; grid-template-columns: auto auto;">
   <h2>{{ headings.title }}</h2>
   {% if headings.link %}
-  <div class="card-group-morelink"><a href="{{ headings.link }}">{{ headings.link_text }} <i class="fa-kit fa-navigate-next"></i></a></div>
+  <div class="card-group-morelink" style="margin-top: 1rem; justify-self: end;"><a href="{{ headings.link }}">{{ headings.link_text }} <i class="fa-kit fa-navigate-next"></i></a></div>
   {% endif %}
+</div>
   <div class="card-group">
   <!-- show the first item as a flag over the other 3 -->
     <ul class="usa-card-group"> 
