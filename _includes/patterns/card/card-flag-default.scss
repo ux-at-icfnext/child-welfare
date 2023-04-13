@@ -30,3 +30,17 @@
     }
     border: 1px solid #D1D3D4;
 }
+.usa-card--flag{
+    .usa-card__media{
+        width: fit-content;
+    }
+    .usa-card__body{
+        margin-left: 18rem;
+    }
+    .usa-card__footer{
+        margin-left: 18rem;
+    }
+    ..usa-card__header{
+        margin-left: 18rem;
+    }
+}
