@@ -1,6 +1,6 @@
  {% for card in include.content %}
  <li class="tablet:grid-col-4 usa-card">
-  <div class="usa-card__container card-default">
+  <div class="usa-card__container__media">
   {% if card.thumbnail %}
     <div class="usa-card__media">
       <div class="usa-card__img">
@@ -13,7 +13,7 @@
     {% endif %}
     {% if card.title %}
     <header class="usa-card__header">
-      <h3 class="usa-card__heading">{{ card.title }}</h3>
+      <h3 class="usa-card__heading" style="font-family: 'Montserrat';">{{ card.title }}</h3>
     </header>
     {% endif %}
     {% if card.summary %}
