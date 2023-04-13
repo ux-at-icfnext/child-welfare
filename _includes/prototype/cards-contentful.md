@@ -1,6 +1,6 @@
  {% for card in include.content %}
  <li class="tablet:grid-col-4 usa-card">
-  <div class="usa-card__container__media card-default">
+  <div class="usa-card__container__media">
   {% if card.thumbnail %}
     <div class="usa-card__media">
       <div class="usa-card__img">
