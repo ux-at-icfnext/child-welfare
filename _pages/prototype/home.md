@@ -137,7 +137,7 @@ campaigns:
 </section>
 
 <section class="home-campaigns" style="margin-top: 1rem; margin-bottom: 1rem;">
-{% include patterns-jk/card-group-jk.md headings=page.campaigns.headings content=page.campaigns.lists settings=page.campaigns.settings %}
+{% include patterns-jk/card-group-campaign.md %}
 </section>
 
 {% include prototype/home/library.md %}
