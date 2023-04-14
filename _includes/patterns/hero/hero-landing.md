@@ -11,7 +11,7 @@
           href="{{ hero.button.href | relative_url }}">
           More about us
         </a>
-        <a class="" href="">
+        <a class="share-page" href="">
           Share this page
         </a>
       </div>
