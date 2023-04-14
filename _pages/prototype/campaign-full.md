@@ -10,7 +10,7 @@ hero:
   - title: Campaign Name
     content: "Campaign Subtitle, consisting of a short description of the campaign. This can be two to three lines in length."
     link_text: Get Involved
-    media: /assets/icons/images/full-image-hero.jpg
+    media: /assets/icons/images/subscription-banner.png
     alt: placeholder image
     media-class: usa-card__media--inset
 
@@ -23,7 +23,7 @@ story:
   lists:
     - title: "First Item Title Link"
       content: "Learn more about working with families to enhance their capacity to care and protect their children."
-      media: https://placekitten.com/200/139
+      media: /assets/icons/images/family-practice.jpg
     - title: Second Item Title Link
       content: "Write short description of third item here. Two lines max."
       media: https://placekitten.com/200/139
