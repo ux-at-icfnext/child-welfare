@@ -84,7 +84,7 @@ cards:
     <div class="grid-container">
       <div class="card-group__header" style="display: grid; grid-template-columns: auto auto;">
         <h2>Upcoming</h2>
-        <div class="more-link"><a href="#">See all upcoming events</a><i class="fa-kit fa-navigate-next"></i></div>
+        <div class="more-link" style="margin-top: 1rem; justify-self: end;"><a href="#">See all upcoming events</a><i class="fa-kit fa-navigate-next"></i></div>
       </div>
       <ul class="usa-card-group">
       {% for cards in page.cards %}
@@ -114,7 +114,7 @@ cards:
     <div class="grid-container">
     <div class="card-group__header" style="display: grid; grid-template-columns: auto auto;">
       <h2>Information Gateway Events</h2>
-      <div class="more-link"><a href="#">See all Information Gateway events</a><i class="fa-kit fa-navigate-next"></i></div>
+      <div class="more-link" style="margin-top: 1rem; justify-self: end;"><a href="#">See all Information Gateway events</a><i class="fa-kit fa-navigate-next"></i></div>
     </div>
       <ul class="usa-card-group">
       {% for cards in page.cards %}
@@ -144,7 +144,7 @@ cards:
     <div class="grid-container">
     <div class="card-group__header" style="display: grid; grid-template-columns: auto auto;">
       <h2>Come see us in person</h2>
-      <div class="more-link"><a href="#">See more</a><i class="fa-kit fa-navigate-next"></i></div>
+      <div class="more-link" style="margin-top: 1rem; justify-self: end;"><a href="#">See more</a><i class="fa-kit fa-navigate-next"></i></div>
     </div>
       <ul class="usa-card-group">
       {% for cards in page.cards %}
