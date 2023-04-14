@@ -4,7 +4,8 @@
   usa-breadcrumb--wrap 
 {% endif %}
 blue_bg
-" 
+"
+style="background-color: transparent;"
 aria-label="Breadcrumbs,,">
   <ol class="usa-breadcrumb__list">
     <li class="usa-breadcrumb__list-item
