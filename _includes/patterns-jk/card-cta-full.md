@@ -20,7 +20,7 @@
     </div>
   </li>
   <li class="usa-card tablet:grid-col">
-    <div class="usa-card__container card-default">
+    <div class="usa-card__container card-default home-cta__container">
       <div class="usa-card__header">
         <div class="callout-icon">
           <img class="blue-icon" src="/assets/icons/flag-navy.svg">

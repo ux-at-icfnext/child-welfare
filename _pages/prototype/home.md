@@ -129,7 +129,7 @@ campaigns:
 </div>
 
 <div class="grid-container home-overlay" style="margin-top: 1rem;">
-  {% include patterns-jk/card-group-jk.md content=page.overlay.lists settings=page.overlay.settings %}
+  {% include patterns-jk/card-group-with-button-jk.md content=page.overlay.lists settings=page.overlay.settings %}
 </div>
 
 <section class="campaign-news" style="margin-top: 1rem;">
