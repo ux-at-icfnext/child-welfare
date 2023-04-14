@@ -3,7 +3,7 @@
     <div class="grid-row grid-gap-lg">
       <div class="tablet:grid-col">
         <h2>Related Campaigns</h2>
-        <ul>
+        <ul style="margin-left: 0;">
           <li class="usa-icon-list__item">
             <div class="usa-icon-list__content"> Lorem ipsum dolor sit amet consectetur Vivamus tortor risus </div>
           </li>
@@ -20,7 +20,7 @@
       </div>
       <div class="tablet:grid-col">
         <h2>Related Topics</h2>
-        <ul>
+        <ul style="margin-left: 0;">
           <li class="usa-icon-list__item">
             <div class="usa-icon-list__content"> Lorem ipsum dolor sit amet consectetur Vivamus tortor risus </div>
           </li>

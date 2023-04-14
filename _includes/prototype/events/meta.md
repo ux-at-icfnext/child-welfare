@@ -41,7 +41,7 @@
   
   
   </div> 
-  <p>{{ page.street_address }}</p>
+  <p style="margin-bottom: 0.5rem;">{{ page.street_address }}</p>
   {% if street_address_2 %}
     <p>{{ page.street_address2 }}</p>
   {% endif %}
