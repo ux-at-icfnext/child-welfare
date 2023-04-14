@@ -1,4 +1,7 @@
 //for entire library...remove padding-left for h3, p, and a
+*+.usa-alert{
+    margin-top: 0;
+}
 .usa-alert{
     p{
         padding-left: 0;

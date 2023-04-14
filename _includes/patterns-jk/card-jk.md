@@ -36,8 +36,8 @@
           {{ card.content }}
         </p>
       </div>
-      <div class="usa-card__footer">
-        <a href="{{ card.link }}" class="usa-button">{{ card.link_text }}</a>
+      <div class="usa-card__footer" style="padding: 0;">
+        <a href="{{ card.link }}" class="usa-button" style="display: none;">{{ card.link_text }}</a>
       </div>
     </div>
   </li>

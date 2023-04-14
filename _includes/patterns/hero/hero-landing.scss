@@ -1,10 +1,10 @@
-.hero-landing{
-    .usa-hero__callout{
-
-    }
-}
 .hero-btns{
-    display: grid;
-    grid-template-columns: auto auto;
     margin-top: 1rem;
+    a{
+        display: block;
+    }
+    .share-page{
+        margin-top: 1rem;
+        color: white;
+    }
 }

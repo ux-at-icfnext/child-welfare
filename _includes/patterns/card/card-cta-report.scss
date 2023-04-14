@@ -46,3 +46,30 @@
         color: white;
     }
 }
+// prototype
+.home-cta{
+    .white-icon{
+        display: none;
+    }
+    .blue-icon{
+        display: block;
+        margin: auto;
+    }
+    .callout-icon img{
+        height: 40px;
+        width: auto;
+    }
+}
+.home-cta:hover{
+    .blue-icon{
+        display: none;
+    }
+    .white-icon{
+        display: block;
+        margin: auto;
+    }
+    .callout-icon img{
+        height: 40px;
+        width: auto;
+    }
+}
