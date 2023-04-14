@@ -11,8 +11,8 @@
           href="{{ hero.button.href | relative_url }}">
           More about us
         </a>
-        <a class="usa-button second-button" href="">
-          All Resources
+        <a class="" href="">
+          Share this page
         </a>
       </div>
     </div>

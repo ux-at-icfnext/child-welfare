@@ -10,7 +10,7 @@
         </p>
       </div>
       <div class="usa-card__footer">
-        <button class="usa-button">View Resources</button>
+        <button class="usa-button view-resources">View Resources</button>
       </div>
     </div>
   </li>

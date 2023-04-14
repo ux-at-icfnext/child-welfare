@@ -124,19 +124,19 @@ campaigns:
   {% include patterns/hero/hero-campaign-blue.md %}
 </section>
 
-<div class="grid-container home-resources">
+<div class="grid-container home-resources" style="margin-top: 4rem;">
   {% include patterns-jk/card-group-jk.md content=page.resources.lists settings=page.resources.settings headings=page.resources.headings %}
 </div>
 
-<div class="grid-container home-overlay">
+<div class="grid-container home-overlay" style="margin-top: 1rem;">
   {% include patterns-jk/card-group-jk.md content=page.overlay.lists settings=page.overlay.settings %}
 </div>
 
-<section class="campaign-news">
+<section class="campaign-news" style="margin-top: 1rem;">
 {% include patterns-jk/card-flag-group-jk.md headings=page.story.headings content=page.story.lists %}
 </section>
 
-<section class="home-campaigns">
+<section class="home-campaigns" style="margin-top: 1rem; margin-bottom: 1rem;">
 {% include patterns-jk/card-group-jk.md headings=page.campaigns.headings content=page.campaigns.lists settings=page.campaigns.settings %}
 </section>
 
