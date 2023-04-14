@@ -26,13 +26,13 @@ story:
       media: /assets/icons/images/family-practice.jpg
     - title: Second Item Title Link
       content: "Write short description of third item here. Two lines max."
-      media: https://placekitten.com/200/139
+      media: /assets/icons/images/500_F_306140481.jpg
     - title: Third Item Title Link
       content: "Write short description of third item here. Two lines max."
-      media: https://placekitten.com/200/139
+      media: /assets/icons/images/medical.jpg
     - title: Fourth Item Title Link
       content: "Write short description of third item here. Two lines max."
-      media: https://placekitten.com/200/139
+      media: /assets/icons/images/1000_F_135780146.jpeg
       
 resource:
   headings: 

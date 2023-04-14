@@ -14,21 +14,21 @@ cards:
       content: | 
         Card Body - ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae perspiciatis unde omnis iste natus  
       link_text: More on social media tips
-      media: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
+      media: /assets/icons/images/SMTips-Youth2.jpg
       alt: placeholder image
       class: tablet:grid-col-4
     - title: "Prevention Resource Guide"
       content: | 
         Card Body - ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae perspiciatis unde omnis iste natus   
       link_text: More on prevention
-      media: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
+      media: /assets/icons/images/ncapma-rg.jpg
       alt: placeholder image
       class: tablet:grid-col-4
     - title: "El cuidado por parientes y el sistema de bienestar de menores (Kinship Care and the Child Welfare System)"
       content: | 
         Card Body - ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium…  
       link_text: More on El cuidado por parientes
-      media: https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg
+      media: /assets/icons/images/SMTips-Caregiver2.jpeg
       alt: placeholder image
       class: tablet:grid-col-4
 events:
