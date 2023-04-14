@@ -47,7 +47,7 @@
     }
 }
 // prototype
-.home-cta{
+.home-cta__container{
     .white-icon{
         display: none;
     }
@@ -58,9 +58,10 @@
     .callout-icon img{
         height: 40px;
         width: auto;
+        margin-bottom: 1rem;
     }
 }
-.home-cta:hover{
+.home-cta__container:hover{
     .blue-icon{
         display: none;
     }
@@ -71,5 +72,6 @@
     .callout-icon img{
         height: 40px;
         width: auto;
+        margin-bottom: 1rem;
     }
 }
