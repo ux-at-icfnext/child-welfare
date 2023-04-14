@@ -5,7 +5,7 @@
     <div class="grid-container">
     {% if hero.content %}
     <h1>{{ hero.title }}</h1>
-    <div class="intro">{{ hero.content }}</div>
+    <div class="intro" style="max-width: 60ex;">{{ hero.content }}</div>
     <a href="{{ hero.link }}" class="usa-button">{{ hero.link_text }}</a>
     {% endif %}
     </div>
