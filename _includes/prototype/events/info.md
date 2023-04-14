@@ -7,7 +7,7 @@
 <div class="tag-group">
 <h3>Topic Tags</h3>
 {% for tag in page.tags %}
-<div class="usa-tag"> {{ tag }} </div>
+<div class="usa-tag" style="margin-bottom:1rem;"> {{ tag }} </div>
 {% endfor %}
 </div>
 <div class="events-related">
