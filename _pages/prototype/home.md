@@ -19,22 +19,22 @@ news:
   lists:
   - title: National Adoption Month
     content: Here goes a short description of the urgent promotion, not to exceed 250 characters. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tortor risus, cursus vitae ante pharetra, pulvinar faucibus nibh. 
-    media: "http://placekitten.com/240"
+    media: /assets/icons/images/nam2022.jpg
     link_text: Find out more
     link: "#"
   - title: Child Welfare Outcomes Report Released
     content: Here goes a short description of the urgent promotion, not to exceed 250 characters. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tortor risus, cursus vitae ante pharetra, pulvinar faucibus nibh. 
-    media: "http://placekitten.com/240"
+    media: /assets/icons/images/cwo-report.jpg
     link_text: Read all about it
     link: "#"
   - title: Title Goes Here
     content: Here goes a short description of the urgent promotion, not to exceed 250 characters. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tortor risus, cursus vitae ante pharetra, pulvinar faucibus nibh. 
-    media: "http://placekitten.com/240"
+    media: /assets/icons/images/500_F_119210748.jpg
     link_text: Button
     link: "#"
   - title: Adoption Excellence Awards
     content: Here goes a short description of the urgent promotion, not to exceed 250 characters. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tortor risus, cursus vitae ante pharetra, pulvinar faucibus nibh. 
-    media: "http://placekitten.com/240"
+    media: /assets/icons/images/aea_award.jpg
     link_text: Check it out
     link: "#"
 
@@ -49,13 +49,13 @@ resources:
   lists:
     - title: "Social Media: Tips for Youth in Foster Care"
       content: "Card Body - ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae perspiciatis unde omnis iste natus"
-      media: http://placekitten.com/300/250
+      media: /assets/icons/images/SMTips-Youth2.jpg
     - title: "Prevention Resource Guide"
       content: "Card Body - ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae perspiciatis unde omnis iste natus"
-      media: http://placekitten.com/300/250
+      media: /assets/icons/images/ncapma-rg.jpg
     - title: "El cuidado por parientes y el sistema de bienestar de menores (Kinship Care and the Child Welfare System)"
       content: "Card Body - ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
-      media: http://placekitten.com/300/250
+      media: /assets/icons/images/SMTips-Caregiver2.jpeg
 
 story:
   headings:
@@ -65,16 +65,16 @@ story:
   lists:
     - title: "First Item Title Link"
       content: "Learn more about working with families to enhance their capacity to care and protect their children."
-      media: https://placekitten.com/200/139
+      media: /assets/icons/images/family-practice.jpg
     - title: Second Item Title Link
       content: "Write short description of third item here. Two lines max."
-      media: https://placekitten.com/200/139
+      media: /assets/icons/images/500_F_306140481.jpg
     - title: Third Item Title Link
       content: "Write short description of third item here. Two lines max."
-      media: https://placekitten.com/200/139
+      media: /assets/icons/images/medical.jpg
     - title: Fourth Item Title Link
       content: "Write short description of third item here. Two lines max."
-      media: https://placekitten.com/200/139
+      media: /assets/icons/images/1000_F_135780146.jpeg
 
 overlay:
   settings:
