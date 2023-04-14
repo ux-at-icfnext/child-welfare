@@ -53,8 +53,7 @@ resource:
 
 
 ---
-{% include patterns/breadcrumb/breadcrumb-jk.md %}
-{% include patterns/hero/hero-full-width-jk.md content=page.hero %}
+{% include patterns/hero/hero-full-width-campaign-jk.md content=page.hero %}
 
 {% include prototype/campaign/impact_pie.md %}
 
