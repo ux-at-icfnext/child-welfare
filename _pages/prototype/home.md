@@ -110,6 +110,7 @@ campaigns:
       media: https://placekitten.com/200/139
 
 ---
+<link href="/assets/css/proto/home.scss" rel="stylesheet">
 
 {% include patterns/alert/alert-jk.md %}
 {% include patterns/hero/hero-landing.md %}
@@ -124,8 +125,10 @@ campaigns:
   {% include patterns/hero/hero-campaign-blue.md %}
 </section>
 
-<div class="grid-container home-resources" style="margin-top: 4rem;">
-  {% include patterns-jk/card-group-jk.md content=page.resources.lists settings=page.resources.settings headings=page.resources.headings %}
+<div class="home-resources blue-wrapper">
+  <div class="grid-container" style="margin-top: 4rem;">
+    {% include patterns-jk/card-group-jk.md content=page.resources.lists settings=page.resources.settings headings=page.resources.headings %}
+  </div>
 </div>
 
 <div class="grid-container home-overlay" style="margin-top: 1rem;">

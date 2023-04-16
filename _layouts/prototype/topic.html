@@ -10,6 +10,8 @@ lorem:
 
 hero:
   - media: /assets/icons/images/full-image-hero.jpg
+features: 
+  group_class: "usa-card__container__media"
 ---
 <link href="/assets/css/proto/topics.scss" rel="stylesheet">
 {% include patterns/breadcrumb/breadcrumb-jk.md %}
@@ -26,7 +28,7 @@ hero:
   <div class="blue-wrapper">
     <div class="grid-container">
       <ul class="usa-card-group">
-        {% include prototype/cards-contentful.md content=page.features %}
+        {% include prototype/cards-contentful-media.md content=page.features %}
     </ul>
     </div>
   </div>

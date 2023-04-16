@@ -1,5 +1,5 @@
-<div class="home-cta grid-container">
-<ul class="usa-card-group">
+<div class="grid-container">
+<ul class="usa-card-group home-cta">
   <li class="usa-card tablet:grid-col">
     <div class="usa-card__container card-default home-cta__container">
       <div class="usa-card__header">
@@ -13,9 +13,6 @@
         <p>
           Child Welfare Information Gateway does not have the authority to intervene in personal matters. Please see our resources on<a href=""> finding help with a personal situation.</a>
         </p>
-      </div>
-      <div class="usa-card__footer">
-        <button class="usa-button">Visit Florida Keys</button>
       </div>
     </div>
   </li>
@@ -32,9 +29,6 @@
         <p>
           To report child abuse or neglect, please contact Child Help USA at 1.800.4 A Child (<em>1.800.422.4453</em>) or see our <a href="">list of State child abuse and neglect reporting numbers</a>.
         </p>
-      </div>
-      <div class="usa-card__footer">
-        <button class="usa-button">Visit Florida Keys</button>
       </div>
     </div>
   </li>

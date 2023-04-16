@@ -46,23 +46,23 @@
     <ul class="usa-card-group"> 
       {% for card in items offset: 1 %}
         <li class="usa-card tablet:grid-col-4">
-          <div class="usa-card__container card-default">
+          <div class="usa-card__container__media">
             {% if card.tag %}
             {% include patterns-jk/tag-conditions.md %}
             {% endif %}
-            {% if card.title %}
-            <div class="usa-card__header">
-              <h2 class="usa-card__heading"><a href="{{ card.link }}">{{card.title}}</a></h2>
-            </div>
-            {% endif %}
             {% if card.media %}
-                <div class="usa-card__media">
+                <div class="usa-card__media card-tripplet">
                     <div class="usa-card__img">
                     <img
                         src="{{card.media}}"
                     />
                     </div>
                 </div>
+            {% endif %}
+          {% if card.title %}
+            <div class="usa-card__header">
+              <h2 class="usa-card__heading"><a href="{{ card.link }}">{{card.title}}</a></h2>
+            </div>
             {% endif %}
           <div class="usa-card__body">
             <p class="card-content">
