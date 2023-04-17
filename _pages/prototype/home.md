@@ -102,15 +102,17 @@ campaigns:
     - title: Campaign Title Here
       content: Ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
       media: https://placekitten.com/200/139
+      campaign-class: usa-card__container__campaign-one
     - title: Campaign Title Here
       content: Ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
       media: https://placekitten.com/200/139
+      campaign-class: usa-card__container__campaign-two
     - title: Campaign Title Here
       content: Ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
       media: https://placekitten.com/200/139
+      campaign-class: usa-card__container__campaign-three
 
 ---
-<link href="/assets/css/proto/home.scss" rel="stylesheet">
 
 {% include patterns/alert/alert-jk.md %}
 {% include patterns/hero/hero-landing.md %}
@@ -125,10 +127,8 @@ campaigns:
   {% include patterns/hero/hero-campaign-blue.md %}
 </section>
 
-<div class="home-resources blue-wrapper">
-  <div class="grid-container" style="margin-top: 4rem;">
-    {% include patterns-jk/card-group-jk.md content=page.resources.lists settings=page.resources.settings headings=page.resources.headings %}
-  </div>
+<div class="grid-container home-resources" style="margin-top: 4rem;">
+  {% include patterns-jk/card-group-jk.md content=page.resources.lists settings=page.resources.settings headings=page.resources.headings %}
 </div>
 
 <div class="grid-container home-overlay" style="margin-top: 1rem;">
@@ -140,11 +140,10 @@ campaigns:
 </section>
 
 <section class="home-campaigns" style="margin-top: 1rem; margin-bottom: 1rem;">
-{% include patterns-jk/card-group-campaign.md %}
+{% include patterns-jk/card-group-campaign.md headings=page.campaigns.headings content=page.campaigns.lists settings=page.campaigns.settings %}
 </section>
 
 {% include prototype/home/library.md %}
-
 
 
 
