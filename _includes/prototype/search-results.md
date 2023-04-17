@@ -1,3 +1,5 @@
+<link href="/assets/css/proto/search.scss" rel="stylesheet">
+
 <div class="search-results grid-container">
   <div class="grid-row">
     <div class="search-filters desktop:grid-col-4">
