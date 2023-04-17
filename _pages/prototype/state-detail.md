@@ -5,6 +5,8 @@ categories: [prototype]
 type: [sub-nav-item, prototype]
 permalink: /prototype/states/detail
 summary: State Detail
+search_type: all
+
 body: |
   brief explainer text about what to expect here -- Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
