@@ -6,6 +6,7 @@ type: [sub-nav-item, prototype]
 permalink: /prototype/search/resources
 overview: All resources search results page
 summary: All resources search results page
+search_type: resources
 
 body: |
   Body copy- several sentences’ worth. Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut et via procedat oratio quaerimus igitur, inquit, modo dixi, constituto, ut earum motus et iusto odio.
