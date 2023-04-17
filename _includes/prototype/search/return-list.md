@@ -38,7 +38,7 @@
 </div>
 {% endif %}
 
-{% if page.search_type == "event" or search_type="all" %}
+{% if page.search_type == "events" or search_type="all" %}
 <!-- event example -->
 <div class="search-return-item">
   <span class="usa-tag"><i class="fa-light fa-compass"></i> Hybrid Event</span>
