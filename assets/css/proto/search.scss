@@ -1,3 +1,11 @@
-@media screen and (max-width: 480px ) {
-  #m1 {display: none;}
+.search-filters-sm {
+  @media screen and (min-width: 480px ) {
+    display: none;
+  }
+}
+
+.search-filters-lg {
+  @media screen and (max-width: 480px ) {
+    display: none;
+  }
 }
