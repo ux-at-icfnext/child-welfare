@@ -43,12 +43,15 @@ resource:
     - title: Title One Goes Here
       content: Ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
       media: https://placekitten.com/200/139
+      campaign-class: usa-card__container__campaign-one
     - title: Title Two Goes Here
       content: Ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
       media: https://placekitten.com/200/139
+      campaign-class: usa-card__container__campaign-two
     - title: Title Three Goes Here
       content: Ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
       media: https://placekitten.com/200/139
+      campaign-class: usa-card__container__campaign-three
 
 
 
@@ -64,5 +67,5 @@ resource:
 {% include prototype/campaign/involved_vision.md %}
 
 <section class="blue-wrapper campaign-resources">
-{% include patterns-jk/card-group-jk.md headings=page.resource.headings content=page.resource.lists settings=page.resource.settings %}
+{% include patterns-jk/card-group-campaign.md headings=page.resource.headings content=page.resource.lists settings=page.resource.settings %}
 </section>
