@@ -1,15 +1,7 @@
-{% assign set=include.settings %}
-
-{% if set.grid_class %}
-    {% assign grid=set.grid_class %}
-{% endif %}
-{% if set.group_class %}
-    {% assign class=set.group_class %}
-{% endif %}
 
  {% for card in include.content %}
  <li class="tablet:grid-col-4 usa-card">
-  <div class="{{ class | default: 'usa-card__container card-default'}}">
+  <div class="usa-card__container__media">
   {% if card.thumbnail %}
     <div class="usa-card__media">
       <div class="usa-card__img">
