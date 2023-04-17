@@ -1,3 +1,4 @@
+{% if page.search_type == "resources" or search_type=="all" %}
 <!-- video example -->
 <div class="search-return-item">
   <span class="usa-tag"><i class="fa-light fa-video"></i> Video</span>
@@ -15,7 +16,9 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae nibh tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget aliquam ante, ac placerat turpis. Aliquam sagittis, tellus quis pharetra venenatis, tellus enim eu.
   </p>
 </div>
+{% endif %}
 
+{% if page.search_type == "directory" or search_type=="all" %}
 <!-- directory example -->
 <div class="search-return-item">
   <h3><a href="/">Organization Title</a></h3>
@@ -33,7 +36,9 @@
     <i class="fa-brands fa-square-youtube"></i>
   </div>
 </div>
+{% endif %}
 
+{% if page.search_type == "events" or search_type=="all" %}
 <!-- event example -->
 <div class="search-return-item">
   <span class="usa-tag"><i class="fa-light fa-compass"></i> Hybrid Event</span>
@@ -44,3 +49,4 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae nibh tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget aliquam ante, ac placerat turpis. Aliquam sagittis, tellus quis pharetra venenatis, tellus enim eu.
   </p>
 </div>
+{% endif %}
