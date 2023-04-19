@@ -7,9 +7,11 @@
         background-color: #002552 ;
     }
 }
-.usa-alert--info{
-    border-left: #005DAA;
-    background-color: #EEF1F9;
+.validation{
+    .usa-alert--info{
+        border-left: #005DAA;
+        background-color: #EEF1F9;
+    }
 }
 .usa-alert__body{
     font-family: Lora, serif;
