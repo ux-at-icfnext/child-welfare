@@ -20,11 +20,10 @@
     display: inline;
     border-left: 2px solid white;
     padding: 10px;
-}
-.dd-icon img{
-    position: absolute;
-    top: 5%;
-    right: 0.1px;
+    padding-right: 0;
+    .fa-solid, .fas{
+        margin-left: 1rem;
+    }
 }
 .dropdown-menu{
     position: absolute;
