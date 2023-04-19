@@ -4,7 +4,7 @@
         download
     </div>
     <div class="dd-icon">
-        <img src="/assets/icons/expand_more_white.svg" height="32px" width="auto">
+        <i class="fa-solid fa-chevron-down"></i>
     </div>
     <input type="checkbox" class="dropdown-input">
     <ul class="dropdown-menu">
