@@ -1,5 +1,5 @@
-<div class="usa-accordion">
-    {% for item in site.data.contentful.spaces.example.basic[2].list %}
+<div class="usa-accordion accordion">
+    {% for item in page.list %}
         <h4 class="usa-accordion__heading">
             <button
             class="usa-accordion__button"
