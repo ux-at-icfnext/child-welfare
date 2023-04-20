@@ -113,6 +113,21 @@ campaigns:
       campaign-class: usa-card__container__campaign-three
 
 ---
+<style>
+  .home-resources{
+    margin-top: 4rem;
+  }
+  .home-overlay{
+    margin-top: 1rem;
+  }
+  .campaign-news{
+    margin-top: 1rem;
+  }
+  .home-campaigns{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+</style>
 
 {% include patterns/alert/alert-jk.md %}
 {% include patterns/hero/hero-landing.md %}
