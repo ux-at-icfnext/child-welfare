@@ -127,6 +127,9 @@ campaigns:
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+  .home-news{
+    margin-top: 2rem;
+  }
 </style>
 
 {% include patterns/alert/alert-jk.md %}
