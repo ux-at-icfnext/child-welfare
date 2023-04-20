@@ -142,7 +142,7 @@ campaigns:
   {% include patterns/hero/hero-campaign-blue.md %}
 </section>
 
-<section class="home-resources" style="margin-top: 4rem;>
+<section class="home-resources" style="margin-top: 4rem;">
   <div class="grid-container home-resources" style="margin-top: 4rem;">
     {% include patterns-jk/card-group-jk.md content=page.resources.lists settings=page.resources.settings headings=page.resources.headings %}
   </div>
