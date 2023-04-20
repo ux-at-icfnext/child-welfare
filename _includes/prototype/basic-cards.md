@@ -12,7 +12,7 @@
       </div>
       <div class="usa-card__media usa-card__media--inset">
         <div class="usa-card__img">
-          <img style="height: 150px; width: auto;"
+          <img style="height: 150px; width: 280px;"
             src="{{card.thumbnail.url}}"
             alt="{{card.thumbnail.title}}"
           />

@@ -33,7 +33,7 @@ cards:
     {% endif %}
   </div>
     <div class="grid-container">
-      {{page.body | markdownify}}
+      <p>{{page.body | markdownify}}</p>
     </div>
 
     {%if page.template contains "tabs"%}
