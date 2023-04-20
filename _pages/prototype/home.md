@@ -114,8 +114,18 @@ campaigns:
 
 ---
 <style>
-  .grid-container{
-    margin-top: 1.5rem;
+  .home-resources{
+    margin-top: 2rem;
+  }
+  .home-overlay{
+    margin-top: 2rem;
+  }
+  .campaign-news{
+    margin-top: 2rem;
+  }
+  .home-campaigns{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 </style>
 
@@ -132,13 +142,17 @@ campaigns:
   {% include patterns/hero/hero-campaign-blue.md %}
 </section>
 
-<div class="grid-container home-resources" style="margin-top: 4rem;">
-  {% include patterns-jk/card-group-jk.md content=page.resources.lists settings=page.resources.settings headings=page.resources.headings %}
-</div>
+<section class="home-resources">
+  <div class="grid-container home-resources" style="margin-top: 4rem;">
+    {% include patterns-jk/card-group-jk.md content=page.resources.lists settings=page.resources.settings headings=page.resources.headings %}
+  </div>
+</section>
 
-<div class="grid-container home-overlay" style="margin-top: 1rem;">
-  {% include patterns-jk/card-group-with-button-jk.md content=page.overlay.lists settings=page.overlay.settings %}
-</div>
+<section class="home-overlay">
+  <div class="grid-container home-overlay" style="margin-top: 1rem;">
+    {% include patterns-jk/card-group-with-button-jk.md content=page.overlay.lists settings=page.overlay.settings %}
+  </div>
+</section>
 
 <section class="campaign-news" style="margin-top: 1rem;">
 {% include patterns-jk/card-flag-group-jk.md headings=page.story.headings content=page.story.lists %}
