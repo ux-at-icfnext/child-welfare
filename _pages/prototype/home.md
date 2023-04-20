@@ -115,7 +115,7 @@ campaigns:
 ---
 <style>
   .grid-container{
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
 </style>
 
@@ -144,7 +144,7 @@ campaigns:
 {% include patterns-jk/card-flag-group-jk.md headings=page.story.headings content=page.story.lists %}
 </section>
 
-<section class="home-campaigns" style="margin-top: 1rem; margin-bottom: 1rem;">
+<section class="home-campaigns" style="margin-bottom: 1rem;">
 {% include patterns-jk/card-group-campaign.md headings=page.campaigns.headings content=page.campaigns.lists settings=page.campaigns.settings %}
 </section>
 
