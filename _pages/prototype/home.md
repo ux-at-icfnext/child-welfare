@@ -114,21 +114,8 @@ campaigns:
 
 ---
 <style>
-  .home-resources{
-    margin-top: 4rem;
-  }
-  .home-overlay{
-    margin-top: 1rem;
-  }
-  .campaign-news{
-    margin-top: 1rem;
-  }
-  .home-campaigns{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
   .grid-container{
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 </style>
 
