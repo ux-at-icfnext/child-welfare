@@ -127,6 +127,9 @@ campaigns:
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+  .grid-container{
+    margin-top: 1rem;
+  }
 </style>
 
 {% include patterns/alert/alert-jk.md %}
