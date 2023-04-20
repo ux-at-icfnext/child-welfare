@@ -12,7 +12,7 @@
           More about us
         </a>
         <a class="share-page" href="">
-          Share this page
+          Share this page <i class="fa-solid fa-share-nodes"></i>
         </a>
       </div>
     </div>
