@@ -37,7 +37,7 @@ permalink: /prototype/
 
 ## State
 <p><a href="/prototype/states/landing">State Landing</a></p>
-<p><a href="/prototype/states/landing">State Landing (Small Screens)</a>Resize browser to view</p>
+<p><a href="/prototype/states/landing/sm">State Landing (Small Screens)</a> Resize browser to view</p>
 <p><a href="/prototype/states/detail">State Detail</a></p>
 
 
@@ -50,6 +50,7 @@ permalink: /prototype/
 
 ## Search Pages (*Draft*)
 <p><a href="/prototype/search">Global Search</a></p>
+<p><a href="/prototype/search/sm">Global Search (Small Screens)</a> Resize in browser to view</p>
 <p><a href="/prototype/search/events">Events Search</a></p>
 <p><a href="/prototype/search/directory">Directory Search</a></p>
 <p><a href="/prototype/search/resources">All Resources</a></p>

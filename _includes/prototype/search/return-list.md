@@ -1,4 +1,4 @@
-{% if page.search_type == "resources" or search_type=="all" %}
+{% if page.search_type == "resources" or page.search_type=="all" %}
 <!-- video example -->
 <div class="search-return-item">
   <span class="usa-tag"><i class="fa-light fa-video"></i> Video</span>
@@ -18,7 +18,7 @@
 </div>
 {% endif %}
 
-{% if page.search_type == "directory" or search_type=="all" %}
+{% if page.search_type == "directory" or page.search_type=="all" %}
 <!-- directory example -->
 <div class="search-return-item">
   <h3><a href="/">Organization Title</a></h3>
@@ -38,7 +38,7 @@
 </div>
 {% endif %}
 
-{% if page.search_type == "events" or search_type=="all" %}
+{% if page.search_type == "events" or page.search_type=="all" %}
 <!-- event example -->
 <div class="search-return-item">
   <span class="usa-tag"><i class="fa-light fa-compass"></i> Hybrid Event</span>

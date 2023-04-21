@@ -1,5 +1,5 @@
 
-<div class="usa-accordion">
+<div class="usa-accordion accordion">
   <h4 class="usa-accordion__heading">
     <button
       class="usa-accordion__button"

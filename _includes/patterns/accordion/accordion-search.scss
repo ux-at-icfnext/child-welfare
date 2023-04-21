@@ -1,0 +1,25 @@
+.accordion-filter {
+  .usa-accordion__button{
+      background-color: #fff;
+      border: 1px solid rgb(86, 92, 101);
+      font-size: 1.06rem;
+      font-weight: 400;
+      font-family: Montserrat;
+  }
+  .usa-accordion__button[aria-expanded="true"]{
+      background-color: #fff;
+      background-image: none;
+  }
+  .usa-accordion__button:after {
+      position: absolute;
+      right: 30px;
+      font-family: 'FontAwesome';
+      font-weight: 100;
+      content: "\f1de";
+      font-size: 1.5rem;
+      color: #005DAA;
+    }
+  .usa-accordion__button[aria-expanded=false]{
+      background-image: none;
+  }
+}

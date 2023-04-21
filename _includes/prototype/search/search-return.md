@@ -20,7 +20,7 @@
     <span class="text-bold">Applied Filters:</span><span class="usa-tag">All Resource Types <i class="fa-kit fa-close"></i></span>
   </div>
   <div class="return-list">
-    {% for i in (1..15) %}
+    {% for i in (1..10) %}
     {% include prototype/search/return-list.md %}
     {% endfor %}
   </div>

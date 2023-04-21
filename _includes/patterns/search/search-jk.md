@@ -8,7 +8,7 @@
 <form class="usa-search" role="search">
 {% endif %}
     <label class="usa-sr-only" for="search-field">{{page.search}}</label>
-    <input class="usa-input" id="search-field" type="search" name="search" />
+    <input class="usa-input" id="search-field" type="search" name="search" placeholder="{{ page.search_placeholder }}"/>
     <button class="usa-button" type="submit">
     {% if page.search-type != "small" %}
       <span class="usa-search__submit-text">{{page.search}}</span>
