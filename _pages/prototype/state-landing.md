@@ -17,7 +17,7 @@ body: |
 {{ page.body }}
 
 <div class="map">
-  <p>choose your state below:</p>
+  <p>choose your state or territory below:</p>
   <img src="/assets/icons/prototype/map.png" />
 </div>
 
