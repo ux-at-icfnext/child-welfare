@@ -23,6 +23,7 @@ accordions:
   - title: Inner Accordion title 4
     content: explainer text about what to expect here -- Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 ---
+{% include patterns/breadcrumb/breadcrumb-jk.md %}
 <div class="grid-container" markdown=1>
 # {{ page.title }}
 <div class="usa-intro">{{ page.body }}</div>

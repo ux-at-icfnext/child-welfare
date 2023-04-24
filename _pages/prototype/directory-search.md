@@ -22,7 +22,7 @@ summary-list:
   - item: <a href="/">Accredited/approved adoption services providers for intercountry adoption <i class="fa-kit fa-launch"></i> </a>
   
 ---
-
+{% include patterns/breadcrumb/breadcrumb-jk.md %}
 <div class="grid-container" markdown="1">
 # {{ page.title }}
 

@@ -17,7 +17,7 @@ summary-list:
   - item: Submit information on your events. We will then post your submission to this website.
   - item: <a href="/">Fill in a submission form </a>
 ---
-
+{% include patterns/breadcrumb/breadcrumb-jk.md %}
 <div class="grid-container" markdown="1">
 # {{ page.title }}
 

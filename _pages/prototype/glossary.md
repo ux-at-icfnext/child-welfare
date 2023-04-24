@@ -8,6 +8,7 @@ overview: This is example of a glosary example page.
 summary: This is example of a glosary example page.
 search: "search"
 ---
+{% include patterns/breadcrumb/breadcrumb-jk.md %}
 <div class="grid-container" markdown=1>
 
 # Glossary

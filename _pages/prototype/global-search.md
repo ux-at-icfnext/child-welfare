@@ -13,8 +13,9 @@ body: |
   Body copy- several sentences’ worth. Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut et via procedat oratio quaerimus igitur, inquit, modo dixi, constituto, ut earum motus et iusto odio.
 
 ---
-<div class="grid-container" markdown="1">
 {% include patterns/breadcrumb/breadcrumb-jk.md %}
+<div class="grid-container" markdown="1">
+
 </div>
 
 <div class="grid-container" markdown="1">
