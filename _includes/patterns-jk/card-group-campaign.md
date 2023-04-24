@@ -14,9 +14,12 @@
           {% for card in items %}
         <li class="usa-card tablet:grid-col-4">
             <div class="{{card.campaign-class}} overlay">
-            <div class="usa-card__header">
-                <h2 class="usa-card__heading">{{card.title}}</h2>
+              <div class="usa-card__header">
+                  <h2 class="usa-card__heading">{{card.title}}</h2>
+              </div>
             </div>
+            <div class="campaign-card-text">
+              <p>{{card.content}}</p>
             </div>
         </li>
         {%endfor%}
