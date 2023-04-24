@@ -21,16 +21,16 @@
 {% if page.search_type == "directory" or page.search_type=="all" %}
 <!-- directory example -->
 <div class="search-return-item">
-  <h3><a href="/">Organization Title</a></h3>
-  <div class="return-item-meta">
+  <h3 style="margin-bottom: 0;"><a href="/">Organization Title</a></h3>
+  <div class="return-item-meta" style="margin-bottom: 0.5rem;">
     Email: <a href="/">info@organization.com</a> • <a href="/">Contact Form</a> • 123 Sesame Street, New York NY 10001 <br />
     Phone: <a href="/">(555) 555-5555</a> • Toll-free: <a href="/">(800) 555-5555</a> • Fax: <a href="/">(554) 555-5555</a>
   </div>
-  <p>
+  <p style="margin-bottom: 1rem;">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae nibh tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget aliquam ante, ac placerat turpis. Aliquam sagittis, tellus quis pharetra venenatis, tellus enim eu.
   </p>
-  <p><span class="text-bold">Primary Function(s):</span> Does this function and that functon</p>
-  <div class="org-shares">
+  <p style="margin-bottom: 0.5rem;"><span class="text-bold">Primary Function(s):</span> Does this function and that functon</p>
+  <div class="org-shares" style="margin-bottom: 2.5rem;">
     <i class="fa-brands fa-square-facebook"></i>
     <i class="fa-brands fa-square-twitter"></i>
     <i class="fa-brands fa-square-youtube"></i>
