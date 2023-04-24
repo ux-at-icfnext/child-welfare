@@ -33,8 +33,6 @@
 .usa-card--flag{
     .usa-card__media{
         width: 280px;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
     }
     .usa-card__body{
         margin-left: 18rem;
@@ -44,5 +42,9 @@
     }
     .usa-card__header{
         margin-left: 18rem;
+    }
+    .usa-card__img{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
     }
 }
