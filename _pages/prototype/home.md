@@ -113,6 +113,26 @@ campaigns:
       campaign-class: usa-card__container__campaign-three
 
 ---
+<style>
+  .cta-section{
+    margin-top: 4rem;
+  }
+  .home-news{
+    margin-top: 2.5rem;
+  }
+  .home-campaign-hero{
+    margin-top: 1rem;
+  }
+  .home-resources{
+    margin-top: 4rem;
+  }
+  .home-overlay{
+    margin-top: 1rem;
+  }
+  .campaign-news{
+    margin-top: 3rem;
+  }
+</style>
 
 {% include patterns/alert/alert-jk.md %}
 {% include patterns/hero/hero-landing.md %}
@@ -127,19 +147,19 @@ campaigns:
   {% include patterns/hero/hero-campaign-blue.md %}
 </section>
 
-<div class="grid-container home-resources" style="margin-top: 4rem;">
+<div class="grid-container home-resources">
   {% include patterns-jk/card-group-jk.md content=page.resources.lists settings=page.resources.settings headings=page.resources.headings %}
 </div>
 
-<div class="grid-container home-overlay" style="margin-top: 1rem;">
+<div class="grid-container home-overlay">
   {% include patterns-jk/card-group-with-button-jk.md content=page.overlay.lists settings=page.overlay.settings %}
 </div>
 
-<section class="campaign-news" style="margin-top: 1rem;">
+<section class="campaign-news">
 {% include patterns-jk/card-flag-group-jk.md headings=page.story.headings content=page.story.lists %}
 </section>
 
-<section class="home-campaigns" style="margin-top: 1rem; margin-bottom: 1rem;">
+<section class="home-campaigns">
 {% include patterns-jk/card-group-campaign.md headings=page.campaigns.headings content=page.campaigns.lists settings=page.campaigns.settings %}
 </section>
 
