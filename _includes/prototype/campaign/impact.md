@@ -2,7 +2,7 @@
   <div class="grid-row grid-gap-lg">
     <div class="tablet:grid-col" style="margin-top: 2rem;">
         <h3>Our Impact</h3>
-        <p>In this space, you can give an introduction to the pie chart statistics that you are presenting on the right. Lorem ipsum dolor sit amet consectetur adipiscing elit. Vivamus tortor risus, cursus vitae ante pharetra, pulvinar faucibus nibh. In hac habitasse platea dictumst. Quisque vel arcu libero. Aenean dignissim id arcu a placerat. Mauris eu tempor ante, eu auctor dolor. In hac. </p>
+        <p style="margin-right: 2rem;">In this space, you can give an introduction to the pie chart statistics that you are presenting on the right. Lorem ipsum dolor sit amet consectetur adipiscing elit. Vivamus tortor risus, cursus vitae ante pharetra, pulvinar faucibus nibh. In hac habitasse platea dictumst. Quisque vel arcu libero. Aenean dignissim id arcu a placerat. Mauris eu tempor ante, eu auctor dolor. In hac. </p>
     </div>
     <div class="tablet:grid-col">
       <div class="grid-row" style="
