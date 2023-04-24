@@ -1,4 +1,4 @@
-<div class="filter-display grid-row" style="align-items: baseline; padding-block: 2rem;">
+<div class="filter-display grid-row" style="align-items: baseline; padding-bottom: 2rem;">
   <div class="grid-col-2">Displaying </div>
   <div class="grid-col-2">
     <div class="usa-combo-box">
