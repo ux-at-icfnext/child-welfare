@@ -6,7 +6,7 @@ type: [prototype]
 permalink: /prototype/
 ---
 <div class="grid-container" markdown="1">
-## Home Page (*Draft*)
+## Home Page
 <a href="/prototype/home">Home</a>
 
 ## Basic Pages
@@ -14,7 +14,7 @@ permalink: /prototype/
   <a href="/prototype/{{basic.slug}}">{{basic.title}}</a>
 {%endfor%}
 
-## Resource Details (*Draft*)
+## Resource Details
 {% for resources in site.data.contentful.spaces.example.resource %}
   <a href="/prototype/{{resources.slug}}">{{resources.title}}</a>
 {%endfor%}
@@ -24,12 +24,12 @@ permalink: /prototype/
   <a href="/prototype/{{resources.slug}}">{{resources.title}}</a>
 {%endfor%}
 
-## Topic & Subtopics (*Draft*)
+## Topic & Subtopics
 {% for resources in site.data.contentful.spaces.example.subTopics %}
   <a href="/prototype/{{resources.slug}}">{{resources.title}}</a>
 {%endfor%}
 
-## Events (*Draft*)
+## Events 
 <a href="/prototype/events/landing">Events Landing</a>
 {% for resources in site.data.contentful.spaces.example.events %}
   <a href="/prototype/{{resources.slug}}">{{resources.title}}</a>
