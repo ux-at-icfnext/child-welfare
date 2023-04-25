@@ -26,7 +26,7 @@
     Email: <a href="/">info@organization.com</a> • <a href="/">Contact Form</a> • 123 Sesame Street, New York NY 10001 <br />
     Phone: <a href="/">(555) 555-5555</a> • Toll-free: <a href="/">(800) 555-5555</a> • Fax: <a href="/">(554) 555-5555</a>
   </div>
-  <p style="margin-bottom: 1rem;">
+  <p style="margin-bottom: 0.7rem;">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae nibh tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget aliquam ante, ac placerat turpis. Aliquam sagittis, tellus quis pharetra venenatis, tellus enim eu.
   </p>
   <p style="margin-bottom: 0.5rem;"><span class="text-bold">Primary Function(s):</span> Does this function and that functon</p>
