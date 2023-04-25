@@ -42,10 +42,10 @@
 <!-- event example -->
 <div class="search-return-item">
   <span class="usa-tag"><i class="fa-light fa-compass"></i> Hybrid Event</span>
-  <p class="event-meta">Fri, Jan 24, 2023 | 11 AM PST</p>
-  <h3><a href="/">Title of an event</a></h3>
-  <p class="event-org">Organization Title</p>
-  <p>
+  <p class="event-meta" style="margin-bottom: 0; margin-top: 0.5rem;">Fri, Jan 24, 2023 | 11 AM PST</p>
+  <h3 style="line-height: 2.5rem;"><a href="/">Title of an event</a></h3>
+  <p class="event-org" style="margin-bottom: 1rem;">Organization Title</p>
+  <p style="margin-bottom: 2.5rem;">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae nibh tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget aliquam ante, ac placerat turpis. Aliquam sagittis, tellus quis pharetra venenatis, tellus enim eu.
   </p>
 </div>
