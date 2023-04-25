@@ -8,7 +8,7 @@ summary: This is example of a campaign page.
 
 cards:
   settings:
-    group_class: "usa-card_container card-default"
+    group_class: "usa-card__container card-default"
   lists:
     - title: "Social Media: Tips for Youth in Foster Care"
       content: | 
