@@ -12,7 +12,7 @@
 <div class="search-return-item">
   <span class="usa-tag"><i class="fa-light fa-podcast"></i> Podcast</span>
   <h3><a href="/">Title of a podcast resource</a></h3>
-  <p>
+  <p style="margin-bottom: 2.5rem;">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae nibh tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget aliquam ante, ac placerat turpis. Aliquam sagittis, tellus quis pharetra venenatis, tellus enim eu.
   </p>
 </div>
