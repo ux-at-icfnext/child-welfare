@@ -37,7 +37,7 @@ events:
     link: "#"
     link_text: "See All Campaign Events"
   settings:
-    group_class: "event-card card-default"
+    group_class: "usa-card__container event-card card-default"
   lists:
     - title: "Living The Protective Factors"
       tag: virtual
