@@ -71,7 +71,7 @@ events:
   .usa-card__media{
     order: 0;
   }
-  .card-content{
+  .usa-card__body{
     margin-top: 1rem;
     padding-bottom: 1rem;
   }
