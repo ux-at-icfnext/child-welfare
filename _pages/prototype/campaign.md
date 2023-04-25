@@ -8,7 +8,7 @@ summary: This is example of a campaign page.
 
 cards:
   settings:
-    group_class: "usa-card__media card-default"
+    group_class: "usa-card__container card-default"
   lists:
     - title: "Social Media: Tips for Youth in Foster Care"
       content: | 
@@ -37,7 +37,7 @@ events:
     link: "#"
     link_text: "See All Campaign Events"
   settings:
-    group_class: "event-card card-default"
+    group_class: "usa-card__container event-card card-default"
   lists:
     - title: "Living The Protective Factors"
       tag: virtual
@@ -67,6 +67,16 @@ events:
 
       
 ---
+<style>
+  .usa-card__media{
+    order: 0;
+  }
+  .usa-card__body{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+</style>
+
 {%include patterns/breadcrumb/breadcrumb-basic.md%}
 
 {% include patterns/hero/hero-campaign-white.md %}
