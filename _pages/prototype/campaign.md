@@ -8,7 +8,7 @@ summary: This is example of a campaign page.
 
 cards:
   settings:
-    group_class: "usa-card_container usa-card__media card-default"
+    group_class: "usa-card_container card-default"
   lists:
     - title: "Social Media: Tips for Youth in Foster Care"
       content: | 
@@ -70,6 +70,10 @@ events:
 <style>
   .usa-card__media{
     order: 0;
+  }
+  .card-content{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
   }
 </style>
 
