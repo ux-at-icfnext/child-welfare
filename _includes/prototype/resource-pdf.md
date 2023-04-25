@@ -17,6 +17,7 @@
     </div>
     <div class="body-content">
       <p>{{page.body | markdownify}}</p>
+      {% include patterns-jk/blockquote-jk.md %}
     </div>
   </div>
 </div>
