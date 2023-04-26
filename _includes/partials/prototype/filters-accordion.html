@@ -8,22 +8,29 @@
             {{item.title}}
             </button>
         </h4>
-        <div class="accordion-content">
+        <div id="a{{forloop.index}}" class="usa-accordion__content usa-prose">
             <div class="sub-accordion">
-                <div class="sub-accordion-label">
-                    <h3>Button Label</h3>
-                </div>
-                <div class="sub-accordion-content">
-                    <form class="usa-form select">
-                        <label class="usa-label" for="options">Dropdown label</label>
-                        <select class="usa-select" name="options" id="options">
-                        <option value>- Select -</option>
-                        <option value="value1">Option A</option>
-                        <option value="value2">Option B</option>
-                        <option value="value3">Option C</option>
-                        </select>
-                    </form>
-                </div>
+                {% for item in page.list.subaccordion %}
+                    <h4 class="usa-accordion__heading">
+                        <button button            
+                        class="usa-accordion__button"
+                        aria-expanded="false"
+                        aria-controls="b{{forloop.index}}">
+                            {{item.title}}
+                        </button>
+                    </h4>
+                    <div id="b{{forloop.index}}" class="usa-accordion__content usa-prose">
+                        <form class="usa-form select">
+                            <label class="usa-label" for="options">Dropdown label</label>
+                            <select class="usa-select" name="options" id="options">
+                            <option value>- Select -</option>
+                            <option value="value1">Option A</option>
+                            <option value="value2">Option B</option>
+                            <option value="value3">Option C</option>
+                            </select>
+                        </form>
+                    </div>
+                {%endfor%}
             </div>
         </div>
     {%endfor%}
