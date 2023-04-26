@@ -16,7 +16,7 @@
     </div>
   </div>
   {% include prototype/search/filter-display.md %}
-  <div class="applied-filters">
+  <div class="applied-filters" style="margin-bottom: 2rem;" >
     <span class="text-bold">Applied Filters:</span><span class="usa-tag">All Resource Types <i class="fa-kit fa-close"></i></span>
   </div>
   <div class="return-list">

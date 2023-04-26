@@ -8,7 +8,8 @@
       <div class="grid-row grid-gap">
         <div class="tablet:grid-col-8">
           <nav class="usa-footer__nav" aria-label="Footer navigation,,">
-            <div class="grid-row grid-gap-4">
+          <div class="grid-row grid-gap-6">
+          {% for items in site.data.footer %}
               <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
                 <section
                   class="
@@ -16,100 +17,17 @@
                     usa-footer__primary-content--collapsible
                   "
                 >
-                  <h4 class="usa-footer__primary-link">Topic</h4>
+                  <h4 class="usa-footer__primary-link">{{ items.title}} </h4>
                   <ul class="usa-list usa-list--unstyled">
+                  {% for sub in items.subtitle %}
                     <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">Secondary link</a>
+                      <a href="javascript:void(0);"> {{ sub }}</a>
                     </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">Secondary link</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);"
-                        >Secondary link that's a bit longer than most of the
-                        others</a
-                      >
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">Secondary link</a>
-                    </li>
+                    {% endfor %}
                   </ul>
                 </section>
               </div>
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
-                <section
-                  class="
-                    usa-footer__primary-content
-                    usa-footer__primary-content--collapsible
-                  "
-                >
-                  <h4 class="usa-footer__primary-link">Topic</h4>
-                  <ul class="usa-list usa-list--unstyled">
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">Secondary link</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);"
-                        >Secondary link that's pretty long</a
-                      >
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">Secondary link</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">Secondary link</a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
-                <section
-                  class="
-                    usa-footer__primary-content
-                    usa-footer__primary-content--collapsible
-                  "
-                >
-                  <h4 class="usa-footer__primary-link">Topic</h4>
-                  <ul class="usa-list usa-list--unstyled">
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">Secondary link</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">Secondary link</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">Secondary link</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">Secondary link</a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-3">
-                <section
-                  class="
-                    usa-footer__primary-content
-                    usa-footer__primary-content--collapsible
-                  "
-                >
-                  <h4 class="usa-footer__primary-link">Topic</h4>
-                  <ul class="usa-list usa-list--unstyled">
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">Secondary link</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">Secondary link</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">Secondary link</a>
-                    </li>
-                    <li class="usa-footer__secondary-link">
-                      <a href="javascript:void(0);">Secondary link</a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
+            {% endfor %} 
             </div>
           </nav>
         </div>
@@ -158,14 +76,13 @@
               /></a>
             </div>
           </div>
-          <p class="usa-footer__contact-heading">Agency Contact Center</p>
           <address class="usa-footer__address">
             <div class="usa-footer__contact-info grid-row grid-gap">
               <div class="grid-col-auto">
-                <a href="tel:1-800-555-5555">(800) 555-GOVT</a>
+                <a href="tel:1-800-394-3366">1-800-394-3366</a>
               </div>
               <div class="grid-col-auto">
-                <a href="mailto:info@agency.gov">info@agency.gov</a>
+                <a href="mailto:info@childwelfare.gov">info@childwelfare.gov</a>
               </div>
             </div>
           </address>

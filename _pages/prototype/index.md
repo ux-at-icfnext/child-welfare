@@ -41,14 +41,14 @@ permalink: /prototype/
 <p><a href="/prototype/states/detail">State Detail</a></p>
 
 
-## Campaign (*Draft*)
+## Campaign
 <p><a href="/prototype/campaign/1">Campaign Example 1</a></p>
 <p><a href="/prototype/campaign/2">Campaign Example 2</a></p>
 
 ## Glossary
 <a href="/prototype/glossary">Glossary</a>
 
-## Search Pages (*Draft*)
+## Search Pages
 <p><a href="/prototype/search">Global Search</a></p>
 <p><a href="/prototype/search/sm">Global Search (Small Screens)</a> Resize in browser to view</p>
 <p><a href="/prototype/search/events">Events Search</a></p>

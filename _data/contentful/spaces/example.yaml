@@ -1,4 +1,265 @@
 ---
+resource:
+- sys:
+    id: 76eiT5WdqqACACNCS5Pr0C
+    created_at: !ruby/object:DateTime 2023-02-28 21:45:25.372000000 Z
+    updated_at: !ruby/object:DateTime 2023-04-26 16:40:20.413000000 Z
+    content_type_id: resource
+    revision: 5
+  title: HI! I'm a Resource Publications Page
+  summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
+    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
+    turpis cursus '
+  date: !ruby/object:DateTime 2022-11-09 00:00:00.000000000 -08:00
+  opening_body: "Optional opening body ... shows before the resource. Allows rich
+    text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
+    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
+    turpis cursus "
+  body: "Body content shows after resource. Allows rich text\n\n## section header\n###
+    section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+    integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
+    - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus \n\n-
+    in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit amet volutpat\n\nconsequat
+    mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim
+    ut sem viverra [aliquet eget sit](https://linktonowhere.com) *amet tellus* cras
+    adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum
+    lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus
+    sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis
+    aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl\n"
+  resource_type:
+  - publication
+  resource:
+    sys:
+      id: 2jGeVHjaDvcbxyhhwsv6bq
+      created_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
+      content_type_id: publicationResource
+      revision: 1
+    file_name: a pdf file
+    description: a pdf file
+    file:
+      sys:
+        id: 2oRKyd27cdKum1UqKD7WWO
+        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+      title: a-pdf-placeholder.pdf
+      description:
+      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+    series_title: On helping children sleep
+    author: The Center for Better sleep
+    year_published: '2022'
+    current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
+    order_online: true
+    download_language:
+    - English
+    - Spanish
+  thumbnail:
+    sys:
+      id: 1WmmDxodAIKXZCLm6mkO74
+      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
+    title: thumb1.png
+    description:
+    url: "//images.ctfassets.net/tues7aklmpmt/1WmmDxodAIKXZCLm6mkO74/90af5dae4c0c1be79be671b0570fc597/thumb1.png"
+  slug: hi-im-a-resource-publications-page
+- sys:
+    id: 6UF4IkeGq9D8e5YhjQSLFl
+    created_at: !ruby/object:DateTime 2023-02-28 21:36:54.251000000 Z
+    updated_at: !ruby/object:DateTime 2023-03-25 02:58:11.756000000 Z
+    content_type_id: resource
+    revision: 2
+  title: HI! I'm a Resource Podcast Page
+  summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
+    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
+    turpis cursus '
+  date: !ruby/object:DateTime 2022-10-01 00:00:00.000000000 -08:00
+  opening_body: "Optional opening body ... shows before the resource. Allows rich
+    text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
+    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
+    turpis cursus "
+  body: "Body content shows after resource. Allows rich text\n\n## section header\n###
+    section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+    integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
+    - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus \n\n-
+    in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit amet volutpat\n\nconsequat
+    mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim
+    ut sem viverra [aliquet eget sit](https://linktonowhere.com) *amet tellus* cras
+    adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum
+    lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus
+    sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis
+    aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl\n"
+  resource_type:
+  - podcast
+  resource:
+    sys:
+      id: 6g5yYVX8naoXcToMeMZGwI
+      created_at: !ruby/object:DateTime 2023-02-28 21:36:54.377000000 Z
+      updated_at: !ruby/object:DateTime 2023-03-17 14:42:14.141000000 Z
+      content_type_id: podcastResource
+      revision: 2
+    episode_name: White Noise
+    description: Sounds for helping children to sleep
+    transcript:
+      sys:
+        id: 2oRKyd27cdKum1UqKD7WWO
+        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+      title: a-pdf-placeholder.pdf
+      description:
+      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+    episode_link: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172595677&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+    length: '04:22'
+  thumbnail:
+    sys:
+      id: 1h34RjAPcV0QWk8bp4jvqj
+      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
+    title: thumb10.png
+    description:
+    url: "//images.ctfassets.net/tues7aklmpmt/1h34RjAPcV0QWk8bp4jvqj/cf2a16544c4304bfbbfa5f393f53b295/thumb10.png"
+  slug: hi-im-a-resource-podcast-page
+- sys:
+    id: wlo7mBiVqQPT8olE0tNcf
+    created_at: !ruby/object:DateTime 2023-02-28 21:40:56.520000000 Z
+    updated_at: !ruby/object:DateTime 2023-03-25 02:57:57.154000000 Z
+    content_type_id: resource
+    revision: 2
+  title: HI! I'm a Resource Video Page
+  summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
+    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
+    turpis cursus '
+  date: !ruby/object:DateTime 2023-01-07 00:00:00.000000000 -08:00
+  opening_body: "Optional opening body ... shows before the resource. Allows rich
+    text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
+    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
+    turpis cursus "
+  body: "Body content shows after resource. Allows rich text\n\n## section header\n###
+    section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+    integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
+    - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus \n\n-
+    in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit amet volutpat\n\nconsequat
+    mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim
+    ut sem viverra [aliquet eget sit](https://linktonowhere.com) *amet tellus* cras
+    adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum
+    lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus
+    sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis
+    aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl\n"
+  resource_type:
+  - video
+  resource:
+    sys:
+      id: 1pqKscUETyrisG2TrnlTg2
+      created_at: !ruby/object:DateTime 2023-02-28 21:40:56.727000000 Z
+      updated_at: !ruby/object:DateTime 2023-03-20 15:35:10.183000000 Z
+      content_type_id: videoResource
+      revision: 4
+    episode_name: White Noise
+    description: Sounds for helping children to sleep
+    transcript:
+      sys:
+        id: 2oRKyd27cdKum1UqKD7WWO
+        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+      title: a-pdf-placeholder.pdf
+      description:
+      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+    audio_description:
+      sys:
+        id: 2oRKyd27cdKum1UqKD7WWO
+        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+      title: a-pdf-placeholder.pdf
+      description:
+      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+    episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
+    ada_episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
+    length: '01:34'
+  thumbnail:
+    sys:
+      id: 3ukIE991rh1ez3slk1bC8x
+      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
+    title: thumb3.png
+    description:
+    url: "//images.ctfassets.net/tues7aklmpmt/3ukIE991rh1ez3slk1bC8x/250ccb5f3b2038461f5d431c915788e9/thumb3.png"
+  slug: hi-im-a-resource-video-page
+- sys:
+    id: 1loIs3pHYaT5UNJKsr94U8
+    created_at: !ruby/object:DateTime 2023-02-28 21:48:46.853000000 Z
+    updated_at: !ruby/object:DateTime 2023-03-25 02:57:44.004000000 Z
+    content_type_id: resource
+    revision: 2
+  title: HI! I'm a Resource Image Page
+  summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
+    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
+    turpis cursus '
+  date: !ruby/object:DateTime 2023-01-12 00:00:00.000000000 -08:00
+  opening_body: "Optional opening body ... shows before the resource. Allows rich
+    text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
+    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
+    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
+    turpis cursus "
+  body: "Body content shows after resource. Allows rich text\n\n## section header\n###
+    section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+    integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
+    - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus \n\n-
+    in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit amet volutpat\n\nconsequat
+    mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim
+    ut sem viverra [aliquet eget sit](https://linktonowhere.com) *amet tellus* cras
+    adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum
+    lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus
+    sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis
+    aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl\n"
+  resource_type:
+  - publication
+  resource:
+    sys:
+      id: 5phNaetayZ6HGFFQle2rbk
+      created_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
+      content_type_id: publicationResource
+      revision: 1
+    file_name: infographic for sleep
+    description: infographic for sleep
+    file:
+      sys:
+        id: 1gfY9AaLQ2P2lsbfgY3mB6
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
+      title: thumb11.png
+      description:
+      url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
+    series_title: On helping children sleep
+    author: The Center for Better sleep
+    year_published: '2023'
+    current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
+    order_online: false
+    download_language:
+    - English
+    download_file_size:
+    - 200X200 pixels
+    - 300x250 pixels
+    - 600x400 pixels
+  thumbnail:
+    sys:
+      id: 5wvxHr8hU9B5Gq55jx8M6k
+      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
+      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
+    title: thumb7.png
+    description:
+    url: "//images.ctfassets.net/tues7aklmpmt/5wvxHr8hU9B5Gq55jx8M6k/23bbdbee2652f0a40ce293cf4485c2ea/thumb7.png"
+  slug: hi-im-a-resource-image-page
 events:
 - sys:
     id: 2slbVvlqKnESCf3YUJ4S86
@@ -16,7 +277,7 @@ events:
       created_at: !ruby/object:DateTime 2023-03-31 16:21:43.302000000 Z
       updated_at: !ruby/object:DateTime 2023-03-31 16:21:43.302000000 Z
     title: eventlogo.png
-    description: 
+    description:
     url: "//images.ctfassets.net/tues7aklmpmt/1bKEkzHV9Z4h1oGlQLgLVj/18d2589cac2c70ad40f669c305650892/eventlogo.png"
   street_address: Big Bird's Nest
   street_address2: 123 Sesame Street
@@ -65,7 +326,7 @@ subTopics:
       created_at: !ruby/object:DateTime 2023-03-25 02:45:09.542000000 Z
       updated_at: !ruby/object:DateTime 2023-03-25 02:45:09.542000000 Z
     title: topichero.png
-    description: 
+    description:
     url: "//images.ctfassets.net/tues7aklmpmt/4ZIUTTBivK8APZhV3Nz6q6/8cf7376ece9ba1563a23b50c1a9589c3/topichero.png"
   tag: example
   subtopic: false
@@ -73,10 +334,10 @@ subTopics:
   - sys:
       id: 76eiT5WdqqACACNCS5Pr0C
       created_at: !ruby/object:DateTime 2023-02-28 21:45:25.372000000 Z
-      updated_at: !ruby/object:DateTime 2023-03-25 02:57:20.319000000 Z
+      updated_at: !ruby/object:DateTime 2023-04-26 16:40:20.413000000 Z
       content_type_id: resource
-      revision: 3
-    title: HI! I'm a Resource PDF Page
+      revision: 5
+    title: HI! I'm a Resource Publications Page
     summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
       habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
       integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
@@ -117,7 +378,7 @@ subTopics:
           created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
           updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
         title: a-pdf-placeholder.pdf
-        description: 
+        description:
         url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
       series_title: On helping children sleep
       author: The Center for Better sleep
@@ -133,9 +394,9 @@ subTopics:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
       title: thumb1.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/1WmmDxodAIKXZCLm6mkO74/90af5dae4c0c1be79be671b0570fc597/thumb1.png"
-    slug: hi-im-a-resource-pdf-page
+    slug: hi-im-a-resource-publications-page
   - sys:
       id: 1loIs3pHYaT5UNJKsr94U8
       created_at: !ruby/object:DateTime 2023-02-28 21:48:46.853000000 Z
@@ -183,7 +444,7 @@ subTopics:
           created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
           updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
         title: thumb11.png
-        description: 
+        description:
         url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
       series_title: On helping children sleep
       author: The Center for Better sleep
@@ -202,7 +463,7 @@ subTopics:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
       title: thumb7.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/5wvxHr8hU9B5Gq55jx8M6k/23bbdbee2652f0a40ce293cf4485c2ea/thumb7.png"
     slug: hi-im-a-resource-image-page
   - sys:
@@ -252,7 +513,7 @@ subTopics:
           created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
           updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
         title: a-pdf-placeholder.pdf
-        description: 
+        description:
         url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
       audio_description:
         sys:
@@ -260,7 +521,7 @@ subTopics:
           created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
           updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
         title: a-pdf-placeholder.pdf
-        description: 
+        description:
         url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
       episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
       ada_episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
@@ -271,7 +532,7 @@ subTopics:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
       title: thumb3.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/3ukIE991rh1ez3slk1bC8x/250ccb5f3b2038461f5d431c915788e9/thumb3.png"
     slug: hi-im-a-resource-video-page
   - sys:
@@ -321,7 +582,7 @@ subTopics:
           created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
           updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
         title: a-pdf-placeholder.pdf
-        description: 
+        description:
         url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
       episode_link: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172595677&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
       length: '04:22'
@@ -331,7 +592,7 @@ subTopics:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
       title: thumb10.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/1h34RjAPcV0QWk8bp4jvqj/cf2a16544c4304bfbbfa5f393f53b295/thumb10.png"
     slug: hi-im-a-resource-podcast-page
   slug: hi-im-a-topic-page
@@ -356,7 +617,7 @@ subTopics:
       created_at: !ruby/object:DateTime 2023-03-25 02:45:09.542000000 Z
       updated_at: !ruby/object:DateTime 2023-03-25 02:45:09.542000000 Z
     title: topichero.png
-    description: 
+    description:
     url: "//images.ctfassets.net/tues7aklmpmt/4ZIUTTBivK8APZhV3Nz6q6/8cf7376ece9ba1563a23b50c1a9589c3/topichero.png"
   tag: example
   subtopic: true
@@ -408,7 +669,7 @@ subTopics:
           created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
           updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
         title: a-pdf-placeholder.pdf
-        description: 
+        description:
         url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
       episode_link: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172595677&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
       length: '04:22'
@@ -418,7 +679,7 @@ subTopics:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
       title: thumb10.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/1h34RjAPcV0QWk8bp4jvqj/cf2a16544c4304bfbbfa5f393f53b295/thumb10.png"
     slug: hi-im-a-resource-podcast-page
   - sys:
@@ -468,7 +729,7 @@ subTopics:
           created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
           updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
         title: a-pdf-placeholder.pdf
-        description: 
+        description:
         url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
       audio_description:
         sys:
@@ -476,7 +737,7 @@ subTopics:
           created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
           updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
         title: a-pdf-placeholder.pdf
-        description: 
+        description:
         url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
       episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
       ada_episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
@@ -487,7 +748,7 @@ subTopics:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
       title: thumb3.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/3ukIE991rh1ez3slk1bC8x/250ccb5f3b2038461f5d431c915788e9/thumb3.png"
     slug: hi-im-a-resource-video-page
   - sys:
@@ -537,7 +798,7 @@ subTopics:
           created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
           updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
         title: thumb11.png
-        description: 
+        description:
         url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
       series_title: On helping children sleep
       author: The Center for Better sleep
@@ -556,271 +817,10 @@ subTopics:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
       title: thumb7.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/5wvxHr8hU9B5Gq55jx8M6k/23bbdbee2652f0a40ce293cf4485c2ea/thumb7.png"
     slug: hi-im-a-resource-image-page
   slug: hi-im-a-subtopic-page
-resource:
-- sys:
-    id: 6UF4IkeGq9D8e5YhjQSLFl
-    created_at: !ruby/object:DateTime 2023-02-28 21:36:54.251000000 Z
-    updated_at: !ruby/object:DateTime 2023-03-25 02:58:11.756000000 Z
-    content_type_id: resource
-    revision: 2
-  title: HI! I'm a Resource Podcast Page
-  summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
-    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
-    turpis cursus '
-  date: !ruby/object:DateTime 2022-10-01 00:00:00.000000000 -08:00
-  opening_body: "Optional opening body ... shows before the resource. Allows rich
-    text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
-    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
-    turpis cursus "
-  body: "Body content shows after resource. Allows rich text\n\n## section header\n###
-    section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-    integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
-    - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus \n\n-
-    in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit amet volutpat\n\nconsequat
-    mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim
-    ut sem viverra [aliquet eget sit](https://linktonowhere.com) *amet tellus* cras
-    adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum
-    lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus
-    sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis
-    aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl\n"
-  resource_type:
-  - podcast
-  resource:
-    sys:
-      id: 6g5yYVX8naoXcToMeMZGwI
-      created_at: !ruby/object:DateTime 2023-02-28 21:36:54.377000000 Z
-      updated_at: !ruby/object:DateTime 2023-03-17 14:42:14.141000000 Z
-      content_type_id: podcastResource
-      revision: 2
-    episode_name: White Noise
-    description: Sounds for helping children to sleep
-    transcript:
-      sys:
-        id: 2oRKyd27cdKum1UqKD7WWO
-        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-      title: a-pdf-placeholder.pdf
-      description: 
-      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-    episode_link: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172595677&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-    length: '04:22'
-  thumbnail:
-    sys:
-      id: 1h34RjAPcV0QWk8bp4jvqj
-      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
-    title: thumb10.png
-    description: 
-    url: "//images.ctfassets.net/tues7aklmpmt/1h34RjAPcV0QWk8bp4jvqj/cf2a16544c4304bfbbfa5f393f53b295/thumb10.png"
-  slug: hi-im-a-resource-podcast-page
-- sys:
-    id: wlo7mBiVqQPT8olE0tNcf
-    created_at: !ruby/object:DateTime 2023-02-28 21:40:56.520000000 Z
-    updated_at: !ruby/object:DateTime 2023-03-25 02:57:57.154000000 Z
-    content_type_id: resource
-    revision: 2
-  title: HI! I'm a Resource Video Page
-  summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
-    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
-    turpis cursus '
-  date: !ruby/object:DateTime 2023-01-07 00:00:00.000000000 -08:00
-  opening_body: "Optional opening body ... shows before the resource. Allows rich
-    text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
-    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
-    turpis cursus "
-  body: "Body content shows after resource. Allows rich text\n\n## section header\n###
-    section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-    integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
-    - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus \n\n-
-    in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit amet volutpat\n\nconsequat
-    mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim
-    ut sem viverra [aliquet eget sit](https://linktonowhere.com) *amet tellus* cras
-    adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum
-    lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus
-    sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis
-    aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl\n"
-  resource_type:
-  - video
-  resource:
-    sys:
-      id: 1pqKscUETyrisG2TrnlTg2
-      created_at: !ruby/object:DateTime 2023-02-28 21:40:56.727000000 Z
-      updated_at: !ruby/object:DateTime 2023-03-20 15:35:10.183000000 Z
-      content_type_id: videoResource
-      revision: 4
-    episode_name: White Noise
-    description: Sounds for helping children to sleep
-    transcript:
-      sys:
-        id: 2oRKyd27cdKum1UqKD7WWO
-        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-      title: a-pdf-placeholder.pdf
-      description: 
-      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-    audio_description:
-      sys:
-        id: 2oRKyd27cdKum1UqKD7WWO
-        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-      title: a-pdf-placeholder.pdf
-      description: 
-      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-    episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
-    ada_episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
-    length: '01:34'
-  thumbnail:
-    sys:
-      id: 3ukIE991rh1ez3slk1bC8x
-      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
-    title: thumb3.png
-    description: 
-    url: "//images.ctfassets.net/tues7aklmpmt/3ukIE991rh1ez3slk1bC8x/250ccb5f3b2038461f5d431c915788e9/thumb3.png"
-  slug: hi-im-a-resource-video-page
-- sys:
-    id: 1loIs3pHYaT5UNJKsr94U8
-    created_at: !ruby/object:DateTime 2023-02-28 21:48:46.853000000 Z
-    updated_at: !ruby/object:DateTime 2023-03-25 02:57:44.004000000 Z
-    content_type_id: resource
-    revision: 2
-  title: HI! I'm a Resource Image Page
-  summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
-    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
-    turpis cursus '
-  date: !ruby/object:DateTime 2023-01-12 00:00:00.000000000 -08:00
-  opening_body: "Optional opening body ... shows before the resource. Allows rich
-    text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
-    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
-    turpis cursus "
-  body: "Body content shows after resource. Allows rich text\n\n## section header\n###
-    section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-    integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
-    - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus \n\n-
-    in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit amet volutpat\n\nconsequat
-    mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim
-    ut sem viverra [aliquet eget sit](https://linktonowhere.com) *amet tellus* cras
-    adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum
-    lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus
-    sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis
-    aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl\n"
-  resource_type:
-  - publication
-  resource:
-    sys:
-      id: 5phNaetayZ6HGFFQle2rbk
-      created_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
-      content_type_id: publicationResource
-      revision: 1
-    file_name: infographic for sleep
-    description: infographic for sleep
-    file:
-      sys:
-        id: 1gfY9AaLQ2P2lsbfgY3mB6
-        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
-      title: thumb11.png
-      description: 
-      url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
-    series_title: On helping children sleep
-    author: The Center for Better sleep
-    year_published: '2023'
-    current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
-    order_online: false
-    download_language:
-    - English
-    download_file_size:
-    - 200X200 pixels
-    - 300x250 pixels
-    - 600x400 pixels
-  thumbnail:
-    sys:
-      id: 5wvxHr8hU9B5Gq55jx8M6k
-      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
-    title: thumb7.png
-    description: 
-    url: "//images.ctfassets.net/tues7aklmpmt/5wvxHr8hU9B5Gq55jx8M6k/23bbdbee2652f0a40ce293cf4485c2ea/thumb7.png"
-  slug: hi-im-a-resource-image-page
-- sys:
-    id: 76eiT5WdqqACACNCS5Pr0C
-    created_at: !ruby/object:DateTime 2023-02-28 21:45:25.372000000 Z
-    updated_at: !ruby/object:DateTime 2023-03-25 02:57:20.319000000 Z
-    content_type_id: resource
-    revision: 3
-  title: HI! I'm a Resource PDF Page
-  summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
-    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
-    turpis cursus '
-  date: !ruby/object:DateTime 2022-11-09 00:00:00.000000000 -08:00
-  opening_body: "Optional opening body ... shows before the resource. Allows rich
-    text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant
-    morbi tristique senectus et netus et malesuada fames ac turpis egestas integer
-    eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit
-    turpis cursus "
-  body: "Body content shows after resource. Allows rich text\n\n## section header\n###
-    section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-    integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
-    - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus \n\n-
-    in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit amet volutpat\n\nconsequat
-    mauris nunc congue nisi vitae suscipit tellus mauris a diam maecenas sed enim
-    ut sem viverra [aliquet eget sit](https://linktonowhere.com) *amet tellus* cras
-    adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum
-    lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus
-    sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis
-    aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl\n"
-  resource_type:
-  - publication
-  resource:
-    sys:
-      id: 2jGeVHjaDvcbxyhhwsv6bq
-      created_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
-      content_type_id: publicationResource
-      revision: 1
-    file_name: a pdf file
-    description: a pdf file
-    file:
-      sys:
-        id: 2oRKyd27cdKum1UqKD7WWO
-        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-      title: a-pdf-placeholder.pdf
-      description: 
-      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-    series_title: On helping children sleep
-    author: The Center for Better sleep
-    year_published: '2022'
-    current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
-    order_online: true
-    download_language:
-    - English
-    - Spanish
-  thumbnail:
-    sys:
-      id: 1WmmDxodAIKXZCLm6mkO74
-      created_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
-      updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
-    title: thumb1.png
-    description: 
-    url: "//images.ctfassets.net/tues7aklmpmt/1WmmDxodAIKXZCLm6mkO74/90af5dae4c0c1be79be671b0570fc597/thumb1.png"
-  slug: hi-im-a-resource-pdf-page
 topic:
 - sys:
     id: 4ktzMFjXdySMurThJ2SGT5
@@ -843,10 +843,10 @@ topic:
   - sys:
       id: 76eiT5WdqqACACNCS5Pr0C
       created_at: !ruby/object:DateTime 2023-02-28 21:45:25.372000000 Z
-      updated_at: !ruby/object:DateTime 2023-03-25 02:57:20.319000000 Z
+      updated_at: !ruby/object:DateTime 2023-04-26 16:40:20.413000000 Z
       content_type_id: resource
-      revision: 3
-    title: HI! I'm a Resource PDF Page
+      revision: 5
+    title: HI! I'm a Resource Publications Page
     summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
       habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
       integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
@@ -887,7 +887,7 @@ topic:
           created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
           updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
         title: a-pdf-placeholder.pdf
-        description: 
+        description:
         url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
       series_title: On helping children sleep
       author: The Center for Better sleep
@@ -903,9 +903,9 @@ topic:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
       title: thumb1.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/1WmmDxodAIKXZCLm6mkO74/90af5dae4c0c1be79be671b0570fc597/thumb1.png"
-    slug: hi-im-a-resource-pdf-page
+    slug: hi-im-a-resource-publications-page
   - sys:
       id: 1loIs3pHYaT5UNJKsr94U8
       created_at: !ruby/object:DateTime 2023-02-28 21:48:46.853000000 Z
@@ -953,7 +953,7 @@ topic:
           created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
           updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
         title: thumb11.png
-        description: 
+        description:
         url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
       series_title: On helping children sleep
       author: The Center for Better sleep
@@ -972,7 +972,7 @@ topic:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
       title: thumb7.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/5wvxHr8hU9B5Gq55jx8M6k/23bbdbee2652f0a40ce293cf4485c2ea/thumb7.png"
     slug: hi-im-a-resource-image-page
   - sys:
@@ -1022,7 +1022,7 @@ topic:
           created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
           updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
         title: a-pdf-placeholder.pdf
-        description: 
+        description:
         url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
       audio_description:
         sys:
@@ -1030,7 +1030,7 @@ topic:
           created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
           updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
         title: a-pdf-placeholder.pdf
-        description: 
+        description:
         url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
       episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
       ada_episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
@@ -1041,7 +1041,7 @@ topic:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
       title: thumb3.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/3ukIE991rh1ez3slk1bC8x/250ccb5f3b2038461f5d431c915788e9/thumb3.png"
     slug: hi-im-a-resource-video-page
   hero_image:
@@ -1050,7 +1050,7 @@ topic:
       created_at: !ruby/object:DateTime 2023-03-24 16:28:44.837000000 Z
       updated_at: !ruby/object:DateTime 2023-03-24 16:28:44.837000000 Z
     title: happykid.png
-    description: 
+    description:
     url: "//images.ctfassets.net/tues7aklmpmt/1YRAyZ6HbJRfMoi54FRgkc/0af077d40c061e1e1f883b4eb8f37d11/happykid.png"
   slug: overview-landing-page
 basic:
@@ -1266,7 +1266,7 @@ basic:
           created_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
           updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
         title: thumb1.png
-        description: 
+        description:
         url: "//images.ctfassets.net/tues7aklmpmt/1WmmDxodAIKXZCLm6mkO74/90af5dae4c0c1be79be671b0570fc597/thumb1.png"
     - sys:
         id: 5BlMLhI5Q77nO9okcFEPyQ
@@ -1283,7 +1283,7 @@ basic:
           created_at: !ruby/object:DateTime 2023-02-23 21:09:18.211000000 Z
           updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.211000000 Z
         title: thumb2.png
-        description: 
+        description:
         url: "//images.ctfassets.net/tues7aklmpmt/1YUKtM0TuPgy6IwA32JaCs/08dbf44d60f9b17505c00c24fff855a1/thumb2.png"
     - sys:
         id: 2o3IwpINAVQEcaoScSz6qt
@@ -1301,7 +1301,7 @@ basic:
           created_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
           updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
         title: thumb3.png
-        description: 
+        description:
         url: "//images.ctfassets.net/tues7aklmpmt/3ukIE991rh1ez3slk1bC8x/250ccb5f3b2038461f5d431c915788e9/thumb3.png"
     - sys:
         id: 3YhvJ3B31Qv7TLXBJrghpZ
@@ -1320,7 +1320,7 @@ basic:
           created_at: !ruby/object:DateTime 2023-02-23 21:09:18.223000000 Z
           updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.223000000 Z
         title: thumb4.png
-        description: 
+        description:
         url: "//images.ctfassets.net/tues7aklmpmt/1mxyYYg2Y5TVSUteERBaaM/f83ce3c196e096f83ba2cf18291c758a/thumb4.png"
     - sys:
         id: 1uMaNhE9YyJMzMtCi9YMGQ
@@ -1339,7 +1339,7 @@ basic:
           created_at: !ruby/object:DateTime 2023-02-23 21:09:18.229000000 Z
           updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.229000000 Z
         title: thumb5.png
-        description: 
+        description:
         url: "//images.ctfassets.net/tues7aklmpmt/1ZhxxiTZieeGbLWyBQIsmH/18118dc0db51cac52eec5abc152cb004/thumb5.png"
     - sys:
         id: bRe0ia8bIO1QocevOeHpU
@@ -1357,7 +1357,7 @@ basic:
           created_at: !ruby/object:DateTime 2023-02-23 21:09:18.234000000 Z
           updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.234000000 Z
         title: thumb6.png
-        description: 
+        description:
         url: "//images.ctfassets.net/tues7aklmpmt/7qm1zUCyI6JA790o7xIfuS/6fcbd38cec2a84397ec36f9cfd798968/thumb6.png"
   - sys:
       id: 3wN4UdroMOtQpYVDDqwkRf
@@ -1386,7 +1386,7 @@ basic:
           created_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
           updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
         title: thumb7.png
-        description: 
+        description:
         url: "//images.ctfassets.net/tues7aklmpmt/5wvxHr8hU9B5Gq55jx8M6k/23bbdbee2652f0a40ce293cf4485c2ea/thumb7.png"
     - sys:
         id: 2BAspgDSWNKzkxMCgLPekd
@@ -1404,7 +1404,7 @@ basic:
           created_at: !ruby/object:DateTime 2023-02-23 21:09:18.245000000 Z
           updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.245000000 Z
         title: subscriptions.png
-        description: 
+        description:
         url: "//images.ctfassets.net/tues7aklmpmt/61gus43oawdxAS9EjqlJdZ/46600bb9dad00c378fbe10ba7ceb2265/subscriptions.png"
   - sys:
       id: 6VIKqox7lfLxXMBbiWWTn7
@@ -1433,7 +1433,7 @@ basic:
           created_at: !ruby/object:DateTime 2023-02-23 21:09:18.251000000 Z
           updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.251000000 Z
         title: thumb9.png
-        description: 
+        description:
         url: "//images.ctfassets.net/tues7aklmpmt/5sDlJf4KHtrJebXR6b2XT3/7e839f58fca9426ecf54a40899440b3d/thumb9.png"
     - sys:
         id: 4nn4qnYUlVv8BQJ69ueaD8
@@ -1451,7 +1451,7 @@ basic:
           created_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
           updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
         title: thumb10.png
-        description: 
+        description:
         url: "//images.ctfassets.net/tues7aklmpmt/1h34RjAPcV0QWk8bp4jvqj/cf2a16544c4304bfbbfa5f393f53b295/thumb10.png"
     - sys:
         id: 5ArxhdwUYvjiUy9zcdlth5
@@ -1469,7 +1469,7 @@ basic:
           created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
           updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
         title: thumb11.png
-        description: 
+        description:
         url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
   subscription_banner: true
   subscriptions_banner_bottom: true
@@ -1617,7 +1617,7 @@ videoResource:
       created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
       updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
     title: a-pdf-placeholder.pdf
-    description: 
+    description:
     url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
   audio_description:
     sys:
@@ -1625,7 +1625,7 @@ videoResource:
       created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
       updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
     title: a-pdf-placeholder.pdf
-    description: 
+    description:
     url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
   episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
   ada_episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
@@ -1645,7 +1645,7 @@ podcastResource:
       created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
       updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
     title: a-pdf-placeholder.pdf
-    description: 
+    description:
     url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
   episode_link: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172595677&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
   length: '04:22'
@@ -1664,7 +1664,7 @@ publicationResource:
       created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
       updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
     title: thumb11.png
-    description: 
+    description:
     url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
   series_title: On helping children sleep
   author: The Center for Better sleep
@@ -1691,7 +1691,7 @@ publicationResource:
       created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
       updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
     title: a-pdf-placeholder.pdf
-    description: 
+    description:
     url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
   series_title: On helping children sleep
   author: The Center for Better sleep
@@ -1740,7 +1740,7 @@ basicListGroups:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.251000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.251000000 Z
       title: thumb9.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/5sDlJf4KHtrJebXR6b2XT3/7e839f58fca9426ecf54a40899440b3d/thumb9.png"
   - sys:
       id: 4nn4qnYUlVv8BQJ69ueaD8
@@ -1758,7 +1758,7 @@ basicListGroups:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
       title: thumb10.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/1h34RjAPcV0QWk8bp4jvqj/cf2a16544c4304bfbbfa5f393f53b295/thumb10.png"
   - sys:
       id: 5ArxhdwUYvjiUy9zcdlth5
@@ -1776,7 +1776,7 @@ basicListGroups:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
       title: thumb11.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
 - sys:
     id: 3wN4UdroMOtQpYVDDqwkRf
@@ -1805,7 +1805,7 @@ basicListGroups:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
       title: thumb7.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/5wvxHr8hU9B5Gq55jx8M6k/23bbdbee2652f0a40ce293cf4485c2ea/thumb7.png"
   - sys:
       id: 2BAspgDSWNKzkxMCgLPekd
@@ -1823,7 +1823,7 @@ basicListGroups:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.245000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.245000000 Z
       title: subscriptions.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/61gus43oawdxAS9EjqlJdZ/46600bb9dad00c378fbe10ba7ceb2265/subscriptions.png"
 - sys:
     id: 4lFFrzlbKNYZcoiZptY9JS
@@ -1853,7 +1853,7 @@ basicListGroups:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
       title: thumb1.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/1WmmDxodAIKXZCLm6mkO74/90af5dae4c0c1be79be671b0570fc597/thumb1.png"
   - sys:
       id: 5BlMLhI5Q77nO9okcFEPyQ
@@ -1870,7 +1870,7 @@ basicListGroups:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.211000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.211000000 Z
       title: thumb2.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/1YUKtM0TuPgy6IwA32JaCs/08dbf44d60f9b17505c00c24fff855a1/thumb2.png"
   - sys:
       id: 2o3IwpINAVQEcaoScSz6qt
@@ -1888,7 +1888,7 @@ basicListGroups:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
       title: thumb3.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/3ukIE991rh1ez3slk1bC8x/250ccb5f3b2038461f5d431c915788e9/thumb3.png"
   - sys:
       id: 3YhvJ3B31Qv7TLXBJrghpZ
@@ -1907,7 +1907,7 @@ basicListGroups:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.223000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.223000000 Z
       title: thumb4.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/1mxyYYg2Y5TVSUteERBaaM/f83ce3c196e096f83ba2cf18291c758a/thumb4.png"
   - sys:
       id: 1uMaNhE9YyJMzMtCi9YMGQ
@@ -1926,7 +1926,7 @@ basicListGroups:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.229000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.229000000 Z
       title: thumb5.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/1ZhxxiTZieeGbLWyBQIsmH/18118dc0db51cac52eec5abc152cb004/thumb5.png"
   - sys:
       id: bRe0ia8bIO1QocevOeHpU
@@ -1944,7 +1944,7 @@ basicListGroups:
         created_at: !ruby/object:DateTime 2023-02-23 21:09:18.234000000 Z
         updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.234000000 Z
       title: thumb6.png
-      description: 
+      description:
       url: "//images.ctfassets.net/tues7aklmpmt/7qm1zUCyI6JA790o7xIfuS/6fcbd38cec2a84397ec36f9cfd798968/thumb6.png"
 basicCards:
 - sys:
@@ -1963,7 +1963,7 @@ basicCards:
       created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
       updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
     title: thumb11.png
-    description: 
+    description:
     url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
 - sys:
     id: 4nn4qnYUlVv8BQJ69ueaD8
@@ -1981,7 +1981,7 @@ basicCards:
       created_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
       updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
     title: thumb10.png
-    description: 
+    description:
     url: "//images.ctfassets.net/tues7aklmpmt/1h34RjAPcV0QWk8bp4jvqj/cf2a16544c4304bfbbfa5f393f53b295/thumb10.png"
 - sys:
     id: 6PXzCYZHcTg22kMUkEwyct
@@ -1999,7 +1999,7 @@ basicCards:
       created_at: !ruby/object:DateTime 2023-02-23 21:09:18.251000000 Z
       updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.251000000 Z
     title: thumb9.png
-    description: 
+    description:
     url: "//images.ctfassets.net/tues7aklmpmt/5sDlJf4KHtrJebXR6b2XT3/7e839f58fca9426ecf54a40899440b3d/thumb9.png"
 - sys:
     id: 2BAspgDSWNKzkxMCgLPekd
@@ -2017,7 +2017,7 @@ basicCards:
       created_at: !ruby/object:DateTime 2023-02-23 21:09:18.245000000 Z
       updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.245000000 Z
     title: subscriptions.png
-    description: 
+    description:
     url: "//images.ctfassets.net/tues7aklmpmt/61gus43oawdxAS9EjqlJdZ/46600bb9dad00c378fbe10ba7ceb2265/subscriptions.png"
 - sys:
     id: 4RiobpcEpPDSTbmLP12zaf
@@ -2035,7 +2035,7 @@ basicCards:
       created_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
       updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
     title: thumb7.png
-    description: 
+    description:
     url: "//images.ctfassets.net/tues7aklmpmt/5wvxHr8hU9B5Gq55jx8M6k/23bbdbee2652f0a40ce293cf4485c2ea/thumb7.png"
 - sys:
     id: bRe0ia8bIO1QocevOeHpU
@@ -2053,7 +2053,7 @@ basicCards:
       created_at: !ruby/object:DateTime 2023-02-23 21:09:18.234000000 Z
       updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.234000000 Z
     title: thumb6.png
-    description: 
+    description:
     url: "//images.ctfassets.net/tues7aklmpmt/7qm1zUCyI6JA790o7xIfuS/6fcbd38cec2a84397ec36f9cfd798968/thumb6.png"
 - sys:
     id: 1uMaNhE9YyJMzMtCi9YMGQ
@@ -2072,7 +2072,7 @@ basicCards:
       created_at: !ruby/object:DateTime 2023-02-23 21:09:18.229000000 Z
       updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.229000000 Z
     title: thumb5.png
-    description: 
+    description:
     url: "//images.ctfassets.net/tues7aklmpmt/1ZhxxiTZieeGbLWyBQIsmH/18118dc0db51cac52eec5abc152cb004/thumb5.png"
 - sys:
     id: 3YhvJ3B31Qv7TLXBJrghpZ
@@ -2091,7 +2091,7 @@ basicCards:
       created_at: !ruby/object:DateTime 2023-02-23 21:09:18.223000000 Z
       updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.223000000 Z
     title: thumb4.png
-    description: 
+    description:
     url: "//images.ctfassets.net/tues7aklmpmt/1mxyYYg2Y5TVSUteERBaaM/f83ce3c196e096f83ba2cf18291c758a/thumb4.png"
 - sys:
     id: 2o3IwpINAVQEcaoScSz6qt
@@ -2109,7 +2109,7 @@ basicCards:
       created_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
       updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
     title: thumb3.png
-    description: 
+    description:
     url: "//images.ctfassets.net/tues7aklmpmt/3ukIE991rh1ez3slk1bC8x/250ccb5f3b2038461f5d431c915788e9/thumb3.png"
 - sys:
     id: 5BlMLhI5Q77nO9okcFEPyQ
@@ -2126,7 +2126,7 @@ basicCards:
       created_at: !ruby/object:DateTime 2023-02-23 21:09:18.211000000 Z
       updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.211000000 Z
     title: thumb2.png
-    description: 
+    description:
     url: "//images.ctfassets.net/tues7aklmpmt/1YUKtM0TuPgy6IwA32JaCs/08dbf44d60f9b17505c00c24fff855a1/thumb2.png"
 - sys:
     id: 2WRR2XqoEvQQFbIuDJkt1F
@@ -2145,7 +2145,7 @@ basicCards:
       created_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
       updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.204000000 Z
     title: thumb1.png
-    description: 
+    description:
     url: "//images.ctfassets.net/tues7aklmpmt/1WmmDxodAIKXZCLm6mkO74/90af5dae4c0c1be79be671b0570fc597/thumb1.png"
 basicFeatures:
 - sys:
