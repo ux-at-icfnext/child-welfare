@@ -11,8 +11,8 @@
       <a href="">How to become a foster parent</a>
       <a href="">How to adopt</a>
       <a href="">Contact information for local and county child welfare agencies</a>
-      <a href="">Accredited/ approved adoption services providers for intercountry adoption external link</a>
-      <a href="">Accredited/ approved adoption services providers for intercountry adoption external link</a>
+      <a href="">Accredited/ approved adoption services providers</a>
+      <a href="">Accredited/ approved adoption services providers</a>
     </div>
   </div>
 </div>
