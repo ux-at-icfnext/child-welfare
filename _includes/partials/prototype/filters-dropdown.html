@@ -1,0 +1,26 @@
+<div class="usa-accordion accordion">
+    {% for item in page.list %}
+        <h4 class="usa-accordion__heading">
+            <button
+            class="usa-accordion__button"
+            aria-expanded="false"
+            aria-controls="a{{forloop.index}}"
+            >
+                {{ item.title }}
+            </button>
+        </h4>
+        <div id="a{{forloop.index}}" class="usa-accordion__content usa-prose">
+            {% assign category = page.category | downcase | replace: " ", "-" %}
+            <label class="usa-label" for="{{category}}">{{page.label}}</label>
+            <div class="usa-combo-box">
+            <select class="usa-select" name="{{category}}" id="{{category}}">
+                <option value>{{page.label}}</option>
+                {% for item in page.list %}
+                {% assign value = item.value %}
+                <option value="{{value | downcase}}">{{value}}</option>
+                {% endfor %}
+            </select>
+            </div>
+        </div>
+    {% endfor %}
+</div>

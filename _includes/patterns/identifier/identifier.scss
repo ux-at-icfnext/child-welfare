@@ -1,5 +1,8 @@
 .usa-identifier{
     background-color: #002552;
+    ul{
+        max-width: fit-content;
+    }
 }
 .usa-identifier__required-links-list .usa-link{
     color: white;
