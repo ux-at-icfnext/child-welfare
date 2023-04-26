@@ -75,9 +75,19 @@
 }
 
 //new pattern
-.usa-card__container__campaign-one .usa-card__header{
+.usa-card__container__campaign-one{
     overflow: hidden;
     height: 200px;
+}
+.usa-card__container__campaign-two{
+    overflow: hidden;
+    height: 200px;
+}
+.usa-card__container__campaign-three{
+    overflow: hidden;
+    height: 200px;
+}
+.usa-card__container__campaign-one .usa-card__header{
     padding-top: 50px;
     padding: 30px;
     height: 35vh;
@@ -95,8 +105,6 @@
     }
 }
 .usa-card__container__campaign-two .usa-card__header{
-    overflow: hidden;
-    height: 200px;
     padding-top: 50px;
     padding: 30px;
     height: 35vh;
@@ -114,8 +122,6 @@
     }
 }
 .usa-card__container__campaign-three .usa-card__header{
-    overflow: hidden;
-    height: 200px;
     padding-top: 50px;
     padding: 30px;
     height: 35vh;
