@@ -28,7 +28,7 @@ summary-list:
 
 <div class="grid-row grid-gap-lg" markdown="1">
   <div class="grid-col-6"> {{ page.body | markdownify }} </div>
-  <div class="grid-col-6"> {% include patterns/summary-box/summary-box-jk.md %} </div>
+  <div class="grid-col-6"> {% include patterns/summary-box/quicklinks.md %} </div>
 </div>
 </div>
 
