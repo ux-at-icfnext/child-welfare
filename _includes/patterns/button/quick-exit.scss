@@ -1,0 +1,18 @@
+.quick-exit-wrapper{
+    display: inline-block;
+    position: relative;
+    background-color: #005DAA;
+    color: white;
+    cursor: pointer;
+}
+.quick-exit{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 5px 40px 5px 20px;
+    cursor: pointer;
+}
+.quick-exit-desc{
+    display: inline;
+    background-color: #F7F9FA;
+    color: black;
+}
