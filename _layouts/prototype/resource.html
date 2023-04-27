@@ -37,6 +37,19 @@ type: [sub-nav-item, prototype]
   {% include prototype/resource-pdf.md %}
   {% endif %}
 
+<div class="grid-container" style="padding-block: 2rem;">
+  <div class="tag-group">
+    <h3>Topic Tags</h3>
+    <span class="usa-tag" style="margin-bottom:1rem;">example</span>
+    {% for tag in page.tag %}
+    <span class="usa-tag" style="margin-bottom:1rem;"> {{ tag }} </span>
+    {% endfor %}
+    {% for tag in page.resource_tags %}
+    <span class="usa-tag" style="margin-bottom:1rem;"> {{ tag }} </span>
+    {% endfor %}
+  </div>
+</div>
+
   <div class="grid-container">
     <div class="series-list" style="border-top: 1px solid #D1D3D4;">
       <h2 style="color: #002552;">Also in this series</h2>
