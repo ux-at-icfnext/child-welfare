@@ -1,5 +1,6 @@
 .quick-exit-wrapper{
-    
+    position: fixed;
+    width: 100%;
 }
 .quick-exit{
     display: grid;
@@ -24,4 +25,7 @@
     padding-bottom: 0.9rem;
     position: absolute;
     left: 9.5rem;
+    p{
+        margin-bottom: 0;
+    }
 }
