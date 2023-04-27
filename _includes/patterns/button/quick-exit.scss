@@ -1,12 +1,11 @@
-.quick-exit-wrapper{
+.quick-exit{
     display: inline-block;
-    position: relative;
-    background-color: #005DAA;
     color: white;
     cursor: pointer;
 }
-.quick-exit{
+.quick-exit-button{
     display: inline-block;
+    background-color: #005DAA;
     white-space: nowrap;
     padding: 5px 40px 5px 20px;
     cursor: pointer;
