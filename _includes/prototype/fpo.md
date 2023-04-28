@@ -106,7 +106,32 @@
     </button>
   </h4>
   <div id="a4" class="usa-accordion__content usa-prose">
-    {% for item in site.data.filter.Program_Funding %}
+    {% for item in site.data.filters.Program_Funding %}
+      {% assign value = item.title | downcase | replace: ' ', '-' %}
+      <div class="usa-checkbox">
+          <input class="usa-checkbox__input"
+          id="check-{{value}}"
+          type="checkbox"
+          name="{{category}}"
+          value="{{value}}"
+          />
+          <label class="usa-checkbox__label" for="check-{{value}}">
+              {{item.title}}
+          </label>
+      </div>
+    {% endfor %}
+  </div>
+  <h4 class="usa-accordion__heading">
+    <button
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="a5"
+    >
+      Resources For
+    </button>
+  </h4>
+  <div id="a5" class="usa-accordion__content usa-prose">
+    {% for item in site.data.filters.Resources_For %}
       {% assign value = item.title | downcase | replace: ' ', '-' %}
       <div class="usa-checkbox">
           <input class="usa-checkbox__input"
