@@ -5,6 +5,27 @@
 </style>
 
 <div class="usa-accordion accordion">
+    <h4 class="usa-accordion__heading">
+    <button
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="a2"
+    >
+      Date Range
+    </button>
+  </h4>
+  <div id="a2" class="usa-accordion__content usa-prose">
+    <label for="start">Start date:</label>
+    <input type="date" id="start" name="date-start"
+          value="2023-04-28"
+          min="1960-04-28" max="2023-04-28"
+          style="margin-bottom: 1rem;">
+    <br>
+    <label for="start">End date:</label>
+    <input type="date" id="end" name="date-end"
+          value="2023-04-28"
+          min="1960-04-28" max="2023-04-28">
+  </div>
   <h4 class="usa-accordion__heading">
     <button
       class="usa-accordion__button"
@@ -26,6 +47,7 @@
                 </button>
             </h4>
             <div id="b{{forloop.index}}" class="usa-accordion__content usa-prose">
+              {% assign category = item.title | downcase | replace: ' ', '-' %}
               {%for entry in item.list}
                 {% assign value = entry.lev | downcase | replace: ' ', '-' %}
                 <div class="usa-checkbox">
@@ -59,27 +81,6 @@
             </div>
         {%endfor%}
     </div>
-  </div>
-  <h4 class="usa-accordion__heading">
-    <button
-      class="usa-accordion__button"
-      aria-expanded="false"
-      aria-controls="a2"
-    >
-      Date Range
-    </button>
-  </h4>
-  <div id="a2" class="usa-accordion__content usa-prose">
-    <label for="start">Start date:</label>
-    <input type="date" id="start" name="date-start"
-          value="2023-04-28"
-          min="1960-04-28" max="2023-04-28"
-          style="margin-bottom: 1rem;">
-    <br>
-    <label for="start">End date:</label>
-    <input type="date" id="end" name="date-end"
-          value="2023-04-28"
-          min="1960-04-28" max="2023-04-28">
   </div>
   <h4 class="usa-accordion__heading">
     <button
