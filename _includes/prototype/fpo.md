@@ -63,20 +63,37 @@
       aria-expanded="false"
       aria-controls="a3"
     >
-      Dropdown
+      Foundational Areas
     </button>
   </h4>
   <div id="a3" class="usa-accordion__content usa-prose">
-    {% assign category = page.category | downcase | replace: " ", "-" %}
-    <label class="usa-label" for="{{category}}">{{page.label}}</label>
-    <div class="usa-combo-box">
-    <select class="usa-select" name="{{category}}" id="{{category}}">
-        <option value>{{page.label}}</option>
-        {% for item in page.list %}
-        {% assign value = item.value %}
-        <option value="{{value | downcase}}">{{value}}</option>
-        {% endfor %}
-    </select>
+    <div class="usa-accordion accordion">
+        {% for item in site.data.filters.Foundational_Areas %}
+            <h4 class="usa-accordion__heading">
+                <button            
+                class="usa-accordion__button"
+                aria-expanded="false"
+                aria-controls="d{{forloop.index}}">
+                    {{item.title}}
+                </button>
+            </h4>
+            <div id="d{{forloop.index}}" class="usa-accordion__content usa-prose">
+              {%for entry in item.list}
+                {% assign value = entry.lev | downcase | replace: ' ', '-' %}
+                <div class="usa-checkbox">
+                    <input class="usa-checkbox__input"
+                    id="check-{{value}}"
+                    type="checkbox"
+                    name="{{category}}"
+                    value="{{value}}"
+                    />
+                    <label class="usa-checkbox__label" for="check-{{value}}">
+                        {{entry.lev}}
+                    </label>
+                </div>
+              {% endfor %}
+            </div>
+        {%endfor%}
     </div>
   </div>
   <h4 class="usa-accordion__heading">
