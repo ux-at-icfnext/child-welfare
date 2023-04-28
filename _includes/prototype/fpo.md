@@ -8,7 +8,7 @@
     <h4 class="usa-accordion__heading">
     <button
       class="usa-accordion__button"
-      aria-expanded="false"
+      aria-expanded="true"
       aria-controls="a2"
     >
       Date Range
@@ -29,7 +29,7 @@
   <h4 class="usa-accordion__heading">
     <button
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="a1"
     >
       Topics
