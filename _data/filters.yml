@@ -1,20 +1,22 @@
 Topics:
-  - title: Prevention
+  - title: Prevention:
     - lev: Primary Prevention 
     - lev: Secondary Prevention (IV-E-B) 
     - lev: Tertiary Prevention (IV-E) 
     - lev: Strengthening Families 
       sublev:
-        - title: Employment Services 
-        - title: Housing Stability 
-        - title: Strengthening Relationships 
-        - title: Family Nutrition 
-        - title: Food Security 
-        - title: Educational Stability 
-        - title: Self-Sufficiency 
-        - title: Social Supports 
-        - title: Community Supports 
+        - Employment Services 
+        - Housing Stability 
+        - Strengthening Relationships 
+        - Family Nutrition 
+        - Food Security 
+        - Educational Stability 
+        - Self-Sufficiency 
+        - Social Supports 
+        - Community Supports 
     - lev: In-Home Services 
     - lev: Culture as a Protective Factor 
     - lev: Home Visiting Programs 
     - lev: Family Check-Up 
+    
+ Foundational Areas:
