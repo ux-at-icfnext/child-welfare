@@ -47,7 +47,6 @@
                           {{subentry}}
                       </label>
                   </div>
-                  {%endfor%}
                 </div>
               {% endfor %}
             </div>
