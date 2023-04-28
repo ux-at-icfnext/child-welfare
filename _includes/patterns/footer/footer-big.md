@@ -6,6 +6,9 @@
   <div class="footer-quick-exit">
     {% include patterns/button/quick-exit.md %}
   </div>
+  <div class="footer-chat-bot">
+    {% include patterns/button/chat-bot.md %}
+  </div>
   <div class="usa-footer__primary-section">
     <div class="grid-container">
       <div class="grid-row grid-gap">
