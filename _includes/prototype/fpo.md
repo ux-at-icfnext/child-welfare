@@ -236,7 +236,7 @@
   <h4 class="usa-accordion__heading">
     <button
       class="usa-accordion__button"
-      aria-expanded="false"
+      aria-expanded="true"
       aria-controls="a10"
     >
       States, Territories, and Tribes
@@ -253,7 +253,7 @@
                     {{item.title}}
                 </button>
             </h4>
-            <div id="b{{forloop.index}}" class="usa-accordion__content usa-prose">
+            <div id="g{{forloop.index}}" class="usa-accordion__content usa-prose">
               {%for entry in item.list}
                 {% assign value = entry.lev | downcase | replace: ' ', '-' %}
                 <div class="usa-checkbox">
