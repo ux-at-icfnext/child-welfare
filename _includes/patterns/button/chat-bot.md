@@ -1,6 +1,6 @@
 <div class="quick-exit-wrapper">
     <div class="quick-exit">
-        <div class="quick-exit-button">
+        <div class="chat-bot-button">
             <i class="fas fa-comment-alt"></i>
             Chat
         </div>

@@ -15,6 +15,8 @@
     margin: auto;
     padding: 25px;
     position: absolute;
+    bottom: 1px;
+    left: 10rem;
 }
 .quick-exit-desc{
     background-color: #F7F9FA;
@@ -33,4 +35,13 @@
     .quick-exit-desc{
         display:block;
     }
+}
+//chat bot
+.chat-bot-button{
+    background-color: #005DAA;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: auto;
+    padding: 25px;
+    position: absolute;
 }
