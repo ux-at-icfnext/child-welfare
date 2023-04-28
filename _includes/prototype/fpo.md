@@ -12,16 +12,51 @@
     <div class="usa-accordion accordion">
         {% for item in site.data.filters.Topics %}
             <h4 class="usa-accordion__heading">
-            <button
-              class="usa-accordion__button"
-              aria-expanded="true"
-              aria-controls="a1"
-            >
-              {{item.title}}
-            </button>
+                <button            
+                class="usa-accordion__button"
+                aria-expanded="false"
+                aria-controls="b{{forloop.index}}">
+                    {{item.title}}
+                </button>
             </h4>
             <div id="b{{forloop.index}}" class="usa-accordion__content usa-prose">
-              <p>Item Content</p>
+            {%for entry in item.list}
+                {% assign value = entry.lev | downcase | replace: ' ', '-' %}
+                <h4 class="usa-accordion__heading">
+                  <button            
+                  class="usa-accordion__button"
+                  aria-expanded="false"
+                  aria-controls="c{{forloop.index}}">
+                    <div class="usa-checkbox">
+                        <input class="usa-checkbox__input"
+                        id="check-{{value}}"
+                        type="checkbox"
+                        name="{{category}}"
+                        value="{{value}}"
+                        />
+                        <label class="usa-checkbox__label" for="check-{{value}}">
+                            {{entry.lev}}
+                        </label>
+                    </div>
+                  </button>
+                </h4>
+                {% for item in entry.sublev %}
+                  <div id="c{{forloop.index}}" class="usa-accordion__content usa-prose">
+                    {% assign value = item.title | downcase | replace: ' ', '-' %}
+                    <div class="usa-checkbox">
+                        <input class="usa-checkbox__input"
+                        id="check-{{value}}"
+                        type="checkbox"
+                        name="{{category}}"
+                        value="{{value}}"
+                        />
+                        <label class="usa-checkbox__label" for="check-{{value}}">
+                            {{item.title}}
+                        </label>
+                    </div>
+                  </div>
+                {% endfor %}
+              {% endfor %}
             </div>
         {%endfor%}
     </div>
