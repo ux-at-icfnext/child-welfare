@@ -33,6 +33,21 @@
                         {{entry.lev}}
                     </label>
                 </div>
+                <div class="sublev">
+                  {% for subentry in entry.sublev %}
+                  {% assign value = subentry | downcase | replace: ' ', '-' %}
+                  <div class="usa-checkbox">
+                      <input class="usa-checkbox__input"
+                      id="check-{{value}}"
+                      type="checkbox"
+                      name="{{category}}"
+                      value="{{value}}"
+                      />
+                      <label class="usa-checkbox__label" for="check-{{value}}">
+                          {{subentry}}
+                      </label>
+                  </div>
+                </div>
               {% endfor %}
             </div>
         {%endfor%}
