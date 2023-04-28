@@ -12,7 +12,7 @@
     <div class="sub-accordion">
         {% for item in data.filters.Topics %}
             <h4 class="usa-accordion__heading">
-                <button button            
+                <button            
                 class="usa-accordion__button"
                 aria-expanded="false"
                 aria-controls="b{{forloop.index}}">
@@ -22,29 +22,38 @@
             <div id="b{{forloop.index}}" class="usa-accordion__content usa-prose">
             {%for entry in item.title}
                 {% assign value = entry.lev | downcase | replace: ' ', '-' %}
-                <div class="usa-checkbox">
-                    <input class="usa-checkbox__input"
-                    id="check-{{value}}"
-                    type="checkbox"
-                    name="{{category}}"
-                    value="{{value}}"
-                    />
-                    <label class="usa-checkbox__label" for="check-{{value}}">
-                        {{entry.lev}}
-                    </label>
-                </div>
+                <h4 class="usa-accordion__heading">
+                  <button            
+                  class="usa-accordion__button"
+                  aria-expanded="false"
+                  aria-controls="c{{forloop.index}}">
+                    <div class="usa-checkbox">
+                        <input class="usa-checkbox__input"
+                        id="check-{{value}}"
+                        type="checkbox"
+                        name="{{category}}"
+                        value="{{value}}"
+                        />
+                        <label class="usa-checkbox__label" for="check-{{value}}">
+                            {{entry.lev}}
+                        </label>
+                    </div>
+                  </button>
+                </h4>
                 {% for item in entry.sublev %}
-                  {% assign value = item.title | downcase | replace: ' ', '-' %}
-                  <div class="usa-checkbox">
-                      <input class="usa-checkbox__input"
-                      id="check-{{value}}"
-                      type="checkbox"
-                      name="{{category}}"
-                      value="{{value}}"
-                      />
-                      <label class="usa-checkbox__label" for="check-{{value}}">
-                          {{item.title}}
-                      </label>
+                  <div id="c{{forloop.index}}" class="usa-accordion__content usa-prose">
+                    {% assign value = item.title | downcase | replace: ' ', '-' %}
+                    <div class="usa-checkbox">
+                        <input class="usa-checkbox__input"
+                        id="check-{{value}}"
+                        type="checkbox"
+                        name="{{category}}"
+                        value="{{value}}"
+                        />
+                        <label class="usa-checkbox__label" for="check-{{value}}">
+                            {{item.title}}
+                        </label>
+                    </div>
                   </div>
                 {% endfor %}
               {% endfor %}
