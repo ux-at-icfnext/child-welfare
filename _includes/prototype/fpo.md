@@ -317,7 +317,7 @@
     </button>
   </h4>
   <div id="a9" class="usa-accordion__content usa-prose">
-    <span style="vertical-align: bottom; margin-right: 1rem; font-family: 'Montserrat';">Spanish</span>
+    <span style="vertical-align: bottom; margin-right: 1rem; font-family: 'Montserrat';">Español</span>
     <label class="switch">
     <input type="checkbox">
     <span class="slider round" style="margin-top: 0.5rem;"></span>
