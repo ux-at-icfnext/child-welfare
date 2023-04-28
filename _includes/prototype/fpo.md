@@ -10,25 +10,18 @@
   </h4>
   <div id="a1" class="usa-accordion__content usa-prose">
     <div class="usa-accordion accordion">
-        {% for item in data.filters.Topics %}
+        {% for item in data.filters.topics %}
             <h4 class="usa-accordion__heading">
+            <button
+              class="usa-accordion__button"
+              aria-expanded="true"
+              aria-controls="a1"
+            >
               {{item.title}}
+            </button>
             </h4>
             <div id="b{{forloop.index}}" class="usa-accordion__content usa-prose">
-            {%for entry in item.list}
-                {% assign value = entry.lev | downcase | replace: ' ', '-' %}
-                <div class="usa-checkbox">
-                    <input class="usa-checkbox__input"
-                    id="check-{{value}}"
-                    type="checkbox"
-                    name="{{category}}"
-                    value="{{value}}"
-                    />
-                    <label class="usa-checkbox__label" for="check-{{value}}">
-                        {{entry.lev}}
-                    </label>
-                </div>
-              {% endfor %}
+              <p>Item Content</p>
             </div>
         {%endfor%}
     </div>
