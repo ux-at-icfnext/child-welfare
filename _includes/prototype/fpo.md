@@ -55,6 +55,14 @@
     -ms-transform: translateX(26px);
     transform: translateX(26px);
   }
+  /* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
 </style>
 
 <div class="usa-accordion accordion">
@@ -309,9 +317,10 @@
     </button>
   </h4>
   <div id="a9" class="usa-accordion__content usa-prose">
+    Spanish
     <label class="switch">
     <input type="checkbox">
-    <span class="slider"></span>
+    <span class="slider round"></span>
 </label>
   </div>
   <h4 class="usa-accordion__heading">
