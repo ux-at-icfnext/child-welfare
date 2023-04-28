@@ -1,5 +1,726 @@
 ---
+subTopics:
+- sys:
+    id: 71rOORDjiTN63aXJYEsQXN
+    created_at: !ruby/object:DateTime 2023-03-25 02:45:09.579000000 Z
+    updated_at: !ruby/object:DateTime 2023-04-28 16:27:29.576000000 Z
+    content_type_id: subTopics
+    revision: 5
+  title: Topic Example Youth
+  summary: Summary text - Achieving permanency and promoting positive outcomes for
+    youth is essential for our child welfare system. Find guidelines, protocols, and
+    resources to help you build partnerships with families.
+  body: Body copy - The adolescent years are a time when youth are growing into young
+    adulthood and their brains are continuously developing. When youth experience
+    trauma in childhood and/or at this developmental stage, the repercussions can
+    be devastating for the youth and people around them. The resources in this section
+    are intended to help supportive adults working with adolescent youth or parents
+    of those youth to better understand these years and the impact of trauma during
+    this developmental stage. This section also provides tips and tools for parents
+    of teens.
+  hero_image:
+    sys:
+      id: 4ZIUTTBivK8APZhV3Nz6q6
+      created_at: !ruby/object:DateTime 2023-03-25 02:45:09.542000000 Z
+      updated_at: !ruby/object:DateTime 2023-03-25 02:45:09.542000000 Z
+    title: topichero.png
+    description:
+    url: "//images.ctfassets.net/tues7aklmpmt/4ZIUTTBivK8APZhV3Nz6q6/8cf7376ece9ba1563a23b50c1a9589c3/topichero.png"
+  tag: Youth
+  subtopic: false
+  featured:
+  - sys:
+      id: 76eiT5WdqqACACNCS5Pr0C
+      created_at: !ruby/object:DateTime 2023-02-28 21:45:25.372000000 Z
+      updated_at: !ruby/object:DateTime 2023-04-28 16:22:12.854000000 Z
+      content_type_id: resource
+      revision: 9
+    title: Resource PDF Ex The Importance of Authentic Youth Engagement in Case Planning
+    summary: In a system designed to promote the safety and well-being of young people,
+      it is essential to prioritize youth engagement in casework. Learn key concepts
+      and tangible strategies to apply to your practice.
+    date: !ruby/object:DateTime 2022-11-09 00:00:00.000000000 -08:00
+    opening_body: "In a system designed to promote the safety and well-being of young
+      people, it is essential to prioritize youth engagement in casework. Youth involved
+      with the child welfare system are experts on their respective situations and
+      should be treated as such. \nThis bulletin for professionals outlines the importance
+      of youth engagement and provides caseworkers with key concepts and tangible
+      strategies to apply to their practice."
+    body: "Body content shows after resource. Allows rich text\n\n## Bulletin for
+      Professional\n### section header\n\nAchieving authentic youth engagement requires
+      child welfare professionals and agencies to embrace a culture that prioritizes
+      youth voice at all stages of case planning, program development, and system
+      improvement. \n\n> “I would say start empowering youth to be engaged from a
+      young age, not when they are transitioning out of care…Even if a youth is 9,
+      10, 11, 12, they’ll understand, ‘Hey, we are going to have a court hearing and
+      things will be talked about. Is there anything you would like us to talk to
+      the judge about for you?’” \n> - Former youth in foster care\n\n__What's Inside
+      This Bulletin?__ \n\n- What is authentic youth engagement? \n- Benefits of youth
+      engagement\n- Challenges to youth engagement\n- The rights of youth in care\n-
+      Key concepts for engaging youth\n- Tangible strategies for engaging youth\n-
+      Prioritizing youth engagement at the agency level\n\n__Acknowledgment(s)__:
+      Special thanks to the youth who contributed their voices to this publication:
+      David Samuel Hall, Elliott Hinkle, Frankita Jenkins, Madison Langan, and Torie
+      Mendez.\n\n### Suggested Citation\nChild Welfare Information Gateway. (2021).
+      Prioritizing youth voice: The importance of authentic youth engagement in case
+      planning. U.S. Department of Health and Human Services, Administration for Children
+      and Families, Children's Bureau. https://www.childwelfare.gov/resources/youth-engagement\n\n*This
+      material may be freely reproduced and distributed. However, when doing so, please
+      credit Child Welfare Information Gateway.*\n"
+    resource_type:
+    - publication
+    resource:
+      sys:
+        id: 2jGeVHjaDvcbxyhhwsv6bq
+        created_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
+        updated_at: !ruby/object:DateTime 2023-04-27 20:00:05.019000000 Z
+        content_type_id: publicationResource
+        revision: 2
+      file_name: 'Prioritizing Youth Voice: The Importance of Authentic Youth Engagement
+        in Case Planning'
+      description: a pdf file
+      file:
+        sys:
+          id: 2oRKyd27cdKum1UqKD7WWO
+          created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+        title: a-pdf-placeholder.pdf
+        description:
+        url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+      series_title: Prioritizing Youth Voice
+      author: Child Welfare Information Gateway
+      year_published: '2021'
+      current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
+      order_online: true
+      download_language:
+      - English
+      - Spanish
+    thumbnail:
+      sys:
+        id: 5DN06HhEhJFY0KdDssHbA5
+        created_at: !ruby/object:DateTime 2023-04-27 22:23:19.504000000 Z
+        updated_at: !ruby/object:DateTime 2023-04-27 22:23:19.504000000 Z
+      title: youth-engagement_page_1.png
+      description:
+      url: "//images.ctfassets.net/tues7aklmpmt/5DN06HhEhJFY0KdDssHbA5/e77c0d5028b8335b6540e14784c5f93f/youth-engagement_page_1.png"
+    resource_tags:
+    - Youth
+    - Engaging and Involving Youth
+    - Positive Youth Development
+    - Casework Practice
+    - Authentic Youth Engagement
+    - Partnership and Collaboration
+    - Families, Youth & Children
+    - Families, Communities & Youth
+    - Children & Youth
+    slug: resource-pdf-ex-the-importance-of-authentic-youth-engagement-in-case-planning
+  - sys:
+      id: 1loIs3pHYaT5UNJKsr94U8
+      created_at: !ruby/object:DateTime 2023-02-28 21:48:46.853000000 Z
+      updated_at: !ruby/object:DateTime 2023-04-28 16:10:34.246000000 Z
+      content_type_id: resource
+      revision: 3
+    title: HI! I'm a Resource Image Page
+    summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
+      blandit turpis cursus '
+    date: !ruby/object:DateTime 2023-01-12 00:00:00.000000000 -08:00
+    opening_body: "Optional opening body ... shows before the resource. Allows rich
+      text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
+      blandit turpis cursus "
+    body: "Body content shows after resource. Allows rich text\n\n## section header\n###
+      section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
+      - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus
+      \n\n- in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit
+      amet volutpat\n\nconsequat mauris nunc congue nisi vitae suscipit tellus mauris
+      a diam maecenas sed enim ut sem viverra [aliquet eget sit](https://linktonowhere.com)
+      *amet tellus* cras adipiscing enim eu turpis egestas pretium aenean pharetra
+      magna ac placerat vestibulum lectus mauris ultrices eros in cursus turpis massa
+      tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet
+      sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin
+      tempor id eu nisl\n"
+    resource_type:
+    - publication
+    resource:
+      sys:
+        id: 5phNaetayZ6HGFFQle2rbk
+        created_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
+        content_type_id: publicationResource
+        revision: 1
+      file_name: infographic for sleep
+      description: infographic for sleep
+      file:
+        sys:
+          id: 1gfY9AaLQ2P2lsbfgY3mB6
+          created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
+        title: thumb11.png
+        description:
+        url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
+      series_title: On helping children sleep
+      author: The Center for Better sleep
+      year_published: '2023'
+      current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
+      order_online: false
+      download_language:
+      - English
+      download_file_size:
+      - 200X200 pixels
+      - 300x250 pixels
+      - 600x400 pixels
+    thumbnail:
+      sys:
+        id: 5wvxHr8hU9B5Gq55jx8M6k
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
+      title: thumb7.png
+      description:
+      url: "//images.ctfassets.net/tues7aklmpmt/5wvxHr8hU9B5Gq55jx8M6k/23bbdbee2652f0a40ce293cf4485c2ea/thumb7.png"
+    resource_tags:
+    - example
+    slug: hi-im-a-resource-image-page
+  - sys:
+      id: wlo7mBiVqQPT8olE0tNcf
+      created_at: !ruby/object:DateTime 2023-02-28 21:40:56.520000000 Z
+      updated_at: !ruby/object:DateTime 2023-04-27 19:17:21.749000000 Z
+      content_type_id: resource
+      revision: 3
+    title: HI! I'm a Resource Video Page
+    summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
+      blandit turpis cursus '
+    date: !ruby/object:DateTime 2023-01-07 00:00:00.000000000 -08:00
+    opening_body: "Optional opening body ... shows before the resource. Allows rich
+      text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
+      blandit turpis cursus "
+    body: "Body content shows after resource. Allows rich text\n\n## section header\n###
+      section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
+      - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus
+      \n\n- in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit
+      amet volutpat\n\nconsequat mauris nunc congue nisi vitae suscipit tellus mauris
+      a diam maecenas sed enim ut sem viverra [aliquet eget sit](https://linktonowhere.com)
+      *amet tellus* cras adipiscing enim eu turpis egestas pretium aenean pharetra
+      magna ac placerat vestibulum lectus mauris ultrices eros in cursus turpis massa
+      tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet
+      sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin
+      tempor id eu nisl\n"
+    resource_type:
+    - video
+    resource:
+      sys:
+        id: 1pqKscUETyrisG2TrnlTg2
+        created_at: !ruby/object:DateTime 2023-02-28 21:40:56.727000000 Z
+        updated_at: !ruby/object:DateTime 2023-03-20 15:35:10.183000000 Z
+        content_type_id: videoResource
+        revision: 4
+      episode_name: White Noise
+      description: Sounds for helping children to sleep
+      transcript:
+        sys:
+          id: 2oRKyd27cdKum1UqKD7WWO
+          created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+        title: a-pdf-placeholder.pdf
+        description:
+        url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+      audio_description:
+        sys:
+          id: 2oRKyd27cdKum1UqKD7WWO
+          created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+        title: a-pdf-placeholder.pdf
+        description:
+        url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+      episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
+      ada_episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
+      length: '01:34'
+    thumbnail:
+      sys:
+        id: 3ukIE991rh1ez3slk1bC8x
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
+      title: thumb3.png
+      description:
+      url: "//images.ctfassets.net/tues7aklmpmt/3ukIE991rh1ez3slk1bC8x/250ccb5f3b2038461f5d431c915788e9/thumb3.png"
+    resource_tags:
+    - example
+    slug: hi-im-a-resource-video-page
+  - sys:
+      id: 6UF4IkeGq9D8e5YhjQSLFl
+      created_at: !ruby/object:DateTime 2023-02-28 21:36:54.251000000 Z
+      updated_at: !ruby/object:DateTime 2023-04-28 16:10:43.134000000 Z
+      content_type_id: resource
+      revision: 3
+    title: HI! I'm a Resource Podcast Page
+    summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
+      blandit turpis cursus '
+    date: !ruby/object:DateTime 2022-10-01 00:00:00.000000000 -08:00
+    opening_body: "Optional opening body ... shows before the resource. Allows rich
+      text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
+      blandit turpis cursus "
+    body: "Body content shows after resource. Allows rich text\n\n## section header\n###
+      section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
+      - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus
+      \n\n- in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit
+      amet volutpat\n\nconsequat mauris nunc congue nisi vitae suscipit tellus mauris
+      a diam maecenas sed enim ut sem viverra [aliquet eget sit](https://linktonowhere.com)
+      *amet tellus* cras adipiscing enim eu turpis egestas pretium aenean pharetra
+      magna ac placerat vestibulum lectus mauris ultrices eros in cursus turpis massa
+      tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet
+      sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin
+      tempor id eu nisl\n"
+    resource_type:
+    - podcast
+    resource:
+      sys:
+        id: 6g5yYVX8naoXcToMeMZGwI
+        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.377000000 Z
+        updated_at: !ruby/object:DateTime 2023-03-17 14:42:14.141000000 Z
+        content_type_id: podcastResource
+        revision: 2
+      episode_name: White Noise
+      description: Sounds for helping children to sleep
+      transcript:
+        sys:
+          id: 2oRKyd27cdKum1UqKD7WWO
+          created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+        title: a-pdf-placeholder.pdf
+        description:
+        url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+      episode_link: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172595677&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+      length: '04:22'
+    thumbnail:
+      sys:
+        id: 1h34RjAPcV0QWk8bp4jvqj
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
+      title: thumb10.png
+      description:
+      url: "//images.ctfassets.net/tues7aklmpmt/1h34RjAPcV0QWk8bp4jvqj/cf2a16544c4304bfbbfa5f393f53b295/thumb10.png"
+    slug: hi-im-a-resource-podcast-page
+  slug: topic-example-youth
+- sys:
+    id: 2Tcn9IYwyBBV5htFvnPzBX
+    created_at: !ruby/object:DateTime 2023-03-25 02:55:50.763000000 Z
+    updated_at: !ruby/object:DateTime 2023-04-28 16:20:42.890000000 Z
+    content_type_id: subTopics
+    revision: 4
+  title: Subtopic Ex Engaging and Involving Youth
+  summary: Young people should be active participants in shaping their lives and futures.
+    This approach, known as authentic youth engagement, works when youth and adults
+    work as partners. Learn how to engage youth authentically, continuously, and effectively.
+  body: |-
+    Authentically engaging with youth leads to positive outcomes for youth, families, and communities. For example, it can help youth develop higher self-esteem, improved leadership, and a stake in their own lives and communities.
+
+    Young people should be involved in decisions about their lives, including how the child welfare system should support them. Authentic youth engagement is based on a scientific understanding of adolescent brain development and what youth need to grow and mature. Youth should be continuously and effectively engaged by positive adults who can help them build important life skills, such as reasoning and decision-making.
+
+    This section provides information for child welfare professionals and other adults in youths' lives about engaging youth authentically, continuously, and effectively. It also offers resources for youth on opportunities for inclusion and participating in decisions that affect their lives and on meaningful involvement.
+
+    - Involving youth in case planning
+    - Court processes
+    - Youth advisory boards
+  hero_image:
+    sys:
+      id: 4ZIUTTBivK8APZhV3Nz6q6
+      created_at: !ruby/object:DateTime 2023-03-25 02:45:09.542000000 Z
+      updated_at: !ruby/object:DateTime 2023-03-25 02:45:09.542000000 Z
+    title: topichero.png
+    description:
+    url: "//images.ctfassets.net/tues7aklmpmt/4ZIUTTBivK8APZhV3Nz6q6/8cf7376ece9ba1563a23b50c1a9589c3/topichero.png"
+  tag: Youth
+  subtopic: true
+  featured:
+  - sys:
+      id: 76eiT5WdqqACACNCS5Pr0C
+      created_at: !ruby/object:DateTime 2023-02-28 21:45:25.372000000 Z
+      updated_at: !ruby/object:DateTime 2023-04-28 16:22:12.854000000 Z
+      content_type_id: resource
+      revision: 9
+    title: Resource PDF Ex The Importance of Authentic Youth Engagement in Case Planning
+    summary: In a system designed to promote the safety and well-being of young people,
+      it is essential to prioritize youth engagement in casework. Learn key concepts
+      and tangible strategies to apply to your practice.
+    date: !ruby/object:DateTime 2022-11-09 00:00:00.000000000 -08:00
+    opening_body: "In a system designed to promote the safety and well-being of young
+      people, it is essential to prioritize youth engagement in casework. Youth involved
+      with the child welfare system are experts on their respective situations and
+      should be treated as such. \nThis bulletin for professionals outlines the importance
+      of youth engagement and provides caseworkers with key concepts and tangible
+      strategies to apply to their practice."
+    body: "Body content shows after resource. Allows rich text\n\n## Bulletin for
+      Professional\n### section header\n\nAchieving authentic youth engagement requires
+      child welfare professionals and agencies to embrace a culture that prioritizes
+      youth voice at all stages of case planning, program development, and system
+      improvement. \n\n> “I would say start empowering youth to be engaged from a
+      young age, not when they are transitioning out of care…Even if a youth is 9,
+      10, 11, 12, they’ll understand, ‘Hey, we are going to have a court hearing and
+      things will be talked about. Is there anything you would like us to talk to
+      the judge about for you?’” \n> - Former youth in foster care\n\n__What's Inside
+      This Bulletin?__ \n\n- What is authentic youth engagement? \n- Benefits of youth
+      engagement\n- Challenges to youth engagement\n- The rights of youth in care\n-
+      Key concepts for engaging youth\n- Tangible strategies for engaging youth\n-
+      Prioritizing youth engagement at the agency level\n\n__Acknowledgment(s)__:
+      Special thanks to the youth who contributed their voices to this publication:
+      David Samuel Hall, Elliott Hinkle, Frankita Jenkins, Madison Langan, and Torie
+      Mendez.\n\n### Suggested Citation\nChild Welfare Information Gateway. (2021).
+      Prioritizing youth voice: The importance of authentic youth engagement in case
+      planning. U.S. Department of Health and Human Services, Administration for Children
+      and Families, Children's Bureau. https://www.childwelfare.gov/resources/youth-engagement\n\n*This
+      material may be freely reproduced and distributed. However, when doing so, please
+      credit Child Welfare Information Gateway.*\n"
+    resource_type:
+    - publication
+    resource:
+      sys:
+        id: 2jGeVHjaDvcbxyhhwsv6bq
+        created_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
+        updated_at: !ruby/object:DateTime 2023-04-27 20:00:05.019000000 Z
+        content_type_id: publicationResource
+        revision: 2
+      file_name: 'Prioritizing Youth Voice: The Importance of Authentic Youth Engagement
+        in Case Planning'
+      description: a pdf file
+      file:
+        sys:
+          id: 2oRKyd27cdKum1UqKD7WWO
+          created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+        title: a-pdf-placeholder.pdf
+        description:
+        url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+      series_title: Prioritizing Youth Voice
+      author: Child Welfare Information Gateway
+      year_published: '2021'
+      current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
+      order_online: true
+      download_language:
+      - English
+      - Spanish
+    thumbnail:
+      sys:
+        id: 5DN06HhEhJFY0KdDssHbA5
+        created_at: !ruby/object:DateTime 2023-04-27 22:23:19.504000000 Z
+        updated_at: !ruby/object:DateTime 2023-04-27 22:23:19.504000000 Z
+      title: youth-engagement_page_1.png
+      description:
+      url: "//images.ctfassets.net/tues7aklmpmt/5DN06HhEhJFY0KdDssHbA5/e77c0d5028b8335b6540e14784c5f93f/youth-engagement_page_1.png"
+    resource_tags:
+    - Youth
+    - Engaging and Involving Youth
+    - Positive Youth Development
+    - Casework Practice
+    - Authentic Youth Engagement
+    - Partnership and Collaboration
+    - Families, Youth & Children
+    - Families, Communities & Youth
+    - Children & Youth
+    slug: resource-pdf-ex-the-importance-of-authentic-youth-engagement-in-case-planning
+  - sys:
+      id: 6UF4IkeGq9D8e5YhjQSLFl
+      created_at: !ruby/object:DateTime 2023-02-28 21:36:54.251000000 Z
+      updated_at: !ruby/object:DateTime 2023-04-28 16:10:43.134000000 Z
+      content_type_id: resource
+      revision: 3
+    title: HI! I'm a Resource Podcast Page
+    summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
+      blandit turpis cursus '
+    date: !ruby/object:DateTime 2022-10-01 00:00:00.000000000 -08:00
+    opening_body: "Optional opening body ... shows before the resource. Allows rich
+      text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
+      blandit turpis cursus "
+    body: "Body content shows after resource. Allows rich text\n\n## section header\n###
+      section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
+      - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus
+      \n\n- in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit
+      amet volutpat\n\nconsequat mauris nunc congue nisi vitae suscipit tellus mauris
+      a diam maecenas sed enim ut sem viverra [aliquet eget sit](https://linktonowhere.com)
+      *amet tellus* cras adipiscing enim eu turpis egestas pretium aenean pharetra
+      magna ac placerat vestibulum lectus mauris ultrices eros in cursus turpis massa
+      tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet
+      sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin
+      tempor id eu nisl\n"
+    resource_type:
+    - podcast
+    resource:
+      sys:
+        id: 6g5yYVX8naoXcToMeMZGwI
+        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.377000000 Z
+        updated_at: !ruby/object:DateTime 2023-03-17 14:42:14.141000000 Z
+        content_type_id: podcastResource
+        revision: 2
+      episode_name: White Noise
+      description: Sounds for helping children to sleep
+      transcript:
+        sys:
+          id: 2oRKyd27cdKum1UqKD7WWO
+          created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+        title: a-pdf-placeholder.pdf
+        description:
+        url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+      episode_link: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172595677&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+      length: '04:22'
+    thumbnail:
+      sys:
+        id: 1h34RjAPcV0QWk8bp4jvqj
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
+      title: thumb10.png
+      description:
+      url: "//images.ctfassets.net/tues7aklmpmt/1h34RjAPcV0QWk8bp4jvqj/cf2a16544c4304bfbbfa5f393f53b295/thumb10.png"
+    slug: hi-im-a-resource-podcast-page
+  - sys:
+      id: wlo7mBiVqQPT8olE0tNcf
+      created_at: !ruby/object:DateTime 2023-02-28 21:40:56.520000000 Z
+      updated_at: !ruby/object:DateTime 2023-04-27 19:17:21.749000000 Z
+      content_type_id: resource
+      revision: 3
+    title: HI! I'm a Resource Video Page
+    summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
+      blandit turpis cursus '
+    date: !ruby/object:DateTime 2023-01-07 00:00:00.000000000 -08:00
+    opening_body: "Optional opening body ... shows before the resource. Allows rich
+      text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
+      blandit turpis cursus "
+    body: "Body content shows after resource. Allows rich text\n\n## section header\n###
+      section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
+      - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus
+      \n\n- in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit
+      amet volutpat\n\nconsequat mauris nunc congue nisi vitae suscipit tellus mauris
+      a diam maecenas sed enim ut sem viverra [aliquet eget sit](https://linktonowhere.com)
+      *amet tellus* cras adipiscing enim eu turpis egestas pretium aenean pharetra
+      magna ac placerat vestibulum lectus mauris ultrices eros in cursus turpis massa
+      tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet
+      sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin
+      tempor id eu nisl\n"
+    resource_type:
+    - video
+    resource:
+      sys:
+        id: 1pqKscUETyrisG2TrnlTg2
+        created_at: !ruby/object:DateTime 2023-02-28 21:40:56.727000000 Z
+        updated_at: !ruby/object:DateTime 2023-03-20 15:35:10.183000000 Z
+        content_type_id: videoResource
+        revision: 4
+      episode_name: White Noise
+      description: Sounds for helping children to sleep
+      transcript:
+        sys:
+          id: 2oRKyd27cdKum1UqKD7WWO
+          created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+        title: a-pdf-placeholder.pdf
+        description:
+        url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+      audio_description:
+        sys:
+          id: 2oRKyd27cdKum1UqKD7WWO
+          created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+        title: a-pdf-placeholder.pdf
+        description:
+        url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+      episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
+      ada_episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
+      length: '01:34'
+    thumbnail:
+      sys:
+        id: 3ukIE991rh1ez3slk1bC8x
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
+      title: thumb3.png
+      description:
+      url: "//images.ctfassets.net/tues7aklmpmt/3ukIE991rh1ez3slk1bC8x/250ccb5f3b2038461f5d431c915788e9/thumb3.png"
+    resource_tags:
+    - example
+    slug: hi-im-a-resource-video-page
+  - sys:
+      id: 1loIs3pHYaT5UNJKsr94U8
+      created_at: !ruby/object:DateTime 2023-02-28 21:48:46.853000000 Z
+      updated_at: !ruby/object:DateTime 2023-04-28 16:10:34.246000000 Z
+      content_type_id: resource
+      revision: 3
+    title: HI! I'm a Resource Image Page
+    summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
+      blandit turpis cursus '
+    date: !ruby/object:DateTime 2023-01-12 00:00:00.000000000 -08:00
+    opening_body: "Optional opening body ... shows before the resource. Allows rich
+      text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
+      blandit turpis cursus "
+    body: "Body content shows after resource. Allows rich text\n\n## section header\n###
+      section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+      integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
+      - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus
+      \n\n- in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit
+      amet volutpat\n\nconsequat mauris nunc congue nisi vitae suscipit tellus mauris
+      a diam maecenas sed enim ut sem viverra [aliquet eget sit](https://linktonowhere.com)
+      *amet tellus* cras adipiscing enim eu turpis egestas pretium aenean pharetra
+      magna ac placerat vestibulum lectus mauris ultrices eros in cursus turpis massa
+      tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet
+      sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin
+      tempor id eu nisl\n"
+    resource_type:
+    - publication
+    resource:
+      sys:
+        id: 5phNaetayZ6HGFFQle2rbk
+        created_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
+        content_type_id: publicationResource
+        revision: 1
+      file_name: infographic for sleep
+      description: infographic for sleep
+      file:
+        sys:
+          id: 1gfY9AaLQ2P2lsbfgY3mB6
+          created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
+          updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
+        title: thumb11.png
+        description:
+        url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
+      series_title: On helping children sleep
+      author: The Center for Better sleep
+      year_published: '2023'
+      current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
+      order_online: false
+      download_language:
+      - English
+      download_file_size:
+      - 200X200 pixels
+      - 300x250 pixels
+      - 600x400 pixels
+    thumbnail:
+      sys:
+        id: 5wvxHr8hU9B5Gq55jx8M6k
+        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
+      title: thumb7.png
+      description:
+      url: "//images.ctfassets.net/tues7aklmpmt/5wvxHr8hU9B5Gq55jx8M6k/23bbdbee2652f0a40ce293cf4485c2ea/thumb7.png"
+    resource_tags:
+    - example
+    slug: hi-im-a-resource-image-page
+  slug: subtopic-ex-engaging-and-involving-youth
 resource:
+- sys:
+    id: 76eiT5WdqqACACNCS5Pr0C
+    created_at: !ruby/object:DateTime 2023-02-28 21:45:25.372000000 Z
+    updated_at: !ruby/object:DateTime 2023-04-28 16:22:12.854000000 Z
+    content_type_id: resource
+    revision: 9
+  title: Resource PDF Ex The Importance of Authentic Youth Engagement in Case Planning
+  summary: In a system designed to promote the safety and well-being of young people,
+    it is essential to prioritize youth engagement in casework. Learn key concepts
+    and tangible strategies to apply to your practice.
+  date: !ruby/object:DateTime 2022-11-09 00:00:00.000000000 -08:00
+  opening_body: "In a system designed to promote the safety and well-being of young
+    people, it is essential to prioritize youth engagement in casework. Youth involved
+    with the child welfare system are experts on their respective situations and should
+    be treated as such. \nThis bulletin for professionals outlines the importance
+    of youth engagement and provides caseworkers with key concepts and tangible strategies
+    to apply to their practice."
+  body: "Body content shows after resource. Allows rich text\n\n## Bulletin for Professional\n###
+    section header\n\nAchieving authentic youth engagement requires child welfare
+    professionals and agencies to embrace a culture that prioritizes youth voice at
+    all stages of case planning, program development, and system improvement. \n\n>
+    “I would say start empowering youth to be engaged from a young age, not when they
+    are transitioning out of care…Even if a youth is 9, 10, 11, 12, they’ll understand,
+    ‘Hey, we are going to have a court hearing and things will be talked about. Is
+    there anything you would like us to talk to the judge about for you?’” \n> - Former
+    youth in foster care\n\n__What's Inside This Bulletin?__ \n\n- What is authentic
+    youth engagement? \n- Benefits of youth engagement\n- Challenges to youth engagement\n-
+    The rights of youth in care\n- Key concepts for engaging youth\n- Tangible strategies
+    for engaging youth\n- Prioritizing youth engagement at the agency level\n\n__Acknowledgment(s)__:
+    Special thanks to the youth who contributed their voices to this publication:
+    David Samuel Hall, Elliott Hinkle, Frankita Jenkins, Madison Langan, and Torie
+    Mendez.\n\n### Suggested Citation\nChild Welfare Information Gateway. (2021).
+    Prioritizing youth voice: The importance of authentic youth engagement in case
+    planning. U.S. Department of Health and Human Services, Administration for Children
+    and Families, Children's Bureau. https://www.childwelfare.gov/resources/youth-engagement\n\n*This
+    material may be freely reproduced and distributed. However, when doing so, please
+    credit Child Welfare Information Gateway.*\n"
+  resource_type:
+  - publication
+  resource:
+    sys:
+      id: 2jGeVHjaDvcbxyhhwsv6bq
+      created_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
+      updated_at: !ruby/object:DateTime 2023-04-27 20:00:05.019000000 Z
+      content_type_id: publicationResource
+      revision: 2
+    file_name: 'Prioritizing Youth Voice: The Importance of Authentic Youth Engagement
+      in Case Planning'
+    description: a pdf file
+    file:
+      sys:
+        id: 2oRKyd27cdKum1UqKD7WWO
+        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
+      title: a-pdf-placeholder.pdf
+      description:
+      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
+    series_title: Prioritizing Youth Voice
+    author: Child Welfare Information Gateway
+    year_published: '2021'
+    current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
+    order_online: true
+    download_language:
+    - English
+    - Spanish
+  thumbnail:
+    sys:
+      id: 5DN06HhEhJFY0KdDssHbA5
+      created_at: !ruby/object:DateTime 2023-04-27 22:23:19.504000000 Z
+      updated_at: !ruby/object:DateTime 2023-04-27 22:23:19.504000000 Z
+    title: youth-engagement_page_1.png
+    description:
+    url: "//images.ctfassets.net/tues7aklmpmt/5DN06HhEhJFY0KdDssHbA5/e77c0d5028b8335b6540e14784c5f93f/youth-engagement_page_1.png"
+  resource_tags:
+  - Youth
+  - Engaging and Involving Youth
+  - Positive Youth Development
+  - Casework Practice
+  - Authentic Youth Engagement
+  - Partnership and Collaboration
+  - Families, Youth & Children
+  - Families, Communities & Youth
+  - Children & Youth
+  slug: resource-pdf-ex-the-importance-of-authentic-youth-engagement-in-case-planning
 - sys:
     id: 6UF4IkeGq9D8e5YhjQSLFl
     created_at: !ruby/object:DateTime 2023-02-28 21:36:54.251000000 Z
@@ -130,90 +851,6 @@ resource:
   - example
   slug: hi-im-a-resource-image-page
 - sys:
-    id: 76eiT5WdqqACACNCS5Pr0C
-    created_at: !ruby/object:DateTime 2023-02-28 21:45:25.372000000 Z
-    updated_at: !ruby/object:DateTime 2023-04-27 22:23:19.552000000 Z
-    content_type_id: resource
-    revision: 8
-  title: 'Resource PDF Ex: The Importance of Authentic Youth Engagement in Case Planning'
-  summary: In a system designed to promote the safety and well-being of young people,
-    it is essential to prioritize youth engagement in casework. Learn key concepts
-    and tangible strategies to apply to your practice.
-  date: !ruby/object:DateTime 2022-11-09 00:00:00.000000000 -08:00
-  opening_body: "In a system designed to promote the safety and well-being of young
-    people, it is essential to prioritize youth engagement in casework. Youth involved
-    with the child welfare system are experts on their respective situations and should
-    be treated as such. \nThis bulletin for professionals outlines the importance
-    of youth engagement and provides caseworkers with key concepts and tangible strategies
-    to apply to their practice."
-  body: "Body content shows after resource. Allows rich text\n\n## Bulletin for Professional\n###
-    section header\n\nAchieving authentic youth engagement requires child welfare
-    professionals and agencies to embrace a culture that prioritizes youth voice at
-    all stages of case planning, program development, and system improvement. \n\n>
-    “I would say start empowering youth to be engaged from a young age, not when they
-    are transitioning out of care…Even if a youth is 9, 10, 11, 12, they’ll understand,
-    ‘Hey, we are going to have a court hearing and things will be talked about. Is
-    there anything you would like us to talk to the judge about for you?’” \n> - Former
-    youth in foster care\n\n__What's Inside This Bulletin?__ \n\n- What is authentic
-    youth engagement? \n- Benefits of youth engagement\n- Challenges to youth engagement\n-
-    The rights of youth in care\n- Key concepts for engaging youth\n- Tangible strategies
-    for engaging youth\n- Prioritizing youth engagement at the agency level\n\n__Acknowledgment(s)__:
-    Special thanks to the youth who contributed their voices to this publication:
-    David Samuel Hall, Elliott Hinkle, Frankita Jenkins, Madison Langan, and Torie
-    Mendez.\n\n### Suggested Citation\nChild Welfare Information Gateway. (2021).
-    Prioritizing youth voice: The importance of authentic youth engagement in case
-    planning. U.S. Department of Health and Human Services, Administration for Children
-    and Families, Children's Bureau. https://www.childwelfare.gov/resources/youth-engagement\n\n*This
-    material may be freely reproduced and distributed. However, when doing so, please
-    credit Child Welfare Information Gateway.*\n"
-  resource_type:
-  - publication
-  resource:
-    sys:
-      id: 2jGeVHjaDvcbxyhhwsv6bq
-      created_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
-      updated_at: !ruby/object:DateTime 2023-04-27 20:00:05.019000000 Z
-      content_type_id: publicationResource
-      revision: 2
-    file_name: 'Prioritizing Youth Voice: The Importance of Authentic Youth Engagement
-      in Case Planning'
-    description: a pdf file
-    file:
-      sys:
-        id: 2oRKyd27cdKum1UqKD7WWO
-        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-      title: a-pdf-placeholder.pdf
-      description:
-      url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-    series_title: Prioritizing Youth Voice
-    author: Child Welfare Information Gateway
-    year_published: '2021'
-    current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
-    order_online: true
-    download_language:
-    - English
-    - Spanish
-  thumbnail:
-    sys:
-      id: 5DN06HhEhJFY0KdDssHbA5
-      created_at: !ruby/object:DateTime 2023-04-27 22:23:19.504000000 Z
-      updated_at: !ruby/object:DateTime 2023-04-27 22:23:19.504000000 Z
-    title: youth-engagement_page_1.png
-    description:
-    url: "//images.ctfassets.net/tues7aklmpmt/5DN06HhEhJFY0KdDssHbA5/e77c0d5028b8335b6540e14784c5f93f/youth-engagement_page_1.png"
-  resource_tags:
-  - Youth
-  - Engaging and Involving Youth
-  - Positive Youth Development
-  - Casework Practice
-  - Authentic Youth Engagement
-  - Partnership and Collaboration
-  - Families, Youth & Children
-  - Families, Communities & Youth
-  - Children & Youth
-  slug: hi-im-a-resource-publications-page
-- sys:
     id: wlo7mBiVqQPT8olE0tNcf
     created_at: !ruby/object:DateTime 2023-02-28 21:40:56.520000000 Z
     updated_at: !ruby/object:DateTime 2023-04-27 19:17:21.749000000 Z
@@ -283,645 +920,6 @@ resource:
   resource_tags:
   - example
   slug: hi-im-a-resource-video-page
-subTopics:
-- sys:
-    id: 2Tcn9IYwyBBV5htFvnPzBX
-    created_at: !ruby/object:DateTime 2023-03-25 02:55:50.763000000 Z
-    updated_at: !ruby/object:DateTime 2023-04-28 16:10:25.007000000 Z
-    content_type_id: subTopics
-    revision: 3
-  title: 'Subtopic Ex: Engaging and Involving Youth'
-  summary: Young people should be active participants in shaping their lives and futures.
-    This approach, known as authentic youth engagement, works when youth and adults
-    work as partners. Learn how to engage youth authentically, continuously, and effectively.
-  body: |-
-    Authentically engaging with youth leads to positive outcomes for youth, families, and communities. For example, it can help youth develop higher self-esteem, improved leadership, and a stake in their own lives and communities.
-
-    Young people should be involved in decisions about their lives, including how the child welfare system should support them. Authentic youth engagement is based on a scientific understanding of adolescent brain development and what youth need to grow and mature. Youth should be continuously and effectively engaged by positive adults who can help them build important life skills, such as reasoning and decision-making.
-
-    This section provides information for child welfare professionals and other adults in youths' lives about engaging youth authentically, continuously, and effectively. It also offers resources for youth on opportunities for inclusion and participating in decisions that affect their lives and on meaningful involvement.
-
-    - Involving youth in case planning
-    - Court processes
-    - Youth advisory boards
-  hero_image:
-    sys:
-      id: 4ZIUTTBivK8APZhV3Nz6q6
-      created_at: !ruby/object:DateTime 2023-03-25 02:45:09.542000000 Z
-      updated_at: !ruby/object:DateTime 2023-03-25 02:45:09.542000000 Z
-    title: topichero.png
-    description:
-    url: "//images.ctfassets.net/tues7aklmpmt/4ZIUTTBivK8APZhV3Nz6q6/8cf7376ece9ba1563a23b50c1a9589c3/topichero.png"
-  tag: Youth
-  subtopic: true
-  featured:
-  - sys:
-      id: 76eiT5WdqqACACNCS5Pr0C
-      created_at: !ruby/object:DateTime 2023-02-28 21:45:25.372000000 Z
-      updated_at: !ruby/object:DateTime 2023-04-27 22:23:19.552000000 Z
-      content_type_id: resource
-      revision: 8
-    title: 'Resource PDF Ex: The Importance of Authentic Youth Engagement in Case
-      Planning'
-    summary: In a system designed to promote the safety and well-being of young people,
-      it is essential to prioritize youth engagement in casework. Learn key concepts
-      and tangible strategies to apply to your practice.
-    date: !ruby/object:DateTime 2022-11-09 00:00:00.000000000 -08:00
-    opening_body: "In a system designed to promote the safety and well-being of young
-      people, it is essential to prioritize youth engagement in casework. Youth involved
-      with the child welfare system are experts on their respective situations and
-      should be treated as such. \nThis bulletin for professionals outlines the importance
-      of youth engagement and provides caseworkers with key concepts and tangible
-      strategies to apply to their practice."
-    body: "Body content shows after resource. Allows rich text\n\n## Bulletin for
-      Professional\n### section header\n\nAchieving authentic youth engagement requires
-      child welfare professionals and agencies to embrace a culture that prioritizes
-      youth voice at all stages of case planning, program development, and system
-      improvement. \n\n> “I would say start empowering youth to be engaged from a
-      young age, not when they are transitioning out of care…Even if a youth is 9,
-      10, 11, 12, they’ll understand, ‘Hey, we are going to have a court hearing and
-      things will be talked about. Is there anything you would like us to talk to
-      the judge about for you?’” \n> - Former youth in foster care\n\n__What's Inside
-      This Bulletin?__ \n\n- What is authentic youth engagement? \n- Benefits of youth
-      engagement\n- Challenges to youth engagement\n- The rights of youth in care\n-
-      Key concepts for engaging youth\n- Tangible strategies for engaging youth\n-
-      Prioritizing youth engagement at the agency level\n\n__Acknowledgment(s)__:
-      Special thanks to the youth who contributed their voices to this publication:
-      David Samuel Hall, Elliott Hinkle, Frankita Jenkins, Madison Langan, and Torie
-      Mendez.\n\n### Suggested Citation\nChild Welfare Information Gateway. (2021).
-      Prioritizing youth voice: The importance of authentic youth engagement in case
-      planning. U.S. Department of Health and Human Services, Administration for Children
-      and Families, Children's Bureau. https://www.childwelfare.gov/resources/youth-engagement\n\n*This
-      material may be freely reproduced and distributed. However, when doing so, please
-      credit Child Welfare Information Gateway.*\n"
-    resource_type:
-    - publication
-    resource:
-      sys:
-        id: 2jGeVHjaDvcbxyhhwsv6bq
-        created_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
-        updated_at: !ruby/object:DateTime 2023-04-27 20:00:05.019000000 Z
-        content_type_id: publicationResource
-        revision: 2
-      file_name: 'Prioritizing Youth Voice: The Importance of Authentic Youth Engagement
-        in Case Planning'
-      description: a pdf file
-      file:
-        sys:
-          id: 2oRKyd27cdKum1UqKD7WWO
-          created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-          updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-        title: a-pdf-placeholder.pdf
-        description:
-        url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-      series_title: Prioritizing Youth Voice
-      author: Child Welfare Information Gateway
-      year_published: '2021'
-      current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
-      order_online: true
-      download_language:
-      - English
-      - Spanish
-    thumbnail:
-      sys:
-        id: 5DN06HhEhJFY0KdDssHbA5
-        created_at: !ruby/object:DateTime 2023-04-27 22:23:19.504000000 Z
-        updated_at: !ruby/object:DateTime 2023-04-27 22:23:19.504000000 Z
-      title: youth-engagement_page_1.png
-      description:
-      url: "//images.ctfassets.net/tues7aklmpmt/5DN06HhEhJFY0KdDssHbA5/e77c0d5028b8335b6540e14784c5f93f/youth-engagement_page_1.png"
-    resource_tags:
-    - Youth
-    - Engaging and Involving Youth
-    - Positive Youth Development
-    - Casework Practice
-    - Authentic Youth Engagement
-    - Partnership and Collaboration
-    - Families, Youth & Children
-    - Families, Communities & Youth
-    - Children & Youth
-    slug: hi-im-a-resource-publications-page
-  - sys:
-      id: 6UF4IkeGq9D8e5YhjQSLFl
-      created_at: !ruby/object:DateTime 2023-02-28 21:36:54.251000000 Z
-      updated_at: !ruby/object:DateTime 2023-04-28 16:10:43.134000000 Z
-      content_type_id: resource
-      revision: 3
-    title: HI! I'm a Resource Podcast Page
-    summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
-      blandit turpis cursus '
-    date: !ruby/object:DateTime 2022-10-01 00:00:00.000000000 -08:00
-    opening_body: "Optional opening body ... shows before the resource. Allows rich
-      text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
-      blandit turpis cursus "
-    body: "Body content shows after resource. Allows rich text\n\n## section header\n###
-      section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
-      - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus
-      \n\n- in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit
-      amet volutpat\n\nconsequat mauris nunc congue nisi vitae suscipit tellus mauris
-      a diam maecenas sed enim ut sem viverra [aliquet eget sit](https://linktonowhere.com)
-      *amet tellus* cras adipiscing enim eu turpis egestas pretium aenean pharetra
-      magna ac placerat vestibulum lectus mauris ultrices eros in cursus turpis massa
-      tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet
-      sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin
-      tempor id eu nisl\n"
-    resource_type:
-    - podcast
-    resource:
-      sys:
-        id: 6g5yYVX8naoXcToMeMZGwI
-        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.377000000 Z
-        updated_at: !ruby/object:DateTime 2023-03-17 14:42:14.141000000 Z
-        content_type_id: podcastResource
-        revision: 2
-      episode_name: White Noise
-      description: Sounds for helping children to sleep
-      transcript:
-        sys:
-          id: 2oRKyd27cdKum1UqKD7WWO
-          created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-          updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-        title: a-pdf-placeholder.pdf
-        description:
-        url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-      episode_link: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172595677&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-      length: '04:22'
-    thumbnail:
-      sys:
-        id: 1h34RjAPcV0QWk8bp4jvqj
-        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
-      title: thumb10.png
-      description:
-      url: "//images.ctfassets.net/tues7aklmpmt/1h34RjAPcV0QWk8bp4jvqj/cf2a16544c4304bfbbfa5f393f53b295/thumb10.png"
-    slug: hi-im-a-resource-podcast-page
-  - sys:
-      id: wlo7mBiVqQPT8olE0tNcf
-      created_at: !ruby/object:DateTime 2023-02-28 21:40:56.520000000 Z
-      updated_at: !ruby/object:DateTime 2023-04-27 19:17:21.749000000 Z
-      content_type_id: resource
-      revision: 3
-    title: HI! I'm a Resource Video Page
-    summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
-      blandit turpis cursus '
-    date: !ruby/object:DateTime 2023-01-07 00:00:00.000000000 -08:00
-    opening_body: "Optional opening body ... shows before the resource. Allows rich
-      text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
-      blandit turpis cursus "
-    body: "Body content shows after resource. Allows rich text\n\n## section header\n###
-      section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
-      - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus
-      \n\n- in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit
-      amet volutpat\n\nconsequat mauris nunc congue nisi vitae suscipit tellus mauris
-      a diam maecenas sed enim ut sem viverra [aliquet eget sit](https://linktonowhere.com)
-      *amet tellus* cras adipiscing enim eu turpis egestas pretium aenean pharetra
-      magna ac placerat vestibulum lectus mauris ultrices eros in cursus turpis massa
-      tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet
-      sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin
-      tempor id eu nisl\n"
-    resource_type:
-    - video
-    resource:
-      sys:
-        id: 1pqKscUETyrisG2TrnlTg2
-        created_at: !ruby/object:DateTime 2023-02-28 21:40:56.727000000 Z
-        updated_at: !ruby/object:DateTime 2023-03-20 15:35:10.183000000 Z
-        content_type_id: videoResource
-        revision: 4
-      episode_name: White Noise
-      description: Sounds for helping children to sleep
-      transcript:
-        sys:
-          id: 2oRKyd27cdKum1UqKD7WWO
-          created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-          updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-        title: a-pdf-placeholder.pdf
-        description:
-        url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-      audio_description:
-        sys:
-          id: 2oRKyd27cdKum1UqKD7WWO
-          created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-          updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-        title: a-pdf-placeholder.pdf
-        description:
-        url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-      episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
-      ada_episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
-      length: '01:34'
-    thumbnail:
-      sys:
-        id: 3ukIE991rh1ez3slk1bC8x
-        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
-      title: thumb3.png
-      description:
-      url: "//images.ctfassets.net/tues7aklmpmt/3ukIE991rh1ez3slk1bC8x/250ccb5f3b2038461f5d431c915788e9/thumb3.png"
-    resource_tags:
-    - example
-    slug: hi-im-a-resource-video-page
-  - sys:
-      id: 1loIs3pHYaT5UNJKsr94U8
-      created_at: !ruby/object:DateTime 2023-02-28 21:48:46.853000000 Z
-      updated_at: !ruby/object:DateTime 2023-04-28 16:10:34.246000000 Z
-      content_type_id: resource
-      revision: 3
-    title: HI! I'm a Resource Image Page
-    summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
-      blandit turpis cursus '
-    date: !ruby/object:DateTime 2023-01-12 00:00:00.000000000 -08:00
-    opening_body: "Optional opening body ... shows before the resource. Allows rich
-      text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
-      blandit turpis cursus "
-    body: "Body content shows after resource. Allows rich text\n\n## section header\n###
-      section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
-      - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus
-      \n\n- in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit
-      amet volutpat\n\nconsequat mauris nunc congue nisi vitae suscipit tellus mauris
-      a diam maecenas sed enim ut sem viverra [aliquet eget sit](https://linktonowhere.com)
-      *amet tellus* cras adipiscing enim eu turpis egestas pretium aenean pharetra
-      magna ac placerat vestibulum lectus mauris ultrices eros in cursus turpis massa
-      tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet
-      sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin
-      tempor id eu nisl\n"
-    resource_type:
-    - publication
-    resource:
-      sys:
-        id: 5phNaetayZ6HGFFQle2rbk
-        created_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
-        content_type_id: publicationResource
-        revision: 1
-      file_name: infographic for sleep
-      description: infographic for sleep
-      file:
-        sys:
-          id: 1gfY9AaLQ2P2lsbfgY3mB6
-          created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
-          updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
-        title: thumb11.png
-        description:
-        url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
-      series_title: On helping children sleep
-      author: The Center for Better sleep
-      year_published: '2023'
-      current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
-      order_online: false
-      download_language:
-      - English
-      download_file_size:
-      - 200X200 pixels
-      - 300x250 pixels
-      - 600x400 pixels
-    thumbnail:
-      sys:
-        id: 5wvxHr8hU9B5Gq55jx8M6k
-        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
-      title: thumb7.png
-      description:
-      url: "//images.ctfassets.net/tues7aklmpmt/5wvxHr8hU9B5Gq55jx8M6k/23bbdbee2652f0a40ce293cf4485c2ea/thumb7.png"
-    resource_tags:
-    - example
-    slug: hi-im-a-resource-image-page
-  slug: hi-im-a-subtopic-page
-- sys:
-    id: 71rOORDjiTN63aXJYEsQXN
-    created_at: !ruby/object:DateTime 2023-03-25 02:45:09.579000000 Z
-    updated_at: !ruby/object:DateTime 2023-04-28 16:07:30.472000000 Z
-    content_type_id: subTopics
-    revision: 4
-  title: 'Topic Example: Youth'
-  summary: Summary text - Achieving permanency and promoting positive outcomes for
-    youth is essential for our child welfare system. Find guidelines, protocols, and
-    resources to help you build partnerships with families.
-  body: Body copy - The adolescent years are a time when youth are growing into young
-    adulthood and their brains are continuously developing. When youth experience
-    trauma in childhood and/or at this developmental stage, the repercussions can
-    be devastating for the youth and people around them. The resources in this section
-    are intended to help supportive adults working with adolescent youth or parents
-    of those youth to better understand these years and the impact of trauma during
-    this developmental stage. This section also provides tips and tools for parents
-    of teens.
-  hero_image:
-    sys:
-      id: 4ZIUTTBivK8APZhV3Nz6q6
-      created_at: !ruby/object:DateTime 2023-03-25 02:45:09.542000000 Z
-      updated_at: !ruby/object:DateTime 2023-03-25 02:45:09.542000000 Z
-    title: topichero.png
-    description:
-    url: "//images.ctfassets.net/tues7aklmpmt/4ZIUTTBivK8APZhV3Nz6q6/8cf7376ece9ba1563a23b50c1a9589c3/topichero.png"
-  tag: Youth
-  subtopic: false
-  featured:
-  - sys:
-      id: 76eiT5WdqqACACNCS5Pr0C
-      created_at: !ruby/object:DateTime 2023-02-28 21:45:25.372000000 Z
-      updated_at: !ruby/object:DateTime 2023-04-27 22:23:19.552000000 Z
-      content_type_id: resource
-      revision: 8
-    title: 'Resource PDF Ex: The Importance of Authentic Youth Engagement in Case
-      Planning'
-    summary: In a system designed to promote the safety and well-being of young people,
-      it is essential to prioritize youth engagement in casework. Learn key concepts
-      and tangible strategies to apply to your practice.
-    date: !ruby/object:DateTime 2022-11-09 00:00:00.000000000 -08:00
-    opening_body: "In a system designed to promote the safety and well-being of young
-      people, it is essential to prioritize youth engagement in casework. Youth involved
-      with the child welfare system are experts on their respective situations and
-      should be treated as such. \nThis bulletin for professionals outlines the importance
-      of youth engagement and provides caseworkers with key concepts and tangible
-      strategies to apply to their practice."
-    body: "Body content shows after resource. Allows rich text\n\n## Bulletin for
-      Professional\n### section header\n\nAchieving authentic youth engagement requires
-      child welfare professionals and agencies to embrace a culture that prioritizes
-      youth voice at all stages of case planning, program development, and system
-      improvement. \n\n> “I would say start empowering youth to be engaged from a
-      young age, not when they are transitioning out of care…Even if a youth is 9,
-      10, 11, 12, they’ll understand, ‘Hey, we are going to have a court hearing and
-      things will be talked about. Is there anything you would like us to talk to
-      the judge about for you?’” \n> - Former youth in foster care\n\n__What's Inside
-      This Bulletin?__ \n\n- What is authentic youth engagement? \n- Benefits of youth
-      engagement\n- Challenges to youth engagement\n- The rights of youth in care\n-
-      Key concepts for engaging youth\n- Tangible strategies for engaging youth\n-
-      Prioritizing youth engagement at the agency level\n\n__Acknowledgment(s)__:
-      Special thanks to the youth who contributed their voices to this publication:
-      David Samuel Hall, Elliott Hinkle, Frankita Jenkins, Madison Langan, and Torie
-      Mendez.\n\n### Suggested Citation\nChild Welfare Information Gateway. (2021).
-      Prioritizing youth voice: The importance of authentic youth engagement in case
-      planning. U.S. Department of Health and Human Services, Administration for Children
-      and Families, Children's Bureau. https://www.childwelfare.gov/resources/youth-engagement\n\n*This
-      material may be freely reproduced and distributed. However, when doing so, please
-      credit Child Welfare Information Gateway.*\n"
-    resource_type:
-    - publication
-    resource:
-      sys:
-        id: 2jGeVHjaDvcbxyhhwsv6bq
-        created_at: !ruby/object:DateTime 2023-02-28 21:45:25.497000000 Z
-        updated_at: !ruby/object:DateTime 2023-04-27 20:00:05.019000000 Z
-        content_type_id: publicationResource
-        revision: 2
-      file_name: 'Prioritizing Youth Voice: The Importance of Authentic Youth Engagement
-        in Case Planning'
-      description: a pdf file
-      file:
-        sys:
-          id: 2oRKyd27cdKum1UqKD7WWO
-          created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-          updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-        title: a-pdf-placeholder.pdf
-        description:
-        url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-      series_title: Prioritizing Youth Voice
-      author: Child Welfare Information Gateway
-      year_published: '2021'
-      current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
-      order_online: true
-      download_language:
-      - English
-      - Spanish
-    thumbnail:
-      sys:
-        id: 5DN06HhEhJFY0KdDssHbA5
-        created_at: !ruby/object:DateTime 2023-04-27 22:23:19.504000000 Z
-        updated_at: !ruby/object:DateTime 2023-04-27 22:23:19.504000000 Z
-      title: youth-engagement_page_1.png
-      description:
-      url: "//images.ctfassets.net/tues7aklmpmt/5DN06HhEhJFY0KdDssHbA5/e77c0d5028b8335b6540e14784c5f93f/youth-engagement_page_1.png"
-    resource_tags:
-    - Youth
-    - Engaging and Involving Youth
-    - Positive Youth Development
-    - Casework Practice
-    - Authentic Youth Engagement
-    - Partnership and Collaboration
-    - Families, Youth & Children
-    - Families, Communities & Youth
-    - Children & Youth
-    slug: hi-im-a-resource-publications-page
-  - sys:
-      id: 1loIs3pHYaT5UNJKsr94U8
-      created_at: !ruby/object:DateTime 2023-02-28 21:48:46.853000000 Z
-      updated_at: !ruby/object:DateTime 2023-04-28 16:10:34.246000000 Z
-      content_type_id: resource
-      revision: 3
-    title: HI! I'm a Resource Image Page
-    summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
-      blandit turpis cursus '
-    date: !ruby/object:DateTime 2023-01-12 00:00:00.000000000 -08:00
-    opening_body: "Optional opening body ... shows before the resource. Allows rich
-      text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
-      blandit turpis cursus "
-    body: "Body content shows after resource. Allows rich text\n\n## section header\n###
-      section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
-      - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus
-      \n\n- in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit
-      amet volutpat\n\nconsequat mauris nunc congue nisi vitae suscipit tellus mauris
-      a diam maecenas sed enim ut sem viverra [aliquet eget sit](https://linktonowhere.com)
-      *amet tellus* cras adipiscing enim eu turpis egestas pretium aenean pharetra
-      magna ac placerat vestibulum lectus mauris ultrices eros in cursus turpis massa
-      tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet
-      sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin
-      tempor id eu nisl\n"
-    resource_type:
-    - publication
-    resource:
-      sys:
-        id: 5phNaetayZ6HGFFQle2rbk
-        created_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-28 21:48:46.972000000 Z
-        content_type_id: publicationResource
-        revision: 1
-      file_name: infographic for sleep
-      description: infographic for sleep
-      file:
-        sys:
-          id: 1gfY9AaLQ2P2lsbfgY3mB6
-          created_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
-          updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.262000000 Z
-        title: thumb11.png
-        description:
-        url: "//images.ctfassets.net/tues7aklmpmt/1gfY9AaLQ2P2lsbfgY3mB6/5a0feccae297551c0fc4088437b94d31/thumb11.png"
-      series_title: On helping children sleep
-      author: The Center for Better sleep
-      year_published: '2023'
-      current_through: !ruby/object:DateTime 2023-12-23 00:00:00.000000000 Z
-      order_online: false
-      download_language:
-      - English
-      download_file_size:
-      - 200X200 pixels
-      - 300x250 pixels
-      - 600x400 pixels
-    thumbnail:
-      sys:
-        id: 5wvxHr8hU9B5Gq55jx8M6k
-        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.240000000 Z
-      title: thumb7.png
-      description:
-      url: "//images.ctfassets.net/tues7aklmpmt/5wvxHr8hU9B5Gq55jx8M6k/23bbdbee2652f0a40ce293cf4485c2ea/thumb7.png"
-    resource_tags:
-    - example
-    slug: hi-im-a-resource-image-page
-  - sys:
-      id: wlo7mBiVqQPT8olE0tNcf
-      created_at: !ruby/object:DateTime 2023-02-28 21:40:56.520000000 Z
-      updated_at: !ruby/object:DateTime 2023-04-27 19:17:21.749000000 Z
-      content_type_id: resource
-      revision: 3
-    title: HI! I'm a Resource Video Page
-    summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
-      blandit turpis cursus '
-    date: !ruby/object:DateTime 2023-01-07 00:00:00.000000000 -08:00
-    opening_body: "Optional opening body ... shows before the resource. Allows rich
-      text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
-      blandit turpis cursus "
-    body: "Body content shows after resource. Allows rich text\n\n## section header\n###
-      section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
-      - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus
-      \n\n- in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit
-      amet volutpat\n\nconsequat mauris nunc congue nisi vitae suscipit tellus mauris
-      a diam maecenas sed enim ut sem viverra [aliquet eget sit](https://linktonowhere.com)
-      *amet tellus* cras adipiscing enim eu turpis egestas pretium aenean pharetra
-      magna ac placerat vestibulum lectus mauris ultrices eros in cursus turpis massa
-      tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet
-      sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin
-      tempor id eu nisl\n"
-    resource_type:
-    - video
-    resource:
-      sys:
-        id: 1pqKscUETyrisG2TrnlTg2
-        created_at: !ruby/object:DateTime 2023-02-28 21:40:56.727000000 Z
-        updated_at: !ruby/object:DateTime 2023-03-20 15:35:10.183000000 Z
-        content_type_id: videoResource
-        revision: 4
-      episode_name: White Noise
-      description: Sounds for helping children to sleep
-      transcript:
-        sys:
-          id: 2oRKyd27cdKum1UqKD7WWO
-          created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-          updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-        title: a-pdf-placeholder.pdf
-        description:
-        url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-      audio_description:
-        sys:
-          id: 2oRKyd27cdKum1UqKD7WWO
-          created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-          updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-        title: a-pdf-placeholder.pdf
-        description:
-        url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-      episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
-      ada_episode_link: https://www.youtube.com/embed/ScMzIvxBSi4
-      length: '01:34'
-    thumbnail:
-      sys:
-        id: 3ukIE991rh1ez3slk1bC8x
-        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.217000000 Z
-      title: thumb3.png
-      description:
-      url: "//images.ctfassets.net/tues7aklmpmt/3ukIE991rh1ez3slk1bC8x/250ccb5f3b2038461f5d431c915788e9/thumb3.png"
-    resource_tags:
-    - example
-    slug: hi-im-a-resource-video-page
-  - sys:
-      id: 6UF4IkeGq9D8e5YhjQSLFl
-      created_at: !ruby/object:DateTime 2023-02-28 21:36:54.251000000 Z
-      updated_at: !ruby/object:DateTime 2023-04-28 16:10:43.134000000 Z
-      content_type_id: resource
-      revision: 3
-    title: HI! I'm a Resource Podcast Page
-    summary: 'lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
-      blandit turpis cursus '
-    date: !ruby/object:DateTime 2022-10-01 00:00:00.000000000 -08:00
-    opening_body: "Optional opening body ... shows before the resource. Allows rich
-      text.\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis
-      blandit turpis cursus "
-    body: "Body content shows after resource. Allows rich text\n\n## section header\n###
-      section header\n\nlorem ipsum dolor sit amet consectetur adipiscing elit pellentesque
-      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
-      integer eget aliquet nibh praesent tristique \n\n> Here's an example of a quote\n>
-      - by a source\n\n__magna sit__ amet purus gravida quis blandit turpis cursus
-      \n\n- in hac habitasse \n- platea dictumst \n- quisque sagittis \n- purus sit
-      amet volutpat\n\nconsequat mauris nunc congue nisi vitae suscipit tellus mauris
-      a diam maecenas sed enim ut sem viverra [aliquet eget sit](https://linktonowhere.com)
-      *amet tellus* cras adipiscing enim eu turpis egestas pretium aenean pharetra
-      magna ac placerat vestibulum lectus mauris ultrices eros in cursus turpis massa
-      tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet
-      sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin
-      tempor id eu nisl\n"
-    resource_type:
-    - podcast
-    resource:
-      sys:
-        id: 6g5yYVX8naoXcToMeMZGwI
-        created_at: !ruby/object:DateTime 2023-02-28 21:36:54.377000000 Z
-        updated_at: !ruby/object:DateTime 2023-03-17 14:42:14.141000000 Z
-        content_type_id: podcastResource
-        revision: 2
-      episode_name: White Noise
-      description: Sounds for helping children to sleep
-      transcript:
-        sys:
-          id: 2oRKyd27cdKum1UqKD7WWO
-          created_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-          updated_at: !ruby/object:DateTime 2023-02-28 21:36:54.212000000 Z
-        title: a-pdf-placeholder.pdf
-        description:
-        url: "//assets.ctfassets.net/tues7aklmpmt/2oRKyd27cdKum1UqKD7WWO/1919186a7766e7e69aeeeafb23381c40/a-pdf-placeholder.pdf"
-      episode_link: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172595677&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-      length: '04:22'
-    thumbnail:
-      sys:
-        id: 1h34RjAPcV0QWk8bp4jvqj
-        created_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
-        updated_at: !ruby/object:DateTime 2023-02-23 21:09:18.256000000 Z
-      title: thumb10.png
-      description:
-      url: "//images.ctfassets.net/tues7aklmpmt/1h34RjAPcV0QWk8bp4jvqj/cf2a16544c4304bfbbfa5f393f53b295/thumb10.png"
-    slug: hi-im-a-resource-podcast-page
-  slug: hi-im-a-topic-page
 publicationResource:
 - sys:
     id: 2jGeVHjaDvcbxyhhwsv6bq
@@ -1041,11 +1039,10 @@ topic:
   - sys:
       id: 76eiT5WdqqACACNCS5Pr0C
       created_at: !ruby/object:DateTime 2023-02-28 21:45:25.372000000 Z
-      updated_at: !ruby/object:DateTime 2023-04-27 22:23:19.552000000 Z
+      updated_at: !ruby/object:DateTime 2023-04-28 16:22:12.854000000 Z
       content_type_id: resource
-      revision: 8
-    title: 'Resource PDF Ex: The Importance of Authentic Youth Engagement in Case
-      Planning'
+      revision: 9
+    title: Resource PDF Ex The Importance of Authentic Youth Engagement in Case Planning
     summary: In a system designed to promote the safety and well-being of young people,
       it is essential to prioritize youth engagement in casework. Learn key concepts
       and tangible strategies to apply to your practice.
@@ -1123,7 +1120,7 @@ topic:
     - Families, Youth & Children
     - Families, Communities & Youth
     - Children & Youth
-    slug: hi-im-a-resource-publications-page
+    slug: resource-pdf-ex-the-importance-of-authentic-youth-engagement-in-case-planning
   - sys:
       id: 1loIs3pHYaT5UNJKsr94U8
       created_at: !ruby/object:DateTime 2023-02-28 21:48:46.853000000 Z
