@@ -5,7 +5,7 @@
     <div class="grid-col-6"><a href="/" class="usa-button usa-button--outline">Clear Filters</a></div>
   </div>
   <div style="margin-top: 2rem;">
-    {% include prototype/search/filter-accordions.md %}
+    {% include prototype/fpo.md %}
   </div>
 </div>
 
