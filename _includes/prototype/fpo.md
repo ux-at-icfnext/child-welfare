@@ -5,11 +5,11 @@
       aria-expanded="true"
       aria-controls="a1"
     >
-      Accordion Filter
+      Topics
     </button>
   </h4>
   <div id="a1" class="usa-accordion__content usa-prose">
-    <div class="sub-accordion">
+    <div class="usa-accordion accordion">
         {% for item in data.filters.Topics %}
             <h4 class="usa-accordion__heading">
                 <button            
@@ -20,7 +20,7 @@
                 </button>
             </h4>
             <div id="b{{forloop.index}}" class="usa-accordion__content usa-prose">
-            {%for entry in item.title}
+            {%for entry in item.list}
                 {% assign value = entry.lev | downcase | replace: ' ', '-' %}
                 <h4 class="usa-accordion__heading">
                   <button            
