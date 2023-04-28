@@ -236,7 +236,7 @@
   <h4 class="usa-accordion__heading">
     <button
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="a10"
     >
       States, Territories, and Tribes
