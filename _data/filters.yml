@@ -439,7 +439,7 @@ Format:
   - title: Podcast
   - title: Spreadsheet
 
-Resource Type:
+Resource_Type:
   - title: Public Education Campaign
   - title: Outreach Toolkit
   - title: Guidance
@@ -454,7 +454,7 @@ Resource Type:
   - title: Grant Recipient Lessons Learned
   - title: Bulletins for Professionals
 
-Author/Source:
+Author_Source:
   - title: Information Gateway
   - title: HHS
   - title: CB/ACF
@@ -479,7 +479,7 @@ Language:
 - title: English
 - title: Spanish
 
-States, Territories & Tribes:
+States_Territories_Tribes:
   - title: States
     list:
     - lev: Alabama
