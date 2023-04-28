@@ -51,7 +51,9 @@
     <label for="start">Start date:</label>
     <input type="date" id="start" name="date-start"
           value="2023-04-28"
-          min="1960-04-28" max="2023-04-28">
+          min="1960-04-28" max="2023-04-28"
+          style="margin-bottom: 1rem;">
+    <br>
     <label for="start">End date:</label>
     <input type="date" id="end" name="date-end"
           value="2023-04-28"
@@ -63,20 +65,37 @@
       aria-expanded="false"
       aria-controls="a3"
     >
-      Dropdown
+      Foundational Areas
     </button>
   </h4>
   <div id="a3" class="usa-accordion__content usa-prose">
-    {% assign category = page.category | downcase | replace: " ", "-" %}
-    <label class="usa-label" for="{{category}}">{{page.label}}</label>
-    <div class="usa-combo-box">
-    <select class="usa-select" name="{{category}}" id="{{category}}">
-        <option value>{{page.label}}</option>
-        {% for item in page.list %}
-        {% assign value = item.value %}
-        <option value="{{value | downcase}}">{{value}}</option>
-        {% endfor %}
-    </select>
+    <div class="usa-accordion accordion">
+        {% for item in site.data.filters.Foundational_Areas %}
+            <h4 class="usa-accordion__heading">
+                <button            
+                class="usa-accordion__button"
+                aria-expanded="false"
+                aria-controls="d{{forloop.index}}">
+                    {{item.title}}
+                </button>
+            </h4>
+            <div id="d{{forloop.index}}" class="usa-accordion__content usa-prose">
+              {%for entry in item.list}
+                {% assign value = entry.lev | downcase | replace: ' ', '-' %}
+                <div class="usa-checkbox">
+                    <input class="usa-checkbox__input"
+                    id="check-{{value}}"
+                    type="checkbox"
+                    name="{{category}}"
+                    value="{{value}}"
+                    />
+                    <label class="usa-checkbox__label" for="check-{{value}}">
+                        {{entry.lev}}
+                    </label>
+                </div>
+              {% endfor %}
+            </div>
+        {%endfor%}
     </div>
   </div>
   <h4 class="usa-accordion__heading">
@@ -85,43 +104,175 @@
       aria-expanded="false"
       aria-controls="a4"
     >
-      Multiselect
+      Program Funding
     </button>
   </h4>
   <div id="a4" class="usa-accordion__content usa-prose">
-    <form class="usa-form">
-        <fieldset class="usa-fieldset">
-        <legend class="usa-legend">Select any {{page.topic | downcase}}</legend>
-        {% assign category = page.topic | downcase | replace: ' ', '-' %}
-        {% for item in page.checkbox %}
-        {% assign value = item.title | downcase | replace: ' ', '-' %}
-        <div class="usa-checkbox">
-            <input
-                {% if item.description %}
-                class="usa-checkbox__input usa-checkbox__input--tile"
-            {% else %}
-                class="usa-checkbox__input"
-            {% endif %}
-            id="check-{{value}}"
-            type="checkbox"
-            name="{{category}}"
-            value="{{value}}"
-            {% if item.disabled %}
-                disabled="disabled"
-            {% endif %}
-            />
-            <label class="usa-checkbox__label" for="check-{{value}}">
-                {{item.title}}
-                {% if item.description %}
-                    <span class="usa-checkbox__label-description">
-                        {{item.description}}
-                    </span>
-                {% endif %}
-            </label>
-        </div>
-        {% endfor %}
-        </fieldset>
-    </form>
+    {% for item in site.data.filters.Program_Funding %}
+      {% assign value = item.title | downcase | replace: ' ', '-' %}
+      <div class="usa-checkbox">
+          <input class="usa-checkbox__input"
+          id="check-{{value}}"
+          type="checkbox"
+          name="{{category}}"
+          value="{{value}}"
+          />
+          <label class="usa-checkbox__label" for="check-{{value}}">
+              {{item.title}}
+          </label>
+      </div>
+    {% endfor %}
+  </div>
+  <h4 class="usa-accordion__heading">
+    <button
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="a5"
+    >
+      Resources For
+    </button>
+  </h4>
+  <div id="a5" class="usa-accordion__content usa-prose">
+    {% for item in site.data.filters.Resources_For %}
+      {% assign value = item.title | downcase | replace: ' ', '-' %}
+      <div class="usa-checkbox">
+          <input class="usa-checkbox__input"
+          id="check-{{value}}"
+          type="checkbox"
+          name="{{category}}"
+          value="{{value}}"
+          />
+          <label class="usa-checkbox__label" for="check-{{value}}">
+              {{item.title}}
+          </label>
+      </div>
+    {% endfor %}
+  </div>
+  <h4 class="usa-accordion__heading">
+    <button
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="a6"
+    >
+      Format
+    </button>
+  </h4>
+  <div id="a6" class="usa-accordion__content usa-prose">
+    {% for item in site.data.filters.Format %}
+      {% assign value = item.title | downcase | replace: ' ', '-' %}
+      <div class="usa-checkbox">
+          <input class="usa-checkbox__input"
+          id="check-{{value}}"
+          type="checkbox"
+          name="{{category}}"
+          value="{{value}}"
+          />
+          <label class="usa-checkbox__label" for="check-{{value}}">
+              {{item.title}}
+          </label>
+      </div>
+    {% endfor %}
+  </div>
+  <h4 class="usa-accordion__heading">
+    <button
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="a7"
+    >
+      Resource Type
+    </button>
+  </h4>
+  <div id="a7" class="usa-accordion__content usa-prose">
+    {% for item in site.data.filters.Resource_Type %}
+      {% assign value = item.title | downcase | replace: ' ', '-' %}
+      <div class="usa-checkbox">
+          <input class="usa-checkbox__input"
+          id="check-{{value}}"
+          type="checkbox"
+          name="{{category}}"
+          value="{{value}}"
+          />
+          <label class="usa-checkbox__label" for="check-{{value}}">
+              {{item.title}}
+          </label>
+      </div>
+    {% endfor %}
+  </div>
+  <h4 class="usa-accordion__heading">
+    <button
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="a8"
+    >
+      Authhor/ Source
+    </button>
+  </h4>
+  <div id="a8" class="usa-accordion__content usa-prose">
+    {% for item in site.data.filters.Author_Source %}
+      {% assign value = item.title | downcase | replace: ' ', '-' %}
+      <div class="usa-checkbox">
+          <input class="usa-checkbox__input"
+          id="check-{{value}}"
+          type="checkbox"
+          name="{{category}}"
+          value="{{value}}"
+          />
+          <label class="usa-checkbox__label" for="check-{{value}}">
+              {{item.title}}
+          </label>
+      </div>
+    {% endfor %}
+  </div>
+  <h4 class="usa-accordion__heading">
+    <button
+      class="usa-accordion__button"
+      aria-expanded="false"
+      aria-controls="a9"
+    >
+      Language
+    </button>
+  </h4>
+  <div id="a9" class="usa-accordion__content usa-prose">
+    Toggle
+  </div>
+  <h4 class="usa-accordion__heading">
+    <button
+      class="usa-accordion__button"
+      aria-expanded="true"
+      aria-controls="a10"
+    >
+      States, Territories, and Tribes
+    </button>
+  </h4>
+  <div id="a10" class="usa-accordion__content usa-prose">
+    <div class="usa-accordion accordion">
+        {% for item in site.data.filters.States_Territories_Tribes %}
+            <h4 class="usa-accordion__heading">
+                <button            
+                class="usa-accordion__button"
+                aria-expanded="false"
+                aria-controls="g{{forloop.index}}">
+                    {{item.title}}
+                </button>
+            </h4>
+            <div id="g{{forloop.index}}" class="usa-accordion__content usa-prose">
+              {%for entry in item.list}
+                {% assign value = entry.lev | downcase | replace: ' ', '-' %}
+                <div class="usa-checkbox">
+                    <input class="usa-checkbox__input"
+                    id="check-{{value}}"
+                    type="checkbox"
+                    name="{{category}}"
+                    value="{{value}}"
+                    />
+                    <label class="usa-checkbox__label" for="check-{{value}}">
+                        {{entry.lev}}
+                    </label>
+                </div>
+              {% endfor %}
+            </div>
+        {%endfor%}
+    </div>
   </div>
 </div>
 
