@@ -1,5 +1,4 @@
 .quick-exit-wrapper{
-    position: fixed;
     width: 100%;
 }
 .quick-exit{
@@ -14,8 +13,10 @@
     white-space: nowrap;
     cursor: pointer;
     margin: auto;
-    padding: 25px;
+    padding: 20px;
     position: absolute;
+    bottom: 1px;
+    left: 10rem;
 }
 .quick-exit-desc{
     background-color: #F7F9FA;
@@ -24,7 +25,8 @@
     padding-left: 10px;
     padding-bottom: 0.9rem;
     position: absolute;
-    left: 9.5rem;
+    left: 19rem;
+    bottom: 1px;
     display: none;
     p{
         margin-bottom: 0;
@@ -34,4 +36,15 @@
     .quick-exit-desc{
         display:block;
     }
+}
+//chat bot
+.chat-bot-button{
+    background-color: #005DAA;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: auto;
+    padding: 20px;
+    position: absolute;
+    bottom: 1px;
+    left: 20rem;
 }
