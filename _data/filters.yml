@@ -1,6 +1,6 @@
----
 Topics:
   - title: Prevention
+    list:
     - lev: Primary Prevention 
     - lev: Secondary Prevention (IV-E-B) 
     - lev: Tertiary Prevention (IV-E) 
@@ -36,40 +36,42 @@ Topics:
     - lev: Preventing Child Abuse & Neglect
     - lev: Two-Generation Approaches
     - lev: Protective Factors Framework
- - title: Safety
-    - lev: Mandated Reporting 
-    sublev: 
-      - Reporting Requirements  
-    - lev: Response to Reports of CAN 
-    - lev: Differential Response
-    - lev: Maltreatment of Youth With Disabilities
-    - lev: Trafficking & Sexual Exploitation
-    sublev: 
-      - Online Victimization
-    - lev: People Who Engage in Child Abuse & Neglect
-    - lev: Child Abuse & Neglect
-    sublev: 
-      - Identifying Abuse or Neglect
-    - lev: Separating Abuse from Discipline
-    - lev: Separating Neglect from Poverty
-    - lev: CPS
-    - lev: Investigation
-    - lev: Family Assessment
-    - lev: Statutes of Limitation
-    - lev: Multi-Disciplinary Teams
-    - lev: Managing Records of Reports
-    - lev: Neglect
-    - lev: Emotional Abuse
-    - lev: Physical Abuse
-    - lev: Sexual Abuse
-    - lev: Impacts of Abuse and Neglect
-    - lev: Intergenerational Trauma
-    - lev: Abusive Head Trauma
-    - lev: Risk Factors
-    - lev: Recurrence
-    - lev: Child Advocacy Centers
-    - lev: Fatalities
+  - title: Safety
+    list:
+     - lev: Mandated Reporting 
+       sublev: 
+       - Reporting Requirements  
+     - lev: Response to Reports of CAN 
+     - lev: Differential Response
+     - lev: Maltreatment of Youth With Disabilities
+     - lev: Trafficking & Sexual Exploitation
+       sublev: 
+       - Online Victimization
+     - lev: People Who Engage in Child Abuse & Neglect
+     - lev: Child Abuse & Neglect
+       sublev: 
+       - Identifying Abuse or Neglect
+     - lev: Separating Abuse from Discipline
+     - lev: Separating Neglect from Poverty
+     - lev: CPS
+     - lev: Investigation
+     - lev: Family Assessment
+     - lev: Statutes of Limitation
+     - lev: Multi-Disciplinary Teams
+     - lev: Managing Records of Reports
+     - lev: Neglect
+     - lev: Emotional Abuse
+     - lev: Physical Abuse
+     - lev: Sexual Abuse
+     - lev: Impacts of Abuse and Neglect
+     - lev: Intergenerational Trauma
+     - lev: Abusive Head Trauma
+     - lev: Risk Factors
+     - lev: Recurrence
+     - lev: Child Advocacy Centers
+     - lev: Fatalities
   - title: Permanency
+    list:
     - lev: Reunifying Families
       sublev: 
       - Parent Partners
@@ -119,6 +121,7 @@ Topics:
     - lev: Diverse Adoptive Families
     - lev: Adoption Process
   - title: Well-Being
+    list:
     - lev: Education
       sublev:
       - Educational Systems
@@ -144,6 +147,7 @@ Topics:
       - Treatment Services
       - Qualified Residential Treatment Programs (QRTP)  
   - title: Data Systems, Evaluation & Technology
+    list:
     - lev: Statistics & Data
     - lev: NCANDS
     - lev: CFSR
@@ -164,6 +168,7 @@ Topics:
     - lev: Citizen Review Panels
     - lev: Logic Models  
   - title: Workforce
+    list:
     - lev: Worker Safety
     - lev: Caseload & Workload Management
     - lev: Virtual and Remote Work
@@ -203,6 +208,7 @@ Topics:
       - Program Development
     - lev: Social Media Usage
   - title: Casework Practice
+    list:
     - lev: Equitable Practice   
     - lev: Culturally Responsive Practice   
       sublev: 
@@ -266,7 +272,7 @@ Topics:
     - lev: Serving Diverse Families
     - lev: Authentic Youth Engagement 
     - lev: Evidence-Based Practice
-    - lev: [Varied] Circumstances                   
+    - lev: "[Varied] Circumstances"                  
       sublev: 
       - Older Children
       - Sibling Groups
@@ -288,6 +294,7 @@ Topics:
     - lev: Family-Centered Practice
     - lev: Practice Frameworks
   - title: Social Determinants of Health
+    list:
     - lev: Economic Stability
       sublev: 
       - Food programs
@@ -309,8 +316,9 @@ Topics:
     - lev: Social & Community Context
       sublev:
       - Ecological Framework 
- Foundational Areas:
+Foundational Areas:
   - title: Diversity & Racial Equity
+    list:
     - lev: LGBTQIAS2+ Families
     - lev: Racially and Culturally Diverse Families
   - title: Diversity and Inclusion
@@ -318,6 +326,7 @@ Topics:
   - title: Kinship – Kin-First Culture
   - title: FFPSA 
   - title: Funding
+    list:
     - lev: Foster Care
     - lev: CBCAP (IV-B)
     - lev: CAPTA
@@ -327,7 +336,8 @@ Topics:
     - lev: CBDG
     - lev: Child Care Subsidies
     - lev: Cash Payment Research
-  - title: Partnerships and Collaboration   
+  - title: Partnerships and Collaboration
+    list:
     - lev: Driving a System
     - lev: Families, Youth & Children
     - lev: Cross-System Collaboration 
@@ -336,6 +346,7 @@ Topics:
     - lev: Early Education
   - title: Program Evaluation    
   - title: Laws, Regulations & Policy
+    list:
     - lev: Patient Protection & Affordable Care Act (PPACA)
     - lev: Children's Justice Act (CJA)
     - lev: Every Student Succeeds Act (ESSA)
@@ -347,9 +358,10 @@ Topics:
     - lev: Comprehensive Addiction and Recovery Act of 2016 (CARA)
     - lev: Fostering Connections to Success and Increasing Adoptions Act
     - lev: Chafee Foster Care Independence Act
-    - lev: Chafee: Education and Training Voucher (ETV)
-    - lev: Chafee: Independent Living (IL)
+    - lev: "Chafee: Education and Training Voucher (ETV)"
+    - lev: "Chafee: Independent Living (IL)"
   - title: Families, Communities & Youth
+    list:
     - lev: Caregivers & Parents 
       sublev: 
       - Birth Parents
@@ -392,6 +404,7 @@ Topics:
     - lev: Family Resource Centers
   - title: Power Sharing
   - title: CB Requirements
+    list:
     - lev: CFSP
     - lev: APSR
     - lev: CFSR 
@@ -468,6 +481,7 @@ Language:
 
 States, Territories & Tribes:
   - title: States
+    list:
     - lev: Alabama
     - lev: Alaska
     - lev: Arizona
@@ -520,21 +534,22 @@ States, Territories & Tribes:
     - lev: Wyoming
     - lev: Washington, D.C.
   - title: Territories
+    list:
     - lev: American Samoa
     - lev: Guam
     - lev: Northern Mariana Islands
     - lev: Puerto Rico
     - lev: U.S. Virgin Islands
   - title: Tribes
-    - lev: Aleut Community of St. Paul Island (Alaska)
-    - lev: Navajo Nation (Arizona)
-    - lev: Pascua Yaqui Nation (Arizona)
-    - lev: Salt River Pima Maricopa (Arizona)
-    - lev: Tolowa Nation (California)
-    - lev: Penobscot Nation (Maine)
-    - lev: Mashpee Wampanoag Nation (Massachusetts)
-    - lev: Keweenaw Bay Indian Community (Michigan)
-    - lev: Eastern Band of Cherokee Indians (North Carolina)
-    - lev: Cherokee Nation (Oklahoma)
-    - lev: Port Gamble S'Klallam (Washington)
----
+    list:
+    - lev: "Aleut Community of St. Paul Island (Alaska)"
+    - lev: "Navajo Nation (Arizona)"
+    - lev: "Pascua Yaqui Nation (Arizona)"
+    - lev: "Salt River Pima Maricopa (Arizona)"
+    - lev: "Tolowa Nation (California)"
+    - lev: "Penobscot Nation (Maine)"
+    - lev: "Mashpee Wampanoag Nation (Massachusetts)"
+    - lev: "Keweenaw Bay Indian Community (Michigan)"
+    - lev: "Eastern Band of Cherokee Indians (North Carolina)"
+    - lev: "Cherokee Nation (Oklahoma)"
+    - lev: "Port Gamble S'Klallam (Washington)"
