@@ -3,6 +3,9 @@
   <div class="grid-container usa-footer__return-to-top">
     <a href="#">Return to top</a>
   </div>
+  <div class="footer-quick-exit">
+    {% include patterns/button/quick-exit.md %}
+  </div>
   <div class="usa-footer__primary-section">
     <div class="grid-container">
       <div class="grid-row grid-gap">
