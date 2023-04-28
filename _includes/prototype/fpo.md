@@ -10,7 +10,7 @@
   </h4>
   <div id="a1" class="usa-accordion__content usa-prose">
     <div class="usa-accordion accordion">
-        {% for item in data.filters.topics %}
+        {% for item in site.data.filters.topics %}
             <h4 class="usa-accordion__heading">
             <button
               class="usa-accordion__button"
