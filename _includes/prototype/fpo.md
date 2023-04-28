@@ -52,6 +52,7 @@
     <input type="date" id="start" name="date-start"
           value="2023-04-28"
           min="1960-04-28" max="2023-04-28">
+    <br>
     <label for="start">End date:</label>
     <input type="date" id="end" name="date-end"
           value="2023-04-28"
