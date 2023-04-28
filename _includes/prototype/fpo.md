@@ -33,8 +33,8 @@
   .slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
+    height: 20px;
+    width: 20px;
     left: 4px;
     bottom: 4px;
     background-color: white;
@@ -320,7 +320,7 @@
     <span style="vertical-align: bottom; margin-right: 1rem;">Spanish</span>
     <label class="switch">
     <input type="checkbox">
-    <span class="slider round"></span>
+    <span class="slider round" style="margin-top: 0.5rem;"></span>
 </label>
   </div>
   <h4 class="usa-accordion__heading">
