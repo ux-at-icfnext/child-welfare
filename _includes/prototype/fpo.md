@@ -317,7 +317,7 @@
     </button>
   </h4>
   <div id="a9" class="usa-accordion__content usa-prose">
-    Spanish
+    <span>Spanish</span>
     <label class="switch">
     <input type="checkbox">
     <span class="slider round"></span>
