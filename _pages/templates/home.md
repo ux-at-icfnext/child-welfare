@@ -35,6 +35,10 @@ specs:
     type: multi-valuted
     authored: yes
     content: list- title, summary, button-text, button-link
+
+prototype:
+  - name: Home Page
+    link: /prototype/home
 ---
 
 ## Hero

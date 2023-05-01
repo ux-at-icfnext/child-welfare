@@ -97,9 +97,9 @@ specs:
 
 prototype:
   - name: Topic
-    link: https://www.sketch.com/s/dd2f2e71-977c-45b4-baf3-8bf823bfcd0d/a/m1ZYGxV
+    link: /prototype/topic-example-youth/
   - name: Subtopic 
-    link: https://www.sketch.com/s/dd2f2e71-977c-45b4-baf3-8bf823bfcd0d/a/pazwK8G
+    link: /prototype/subtopic-ex-engaging-and-involving-youth/
 ---
 
 

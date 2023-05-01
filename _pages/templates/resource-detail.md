@@ -74,6 +74,16 @@ specs:
 alert:
   content: Before developing page layout, please be sure to read about our <a class="usa-link" href="/styles/grids/">Grid System</a>
   type: warning
+
+prototype:
+  - name: Publication File Example
+    link: /prototype/resource-pdf-ex-the-importance-of-authentic-youth-engagement-in-case-planning
+  - name: Podcast Example
+    link: /prototype/hi-im-a-resource-podcast-page
+  - name: Video Example
+    link: /prototype/hi-im-a-resource-video-page/
+  - name: Publication Image Example
+    link: /prototype/hi-im-a-resource-image-page
 ---
 
 ## Functionality Specifications 

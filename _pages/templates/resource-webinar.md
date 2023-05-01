@@ -1,4 +1,5 @@
 ---
+### This is now archived
 layout: template
 categories: [templates, resource-detail]
 # type: [detail-page]

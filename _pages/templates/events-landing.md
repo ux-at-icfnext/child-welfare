@@ -40,7 +40,7 @@ cards:
 
 prototype:
   - name: Event Landing
-    link: https://www.sketch.com/s/dd2f2e71-977c-45b4-baf3-8bf823bfcd0d/p/D13A8BBF-E627-4C8C-83BF-688D149496F5/canvas
+    link: /prototype/events/landing
 ---
 
 ## Functionality Specifications

@@ -62,6 +62,20 @@ components:
     link: /patterns/pagination
   - title: Search widget
     link: /patterns/search/
+
+prototype:
+  - name: Global Search
+    link: /prototype/search
+  - name: Global Search (for small screens)
+    link: /prototype/search/sm
+  - name: Events Search
+    link: /prototype/search/events
+  - name: Directory Search
+    link: /prototype/search/directory
+  - name: All Resources Search
+    link: /prototype/search/resources
+  - name: Topic & Subtopic pages
+    link: /prototype/topic-example-youth/
       
 ---
 

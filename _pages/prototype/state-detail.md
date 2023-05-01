@@ -28,7 +28,7 @@ accordions:
 # {{ page.title }}
 <div class="usa-intro">{{ page.body }}</div>
 
-<div class="usa-accordion">
+<div class="usa-accordion accordion">
     {% for item in page.accordion %}
         <h2 class="usa-accordion__heading">
             <button
@@ -41,7 +41,7 @@ accordions:
         </h2>
         <div id="a{{forloop.index}}" class="usa-accordion__content usa-prose">
             <h4>Section Title</h4>
-            <div class="usa-accordion">
+            <div class="usa-accordion accordion">
                 {% for items in page.accordions %}
                     <h4 class="usa-accordion__heading">
                         <button

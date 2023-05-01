@@ -58,7 +58,9 @@ spec2:
     authored: dynamic
     source: directory detail-social
   
-
+prototype:
+  - name: Event Search
+    link: /prototype/search/directory
 
 ---
 

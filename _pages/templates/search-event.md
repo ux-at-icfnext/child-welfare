@@ -39,7 +39,7 @@ spec2:
 
 prototype:
   - name: Event Search
-    link: https://www.sketch.com/s/dd2f2e71-977c-45b4-baf3-8bf823bfcd0d/a/4anOEAx
+    link: /prototype/search/events
 ---
 
 ## Description

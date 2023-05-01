@@ -1,15 +1,13 @@
 ---
+### This is now archived
 layout: template
 categories: [templates, events]
-type: [detail-page]
+# type: [detail-page]
 title: Call For Papers Detail
 permalink: /templates/events/papers
 overview: The Call for Papers Detail page is the destination in the events browsing journey. 
 description: The Call for Papers Detail page is the destination in the events browsing journey. Please see the [Events](/templates/events) page for information about the Event content type.
 
-prototype:
-  - name: Event Detail Papers
-    link: https://www.sketch.com/s/dd2f2e71-977c-45b4-baf3-8bf823bfcd0d/p/31BEC0E8-98D7-43D5-B1F3-0FA1F31CFC42/canvas
 ---
 
 ## Page Title

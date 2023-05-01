@@ -1,7 +1,8 @@
 ---
+### This is now archived
 layout: template
 categories: [templates, events]
-type: [detail-page]
+# type: [detail-page]
 title: Events / Call For Papers Form
 permalink: /templates/events/form
 overview: The Event form allows organizations to add their events or call for papers. 
