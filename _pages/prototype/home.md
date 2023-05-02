@@ -126,6 +126,9 @@ campaigns:
   .home-resources{
     margin-top: 4rem;
   }
+  .home-resources img{
+    height: 175px;
+  }
   .home-overlay{
     margin-top: 1rem;
   }
