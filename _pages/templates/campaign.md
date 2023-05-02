@@ -96,11 +96,25 @@ impact2:
     content: 140 characters max
   
 vision:
+  - name: Title
+    type: h3
+    authored: yes
+    required: optional
+    content: 80 characters max
   - name: Content
     type: text
     authored: yes
     required: yes
     content: 250 characters max
+  - name: Button label
+    type: button
+    authored: yes
+    required: optional
+    content: 80 characters max
+  - name: Button Link
+    type: url
+    authored: yes
+    required: optional
 
 involved:
   - name: Title
@@ -132,18 +146,40 @@ involved:
 ### Page order
 The hero needs to be at the top of the page, outside of that, the author should be able to pick the order. This rest the page highlights the content blocks.
 
-### Hero
+### Authored Items
+For these sections, the author will provide the content
+
+#### Hero
 Authors can choose between the different hero backgrounds (blue, gray and white)
 {% include partials/content-specs.md content=page.heros %}
 
-### Vision Statement
+#### Statements
 {% include partials/content-specs.md content=page.vision %}
 
-### Our Impact (with pie chart)
+#### Our Impact (with pie chart)
 {% include partials/content-specs.md content=page.impact1 %}
 
-### Our Impact (with stats)
+#### Our Impact (with stats)
 {% include partials/content-specs.md content=page.impact2 %}
 
-### Get Involved
+#### Get Involved
 {% include partials/content-specs.md content=page.involved %}
+
+#### Card Group
+
+#### Resources to download
+
+#### Reflections
+
+#### Goals
+
+### Dynamic Modules
+For these sections, the author will choose the content, and it will be pulled in dynamically, using the content from the source item.
+
+#### Events
+
+#### Featured
+
+#### News & Stories
+
+#### Related Campaigns Or Topics
