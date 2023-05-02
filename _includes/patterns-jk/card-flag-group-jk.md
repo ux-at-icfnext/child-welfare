@@ -21,7 +21,7 @@
             {% endif %}
             {% if card.title %}
             <div class="usa-card__header">
-              <h2 class="usa-card__heading"><a href="{{ card.link }}">{{card.title}}</a></h2>
+              <h2 class="usa-card__heading" style="font-family: Montserrat"><a href="{{ card.link }}">{{card.title}}</a></h2>
             </div>
             {% endif %}
             {% if card.media %}
