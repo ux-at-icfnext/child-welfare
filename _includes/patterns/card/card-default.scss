@@ -1,10 +1,13 @@
 .card-default{
     background-color: #fff;
-    color: #002552;
+    color: #000;
     border-radius: 0;
     border: 0;
     padding: 2%;
     border: 1px solid #D1D3D4;
+    h2{
+        color:#000;
+    }
     .usa-card-group {
         max-width: 100%;
         padding: 0;
@@ -47,7 +50,14 @@
     }
 }
 
-
+.card-features{
+    background-color: white;
+    color: black;
+}
+.card-features:hover{
+    background-color: white;
+    color: black;
+}
 
 
 .card-default:hover{
@@ -55,5 +65,8 @@
         background-color: #002552;
         color: white;
         border: 1px solid white;
+    }
+    h2{
+        color: white;
     }
 }

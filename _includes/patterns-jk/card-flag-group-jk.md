@@ -7,7 +7,7 @@
 <div class="card-group__header" style="display: grid; grid-template-columns: auto auto;">
   <h2>{{ headings.title }}</h2>
   {% if headings.link %}
-  <div class="card-group-morelink" style="margin-top: 1rem; justify-self: end;"><a href="{{ headings.link }}">{{ headings.link_text }} <i class="fa-kit fa-navigate-next"></i></a></div>
+  <div class="card-group-morelink" style="margin-top: 1rem; justify-self: end;"><a href="{{ headings.link }}">{{ headings.link_text }} <i class="fa-kit fa-navigate-next" style="margin-left: 10px;"></i></a></div>
   {% endif %}
 </div>
   <div class="card-group">
@@ -21,7 +21,7 @@
             {% endif %}
             {% if card.title %}
             <div class="usa-card__header">
-              <h2 class="usa-card__heading"><a href="{{ card.link }}">{{card.title}}</a></h2>
+              <h2 class="usa-card__heading" style="font-family: Montserrat"><a href="{{ card.link }}">{{card.title}}</a></h2>
             </div>
             {% endif %}
             {% if card.media %}
@@ -46,7 +46,7 @@
     <ul class="usa-card-group"> 
       {% for card in items offset: 1 %}
         <li class="usa-card tablet:grid-col-4">
-          <div class="usa-card__container__media">
+          <div class="usa-card__container__media no-hover">
             {% if card.tag %}
             {% include patterns-jk/tag-conditions.md %}
             {% endif %}

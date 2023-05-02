@@ -89,6 +89,7 @@ overlay:
       content: Card Body - Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis earum tenetur quo cupiditate, eaque qui officia recusandae.
       link: "#"
       link_text: "Subscribe Now"
+      card-class: usa-card__container__campaign-inverse
 
 campaigns:
   headings: 
@@ -125,6 +126,9 @@ campaigns:
   }
   .home-resources{
     margin-top: 4rem;
+  }
+  .home-resources img{
+    height: 175px;
   }
   .home-overlay{
     margin-top: 1rem;
