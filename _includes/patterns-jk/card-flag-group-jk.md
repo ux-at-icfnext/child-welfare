@@ -7,7 +7,7 @@
 <div class="card-group__header" style="display: grid; grid-template-columns: auto auto;">
   <h2>{{ headings.title }}</h2>
   {% if headings.link %}
-  <div class="card-group-morelink" style="margin-top: 1rem; justify-self: end;"><a href="{{ headings.link }}">{{ headings.link_text }} <i class="fa-kit fa-navigate-next"></i></a></div>
+  <div class="card-group-morelink" style="margin-top: 1rem; justify-self: end;"><a href="{{ headings.link }}">{{ headings.link_text }} <i class="fa-kit fa-navigate-next" style="margin-left: 10px;"></i></a></div>
   {% endif %}
 </div>
   <div class="card-group">
