@@ -11,7 +11,7 @@
             <p>{{ card.body }}</p>
           </div>
           <footer>
-            <a href="{{card.link}}" class="usa-button secondary__button">{{card.button_text}}</a>
+            <a href="{{card.link}}" class="usa-button secondary__button" style="margin-top: 1.5rem;">{{card.button_text}}</a>
           </footer>
       </li>
     {% endfor %}
