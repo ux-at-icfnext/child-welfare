@@ -46,7 +46,7 @@
     <ul class="usa-card-group"> 
       {% for card in items offset: 1 %}
         <li class="usa-card tablet:grid-col-4">
-          <div class="usa-card__container__media">
+          <div class="usa-card__container__media no-hover">
             {% if card.tag %}
             {% include patterns-jk/tag-conditions.md %}
             {% endif %}
