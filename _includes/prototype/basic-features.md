@@ -3,7 +3,7 @@
     <ul class="usa-card-group">
     {% for card in page.features %}
       <li class="tablet:grid-col-4 usa-card">
-        <div class="usa-card__container card-default">
+        <div class="usa-card__container card-default card-features">
           <header class="usa-card__header">
             <h3 class="usa-card__heading">{{ card.title}}</h3>
           </header>
