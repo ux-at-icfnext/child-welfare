@@ -66,6 +66,7 @@ impact1:
     type: infographic
     authored: yes
     required: yes
+
 impact2:
   - name: Title
     type: h1
@@ -95,7 +96,7 @@ impact2:
     required: yes
     content: 140 characters max
   
-vision:
+statements:
   - name: Title
     type: h3
     authored: yes
@@ -116,9 +117,106 @@ vision:
     authored: yes
     required: optional
 
-involved:
+cards3:
+  - name: Section Title
+    type: h2
+    authored: yes
+    content: 80 characters max
+  - name: List
+    subhead: yes
   - name: Title
     type: h3
+    authored: yes/dynamic
+    required: yes
+    content: 80 characters max
+    source: "link: title"
+  - name: Content
+    type: text
+    authored: yes/dynamic
+    required: yes
+    content: 140 characters max
+    source: "link: summary"
+  - name: Thumbnail
+    type: image
+    authored: yes/dynamic
+    required: yes
+    content: image size 300x175
+    source: "link: thumbnail"
+  - name: Style
+    type: toggle
+    authored: yes
+    content: default | blue transparency
+    notes: allows author to use the blue transparency still
+
+cards4:
+  - name: Section Title
+    type: h2
+    authored: yes
+    content: 80 characters max
+  - name: List
+    subhead: yes
+  - name: Title
+    type: h3
+    authored: yes/dynamic
+    required: yes
+    content: 80 characters max
+    source: "link: title"
+  - name: Content
+    type: text
+    authored: yes/dynamic
+    required: yes
+    content: 140 characters max
+    source: "link: summary"
+  - name: Thumbnail
+    type: image
+    authored: yes/dynamic
+    required: yes
+    content: image size 300x175
+    source: "link: thumbnail"
+
+events:
+  - name: Section Title
+    type: h2
+    authored: yes
+    content: 80 characters max
+  - name: List
+    subhead: yes
+  - name: Title
+    source: "event: title"
+  - name: Event Type
+    source: "event: event type"
+  - name: Location
+    source: "event: city, state"
+  - name: Date
+    source: "event: start date, start time"
+  - name: Sponsor
+    source: "event: sponsor"
+
+downloads:
+  - name: Title
+    type: h2
+    authored: yes
+    required: yes
+    content: 80 characters max
+  - name: Content
+    type: text
+    authored: yes
+    required: yes
+    content: 140 characters max
+  - name: File
+    type: button
+    authored: yes
+    required: yes
+    content: should be a zip file
+  - name: Button Label
+    type: label
+    authored: yes
+    required: yes
+    content: 50 characters max
+
+goals:
+  - name: Title
+    type: h2
     authored: yes
     required: yes
     content: 80 characters max
@@ -127,18 +225,36 @@ involved:
     authored: yes
     required: yes
     content: 250 characters max
-  - name: Button label
-    type: button
+  - name: List
+    subhead: yes
+  - name: Icon
+    type: icon
     authored: yes
     required: yes
-    content: 80 characters max
-  - name: Button Link
-    type: url
+    notes: author should be able to choose any USWDS or Fontawesome icon 
+  - name: Content
+    type: text
     authored: yes
     required: yes
+    content: 140 characters max
+
+topicslist:
+  - name: Section Title
+    type: h2
+    notes: Title should either be "Related Resources" or "Related Topics" depending on which type is used
+  - name: Type
+    type: toggle
+    authored: yes
+    required: yes
+    content: Choose between resource or topic
+  - name: List
+    subhead: yes
+  - name: Title
+    source: "link: title"
+  - name: URL
+    source: "link: destination"
+
 ---
-# SPECS STILL IN PROGRESS!!
-
 ## Layout Specifications
 
 {% include patterns/alert/alert-no-icon-jk.md %}
@@ -146,40 +262,46 @@ involved:
 ### Page order
 The hero needs to be at the top of the page, outside of that, the author should be able to pick the order. This rest the page highlights the content blocks.
 
-### Authored Items
-For these sections, the author will provide the content
+### Authoring Items
+Most of the content is authored directly on the page... however there are a few patterns where author's have the choice to pull content in dynamically instead. Likely the backend will have to create two blocks in these instances, one to pull content and one for writing. For the patterns that have these options, we've filled out the source filled to show what would be pulled.
 
 #### Hero
 Authors can choose between the different hero backgrounds (blue, gray and white)
 {% include partials/content-specs.md content=page.heros %}
 
 #### Statements
-{% include partials/content-specs.md content=page.vision %}
+Statements use a full block navy #002552 bleed behind them with centered white text. The header and button are optional.
+{% include partials/content-specs.md content=page.statements %}
 
-#### Our Impact (with pie chart)
+#### Impact (with pie chart)
 {% include partials/content-specs.md content=page.impact1 %}
 
-#### Our Impact (with stats)
+#### Impact (with stats)
 {% include partials/content-specs.md content=page.impact2 %}
 
-#### Get Involved
-{% include partials/content-specs.md content=page.involved %}
 
-#### Card Group
+#### 3 up Card Group
+Authors should be able to use this pattern to link content dynamically, or author in page. List has limit of 3.
+{% include partials/content-specs.md content=page.cards3 %}
 
-#### Resources to download
-
-#### Reflections
-
-#### Goals
-
-### Dynamic Modules
-For these sections, the author will choose the content, and it will be pulled in dynamically, using the content from the source item.
+#### 4 up Card group
+Authors should be able to use this pattern to link content dynamically, or author in page. List has a limit of 4. The first card is displayed as a flag.
+{% include partials/content-specs.md content=page.cards4 %}
 
 #### Events
+This pattern is dynamic only, the author should choose which events to showcase by taxonomy & date. 
 
-#### Featured
+_If the results return 0, the section should automatically collapse. This way author's do not have to come back ad do this manually after a campaign has finished._
+{% include partials/content-specs.md content=page.events %}
 
-#### News & Stories
+#### Resources to download
+This is for downloading campaign kits. They should be a zip file.
+{% include partials/content-specs.md content=page.downloads %}
+
+#### Goals
+Limit 8 goals.
+{% include partials/content-specs.md content=page.goals %}
 
 #### Related Campaigns Or Topics
+This section is completely dynamic, authors can choose the link destinations. Limit 4.
+{% include partials/content-specs.md content=page.topicslist %}
