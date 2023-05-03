@@ -21,5 +21,11 @@
     }
     h3 {
         font-size: 1.2rem;
+        color: black;
+    }
+}
+.event-card:hover{
+    h3{
+        color: white;
     }
 }
