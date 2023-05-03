@@ -289,7 +289,7 @@
   <h4 class="usa-accordion__heading">
     <button
       class="usa-accordion__button"
-      aria-expanded="true"
+      aria-expanded="false"
       aria-controls="g2"
     >
       Date Range
