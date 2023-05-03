@@ -19,7 +19,12 @@
     .usa-card__body {
         padding: 0 1.5rem;
     }
-
+    h2{
+        color: white;
+    }
+    h3{
+        color: white;
+    }
     a{
         color: #fff;
         text-decoration: none;
@@ -32,6 +37,14 @@
         background-color: #fff;
         color: #002552;
         cursor: pointer;
+    }
+}
+.usa-card__container:hover{
+    h2{
+        color: black;
+    }
+    h3{
+        color: black;
     }
 }
 
