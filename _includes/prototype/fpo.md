@@ -69,7 +69,7 @@
   <h4 class="usa-accordion__heading">
     <button
       class="usa-accordion__button"
-      aria-expanded="false"
+      aria-expanded="true"
       aria-controls="g1"
     >
       Topics
