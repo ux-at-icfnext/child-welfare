@@ -17,9 +17,9 @@ hero:
 
 story:
   headings:
-    title: News and Stories
+    title: Explore Topics
     link: "#"
-    link_text: "View all news and stories"
+    link_text: "View all Topics"
   lists:
     - title: "First Item Title Link"
       content: "Learn more about working with families to enhance their capacity to care and protect their children."
