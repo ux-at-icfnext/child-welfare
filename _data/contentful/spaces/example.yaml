@@ -1489,7 +1489,7 @@ basic:
   summary: 'Overview of the subscriptions- At magnum periculum adiit in quo voluptas
     in animis nostris inesse notionem, ut ita ruant itaque aiunt hanc quasi naturalem
     atque insitam '
-  body: "## Learn more about our offerings…"
+  body: "Learn more about our offerings…"
   header: false
   find_help_cta: false
   child_abuse_cta: false
@@ -1801,7 +1801,7 @@ basic:
     title: I am looking for support services and information for survivors of sexual
       abuse, where can I find help?
     content: Call the Rape, Abuse & Incest National Network (RAINN) Sexual Assault
-      Hotline [(800.656.HOPE)](/) or [chat online](/)<i class="fa-regular fa-arrow-up-right-from-square"></i>
+      Hotline [(800.656.HOPE)](/) or [chat online](/)<i class="fa-kit fa-launch"></i>
       for confidential crisis support.
   - sys:
       id: 3X0jYDIwVNkL7IKzFpeAj1
@@ -2406,7 +2406,7 @@ basicPageListItems:
   title: I am looking for support services and information for survivors of sexual
     abuse, where can I find help?
   content: Call the Rape, Abuse & Incest National Network (RAINN) Sexual Assault Hotline
-    [(800.656.HOPE)](/) or [chat online](/)<i class="fa-regular fa-arrow-up-right-from-square"></i>
+    [(800.656.HOPE)](/) or [chat online](/)<i class="fa-kit fa-launch"></i>
     for confidential crisis support.
 - sys:
     id: 5ZHBUvvqki4NdIMYmqqpHJ

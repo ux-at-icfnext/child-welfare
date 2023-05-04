@@ -116,7 +116,7 @@
             </li>
           </ul>
         </li>
-        <li class="usa-nav__primary-item">
+        <li class="usa-nav__primary-item" style="padding-top: 4.5px;">
           <a href="" class="usa-nav-link">
             <img src="/assets/icons/shopping_cart_white.svg" class="check-out-icon" height="20px"/>
             <span class="check-out-span">Check Out</span>
