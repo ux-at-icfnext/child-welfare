@@ -19,7 +19,7 @@
             aria-expanded="false"
             aria-controls="extended-nav-section-one"
           >
-            <span>Topics</span>
+            <span>Topics<i class="fas fa-chevron-down"></i></span>
           </button>
           <ul id="extended-nav-section-one" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
@@ -42,7 +42,7 @@
             aria-expanded="false"
             aria-controls="extended-nav-section-two"
           >
-            <span>Resources</span>
+            <span>Resources<i class="fas fa-chevron-down"></i></span>
           </button>
           <ul id="extended-nav-section-two" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
@@ -62,7 +62,7 @@
             aria-expanded="false"
             aria-controls="extended-nav-section-three"
           >
-            <span>Stay Connected</span>
+            <span>Stay Connected<i class="fas fa-chevron-down"></i></span>
           </button>
           <ul id="extended-nav-section-three" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
@@ -82,7 +82,7 @@
             aria-expanded="false"
             aria-controls="extended-nav-section-four"
           >
-            <span>Directory</span>
+            <span>Directory<i class="fas fa-chevron-down"></i></span>
           </button>
           <ul id="extended-nav-section-four" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
@@ -102,7 +102,7 @@
             aria-expanded="false"
             aria-controls="extended-nav-section-five"
           >
-            <span>About</span>
+            <span>About<i class="fas fa-chevron-down"></i></span>
           </button>
           <ul id="extended-nav-section-five" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">

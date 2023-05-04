@@ -21,7 +21,7 @@
             aria-expanded="false"
             aria-controls="extended-nav-section-one{{forloop.index}}"
           >
-            <span>{{ item.title }}</span>
+            <span>{{ item.title }}<i class="fas fa-chevron-down"></i></span>
           </button>
           {% else %}
           <a href="" class="usa-nav-link" style="padding-top: -2px;"><span>{{ item.title }}</span></a>
