@@ -29,12 +29,6 @@
         font-family: "Montserrat";
     }
 }
-.usa-card__container__campaign-inverse{
-    .overlay a{
-        background-color: #002552;
-        color: white;
-    }
-}
 .usa-card__container__campaign-navy:hover{
     h2{
         color: white;
@@ -49,9 +43,13 @@
 .usa-card__container__campaign-inverse:hover h2{
     color:#002552;
 }
-.usa-card__container__campaign button{
+.usa-card__container__campaign-navy button{
     background-color: white;
     color: #002552;
+}
+.usa-card__container__campaign-inverse button{
+    background-color: #002552;
+    color: white;
 }
 .usa-card__container__campaign button:hover{
     cursor: pointer;
