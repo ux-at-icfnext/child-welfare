@@ -114,7 +114,7 @@ The section is on the template and not available through the CMS
 - manage subscription: link label "Manage your subscriptions" links to https://public.govdelivery.com/accounts/USACFCWIG/subscriber/new
 
 ### Body content
-"Learn more about our offerings"
+p - "Learn more about our offerings"
 
 #### For each section
 h3 - section title
