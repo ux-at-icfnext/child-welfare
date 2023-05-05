@@ -51,14 +51,18 @@
     background-color: white;
     color: #002552;
 }
-.usa-card__container__campaign:hover button{
+.usa-card__container__campaign-inverse:hover button{
     background-color: transparent;
     color:#002552;
     border: 1px solid #002552;
+    cursor: pointer;
+}
+.usa-card__container__campaign-navy:hover button{
+    background-color: white;
+    color: navy;
+    cursor: pointer;
 }
 .usa-card__container__campaign button:hover{
-    background-color: #002552;
-    color: white;
     cursor: pointer;
 }
 
