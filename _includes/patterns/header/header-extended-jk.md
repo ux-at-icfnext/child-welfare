@@ -29,7 +29,7 @@
           <ul id="extended-nav-section-one{{forloop.index}}" class="usa-nav__submenu">
           {% for sub in item.subtitle %}
             <li class="usa-nav__submenu-item">
-              <a href=""><span>{{ sub }}</span></a>
+              <a href=""><span class="sub-item">{{ sub }}</span></a>
             </li>
           {% endfor %}
           </ul>
