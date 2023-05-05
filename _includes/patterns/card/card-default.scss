@@ -130,7 +130,10 @@
         color: black;
     }
 }
-
+.card-features:hover button{
+    background-color: #002552;
+    color: white;
+}
 
 .card-default:hover{
     .usa-button{
