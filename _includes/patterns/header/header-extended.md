@@ -126,7 +126,7 @@
       <div class="usa-nav__secondary usa-header--extended">
         <ul class="usa-nav__secondary-links">
           <li><a href="">How to Report Abuse or Neglect</a></li>
-          <li><span>|</span></li>
+          <li><span class="divider">|</span></li>
           <li><a href="">Find Help With a Personal Situation</a></li>
         </ul>
         <section aria-label="Search component">
