@@ -21,7 +21,7 @@
             aria-expanded="false"
             aria-controls="extended-nav-section-one{{forloop.index}}"
           >
-            <span>{{ item.title }}</span>
+            <span>{{ item.title }}<i class="fas fa-chevron-down"></i></span>
           </button>
           {% else %}
           <a href="" class="usa-nav-link" style="padding-top: -2px;"><span>{{ item.title }}</span></a>
@@ -29,7 +29,7 @@
           <ul id="extended-nav-section-one{{forloop.index}}" class="usa-nav__submenu">
           {% for sub in item.subtitle %}
             <li class="usa-nav__submenu-item">
-              <a href=""><span>{{ sub }}</span></a>
+              <a href=""><span class="sub-item">{{ sub }}</span></a>
             </li>
           {% endfor %}
           </ul>
@@ -39,7 +39,7 @@
       <div class="usa-nav__secondary usa-header--extended">
         <ul class="usa-nav__secondary-links">
           <li><a href="">How to Report Abuse or Neglect</a></li>
-          <li><span>|</span></li>
+          <li><span class="divider">|</span></li>
           <li><a href="">Find Help With a Personal Situation</a></li>
         </ul>
         <section aria-label="Search component">

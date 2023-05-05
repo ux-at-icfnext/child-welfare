@@ -48,14 +48,71 @@
      
     &:hover {
         background-color: #002552;
-        color: white;
         cursor: pointer;
+        color: white;
     }
 }
-
+.card-features{
+    background-color: #fff;
+    color: #000;
+    border-radius: 0;
+    border: 0;
+    padding: 2%;
+    border: 1px solid #D1D3D4;
+    h2{
+        color:#000;
+    }
+    h3{
+        color:#000;
+    }
+    .usa-card-group {
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+        img {
+            height: auto;
+        }
+    }
+    .usa-card__heading{
+        font-family: Montserrat;
+    }
+    .usa-card__body{
+        font-family: Lora, serif;
+    }
+    .usa-card__body {
+        padding: 0 1.5rem;
+    }
+    .usa-button{
+        border-radius: 3px;
+        border: 1px solid rgba(0,37,82, 1);
+        background-color: transparent;
+        color:#002552;
+        margin: 0 50px;
+        margin-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    a{
+        color: #002552;
+        text-decoration: none;
+        &:hover {
+            color: #fff;
+        }
+    }
+     
+    &:hover {
+        background-color: #002552;
+        cursor: pointer;
+        color: white;
+    }
+}
 .card-features{
     background-color: white;
     color: black;
+    border-radius: 0;
+    border: 0;
+    padding: 2%;
+    border: 1px solid #D1D3D4;
     h2{
         color: black;
     }
@@ -66,8 +123,19 @@
 .card-features:hover{
     background-color: white;
     color: black;
+    h2{
+        color: black;
+    }
+    h3{
+        color: black;
+    }
 }
-
+.card-features:hover{
+    .usa-button{
+        background-color: #002552;
+        color: white;
+    }
+}
 
 .card-default:hover{
     .usa-button{

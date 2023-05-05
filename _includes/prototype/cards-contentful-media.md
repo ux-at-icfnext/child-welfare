@@ -14,7 +14,7 @@
     {% endif %}
     {% if card.title %}
     <header class="usa-card__header">
-      <h3 class="usa-card__heading" style="font-family: 'Montserrat';">{{ card.title }}</h3>
+      <h3 class="usa-card__heading" style="font-family: 'Montserrat';">{{ card.title | truncate: 140 }}</h3>
     </header>
     {% endif %}
     {% if card.summary %}

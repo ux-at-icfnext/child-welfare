@@ -19,7 +19,7 @@
             aria-expanded="false"
             aria-controls="extended-nav-section-one"
           >
-            <span>Topics</span>
+            <span>Topics<i class="fas fa-chevron-down"></i></span>
           </button>
           <ul id="extended-nav-section-one" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
@@ -42,7 +42,7 @@
             aria-expanded="false"
             aria-controls="extended-nav-section-two"
           >
-            <span>Resources</span>
+            <span>Resources<i class="fas fa-chevron-down"></i></span>
           </button>
           <ul id="extended-nav-section-two" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
@@ -62,7 +62,7 @@
             aria-expanded="false"
             aria-controls="extended-nav-section-three"
           >
-            <span>Stay Connected</span>
+            <span>Stay Connected<i class="fas fa-chevron-down"></i></span>
           </button>
           <ul id="extended-nav-section-three" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
@@ -82,7 +82,7 @@
             aria-expanded="false"
             aria-controls="extended-nav-section-four"
           >
-            <span>Directory</span>
+            <span>Directory<i class="fas fa-chevron-down"></i></span>
           </button>
           <ul id="extended-nav-section-four" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
@@ -102,7 +102,7 @@
             aria-expanded="false"
             aria-controls="extended-nav-section-five"
           >
-            <span>About</span>
+            <span>About<i class="fas fa-chevron-down"></i></span>
           </button>
           <ul id="extended-nav-section-five" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
@@ -116,7 +116,7 @@
             </li>
           </ul>
         </li>
-        <li class="usa-nav__primary-item">
+        <li class="usa-nav__primary-item" style="padding-top: 4.5px;">
           <a href="" class="usa-nav-link">
             <img src="/assets/icons/shopping_cart_white.svg" class="check-out-icon" height="20px"/>
             <span class="check-out-span">Check Out</span>
@@ -126,7 +126,7 @@
       <div class="usa-nav__secondary usa-header--extended">
         <ul class="usa-nav__secondary-links">
           <li><a href="">How to Report Abuse or Neglect</a></li>
-          <li><span>|</span></li>
+          <li><span class="divider">|</span></li>
           <li><a href="">Find Help With a Personal Situation</a></li>
         </ul>
         <section aria-label="Search component">

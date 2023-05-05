@@ -3,15 +3,22 @@
     ul, ol{
         max-width: fit-content;
     }
+    i{
+        margin-left: 0.5rem;
+        font-weight: bold;
+    }
+}
+.usa-nav__submenu{
+    background-color: #EEF1F9;
+    .sub-item{
+        color:#002552;
+    }
 }
 .home{
     color: white;
 }
 .usa-header span{
     color: white;
-}
-.usa-nav__primary button[aria-expanded=false] span:after{
-    background: url(/assets/icons/expand_more_white.svg) no-repeat center/contain;
 }
 .usa-logo a{
     color: white;
@@ -48,4 +55,14 @@
 .check-out-span{
     position: absolute;
     top: 1rem;
+}
+.usa-nav__primary-item:last-child{
+    padding-top: 4.5px;
+}
+.usa-nav__primary button[aria-expanded=true] span:after{
+    display: none;
+}
+.divider{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }

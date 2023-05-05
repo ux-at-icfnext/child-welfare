@@ -29,24 +29,31 @@
         font-family: "Montserrat";
     }
 }
+.usa-card__container__campaign-navy:hover{
+    h2{
+        color: white;
+    }
+    h3{
+        color: white;
+    }
+}
 .usa-card__container__campaign h2{
     font-weight: bold;
 }
-.usa-card__container__campaign:hover h2{
+.usa-card__container__campaign-inverse:hover h2{
     color:#002552;
 }
-.usa-card__container__campaign button{
+.usa-card__container__campaign-navy button{
     background-color: white;
     color: #002552;
 }
-.usa-card__container__campaign:hover button{
-    background-color: transparent;
-    color:#002552;
-    border: 1px solid #002552;
+.usa-card__container__campaign-inverse .overlay{
+    a{
+        background-color: #002552;
+        color: white;
+    }
 }
 .usa-card__container__campaign button:hover{
-    background-color: #002552;
-    color: white;
     cursor: pointer;
 }
 
@@ -84,10 +91,6 @@
         text-align: left;
         padding-left: 2rem;
         margin-bottom: 0.5rem;
-    }
-    .overlay:hover a{
-        background-color: transparent;
-        border: #002552 1px solid;
     }
 }
 
