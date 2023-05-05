@@ -36,10 +36,6 @@
     h3{
         color: white;
     }
-    a{
-        background-color: white;
-        color: navy;
-    }
 }
 .usa-card__container__campaign h2{
     font-weight: bold;
@@ -50,17 +46,6 @@
 .usa-card__container__campaign button{
     background-color: white;
     color: #002552;
-}
-.usa-card__container__campaign-inverse:hover button{
-    background-color: transparent;
-    color:#002552;
-    border: 1px solid #002552;
-    cursor: pointer;
-}
-.usa-card__container__campaign-navy:hover button{
-    background-color: white;
-    color: navy;
-    cursor: pointer;
 }
 .usa-card__container__campaign button:hover{
     cursor: pointer;
