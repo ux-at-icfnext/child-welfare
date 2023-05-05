@@ -29,9 +29,11 @@
         font-family: "Montserrat";
     }
 }
-.usa-card__container__campaign-inverse .usa-button{
-    background-color: #002552;
-    color: white;
+.usa-card__container__campaign-inverse{
+    .view-resources{
+        background-color: #002552;
+        color: white;
+    }
 }
 .usa-card__container__campaign-navy:hover{
     h2{
