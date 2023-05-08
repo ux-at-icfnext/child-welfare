@@ -10,7 +10,6 @@ defaults:
     values:
       layout: default
 plugins:
-  - jekyll-last-modified-at
   - jekyll-postcss
   - jekyll-autoprefixer
   - jekyll-datapage-generator
