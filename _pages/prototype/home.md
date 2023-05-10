@@ -140,7 +140,7 @@ campaigns:
     margin-top: 3rem;
   }
   .campaign-news img{
-    height: auto;
+    height: 100%;
   }
 </style>
 
