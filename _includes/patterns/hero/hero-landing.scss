@@ -1,3 +1,17 @@
+.hero-landing{
+    .usa-hero__callout{
+        max-width: 30rem;
+    }
+    .hero-image img{
+        top: 40px;
+        width: 50%;
+        height: 100%;
+        right: 0%;
+    }
+    .usa-button{
+        width: 50%;
+    }
+}
 .hero-btns{
     margin-top: 1rem;
     a{

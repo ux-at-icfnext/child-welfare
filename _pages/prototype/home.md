@@ -127,6 +127,8 @@ campaigns:
   }
   .home-resources{
     margin-top: 4rem;
+    padding-top: 60px;
+    background-color: #EEF1F9;
   }
   .home-resources img{
     height: 175px;
@@ -136,6 +138,9 @@ campaigns:
   }
   .campaign-news{
     margin-top: 3rem;
+  }
+  .campaign-news img{
+    height: 100%;
   }
 </style>
 
