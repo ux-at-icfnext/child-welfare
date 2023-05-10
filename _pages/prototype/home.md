@@ -139,6 +139,9 @@ campaigns:
   .campaign-news{
     margin-top: 3rem;
   }
+  .campaign-news img{
+    height: auto;
+  }
 </style>
 
 {% include patterns/alert/alert-jk.md %}
