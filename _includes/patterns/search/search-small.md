@@ -7,6 +7,7 @@
       id="search-field-en-small"
       type="search"
       name="search"
+      placeholder="Search"
     />
     <button class="usa-button" type="submit">
       <img

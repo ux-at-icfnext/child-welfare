@@ -18,7 +18,7 @@
                   <h2 class="usa-card__heading">{{card.title}}</h2>
               </div>
             </div>
-            <div class="campaign-card-text">
+            <div class="campaign-card-text" style="margin-top: 1rem;">
               <p>{{card.content}}</p>
             </div>
         </li>

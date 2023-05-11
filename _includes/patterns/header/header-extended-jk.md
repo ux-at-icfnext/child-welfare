@@ -50,6 +50,7 @@
               id="search-field"
               type="search"
               name="search"
+              style="border: 0.1px solid white;"
             />
             <button class="usa-button" type="submit">
               <img
