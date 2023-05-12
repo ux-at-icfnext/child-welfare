@@ -15,7 +15,7 @@
         </h4>
         <div id="a{{forloop.index}}" class="usa-accordion__content usa-prose">
             {% if item.content_title %}
-            <h3>{{item.content_title}}</h3>
+            <h2>{{item.content_title}}</h2>
             {% endif %}
             <p>
                 {{ item.content | markdownify }}

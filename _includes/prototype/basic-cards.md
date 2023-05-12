@@ -7,7 +7,7 @@
   <li class="usa-card usa-card--flag desktop:grid-col-12 usa-card--media-left">
     <div class="usa-card__container__flag-default">
       <div class="usa-card__header">
-        <h2 class="usa-card__heading">{{ card.title }}</h2>
+        <h3 class="usa-card__heading">{{ card.title }}</h3>
         <p class="card-tag">{{card.tag}}</p>
       </div>
       <div class="usa-card__media usa-card__media--inset">
