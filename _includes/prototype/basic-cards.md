@@ -4,15 +4,15 @@
   <p>{{ item.section_intro }}</p>
   <ul class="usa-card-group">
   {% for card in item.list %}
-  <li class="usa-card usa-card--flag desktop:grid-col-12 usa-card--media-left">
+  <li class="usa-card usa-card--flag desktop:grid-col-12 usa-card--media-left" style="margin-bottom: 1rem;">
     <div class="usa-card__container__flag-default">
       <div class="usa-card__header">
-        <h3 class="usa-card__heading">{{ card.title }}</h3>
-        <p class="card-tag">{{card.tag}}</p>
+        <h3 class="usa-card__heading" style="margin-top: 10px; margin-bottom: 10px;">{{ card.title }}</h3>
+        <span class="usa-tag">{{card.tag}}</span>
       </div>
       <div class="usa-card__media usa-card__media--inset">
         <div class="usa-card__img">
-          <img style="height: 150px; width: 280px;"
+          <img style="height: 100%; width: 280px;"
             src="{{card.thumbnail.url}}"
             alt="{{card.thumbnail.title}}"
           />
