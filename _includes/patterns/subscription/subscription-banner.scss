@@ -1,5 +1,5 @@
 .subscription-banner{
-    height: 50vh;
+    height: 365px;
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
@@ -9,6 +9,7 @@
     color: white;
     h2{
         color: white;
+        margin-left: 3rem;
     }
     h3{
         font-weight: bold;
@@ -17,6 +18,9 @@
     }
     .secondary__button{
         color: #002552;
+        margin-left: 3rem;
+        margin-top: 1rem;
+        border: none;
     }
     .secondary__button:hover{
         color: white;
@@ -24,19 +28,20 @@
     .vertical-align{
         position: absolute;
         top: 30%;
-        right: 50%;
+        right: 30%;
     }
 }
 .sub_link{
     display: block;
     margin-top: 1rem;
+    margin-left: 3rem;
     color: white;
     font-weight: light;
 }
 .subscription-banner-bottom{
     background-color: #EEF1F9;
     position: relative;
-    height: 30vh;
+    height: 207px;
     width: 100%;
     .banner-content{
         position: absolute;
@@ -47,7 +52,6 @@
         a{
             background-color: transparent;
             color: #002552;
-            padding-left: 1rem;
         }
         .sub_button:hover{
             background-color: #002552;

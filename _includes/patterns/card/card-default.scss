@@ -99,12 +99,6 @@
             color: #fff;
         }
     }
-     
-    &:hover {
-        background-color: #002552;
-        cursor: pointer;
-        color: white;
-    }
 }
 .card-features{
     background-color: white;
@@ -130,8 +124,8 @@
         color: black;
     }
 }
-.card-features:hover{
-    .usa-button{
+.card-features{
+    .usa-button:hover{
         background-color: #002552;
         color: white;
     }
