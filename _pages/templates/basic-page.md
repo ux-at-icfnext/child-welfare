@@ -46,7 +46,7 @@ specs:
 - name: Concluding Body
   type: rich text
   authored: yes
-  required: yes (unless a list is used)
+  required: 
   notes: allows h2, h3, h4, bullets, links, icons
 - name: Find Help CTA
   type: toggle
