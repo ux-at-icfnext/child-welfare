@@ -25,8 +25,9 @@ features:
   </div>
 </div>
   {% if page.features %}
-  <div class="blue-wrapper">
+  <div class="blue-wrapper" style="margin-top: 70px; margin-bottom: 70px;">
     <div class="grid-container">
+      <h2>Featured</h2>
       <ul class="usa-card-group">
         {% include prototype/cards-contentful-media.md content=page.features %}
     </ul>
@@ -37,7 +38,7 @@ features:
   {% assign topics = site.data.contentful.spaces.example.subTopics | where:'subtopic', false %}
 
 <div class="grid-container">
-  <h2>Topics</h2>
+  <h2 style="margin-bottom: 40px;">Topics</h2>
       <ul class="usa-card-group">
       {% for card in topics  %}
         <li class="tablet:grid-col-4 usa-card">
@@ -46,7 +47,7 @@ features:
             <header class="usa-card__header">
               <h3 class="usa-card__heading">{{ card.title }}</h3>
             </header>
-            <div class="usa-card__body">
+            <div class="usa-card__body" style="padding-bottom: 1.5rem;">
               <p>{{ card.summary | truncate: 140 }}</p>
             </div>
           </div>

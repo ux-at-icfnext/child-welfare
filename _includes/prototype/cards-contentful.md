@@ -26,7 +26,7 @@
     </header>
     {% endif %}
     {% if card.summary %}
-    <div class="usa-card__body">
+    <div class="usa-card__body" style="padding-bottom: 1.5rem;">
       <p>{{ card.summary | truncate: 140}}</p>
     </div>
     {% endif %}
