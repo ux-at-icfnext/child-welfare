@@ -1,5 +1,5 @@
  <section class="usa-hero hero-topics" aria-label="Introduction";>
-  {% include patterns/breadcrumb/breadcrumb-jk.md %}
+  {% include patterns/breadcrumb/breadcrumbs-blue-bg-jk.md %}
   <div class="grid-container">
     <div class="usa-hero__callout">
       <h1 class="usa-hero__heading">

@@ -29,13 +29,13 @@ lorem:
 {% assign subtopics = topics | where:'subtopic', true %}
 
 <div class="grid-container">
-  <h2>Subtopics</h2>
+  <h2 style="margin-top: 70px; margin-bottom: 50px;">Subtopics</h2>
       <ul class="usa-card-group">
       {% for card in subtopics  %}
       
         <li class="tablet:grid-col-4 usa-card">
           <div class="usa-card__container card-default">
-            <a href="/prototype/{{ card.slug }}">
+            <a href="/prototype/{{ card.slug }}" style="padding-top:0;">
             <header class="usa-card__header">
               <h3 class="usa-card__heading">{{ card.title }}</h3>
             </header>
@@ -58,7 +58,7 @@ lorem:
 {% if page.featured %}
   <div class="blue-wrapper">
     <div class="grid-container">
-      <h2>Featured:</h2>
+      <h3 style="margin-bottom: 0;">Featured:</h3>
       <ul class="usa-card-group">
         {% include patterns/card/card-text-jk.md content=page.featured %}
     </ul>

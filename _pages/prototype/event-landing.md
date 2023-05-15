@@ -39,7 +39,7 @@ cards:
 <div class="grid-row grid-gap-lg" markdown="1">
   <div class="grid-col-6"> 
     <h1>{{ page.title }}</h1>
-    {{ page.body }} 
+    <p style="margin-bottom: 70px;">{{ page.body }}</p>
   </div>
   <div class="grid-col-6" style="margin-top: 1rem;"> {% include patterns/summary-box/summary-box-jk.md %} </div>
 </div>
@@ -55,7 +55,7 @@ cards:
 
 <div class="event-group gray-wrapper">
     <div class="grid-container">
-      <h2>Featured Events</h2>
+      <h2 style="margin-top: 70px;">Featured Events</h2>
       <ul class="usa-card-group">
       {% for cards in page.cards %}
         <li class="usa-card tablet:grid-col-4">
@@ -66,7 +66,7 @@ cards:
               </h2>
             </div>
             <div class="usa-card__body">
-              <p>
+              <p style="padding-left:0;">
                 {{ cards.meta }}
               </p>
             </div>
