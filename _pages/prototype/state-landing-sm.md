@@ -69,14 +69,14 @@ states:
 
 ---
 
-<div class="grid-container" markdown=1>
+<div class="grid-container" style="margin-top: 70px;" markdown=1>
 
 # {{ page.title }}
 
 {{ page.body }}
 
 <div class="map">
-  <p>choose your state or territory below:</p>
+  <h2>choose your state or territory below:</h2>
   <select class="usa-select" name="map-choices" id="map-choices">
     <option value="volvo">--Select--</option>
     {% for s in page.states %}

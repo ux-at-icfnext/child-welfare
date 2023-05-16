@@ -79,7 +79,7 @@ states:
 {{ page.body }}
 
 <div class="map">
-  <p>choose your state, territory, or tribe below:</p>
+  <h2>choose your state, territory, or tribe below:</h2>
 
   <div class="grid-row grid-gap">
     <div class="tablet:grid-col-4" style="align-items: center;" > 
