@@ -2,8 +2,19 @@
   h2{
     line-height: 3rem;
   }
+  h3{
+    line-height: 2rem;
+  }
   .usa-tag{
     width: fit-content;
+  }
+  .event-tag{
+    background-color: #005DAA;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    width: fit-content;
+    font-weight: bold;
   }
 </style>
 <div class="event-sponsor-logo">
@@ -12,19 +23,19 @@
 </div>
 
 <div class="event-sponsor">
-  <h2>Sponsor</h2>
+  <h3 style="margin-top: 70px;">Sponsor</h3>
   <p>{{ page.sponsor }}</p>
 </div>
 
-<div class="event-date">
-  <h2>Date and time</h2>
+<div class="event-date" style="padding-bottom: 25px;">
+  <h3>Date and time</h3>
   <div>{{ page.start_date | date: "%a, %B %d, %Y, %-I:%M %p"}} - </div>
   <div>{{ page.end_date | date: "%a, %B, %d, %Y, %-I:%M %p" }} <span class="timezone">{{ page.time_zone }}</span></div>
 </div>
 
 <div class="event-address">
-  <h2>Location</h2>
-  <div class="usa-tag">
+  <h3>Location</h3>
+  <div class="usa-tag event-tag">
   {% if page.event_type == "hybrid" %}
       <i class="fa-light fa-compass"></i> Hybrid
   {% endif %}
@@ -49,13 +60,13 @@
 </div>
 
 <div class="event-cost">
-  <h2>Cost</h2>
+  <h3>Cost</h3>
   <p> {{ page.cost }}</p>
 </div>
 
 {% if page.continuing_education %}
 <div class="event-education">
-  <h2>Continuing Education Units</h2>
+  <h3>Continuing Education Units</h3>
   <p> Yes</p>
 </div>
 {% endif %}
