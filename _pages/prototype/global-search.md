@@ -21,8 +21,8 @@ body: |
 <div class="grid-container" markdown="1">
 # {{ page.title }}
 
-<div class="grid-row grid-gap-lg" markdown="1">
-  {{ page.body }} 
+<div class="grid-row grid-gap-lg" markdown="1" style="margin-bottom: 60px;">
+  <p>{{ page.body }}</p>
 </div>
 </div>
 
