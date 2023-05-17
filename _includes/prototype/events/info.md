@@ -1,8 +1,14 @@
+<style>
+  p{
+    margin-bottom: 40px;
+  }
+</style>
+
 <h2>About this Event</h2>
-{{ page.summary }}
+<p>{{ page.summary }}</p>
 
 <h3>Who Should Attend this Conference?</h3>
-{{ page.audience }}
+<p>{{ page.audience }}</p>
 
 <div class="tag-group">
 <h3>Topic Tags</h3>
@@ -13,7 +19,7 @@
 <div class="events-related">
   <div class="more-from-sponsor" style="display: grid; grid-template-columns: auto auto;">
     <h2>More from this sponsor</h2>
-    <div class="more-link" style="margin-top: 1rem;"><a href="#">See all events from this sponsor</a><i class="fa-kit fa-navigate-next"></i></div>
+    <div class="more-link" style="margin-top: 1rem;"><a href="#" style="margin-right: 0.5rem;">See all events from this sponsor</a><i class="fa-kit fa-navigate-next"></i></div>
   </div>
 
 

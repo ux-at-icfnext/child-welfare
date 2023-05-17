@@ -56,11 +56,19 @@ resource:
 
 
 ---
-{% include patterns/hero/hero-full-width-campaign-jk.md content=page.hero %}
+<style>
+  .usa-hero{
+    margin-bottom: 0;
+  }
+</style>
 
-{% include prototype/campaign/impact_pie.md %}
-
-<section class="campaign-news">
+<section class="campaign-hero-section">
+  {% include patterns/hero/hero-full-width-campaign-jk.md content=page.hero %}
+</section>
+<section class="campaign-impact-section">
+  {% include prototype/campaign/impact_pie.md %}
+</section>
+<section class="campaign-news" style="margin-top: 75px;">
 {% include patterns-jk/card-flag-group-jk.md headings=page.story.headings content=page.story.lists %}
 </section>
 

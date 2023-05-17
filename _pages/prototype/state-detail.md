@@ -28,7 +28,7 @@ accordions:
 # {{ page.title }}
 <div class="usa-intro">{{ page.body }}</div>
 
-<div class="usa-accordion accordion">
+<div class="usa-accordion accordion" style="margin-bottom: 60px;">
     {% for item in page.accordion %}
         <h2 class="usa-accordion__heading">
             <button
