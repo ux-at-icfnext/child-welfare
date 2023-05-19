@@ -31,9 +31,9 @@
   </p>
   <p style="margin-bottom: 0.5rem;"><span class="text-bold">Primary Function(s):</span> Does this function and that functon</p>
   <div class="org-shares" style="margin-bottom: 2.5rem;">
-    <i class="fa-brands fa-square-facebook"></i>
-    <i class="fa-brands fa-square-twitter"></i>
-    <i class="fa-brands fa-square-youtube"></i>
+    <i class="fa-brands fa-square-facebook" style="color: #005DAA;"></i>
+    <i class="fa-brands fa-square-twitter" style="color: #005DAA;"></i>
+    <i class="fa-brands fa-square-youtube" style="color: #005DAA;"></i>
   </div>
 </div>
 {% endif %}
@@ -44,7 +44,7 @@
   <span class="usa-tag"><i class="fa-light fa-compass"></i> Hybrid Event</span>
   <h5 style="margin-bottom: 0; margin-top: 1rem;">Fri, Jan 24, 2023 | 11 AM PST</h5>
   <h3 style="line-height: 2.5rem;"><a href="/">Title of an event</a></h3>
-  <p class="event-org" style="margin-bottom: 1rem;">Organization Title</p>
+  <p class="event-org" style="margin-bottom: 1rem; color: #6D6E71;">Organization Title</p>
   <p style="margin-bottom: 2.5rem;">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae nibh tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget aliquam ante, ac placerat turpis. Aliquam sagittis, tellus quis pharetra venenatis, tellus enim eu.
   </p>

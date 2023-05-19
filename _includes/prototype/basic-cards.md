@@ -4,7 +4,7 @@
   <p>{{ item.section_intro }}</p>
   <ul class="usa-card-group">
   {% for card in item.list %}
-  <li class="usa-card usa-card--flag desktop:grid-col-12 usa-card--media-left" style="margin-bottom: 1rem;">
+  <li class="usa-card usa-card--flag desktop:grid-col-12 usa-card--media-left" style="margin-bottom: 0.5rem;">
     <div class="usa-card__container__flag-default">
       <div class="usa-card__header">
         <h3 class="usa-card__heading" style="margin-top: 10px; margin-bottom: 10px;">{{ card.title }}</h3>
