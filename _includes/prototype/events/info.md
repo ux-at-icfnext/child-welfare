@@ -26,7 +26,7 @@
 <ul class="usa-card-group">
 {% for cards in page.cards %}
   <li class="usa-card tablet:grid-col-5">
-    <div class="usa-card__container event-card card-default">
+    <div class="usa-card__container event-card card-default" style="margin-left: 0;">
     <span class="event_format"><i class="{{ cards.icon }}"></i> {{ cards.type }}</span>
       <div class="usa-card__header">
         <h2 class="usa-card__heading"> {{ cards.title}}
