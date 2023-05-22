@@ -29,13 +29,14 @@ summary: |
 }
 
 .tabs .list label:hover {
-  color: pink;
+  font-weight: bold;
 }
 
 #tab1:checked ~ .list .tab1,
 #tab2:checked ~ .list .tab2,
 #tab3:checked ~ .list .tab3 {
-  color: blue;
+  font-weight: bold;
+  padding-left: 1.5rem;
 }
 
 .tabs .indicator {
@@ -44,7 +45,6 @@ summary: |
   width: 100%;
   left: 0;
   top: 0;
-  background-color: pink;
   transition: all 0.4s ease;
 }
 #tab1:checked ~ .list .indicator {
