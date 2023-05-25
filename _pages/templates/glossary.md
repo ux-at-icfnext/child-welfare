@@ -13,7 +13,7 @@ specs:
     content: "Glossary"
   - name: Summary
     type: text
-    content: 250 words maximum
+    content: 250 characters maximum
     required: yes
     authored: yes
   - name: Terms
