@@ -55,6 +55,10 @@ permalink: /prototype/
 <p><a href="/prototype/search/directory">Directory Search</a></p>
 <p><a href="/prototype/search/resources">All Resources</a></p>
 
+## Timeline
+<p><a href="/prototype/timeline">Timeline</a></p>
+<p><a href="/protoype/timeline-small">Timeline (Small Screens)</a>Resize in browser to view</p>
+
 </div>
 
 
