@@ -65,6 +65,9 @@
 .usa-nav__primary button[aria-expanded=true] span:after{
     display: none;
 }
+.usa-nav__primary button[aria-expanded=false] span:after{
+    display: none;
+}
 .divider{
     padding-left: 0.5rem;
     padding-right: 0.5rem;

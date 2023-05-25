@@ -9,9 +9,6 @@
   </div>
   <nav aria-label="Primary navigation" class="usa-nav">
     <div class="usa-nav__inner">
-      <button class="usa-nav__close">
-        <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
-      </button>
       <ul class="usa-nav__primary usa-accordion">
       {% for item in site.data.proto-nav %}
         <li class="usa-nav__primary-item">
