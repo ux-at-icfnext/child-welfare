@@ -13,8 +13,9 @@ specs:
     content: "Glossary"
   - name: Summary
     type: text
-    content: | 
-      Many child welfare terms are subject to interpretation. The Glossary identifies commonly held definitions for terms that can be found on the Child Welfare Information Gateway website or in products and materials developed by external entities (e.g., Federal or State Agencies or other reliable organizations). When noted, Information Gateway is cited as the source. The Glossary also provides common acronyms and includes links to information on major Federal legislation and related child welfare terms. The Glossary will be updated as new terminology emerges in the field, as new legislation is enacted, and as child welfare terms take on new meaning.
+    content: 250 words maximum
+    required: yes
+    authored: yes
   - name: Terms
     subhead: yes
   - name: Term Name
