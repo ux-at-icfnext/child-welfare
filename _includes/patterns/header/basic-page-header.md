@@ -1,7 +1,7 @@
 <section class="usa-hero basic-page-hero" aria-label="Introduction";>
   {%include patterns/breadcrumb/breadcrumb-basic.md%}
   <div class="grid-container" style="padding-top: 0;">
-    <div class="usa-hero__callout basic-page-header">
+    <div class="usa-hero__callout basic-page-header" style="padding: 0.5rem 2rem;">
       <h1 class="usa-hero__heading">
         <span class="usa-hero__heading--alt">{{page.title}}</span>
       </h1> 
