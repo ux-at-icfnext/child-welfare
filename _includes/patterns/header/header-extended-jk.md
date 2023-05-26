@@ -21,7 +21,7 @@
             <span>{{ item.title }}<i class="fas fa-chevron-down"></i></span>
           </button>
           {% else %}
-          <a href="" class="usa-nav-link" style="padding-top: -2px;"><span>{{ item.title }}</span></a>
+          <a href="" class="usa-nav-link" style="padding-top: -2px;"><span style="font-size: 1.15rem;">{{ item.title }}</span></a>
           {% endif %}
           <ul id="extended-nav-section-one{{forloop.index}}" class="usa-nav__submenu">
           {% for sub in item.subtitle %}

@@ -19,9 +19,12 @@ blockquote{
     font-family: 'Lora';
     font-size: 21px;
     ul{
-        color:#E50E63;
+        color: rgba(229,14,99,1);
+        font-family: $title-font;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
         text-transform: uppercase;
-        font-size: small;
     }
     ul li{
         list-style-type: none;

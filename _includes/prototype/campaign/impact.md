@@ -1,3 +1,13 @@
+<style>
+  .impact-number{
+    font-family: $title-font;
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+  }
+</style>
+
 <div class="grid-container campaign-impact">
   <div class="grid-row grid-gap-lg">
     <div class="tablet:grid-col" style="margin-top: 2rem;">

@@ -31,7 +31,7 @@ specs:
   - name: Subtitle
     type: h2
     authored: no | static on template
-    content: Learn more about our offerings
+    content:
     notes: "front-end only"
   - name: Subscribe CTA
     type: uses subscribe pattern
@@ -114,7 +114,7 @@ The section is on the template and not available through the CMS
 - manage subscription: link label "Manage your subscriptions" links to https://public.govdelivery.com/accounts/USACFCWIG/subscriber/new
 
 ### Body content
-Learn more about our offerings
+
 
 #### For each section
 h3 - section title

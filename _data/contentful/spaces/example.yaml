@@ -86,10 +86,10 @@ resource:
     are transitioning out of care…Even if a youth is 9, 10, 11, 12, they’ll understand,
     ‘Hey, we are going to have a court hearing and things will be talked about. Is
     there anything you would like us to talk to the judge about for you?’” \n> - Former
-    youth in foster care\n\n__What's Inside This Bulletin?__ \n\n- What is authentic
+    youth in foster care\n\n### What's Inside This Bulletin? \n\n- What is authentic
     youth engagement? \n- Benefits of youth engagement\n- Challenges to youth engagement\n-
     The rights of youth in care\n- Key concepts for engaging youth\n- Tangible strategies
-    for engaging youth\n- Prioritizing youth engagement at the agency level\n\n__Acknowledgment(s)__:
+    for engaging youth\n- Prioritizing youth engagement at the agency level\n\n### Acknowledgment(s):\n
     Special thanks to the youth who contributed their voices to this publication:
     David Samuel Hall, Elliott Hinkle, Frankita Jenkins, Madison Langan, and Torie
     Mendez.\n\n### Suggested Citation\nChild Welfare Information Gateway. (2021).
@@ -1489,7 +1489,7 @@ basic:
   summary: 'Overview of the subscriptions- At magnum periculum adiit in quo voluptas
     in animis nostris inesse notionem, ut ita ruant itaque aiunt hanc quasi naturalem
     atque insitam '
-  body: "Learn more about our offerings…"
+  body:
   header: false
   find_help_cta: false
   child_abuse_cta: false

@@ -5,6 +5,9 @@
     img{
         height: auto;
     }
+    li::before{
+        content: none;
+    }
 }
 // .usa-card__heading {
 //     color: green;
