@@ -27,4 +27,7 @@
 }
 .usa-breadcrumb{
   margin-bottom: 70px;
+  li::before{
+    content: none;
+  }
 }
