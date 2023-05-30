@@ -11,8 +11,6 @@ description:  The states experience lets people find out facts and resources for
 prototype:
   - name: States Landing
     link: /prototype/states/landing
-  - name: States Landing (small screen example)
-    link: /prototype/states/landing/sm
   - name: States detail
     link: /prototype/states/detail
 
