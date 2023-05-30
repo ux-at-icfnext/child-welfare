@@ -43,9 +43,8 @@ alert:
 {% include patterns/alert/alert-no-icon-jk.md %}
 
 
-## Hex map
+## Map
 _The prototype uses an image a representative of this experience_
-The hex map usings an unordered list with css styling to layout the state/territory items.
 - onHover/onHold - the hexagon grows and changes color
 - onClick/onTap - the system goes to the appropriate linked page.
 
