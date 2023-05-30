@@ -37,7 +37,6 @@ permalink: /prototype/
 
 ## State
 <p><a href="/prototype/states/landing">State Landing</a></p>
-<p><a href="/prototype/states/landing/sm">State Landing (Small Screens)</a> Resize browser to view</p>
 <p><a href="/prototype/states/detail">State Detail</a></p>
 
 
